@@ -1,0 +1,14 @@
+{
+	"category" : "Rpg-Telnet-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RtcBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
