@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Telnet-Model-Telnet",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcTelnetSession",
+	"pools" : [
+		 ],
+	"super" : "TelnetSessionBasic",
+	"type" : "normal" }

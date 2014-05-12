@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Telnet-Editor-Generator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
