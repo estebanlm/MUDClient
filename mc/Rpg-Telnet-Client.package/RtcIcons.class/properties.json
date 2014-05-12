@@ -1,0 +1,14 @@
+{
+	"category" : "Rpg-Telnet-Client-Editor",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"icons" ],
+	"name" : "RtcIcons",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
