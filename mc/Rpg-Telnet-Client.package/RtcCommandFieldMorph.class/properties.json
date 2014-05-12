@@ -1,0 +1,14 @@
+{
+	"category" : "Rpg-Telnet-Client-Editor-Morph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RtcCommandFieldMorph",
+	"pools" : [
+		 ],
+	"super" : "RubTextFieldMorph",
+	"type" : "normal" }

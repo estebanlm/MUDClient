@@ -1,0 +1,14 @@
+{
+	"category" : "Rpg-Telnet-Client-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RtcModel",
+	"pools" : [
+		 ],
+	"super" : "VOMemoryRepository",
+	"type" : "normal" }

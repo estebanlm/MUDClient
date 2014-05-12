@@ -1,0 +1,15 @@
+{
+	"category" : "Rpg-Telnet-Client-Editor-Morph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"maxLines",
+		"mutex" ],
+	"name" : "RtcConsoleTextModel",
+	"pools" : [
+		 ],
+	"super" : "RubScrolledTextModel",
+	"type" : "normal" }

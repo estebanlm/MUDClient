@@ -1,0 +1,3 @@
+accessing
+ghostText 
+	^ 'Enter command...'

@@ -20,4 +20,11 @@ baseline: spec
 					'TelnetSessionBasic' 
 					'Rubric' 
 					'Magritte3' 
-					'Glamour') ] ]
+					'Glamour') ];
+			package: 'Rpg-Telnet-Client-Tests' with: [ 
+				spec requires: #('Rpg-Telnet-Client') ].
+			
+		spec 
+			group: 'default' with: #('core' 'tests');
+			group: 'core' with: #('Rpg-Telnet-Client');
+			group: 'tests' with: #('Rpg-Telnet-Client-Tests') ]

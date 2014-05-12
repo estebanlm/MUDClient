@@ -1,0 +1,3 @@
+factory
+createObject
+	^ self subclassResponsibility

@@ -1,15 +1,15 @@
 {
-	"category" : "Rpg-Telnet-Client-Editor",
+	"category" : "Rpg-Telnet-Client-Model",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
-		"areaMorph",
-		"inputMorph" ],
-	"name" : "RtcConsole",
+		"name",
+		"host",
+		"port" ],
+	"name" : "RtcGame",
 	"pools" : [
 		 ],
 	"super" : "Object",

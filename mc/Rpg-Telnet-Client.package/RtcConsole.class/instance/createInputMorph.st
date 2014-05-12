@@ -1,0 +1,4 @@
+building
+createInputMorph 
+	^ RtcCommandFieldMorph new
+		

@@ -1,0 +1,14 @@
+{
+	"category" : "Rpg-Telnet-Client-Editor-Theme",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RtcTheme",
+	"pools" : [
+		 ],
+	"super" : "Pharo3DarkTheme",
+	"type" : "normal" }
