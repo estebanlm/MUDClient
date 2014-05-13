@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-View-Theme",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcTheme",
+	"pools" : [
+		 ],
+	"super" : "Pharo3DarkTheme",
+	"type" : "normal" }

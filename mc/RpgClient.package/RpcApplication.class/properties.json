@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RpcApplication",
+	"pools" : [
+		 ],
+	"super" : "VOMemoryRepository",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+parseDecoration
+	^ parseDecoration

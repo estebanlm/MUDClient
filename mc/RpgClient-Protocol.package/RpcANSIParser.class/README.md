@@ -1,0 +1,1 @@
+I can parse ANSI formatted strings.

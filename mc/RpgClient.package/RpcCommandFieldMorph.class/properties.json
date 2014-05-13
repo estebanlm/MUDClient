@@ -1,0 +1,16 @@
+{
+	"category" : "RpgClient-View-Morph",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TRpcAnnouncer classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcCommandFieldMorph",
+	"pools" : [
+		 ],
+	"super" : "RubTextFieldMorph",
+	"traitcomposition" : "TRpcAnnouncer",
+	"type" : "normal" }

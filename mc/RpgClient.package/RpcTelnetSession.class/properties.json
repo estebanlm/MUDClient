@@ -1,0 +1,20 @@
+{
+	"category" : "RpgClient-Model-Telnet",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TRpcAnnouncer classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"host",
+		"port",
+		"error",
+		"dataProcess",
+		"announcer" ],
+	"name" : "RpcTelnetSession",
+	"pools" : [
+		 ],
+	"super" : "TelnetSessionBasic",
+	"traitcomposition" : "TRpcAnnouncer",
+	"type" : "normal" }

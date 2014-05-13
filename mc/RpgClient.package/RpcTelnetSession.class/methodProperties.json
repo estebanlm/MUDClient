@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"connectTo:port:" : "EstebanLorenzano 5/12/2014 22:57" },
+	"instance" : {
+		"announcer" : "EstebanLorenzano 5/12/2014 23:42",
+		"close" : "EstebanLorenzano 5/13/2014 14:25",
+		"connectToHostNamed:port:" : "EstebanLorenzano 5/12/2014 23:50",
+		"finishWithError:" : "EstebanLorenzano 5/13/2014 14:24",
+		"host" : "EstebanLorenzano 5/12/2014 23:27",
+		"isRunning" : "EstebanLorenzano 5/13/2014 00:13",
+		"port" : "EstebanLorenzano 5/12/2014 23:27",
+		"rawWrite:" : "EstebanLorenzano 5/12/2014 23:30",
+		"readWaiting" : "EstebanLorenzano 5/12/2014 23:31",
+		"readWaitingTimeout:" : "EstebanLorenzano 5/12/2014 23:31",
+		"readWithOperation:" : "EstebanLorenzano 5/12/2014 23:31",
+		"startProcess" : "EstebanLorenzano 5/13/2014 19:54",
+		"stopProcess" : "EstebanLorenzano 5/13/2014 14:24",
+		"waitAndReceive" : "EstebanLorenzano 5/12/2014 23:41" } }

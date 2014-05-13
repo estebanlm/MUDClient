@@ -1,0 +1,3 @@
+*RpgClient
+isRawModeOn
+	^ rawMode

@@ -1,0 +1,1 @@
+I'm a browser (glamour) based generator.

@@ -1,0 +1,18 @@
+{
+	"category" : "RpgClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"game",
+		"session",
+		"window",
+		"areaMorph",
+		"inputMorph" ],
+	"name" : "RpcConsole",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

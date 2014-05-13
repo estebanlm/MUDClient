@@ -1,0 +1,15 @@
+{
+	"category" : "RpgClient-View-Morph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"formatter",
+		"parser" ],
+	"name" : "RpcANSIDecoration",
+	"pools" : [
+		 ],
+	"super" : "RpcParseDecoration",
+	"type" : "normal" }

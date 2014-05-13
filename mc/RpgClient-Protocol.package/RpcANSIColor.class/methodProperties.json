@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"brightColorMap" : "EstebanLorenzano 5/13/2014 09:14",
+		"brightColorMapAt:" : "EstebanLorenzano 5/13/2014 09:14",
+		"createBrightColorMap" : "EstebanLorenzano 5/13/2014 09:14",
+		"createNormalColorMap" : "EstebanLorenzano 5/13/2014 09:14",
+		"normalBlack" : "EstebanLorenzano 5/13/2014 09:14",
+		"normalColorMap" : "EstebanLorenzano 5/13/2014 09:14",
+		"normalColorMapAt:" : "EstebanLorenzano 5/13/2014 09:14",
+		"normalWhite" : "EstebanLorenzano 5/13/2014 09:14" },
+	"instance" : {
+		"acceptCollector:" : "EstebanLorenzano 5/13/2014 09:14",
+		"backgroundColor" : "EstebanLorenzano 5/13/2014 09:14",
+		"foregroundColor" : "EstebanLorenzano 5/13/2014 09:14",
+		"initialize" : "EstebanLorenzano 5/13/2014 14:46",
+		"isBold" : "EstebanLorenzano 5/13/2014 09:14",
+		"parse:" : "EstebanLorenzano 5/13/2014 09:14",
+		"parseBackgroundColor:" : "EstebanLorenzano 5/13/2014 14:46",
+		"parseForegroundColor:" : "EstebanLorenzano 5/13/2014 14:46",
+		"parseIntensity:" : "EstebanLorenzano 5/13/2014 09:14",
+		"value:" : "EstebanLorenzano 5/13/2014 09:14" } }

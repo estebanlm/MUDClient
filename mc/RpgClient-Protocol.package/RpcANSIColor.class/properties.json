@@ -1,0 +1,17 @@
+{
+	"category" : "RpgClient-Protocol-ANSI",
+	"classinstvars" : [
+		"normalColorMap",
+		"brightColorMap" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"backgroundColor",
+		"foregroundColor",
+		"bold" ],
+	"name" : "RpcANSIColor",
+	"pools" : [
+		 ],
+	"super" : "RpcANSIEscape",
+	"type" : "normal" }

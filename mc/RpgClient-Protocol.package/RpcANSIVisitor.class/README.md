@@ -1,0 +1,1 @@
+I'm a base visitor to make something with parsed ANSI strings. 

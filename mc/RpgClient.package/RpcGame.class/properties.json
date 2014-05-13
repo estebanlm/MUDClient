@@ -1,0 +1,16 @@
+{
+	"category" : "RpgClient-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"host",
+		"port" ],
+	"name" : "RpcGame",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

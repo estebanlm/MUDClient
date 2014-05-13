@@ -1,4 +1,0 @@
-building
-createInputMorph 
-	^ RpcCommandFieldMorph new
-		

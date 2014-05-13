@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"announce:" : "EstebanLorenzano 5/12/2014 23:41",
+		"announcer" : "EstebanLorenzano 5/12/2014 23:42",
+		"weakWhen:send:to:" : "EstebanLorenzano 5/12/2014 23:42",
+		"when:do:" : "EstebanLorenzano 5/12/2014 23:42",
+		"when:send:to:" : "EstebanLorenzano 5/12/2014 23:42" } }

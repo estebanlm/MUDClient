@@ -1,0 +1,1 @@
+I'm an ansi node. I keep ansi chunks of valid information (for example, a escape sequence or a simple text).

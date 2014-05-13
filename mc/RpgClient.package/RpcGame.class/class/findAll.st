@@ -1,0 +1,3 @@
+accessing
+findAll 
+	^ self selectAll

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"defaultMaxLines" : "EstebanLorenzano 5/12/2014 14:28" },
+	"instance" : {
+		"addParseDecoration:" : "EstebanLorenzano 5/13/2014 09:04",
+		"appendParsedText:" : "EstebanLorenzano 5/13/2014 17:36",
+		"appendText:" : "EstebanLorenzano 5/13/2014 14:30",
+		"basicAppendText:" : "EstebanLorenzano 5/13/2014 14:30",
+		"initialize" : "EstebanLorenzano 5/13/2014 09:02",
+		"maxLines" : "EstebanLorenzano 5/12/2014 14:28",
+		"maxLines:" : "EstebanLorenzano 5/12/2014 14:28",
+		"mutex" : "EstebanLorenzano 5/13/2014 07:55",
+		"parseDecoration" : "EstebanLorenzano 5/13/2014 09:09",
+		"parseText:" : "EstebanLorenzano 5/13/2014 08:58",
+		"removeFirstLines" : "EstebanLorenzano 5/12/2014 14:29" } }

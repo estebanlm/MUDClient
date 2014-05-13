@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"findAll" : "EstebanLorenzano 5/12/2014 19:57",
+		"findByName:" : "EstebanLorenzano 5/12/2014 19:57",
+		"isVoyageRoot" : "EstebanLorenzano 5/12/2014 19:56",
+		"name:host:port:" : "EstebanLorenzano 5/12/2014 16:36",
+		"new" : "EstebanLorenzano 5/12/2014 16:20",
+		"sessionClass" : "EstebanLorenzano 5/12/2014 22:56" },
+	"instance" : {
+		"connect" : "EstebanLorenzano 5/12/2014 23:49",
+		"descriptionHost" : "EstebanLorenzano 5/12/2014 20:50",
+		"descriptionName" : "EstebanLorenzano 5/12/2014 20:01",
+		"descriptionPort" : "EstebanLorenzano 5/12/2014 20:51",
+		"host" : "EstebanLorenzano 5/12/2014 16:35",
+		"host:" : "EstebanLorenzano 5/12/2014 20:02",
+		"initializeName:host:port:" : "EstebanLorenzano 5/12/2014 20:02",
+		"name" : "EstebanLorenzano 5/12/2014 16:18",
+		"name:" : "EstebanLorenzano 5/12/2014 20:02",
+		"port" : "EstebanLorenzano 5/12/2014 16:18",
+		"port:" : "EstebanLorenzano 5/12/2014 20:02" } }

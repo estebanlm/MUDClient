@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RpcError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

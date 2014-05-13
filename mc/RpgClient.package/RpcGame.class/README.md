@@ -1,0 +1,1 @@
+I represent a game the client can be connected.

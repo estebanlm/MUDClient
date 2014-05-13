@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-View-Generator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RpcGameGenerator",
+	"pools" : [
+		 ],
+	"super" : "RpcBrowserGenerator",
+	"type" : "normal" }

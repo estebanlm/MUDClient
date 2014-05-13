@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Protocol-ANSI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RpcANSINode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
