@@ -1,5 +1,5 @@
 waiting
 stopProcess
 	self isRunning ifFalse: [ ^ self ].
-	dataProcess terminate.
-	dataProcess := nil	
+	[ dataProcess terminate ]
+	ensure: [ dataProcess := nil ]
