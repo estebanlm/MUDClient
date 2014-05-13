@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"disable" : "EstebanLorenzano 5/12/2014 16:58",
-		"enable" : "EstebanLorenzano 5/12/2014 16:54" } }
+		"disable" : "EstebanLorenzano 5/13/2014 21:22",
+		"enable" : "EstebanLorenzano 5/12/2014 16:54",
+		"releaseFocusIfContained" : "EstebanLorenzano 5/13/2014 21:22" } }
