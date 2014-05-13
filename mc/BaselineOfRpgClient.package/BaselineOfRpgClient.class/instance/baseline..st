@@ -22,7 +22,7 @@ baseline: spec
 					'Magritte3' 
 					'Glamour') ];
 			package: 'RpgClient-Protocol' with: [ 
-				spec requires: #('RpgClient-Telnet') ];
+				spec requires: #('RpgClient') ];
 			package: 'RpgClient-Tests' with: [ 
 				spec requires: #('RpgClient') ];
 			package: 'RpgClient-Protocol-Tests' with: [ 

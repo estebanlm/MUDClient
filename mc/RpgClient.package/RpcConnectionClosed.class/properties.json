@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Model-Telnet",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RpcConnectionClosed",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

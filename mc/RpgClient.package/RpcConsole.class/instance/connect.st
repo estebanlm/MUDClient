@@ -6,7 +6,9 @@ connect
 	[ 
 		self closeSession.
 		session := game connect.
-		session when: RpcDataReceived send: #dataReceived: to: self.
+		session 
+			when: RpcDataReceived send: #dataReceived: to: self;
+			when: RpcConnectionClosed send: #sessionClosed: to: self.
 	  	window enable ]
 	on: ConnectionTimedOut, NameLookupFailure, RpcError 
 	do: [ :e | 
