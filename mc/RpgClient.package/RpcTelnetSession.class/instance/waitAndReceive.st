@@ -2,6 +2,6 @@ waiting
 waitAndReceive
 	| received |
 
-	received := self readWaiting.	
+	received := self readWaitingWithANSIComplete.	
 	received ifEmpty: [ ^ self ].
 	self announce: (RpcDataReceived data: received)
