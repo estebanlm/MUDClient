@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-View-Morph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcKeyUpEntered",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

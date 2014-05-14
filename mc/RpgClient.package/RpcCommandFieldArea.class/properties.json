@@ -7,10 +7,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"history" ],
-	"name" : "RpcCommandFieldMorph",
+		 ],
+	"name" : "RpcCommandFieldArea",
 	"pools" : [
 		 ],
-	"super" : "RubTextFieldMorph",
+	"super" : "RubTextFieldArea",
 	"traitcomposition" : "TRpcAnnouncer",
 	"type" : "normal" }
