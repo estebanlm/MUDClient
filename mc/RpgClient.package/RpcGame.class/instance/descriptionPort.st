@@ -6,4 +6,5 @@ descriptionPort
 		priority: 30;
 		label: 'Port';
 		accessor: #port;
+		beRequired;
 		yourself

@@ -1,4 +1,5 @@
 accessing history
 historyUpdate: ann
-	self history add: self text asString.
+	self text asString trimBoth 
+		ifNotEmpty: [ :text | self history add: text ].
 	self selectAll

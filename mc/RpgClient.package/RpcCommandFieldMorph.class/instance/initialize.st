@@ -8,6 +8,7 @@ initialize
 		when: RpcKeyDownEntered send: #historyForward to: self.
 	
 	self
+		withoutAdornment;
 		textColor: Smalltalk ui theme textColor;
 		backgroundColor: Smalltalk ui theme backgroundColor;
 		withGhostText: self class ghostText.

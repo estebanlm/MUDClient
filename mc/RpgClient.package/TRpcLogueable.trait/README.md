@@ -1,0 +1,1 @@
+I add logging traits to my users. 
