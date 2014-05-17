@@ -12,9 +12,9 @@ buildBrowser
 				
 	browser transmit 
 		to: #area; 
-		andShow: [ :a | a morph morph: (areaMorph := self createAreaMorph) ].
+		andShow: [ :a | a morph morph: [ areaMorph := self buildAreaMorph ]].
 	browser transmit 
 		to: #input; 
-		andShow: [ :a | a morph morph: (inputMorph := self createInputMorph) ].
+		andShow: [ :a | a morph morph: [ inputMorph := self buildInputMorph ] ].
 				
 	^ browser

@@ -1,0 +1,1 @@
+I'm a note node. I can be a group or a single note.

@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"decoration" ],
+	"name" : "RpcANSIDecorationTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

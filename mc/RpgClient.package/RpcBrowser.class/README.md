@@ -1,0 +1,1 @@
+I'm a generic UI for app.

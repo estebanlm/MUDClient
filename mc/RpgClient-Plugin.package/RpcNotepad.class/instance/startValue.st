@@ -1,0 +1,3 @@
+accessing
+startValue 
+	^ RpcNoteNode findAll

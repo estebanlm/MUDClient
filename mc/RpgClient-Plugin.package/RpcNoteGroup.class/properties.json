@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Plugin-Notepad-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"children" ],
+	"name" : "RpcNoteGroup",
+	"pools" : [
+		 ],
+	"super" : "RpcNoteNode",
+	"type" : "normal" }

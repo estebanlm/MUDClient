@@ -8,11 +8,10 @@
 	"instvars" : [
 		"game",
 		"session",
-		"window",
 		"areaMorph",
 		"inputMorph" ],
 	"name" : "RpcConsole",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "RpcBrowser",
 	"type" : "normal" }

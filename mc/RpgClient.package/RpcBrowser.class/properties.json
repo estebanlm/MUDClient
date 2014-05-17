@@ -1,0 +1,16 @@
+{
+	"category" : "RpgClient-View",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TRpcLogueable classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"window" ],
+	"name" : "RpcBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TRpcLogueable",
+	"type" : "normal" }

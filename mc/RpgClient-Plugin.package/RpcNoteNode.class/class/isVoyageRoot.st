@@ -1,0 +1,3 @@
+persistence
+isVoyageRoot
+	^ true

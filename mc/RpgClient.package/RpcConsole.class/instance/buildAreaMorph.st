@@ -1,5 +1,5 @@
 building
-createAreaMorph
+buildAreaMorph
 	^ (RpcConsoleTextModel new 
 		"maxLines: self class maxLines;"
 		newScrolledText)
