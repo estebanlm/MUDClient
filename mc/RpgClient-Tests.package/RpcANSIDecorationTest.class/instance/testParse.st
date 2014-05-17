@@ -11,11 +11,11 @@ testParse
  [1;37mWest     [0m - New space
  [1;37mNortheast[0m - New space [Power Generator]
  [1;37mUp       [0m - New space [Docking Bay]
-> ' copyReplaceAll: String cr with: String crlf).
+> ' copyReplaceAll: String cr with: String lf).
 		
 	self 
 		assert: text asString
-		equals: 'New space
+		equals: ('New space
 
 Obvious exits:
  North     - New space
@@ -24,4 +24,4 @@ Obvious exits:
  West      - New space
  Northeast - New space [Power Generator]
  Up        - New space [Docking Bay]
-> '
+> ' copyReplaceAll: String cr with: String lf)
