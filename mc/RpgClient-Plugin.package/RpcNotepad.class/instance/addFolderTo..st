@@ -1,8 +1,8 @@
 actions
 addFolderTo: aNode
-	| title | 
-	
+	| title newFolder |
 	title := UIManager default request: 'New folder title'.
 	title ifNil: [ ^ false ].
-	self addNode: (RpcNoteGroup title: title) to: aNode.		
-	^ true
+	newFolder := RpcNoteGroup title: title.
+	self addNode: newFolder to: aNode.
+	^ newFolder

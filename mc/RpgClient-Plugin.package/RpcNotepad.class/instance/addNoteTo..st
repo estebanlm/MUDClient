@@ -1,8 +1,8 @@
 actions
 addNoteTo: aNode
-	| title | 
-	
+	| title newNote |
 	title := UIManager default request: 'New note title'.
-	title ifNil: [ ^ false ].
-	self addNode: (RpcNote title: title) to: aNode.		
-	^ true
+	title ifNil: [ ^ nil ].
+	newNote := RpcNote title: title.
+	self addNode: newNote to: aNode.
+	^ newNote

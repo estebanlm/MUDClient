@@ -13,10 +13,11 @@ buildBrowser
 		andShow: [ :a | 
 			a tree
 				in: [ :presenter |  self addNotesMenuOn: presenter ];
+				display: [ self roots ];
 				format: #title;
 				children: [ :node |
 					node isGroup 
-						ifTrue: [ node children ]
+						ifTrue: [ self childrenOf: node ]
 						ifFalse: [ #() ] ] ].
 
 	browser transmit 
@@ -32,6 +33,8 @@ buildBrowser
 		to: #note;
 		from: #notes;
 		when: [ :node | node notNil and: [ node isGroup not ] ];
-		andShow: [ :a | a morph morph: [ :note | self buildAreaMorphFor: note ] ].
+		andShow: [ :a | a 
+			morph morph: [ :presenter :note | 
+				self buildAreaMorphFor: note ] ].
 	
 	^ browser
