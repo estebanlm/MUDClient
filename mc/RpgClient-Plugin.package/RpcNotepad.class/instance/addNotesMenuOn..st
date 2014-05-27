@@ -14,17 +14,15 @@ addNotesMenuOn: aPresenter
 			icon: RpcIcons uniqueInstance newFolderIcon 
 			entitled: 'Add folder...';
 		selectionAct: [ :presenter | 
-			(self addNoteTo: presenter selection) ifNotNil: [ :newNote |
+			(self addNoteTo: presenter selection closestGroup) ifNotNil: [ :newNote |
 				presenter update.
 				presenter selection: newNote ] ] 
-			entitled: 'Add note...'
-			when: [ :presenter | presenter selection notNil and: [ presenter selection isGroup ] ];
+			entitled: 'Add note...';
 		selectionAct: [ :presenter | 
-			(self addFolderTo: presenter selection) ifNotNil: [ :newFolder | 
+			(self addFolderTo: presenter selection closestGroup) ifNotNil: [ :newFolder | 
 				presenter update.
 				presenter selection: newFolder ] ] 
-			entitled: 'Add folder...'
-			when: [ :presenter | presenter selection notNil and: [ presenter selection isGroup ] ];
+			entitled: 'Add folder...';
 		selectionAct: [ :presenter |
 			(self renameNode: presenter selection) ifTrue: [ presenter update ] ] 
 			entitled: 'Rename..';

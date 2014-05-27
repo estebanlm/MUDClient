@@ -7,5 +7,4 @@ drawSubmorphsOn: aCanvas
 	aCanvas rubParagraph: self paragraph bounds: self drawingBounds color: self textColor.
 	(scrollPane isNil and: [ self readOnly not and: [ self hasKeyboardFocus or: [ self hasFindReplaceFocus ] ] ])
 		ifTrue: [ self drawKeyboardFocusOn: aCanvas ] ]
-	on: Error do: [ :e | 
-		RpcLogManager current logDebug: e messageText, ' at: RubAbstractTextArea>>#drawSubmorphsOn:' ]
+	on: Error fork: [ :e | e debug ]

@@ -2,7 +2,7 @@ building
 buildAreaMorphFor: aNote
 	| morph |
 	morph := RubScrolledTextModel new 
-		text: aNote contents;
+		text: (aNote contents ifNil: [ '' ]);
 		newScrolledText.
 	morph 
 		textColor: Smalltalk ui theme textColor;
