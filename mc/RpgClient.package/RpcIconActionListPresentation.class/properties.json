@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-View-Glamour",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 5/29/2014 12:05",
+	"instvars" : [
+		 ],
+	"name" : "RpcIconActionListPresentation",
+	"pools" : [
+		 ],
+	"super" : "GLMActionListPresentation",
+	"type" : "normal" }

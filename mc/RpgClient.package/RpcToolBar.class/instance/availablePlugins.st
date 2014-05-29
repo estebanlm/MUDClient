@@ -1,0 +1,3 @@
+accessing
+availablePlugins
+	^ RpcPlugin allAvailable

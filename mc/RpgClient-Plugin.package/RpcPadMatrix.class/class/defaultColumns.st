@@ -1,0 +1,3 @@
+defaults
+defaultColumns
+	^ 12

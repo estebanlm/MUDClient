@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Plugin-Notepad",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcNotepadPlugin",
+	"pools" : [
+		 ],
+	"super" : "RpcPlugin",
+	"type" : "normal" }

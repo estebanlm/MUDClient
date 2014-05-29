@@ -5,7 +5,7 @@ releaseFocusIfContained
 	
 	activeMorph := self activeHand keyboardFocus. 
 	ownerMorphs := OrderedCollection with: activeMorph.
-	[ activeMorph owner isNil ] whileFalse: [ 
+	[ activeMorph notNil and: [ activeMorph owner isNil ] ] whileFalse: [ 
 		activeMorph := activeMorph owner.
 		ownerMorphs add: activeMorph ].
 	(ownerMorphs includes: self) 

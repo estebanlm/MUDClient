@@ -1,4 +1,6 @@
 initialization
 initialize 
 	super initialize.
-	icons := self createIcons.
+	icons := IdentityDictionary new.
+	self iconSelectors 
+		do: [ :each | icons at: each put: (self perform: each) ]

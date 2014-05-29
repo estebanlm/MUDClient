@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"findAll" : "EstebanLorenzano 5/29/2014 09:09",
+		"findByGame:ifAbsent:" : "EstebanLorenzano 5/29/2014 09:40",
+		"game:" : "EstebanLorenzano 5/29/2014 09:57",
+		"isVoyageRoot" : "EstebanLorenzano 5/29/2014 09:09" },
+	"instance" : {
+		"game" : "EstebanLorenzano 5/29/2014 09:08",
+		"initializeGame:" : "EstebanLorenzano 5/29/2014 09:32",
+		"root" : "EstebanLorenzano 5/29/2014 09:33" } }

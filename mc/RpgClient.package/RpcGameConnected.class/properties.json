@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcGameConnected",
+	"pools" : [
+		 ],
+	"super" : "RpcGameAnnouncement",
+	"type" : "normal" }

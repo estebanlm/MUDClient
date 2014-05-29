@@ -1,0 +1,18 @@
+{
+	"category" : "RpgClient-View",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TRpcLogueable classTrait + TRpcAnnouncer classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"activeGame",
+		"morph",
+		"announcer" ],
+	"name" : "RpcToolBar",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TRpcLogueable + TRpcAnnouncer",
+	"type" : "normal" }

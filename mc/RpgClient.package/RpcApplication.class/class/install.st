@@ -1,3 +1,3 @@
-as yet unclassified
+actions
 install 
 	self setRepository: self new

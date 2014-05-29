@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Model",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcPlugin",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

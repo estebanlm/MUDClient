@@ -1,3 +1,5 @@
 accessing icons
 connectIcon
-	^ Smalltalk ui icons smallDoItIcon
+	^ icons
+	at: #'connectIcon'
+	ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self connectIconContents readStream) ].

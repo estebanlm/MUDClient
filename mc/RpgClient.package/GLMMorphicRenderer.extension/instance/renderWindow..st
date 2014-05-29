@@ -1,3 +1,5 @@
 *RpgClient
 renderWindow: aRenderable 
-	^ GLMMorphicWindowRenderer render: aRenderable from: self
+	^ GLMMorphicWindowRenderer 
+		render: aRenderable 
+		from: self

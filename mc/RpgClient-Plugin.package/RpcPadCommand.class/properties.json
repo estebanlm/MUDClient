@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Plugin-Pad",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"text" ],
+	"name" : "RpcPadCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

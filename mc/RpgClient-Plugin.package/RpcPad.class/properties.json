@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Plugin-Pad",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"matrix" ],
+	"name" : "RpcPad",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

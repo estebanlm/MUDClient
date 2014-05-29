@@ -1,3 +1,5 @@
 accessing icons
 configureIcon
-	^ Smalltalk ui icons smallConfigurationIcon
+	^ icons
+	at: #'configureIcon'
+	ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self configureIconContents readStream) ].

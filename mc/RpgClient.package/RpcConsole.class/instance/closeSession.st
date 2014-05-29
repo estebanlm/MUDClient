@@ -1,3 +1,4 @@
 private
 closeSession
-	session ifNotNil: [ session close ]
+	session ifNotNil: [ session close ].
+	

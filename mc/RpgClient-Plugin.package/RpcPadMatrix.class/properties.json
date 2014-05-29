@@ -1,0 +1,15 @@
+{
+	"category" : "RpgClient-Plugin-Pad",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"matrix" ],
+	"name" : "RpcPadMatrix",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

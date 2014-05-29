@@ -1,3 +1,3 @@
 SystemOrganization addCategory: #'RpgClient-Plugin'!
-SystemOrganization addCategory: 'RpgClient-Plugin-Notepad-Model'!
-SystemOrganization addCategory: 'RpgClient-Plugin-Notepad-View'!
+SystemOrganization addCategory: 'RpgClient-Plugin-Notepad'!
+SystemOrganization addCategory: 'RpgClient-Plugin-Pad'!
