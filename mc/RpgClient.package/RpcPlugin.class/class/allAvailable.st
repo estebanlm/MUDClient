@@ -1,5 +1,6 @@
 accessing
 allAvailable 
-	^ (self allSubclasses 
+	^ ((self allSubclasses 
 		reject: #isAbstract)
-		collect: #uniqueInstance
+		select: #isVisible)
+		collect: #new

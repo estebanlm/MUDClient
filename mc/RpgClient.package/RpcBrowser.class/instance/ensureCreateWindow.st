@@ -1,3 +1,3 @@
 showing
 ensureCreateWindow
-	window := self buildBrowser openOn: self startValue
+	window := (activeBrowser := self buildBrowser) openOn: self startValue

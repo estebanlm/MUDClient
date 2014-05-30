@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"allAvailable" : "EstebanLorenzano 5/28/2014 16:25",
+		"allAvailable" : "EstebanLorenzano 5/30/2014 16:18",
 		"isAbstract" : "EstebanLorenzano 5/28/2014 16:19",
-		"new" : "EstebanLorenzano 5/28/2014 16:24",
-		"uniqueInstance" : "EstebanLorenzano 5/28/2014 16:24" },
+		"isVisible" : "EstebanLorenzano 5/30/2014 16:18" },
 	"instance" : {
-		"browserFor:" : "EstebanLorenzano 5/29/2014 10:28",
+		"announcer" : "EstebanLorenzano 5/30/2014 16:36",
+		"executeFor:" : "EstebanLorenzano 5/30/2014 16:08",
 		"icon" : "EstebanLorenzano 5/28/2014 16:22",
 		"name" : "EstebanLorenzano 5/28/2014 16:16" } }

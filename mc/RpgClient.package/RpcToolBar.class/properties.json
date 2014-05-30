@@ -9,7 +9,7 @@
 	"instvars" : [
 		"announcer",
 		"morph",
-		"browser" ],
+		"activeBrowser" ],
 	"name" : "RpcToolBar",
 	"pools" : [
 		 ],

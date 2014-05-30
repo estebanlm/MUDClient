@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client" ],
+	"name" : "RpcPluginBrowser",
+	"pools" : [
+		 ],
+	"super" : "RpcBrowser",
+	"type" : "normal" }

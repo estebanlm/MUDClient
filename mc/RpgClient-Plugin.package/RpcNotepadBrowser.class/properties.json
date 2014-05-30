@@ -10,5 +10,5 @@
 	"name" : "RpcNotepadBrowser",
 	"pools" : [
 		 ],
-	"super" : "RpcBrowser",
+	"super" : "RpcPluginBrowser",
 	"type" : "normal" }

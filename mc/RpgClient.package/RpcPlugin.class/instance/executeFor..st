@@ -1,3 +1,3 @@
 execute
-browserFor: aGame 
+executeFor: aClient
 	^ self subclassResponsibility

@@ -4,11 +4,12 @@
 	"instance" : {
 		"announcer" : "EstebanLorenzano 5/29/2014 20:18",
 		"availablePlugins" : "EstebanLorenzano 5/29/2014 11:34",
-		"buildBrowser" : "EstebanLorenzano 5/30/2014 11:32",
-		"buildToolBarOn:" : "EstebanLorenzano 5/30/2014 11:41",
-		"close" : "EstebanLorenzano 5/29/2014 21:10",
+		"buildBrowser" : "EstebanLorenzano 5/30/2014 17:11",
+		"buildToolBarOn:" : "EstebanLorenzano 5/30/2014 16:11",
+		"close" : "EstebanLorenzano 5/30/2014 17:11",
 		"defaultRenderer" : "EstebanLorenzano 5/29/2014 12:19",
 		"doConfigure" : "EstebanLorenzano 5/29/2014 16:38",
 		"doConnect" : "EstebanLorenzano 5/29/2014 20:56",
-		"open" : "EstebanLorenzano 5/29/2014 21:07",
-		"refresh" : "EstebanLorenzano 5/30/2014 11:47" } }
+		"executePlugin:" : "EstebanLorenzano 5/30/2014 16:15",
+		"open" : "EstebanLorenzano 5/30/2014 17:11",
+		"refresh" : "EstebanLorenzano 5/30/2014 17:11" } }

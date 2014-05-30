@@ -4,11 +4,11 @@ open
 	
 	self close.
 	
-	browser := self buildBrowser.
-	browser startOn: Object new.
+	activeBrowser := self buildBrowser.
+	activeBrowser startOn: Object new.
 	
 	width := RpcIcons uniqueInstance connectIcon width + 8. "Taking icons as example"
-	morph := self defaultRenderer render: browser.
+	morph := self defaultRenderer render: activeBrowser.
 	morph 
 		color: Smalltalk ui theme windowColor;
 		hResizing: #rigid;

@@ -1,18 +1,18 @@
 {
 	"class" : {
-		"new" : "EstebanLorenzano 5/29/2014 09:29",
-		"notepad:" : "EstebanLorenzano 5/29/2014 09:29",
 		"title" : "EstebanLorenzano 5/17/2014 10:05" },
 	"instance" : {
 		"addFolderTo:" : "EstebanLorenzano 5/17/2014 17:43",
-		"addNode:to:" : "EstebanLorenzano 5/29/2014 09:36",
+		"addNode:to:" : "EstebanLorenzano 5/30/2014 17:14",
 		"addNoteTo:" : "EstebanLorenzano 5/17/2014 17:43",
 		"addNotesMenuOn:" : "EstebanLorenzano 5/18/2014 20:01",
 		"buildAreaMorphFor:" : "EstebanLorenzano 5/17/2014 18:18",
-		"buildBrowser" : "EstebanLorenzano 5/17/2014 18:12",
+		"buildBrowser" : "EstebanLorenzano 5/30/2014 17:09",
 		"childrenOf:" : "EstebanLorenzano 5/29/2014 10:29",
-		"initializeNotepad:" : "EstebanLorenzano 5/29/2014 09:28",
+		"initialize" : "EstebanLorenzano 5/30/2014 17:01",
 		"notepad" : "EstebanLorenzano 5/29/2014 09:28",
+		"refresh" : "EstebanLorenzano 5/30/2014 17:13",
 		"removeNode:" : "EstebanLorenzano 5/17/2014 10:38",
 		"renameNode:" : "EstebanLorenzano 5/17/2014 10:40",
+		"resetNotepad" : "EstebanLorenzano 5/30/2014 17:01",
 		"roots" : "EstebanLorenzano 5/29/2014 10:29" } }

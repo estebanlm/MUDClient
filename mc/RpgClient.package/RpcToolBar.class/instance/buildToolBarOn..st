@@ -13,7 +13,7 @@ buildToolBarOn: a
 			
 	self availablePlugins do: [ :each | 
 		actionList 
-			act: [ each execute ]
+			act: [ self executePlugin: each ]
 			icon: (each icon ifNil: [ RpcIcons uniqueInstance unknownIcon ])
 			entitled: each name
 			when: [ self client hasActiveGame ] ]

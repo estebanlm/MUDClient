@@ -2,13 +2,15 @@
 	"category" : "RpgClient-Model",
 	"classinstvars" : [
 		"uniqueInstance" ],
+	"classtraitcomposition" : "TRpcAnnouncer classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"announcer" ],
 	"name" : "RpcPlugin",
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"traitcomposition" : "TRpcAnnouncer",
 	"type" : "normal" }

@@ -7,8 +7,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
+		"announcer",
 		"window",
-		"announcer" ],
+		"activeBrowser" ],
 	"name" : "RpcBrowser",
 	"pools" : [
 		 ],

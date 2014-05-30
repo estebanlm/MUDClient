@@ -1,3 +1,3 @@
 private
 addNode: aNode to: parentNode		
-	parentNode add: aNode	
+	(parentNode ifNil: [ self notepad root ]) add: aNode	
