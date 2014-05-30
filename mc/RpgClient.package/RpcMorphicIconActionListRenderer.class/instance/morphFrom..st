@@ -12,7 +12,7 @@ morphFrom: anActionListPresentation
 		button := self buttonMorph: buttonModel.
 		buttonsContainer addMorphBack: button.
 		button width: (self buttonWidthFor: buttonModel).
-		maxWidth := maxWidth max:(button width) ].
+		maxWidth := maxWidth max: (button width) ].
 	
 	buttonsContainer width: maxWidth.
 	

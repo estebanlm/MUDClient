@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"disable" : "EstebanLorenzano 5/16/2014 23:26",
+		"disable" : "EstebanLorenzano 5/30/2014 13:01",
 		"enable" : "EstebanLorenzano 5/16/2014 23:26",
+		"isEnabled" : "EstebanLorenzano 5/30/2014 13:00",
 		"releaseFocusIfContained" : "EstebanLorenzano 5/29/2014 10:34",
 		"withAllSubmorphsDo:" : "EstebanLorenzano 5/16/2014 10:31",
 		"withAllSubmorphsOf:do:" : "EstebanLorenzano 5/16/2014 10:32" } }

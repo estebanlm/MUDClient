@@ -1,5 +1,6 @@
 showing
-open 
-	self close.
-	window := self buildBrowser openOn: self startValue.
+open
+	window 
+		ifNotNil: [ self ensureShowWindow ] 
+		ifNil: [ self ensureCreateWindow ].
 	self postOpen

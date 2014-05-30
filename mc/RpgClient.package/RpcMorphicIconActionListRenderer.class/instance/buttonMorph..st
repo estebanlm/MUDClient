@@ -1,6 +1,5 @@
 private
 buttonMorph: aModel
-
 	^ (Smalltalk ui theme
 		newButtonIn: nil 
 		for: aModel
@@ -13,4 +12,5 @@ buttonMorph: aModel
 		valueOfProperty: #noBorder ifAbsentPut: [ true ];
 		valueOfProperty: #noFill ifAbsentPut: [ true ];
 		setProperty: #wantsKeyboardFocusNavigation toValue: false; 
+		borderWidth: 0;
 		yourself

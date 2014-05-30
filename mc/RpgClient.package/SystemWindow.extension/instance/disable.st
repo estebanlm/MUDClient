@@ -8,4 +8,5 @@ disable
 		layoutFrame: LayoutFrame identity;
 		hResizing: #spaceFill; 
 		vResizing: #spaceFill;
+		setProperty: #disabledArea toValue: true;
 		yourself).

@@ -1,3 +1,3 @@
 private
 buttonWidthFor: aModel
-	^ aModel glamourAction icon width + 5
+	^ aModel glamourAction icon width + 8
