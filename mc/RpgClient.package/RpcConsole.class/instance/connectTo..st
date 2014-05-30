@@ -7,6 +7,7 @@ connectTo: aGame
 			when: RpcDataReceived send: #dataReceived: to: self;
 			when: RpcConnectionClosed send: #sessionClosed: to: self.
 	  	window enable.
+		self clearContents.
 		self transmitFocus.
 		self announce: (RpcGameConnected game: aGame).
 		self logInfo: [ 'Connected to: {1}:{2}' format: { aGame host. aGame port } ] ]
