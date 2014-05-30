@@ -1,4 +1,4 @@
 private
 deactivateGame
 	activeGame := nil.
-	self toolBar deactivated
+	self toolBar refresh

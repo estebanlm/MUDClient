@@ -1,8 +1,8 @@
 building
 buildBrowser
-	| browser |
+	| newBrowser |
 	
-	browser := GLMTabulator new 
+	newBrowser := GLMTabulator new 
 		"row: #miniToolBar size: 20;"
 		row: #toolBar;
 		yourself.
@@ -11,8 +11,8 @@ buildBrowser
 		to: #miniToolBar;
 		andShow: [ :a | self buildMiniToolBarOn: a ]."
 		
-	browser transmit 
+	newBrowser transmit 
 		to: #toolBar;
 		andShow:[ :a | self buildToolBarOn: a ].
 		
-	^ browser
+	^ newBrowser

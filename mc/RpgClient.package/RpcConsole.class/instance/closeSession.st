@@ -1,5 +1,6 @@
 private
 closeSession
-	session ifNotNil: [ 
-		session close.
-		self announce: RpcGameDisconnected new ]	
+	(session notNil and: [ session isRunning ]) 
+		ifTrue: [ 
+			session close.
+			self announce: RpcGameDisconnected new ]

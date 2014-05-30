@@ -5,7 +5,7 @@ buildBrowser
 	browser := GLMTabulator new
 		title: self class title;
 		initialExtent: self class extent;
-		in: [ :me | self buildToolBarOn: me ];
+		"in: [ :me | self buildToolBarOn: me ];"
 		row: #area;
 		row: #input size: 40;
 		yourself.
