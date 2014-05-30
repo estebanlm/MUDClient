@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "TRpcAnnouncer classTrait",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "EstebanLorenzano 5/29/2014 21:35",
 	"instvars" : [
 		 ],
 	"name" : "RpcCommandFieldArea",

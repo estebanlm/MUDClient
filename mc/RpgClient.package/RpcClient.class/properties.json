@@ -5,12 +5,12 @@
 	"classtraitcomposition" : "TRpcLogueable classTrait + TRpcAnnouncer classTrait",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
+		"announcer",
 		"toolBar",
 		"console",
-		"activeGame",
-		"announcer" ],
+		"activeGame" ],
 	"name" : "RpcClient",
 	"pools" : [
 		 ],

@@ -1,6 +1,6 @@
 showing
 open 
-	| browser width |
+	| width |
 	
 	self close.
 	

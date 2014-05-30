@@ -4,7 +4,7 @@ buildToolBarOn: a
 
 	actionList := a iconActionList beVertical.
 	actionList 
-		act: [ self doConnect ]
+		act: [ :presenter | self doConnect ifTrue: [ presenter  pane browser update ] ]
 			icon: RpcIcons uniqueInstance connectIcon
 			entitled: 'Connect';
 		act: [ self doConfigure ]
@@ -16,4 +16,4 @@ buildToolBarOn: a
 			act: [ each execute ]
 			icon: (each icon ifNil: [ RpcIcons uniqueInstance unknownIcon ])
 			entitled: each name
-			when: [ self hasActiveGame ] ]
+			when: [ self client hasActiveGame ] ]

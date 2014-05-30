@@ -2,14 +2,13 @@
 	"class" : {
 		"open" : "EstebanLorenzano 5/29/2014 12:20" },
 	"instance" : {
-		"activeGame" : "EstebanLorenzano 5/29/2014 11:44",
 		"announcer" : "EstebanLorenzano 5/29/2014 20:18",
 		"availablePlugins" : "EstebanLorenzano 5/29/2014 11:34",
 		"buildBrowser" : "EstebanLorenzano 5/29/2014 11:22",
-		"buildToolBarOn:" : "EstebanLorenzano 5/29/2014 16:38",
-		"close" : "EstebanLorenzano 5/29/2014 20:08",
+		"buildToolBarOn:" : "EstebanLorenzano 5/29/2014 21:00",
+		"close" : "EstebanLorenzano 5/29/2014 21:10",
+		"deactivated" : "EstebanLorenzano 5/29/2014 21:10",
 		"defaultRenderer" : "EstebanLorenzano 5/29/2014 12:19",
 		"doConfigure" : "EstebanLorenzano 5/29/2014 16:38",
-		"doConnect" : "EstebanLorenzano 5/29/2014 20:17",
-		"hasActiveGame" : "EstebanLorenzano 5/29/2014 11:42",
-		"open" : "EstebanLorenzano 5/29/2014 20:09" } }
+		"doConnect" : "EstebanLorenzano 5/29/2014 20:56",
+		"open" : "EstebanLorenzano 5/29/2014 21:07" } }

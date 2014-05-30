@@ -1,0 +1,1 @@
+I indicate a game has been deactivated.

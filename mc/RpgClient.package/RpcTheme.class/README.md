@@ -1,0 +1,1 @@
+I define the UI theme for the client.

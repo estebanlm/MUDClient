@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
 	"name" : "RpcKeyUpEntered",
 	"pools" : [
 		 ],
-	"super" : "Announcement",
+	"super" : "RpcKeyAnnouncement",
 	"type" : "normal" }

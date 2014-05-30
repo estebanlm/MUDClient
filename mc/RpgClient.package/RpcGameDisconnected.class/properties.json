@@ -1,14 +1,14 @@
 {
-	"category" : "RpgClient-Model",
+	"category" : "RpgClient-View",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "RpcPlugin",
+	"name" : "RpcGameDisconnected",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Announcement",
 	"type" : "normal" }

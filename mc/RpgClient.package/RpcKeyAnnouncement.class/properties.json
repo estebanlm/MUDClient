@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "EstebanLorenzano 5/29/2014 21:30",
 	"instvars" : [
-		"formatter",
-		"parser" ],
-	"name" : "RpcANSIDecoration",
+		 ],
+	"name" : "RpcKeyAnnouncement",
 	"pools" : [
 		 ],
-	"super" : "RpcParseDecoration",
+	"super" : "Announcement",
 	"type" : "normal" }
