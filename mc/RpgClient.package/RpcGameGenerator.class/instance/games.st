@@ -1,3 +1,3 @@
 accessing
 games 
-	^ games ifNil: [ games := OrderedCollection withAll: RpcGame findAll ]
+	^ RpcGame findAll sorted: [ :a :b | a name < b name ]

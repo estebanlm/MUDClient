@@ -3,6 +3,7 @@ buildBrowser
 	| browser |
 	
 	browser := GLMTabulator new 
+		title: self class title;
 		row: [ :row |
 			row 
 				column: #games;

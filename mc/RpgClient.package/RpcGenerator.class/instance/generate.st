@@ -3,6 +3,6 @@ generate
 	^ (self asMagritteMorph 
 		addButtons;
 		addWindow;
-		callInWorld)
+		callInWorldCentered)
 			 ifNotNil: [ self createObject ] 
 			

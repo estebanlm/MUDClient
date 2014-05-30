@@ -8,5 +8,9 @@ buildGamesOn: a
 				presenter selection: newGame ]
 			icon: RpcIcons uniqueInstance newGameIcon
 			entitled: 'New game';
+		selectionAct: [ :presenter | 
+				(self removeGame: presenter selection)
+					ifTrue: [ presenter update ] ]
+			entitled: 'Remove';
 		display: [ self games ];
 		format: #name.
