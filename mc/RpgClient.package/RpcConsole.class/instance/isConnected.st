@@ -1,3 +1,3 @@
 testing
 isConnected 
-	^ session notNil
+	^ self session notNil

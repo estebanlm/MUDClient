@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Plugin-Pad",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RpcPadAction",
+	"pools" : [
+		 ],
+	"super" : "GLMGenericAction",
+	"type" : "normal" }

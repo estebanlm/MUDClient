@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"games" ],
+		 ],
 	"name" : "RpcGameGenerator",
 	"pools" : [
 		 ],
-	"super" : "RpcBrowserGenerator",
+	"super" : "RpcSelectingBrowserGenerator",
 	"type" : "normal" }

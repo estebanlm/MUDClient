@@ -2,10 +2,7 @@
 	"class" : {
 		"title" : "EstebanLorenzano 5/30/2014 15:18" },
 	"instance" : {
-		"addGame" : "EstebanLorenzano 5/30/2014 15:46",
-		"buildBrowser" : "EstebanLorenzano 5/30/2014 15:18",
-		"buildCurrentGameOn:" : "EstebanLorenzano 5/12/2014 22:48",
-		"buildGamesOn:" : "EstebanLorenzano 5/30/2014 15:43",
-		"createObject" : "EstebanLorenzano 5/12/2014 20:04",
-		"games" : "EstebanLorenzano 5/30/2014 15:45",
-		"removeGame:" : "EstebanLorenzano 5/30/2014 15:46" } }
+		"addObject" : "EstebanLorenzano 5/31/2014 11:48",
+		"basicRemoveObject:" : "EstebanLorenzano 5/31/2014 11:48",
+		"createObject" : "EstebanLorenzano 5/31/2014 11:48",
+		"objects" : "EstebanLorenzano 5/31/2014 11:47" } }

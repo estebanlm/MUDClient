@@ -1,5 +1,5 @@
 private
 closeSession
-	(session isNil or: [ session isRunning not ]) ifTrue: [ ^ self ].
-	session close.
+	(self session isNil or: [ self session isRunning not ]) ifTrue: [ ^ self ].
+	self session close.
 	self announce: RpcGameDisconnected new

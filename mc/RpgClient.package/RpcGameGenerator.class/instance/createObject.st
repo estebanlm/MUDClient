@@ -1,3 +1,3 @@
 factory
 createObject 
-	^ self value save
+	^ super createObject save

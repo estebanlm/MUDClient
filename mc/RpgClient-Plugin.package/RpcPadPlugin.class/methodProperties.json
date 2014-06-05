@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"executeFor:" : "EstebanLorenzano 6/5/2014 13:13",
 		"icon" : "EstebanLorenzano 5/28/2014 16:35",
-		"name" : "EstebanLorenzano 5/28/2014 16:32" } }
+		"initialize" : "EstebanLorenzano 6/5/2014 13:11",
+		"name" : "EstebanLorenzano 5/28/2014 16:32",
+		"windowClosed:" : "EstebanLorenzano 6/5/2014 13:16" } }

@@ -4,8 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "EstebanLorenzano 5/31/2014 10:18",
 	"instvars" : [
+		"pad",
 		"text" ],
 	"name" : "RpcPadCommand",
 	"pools" : [

@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Plugin-Pad",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RpcMorphicPadActionListRenderer",
+	"pools" : [
+		 ],
+	"super" : "GLMMorphicActionListRenderer",
+	"type" : "normal" }

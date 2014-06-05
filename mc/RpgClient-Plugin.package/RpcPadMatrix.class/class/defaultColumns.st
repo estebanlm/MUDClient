@@ -1,3 +1,0 @@
-defaults
-defaultColumns
-	^ 12

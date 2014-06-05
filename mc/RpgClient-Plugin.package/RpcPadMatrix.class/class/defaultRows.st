@@ -1,3 +1,0 @@
-defaults
-defaultRows
-	^ 1

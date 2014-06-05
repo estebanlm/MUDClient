@@ -16,4 +16,4 @@ buildToolBarOn: a
 			act: [ self executePlugin: each ]
 			icon: (each icon ifNil: [ RpcIcons uniqueInstance unknownIcon ])
 			entitled: each name
-			when: [ self client hasActiveGame ] ]
+			when: [ each isVisibleFor: self client ] ]

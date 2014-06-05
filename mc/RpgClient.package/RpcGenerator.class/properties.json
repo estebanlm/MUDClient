@@ -2,6 +2,7 @@
 	"category" : "RpgClient-View-Generator",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TRpcClient classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -11,4 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"traitcomposition" : "TRpcClient",
 	"type" : "normal" }

@@ -4,11 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"matrix" ],
+		"name",
+		"visible",
+		"commands",
+		"prefix" ],
 	"name" : "RpcPad",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

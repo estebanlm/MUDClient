@@ -4,9 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"openBrowsers" ],
 	"name" : "RpcPadPlugin",
 	"pools" : [
 		 ],

@@ -1,3 +1,3 @@
 instance creation
 new 
-	self error: 'Use #name:url:port:'
+	self error: 'Use #name:host:port:'

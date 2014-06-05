@@ -2,9 +2,10 @@
 	"category" : "RpgClient-Plugin-Notepad",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TRpcPluginModel classTrait",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"game",
 		"root" ],
@@ -12,4 +13,5 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"traitcomposition" : "TRpcPluginModel",
 	"type" : "normal" }
