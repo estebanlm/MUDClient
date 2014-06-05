@@ -15,11 +15,12 @@
 		"game" : "EstebanLorenzano 5/29/2014 09:39",
 		"initialize" : "EstebanLorenzano 5/29/2014 10:30",
 		"isConnected" : "EstebanLorenzano 6/5/2014 11:32",
+		"isRunning" : "EstebanLorenzano 6/5/2014 13:26",
 		"open" : "EstebanLorenzano 5/30/2014 12:55",
 		"openAndConnectTo:" : "EstebanLorenzano 5/29/2014 20:31",
 		"postOpen" : "EstebanLorenzano 5/29/2014 21:04",
 		"prepareDisplayAfterConnect" : "EstebanLorenzano 6/5/2014 11:29",
-		"send:" : "EstebanLorenzano 6/5/2014 11:35",
+		"send:" : "EstebanLorenzano 6/5/2014 13:26",
 		"session" : "EstebanLorenzano 6/5/2014 11:31",
 		"sessionClosed:" : "EstebanLorenzano 5/29/2014 21:03",
 		"transmitFocus" : "EstebanLorenzano 5/16/2014 10:44" } }

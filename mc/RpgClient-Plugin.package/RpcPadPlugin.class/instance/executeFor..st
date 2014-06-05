@@ -5,7 +5,7 @@ executeFor: aClient
 	gamePad := RpcGamePad findByGameCreateIfAbsent: aClient.
 	browser := RpcPadBrowser client: aClient pad: gamePad addNew.
 	browser open.
-	browser window 
+	browser window announcer
 		when: WindowClosed send: #windowClosed: to: self.
 	openPads add: browser.
 	
