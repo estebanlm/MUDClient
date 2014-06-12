@@ -4,7 +4,7 @@ buildToolBarOn: a
 
 	actionList := a iconActionList beVertical.
 	actionList 
-		act: [ :presenter | self doConnect ifTrue: [ presenter  pane browser update ] ]
+		act: [ :presenter | self doConnect ifTrue: [ presenter pane browser update ] ]
 			icon: RpcIcons uniqueInstance connectIcon
 			entitled: 'Connect';
 		act: [ self doConfigure ]

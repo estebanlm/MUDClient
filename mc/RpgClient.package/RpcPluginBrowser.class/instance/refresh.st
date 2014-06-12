@@ -1,3 +1,3 @@
 accessing
 refresh
-	self browser update
+	self glamourBrowser update

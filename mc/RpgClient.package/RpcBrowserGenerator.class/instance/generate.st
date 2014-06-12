@@ -5,7 +5,7 @@ generate
 	value := nil.
 	browser := self buildBrowser.
 	browser startOn: #().
-	window := GLMMorphicRenderer new renderWindow: browser.
+	window := GLMRenderer renderer renderWindow: browser.
 	window openModalCentered.
 	
 	^ self value

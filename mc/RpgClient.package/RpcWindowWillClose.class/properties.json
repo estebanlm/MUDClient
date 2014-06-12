@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcWindowWillClose",
+	"pools" : [
+		 ],
+	"super" : "RpcWindowAnnouncement",
+	"type" : "normal" }

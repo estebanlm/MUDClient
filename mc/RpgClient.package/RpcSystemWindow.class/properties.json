@@ -1,0 +1,16 @@
+{
+	"category" : "RpgClient-View-Glamour",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TRpcClient classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcSystemWindow",
+	"pools" : [
+		 ],
+	"super" : "GLMSystemWindow",
+	"traitcomposition" : "TRpcClient",
+	"type" : "normal" }

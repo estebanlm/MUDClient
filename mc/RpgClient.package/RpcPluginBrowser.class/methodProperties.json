@@ -1,9 +1,8 @@
 {
 	"class" : {
-		"client:" : "EstebanLorenzano 5/30/2014 16:07",
-		"new" : "EstebanLorenzano 5/30/2014 16:08" },
+		"client:" : "EstebanLorenzano 6/9/2014 18:03",
+		"new" : "EstebanLorenzano 6/9/2014 18:03" },
 	"instance" : {
-		"client" : "EstebanLorenzano 5/30/2014 17:00",
-		"initialize" : "EstebanLorenzano 5/30/2014 17:03",
-		"initializeClient:" : "EstebanLorenzano 5/30/2014 17:00",
-		"refresh" : "EstebanLorenzano 5/30/2014 17:13" } }
+		"initialize" : "EstebanLorenzano 6/9/2014 18:04",
+		"initializeClient:" : "EstebanLorenzano 6/9/2014 18:04",
+		"refresh" : "EstebanLorenzano 6/9/2014 17:59" } }

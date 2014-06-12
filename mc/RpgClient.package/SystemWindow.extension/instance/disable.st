@@ -1,6 +1,7 @@
 *RpgClient
 disable 
 	"Adds a 'disabling' morph on top"
+	self isEnabled ifFalse: [ ^ self ].
 	self releaseFocusIfContained.
 	"self withAllSubmorphsDo: [ :each | each enabled: false ]."
 	self addMorphFront: (Morph new

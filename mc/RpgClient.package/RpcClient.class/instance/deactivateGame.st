@@ -1,5 +1,11 @@
 private
 deactivateGame
-	activeGame := nil.
+	| game |
+	game := self activeGame.
+	self activeDisplayConfiguration deactivate.
+	self announce: (RpcGameDeactivated game: game).
+	self console closeSession. "Ensure an existing session is closed"
+	lastActiveGame := game.
+	activeGame := nil. 
 	self toolBar refresh.
-	self announce: RpcGameDisconnected new "pump up"
+	self announce: (RpcGameDisconnected game: game) "pump up"

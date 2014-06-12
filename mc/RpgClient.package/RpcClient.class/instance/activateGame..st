@@ -1,10 +1,10 @@
 private
 activateGame: ann
-	activeGame ifNotNil: [ self announce: (RpcGameDeactivated game: ann game) ].
-	self console openAndConnectTo: ann game.
-	"trying connect will trigger a session close if there is already a game in the works. 
-	 That's why is important to change the activeGame *after*: the disconnect event can 
-	 cause sync problems (for example, by setting activeGame to nil again)"
+	self activeGame ifNotNil: [ self deactivateGame ]. "Deactivate if active"
 	activeGame := ann game.
-	self toolBar refresh.
-	self announce: ann "pump up"
+	self lastActiveGame "Clean display of last active game"
+		ifNotNil: [ (self gameDisplayConfigurationAt: self lastActiveGame) cleanUp ].
+	self activeDisplayConfiguration activate. "Activate"
+	self console openAndConnectTo: ann game. "Connect"
+	self toolBar refresh. "Refresh to ensure toolbar icons reflect correct game"
+	self announce: ann "Pump up announcement (in case someone want to do something extra)"

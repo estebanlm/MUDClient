@@ -1,3 +1,3 @@
 private
 defaultRenderer 
-	^ GLMRenderer subclasses first new
+	^ GLMRenderer renderer

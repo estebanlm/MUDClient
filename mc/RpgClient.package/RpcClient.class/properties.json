@@ -10,7 +10,9 @@
 		"announcer",
 		"toolBar",
 		"console",
-		"activeGame" ],
+		"activeGame",
+		"lastActiveGame",
+		"displayConfigurations" ],
 	"name" : "RpcClient",
 	"pools" : [
 		 ],

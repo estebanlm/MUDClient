@@ -1,7 +1,6 @@
 actions
 connectTo: aGame
 	[ 
-		self closeSession.
 		session := aGame connect.
 		session 
 			when: RpcDataReceived send: #dataReceived: to: self;

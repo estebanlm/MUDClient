@@ -1,0 +1,3 @@
+*RpgClient
+defaultRenderer 
+	^ GLMRenderer renderer

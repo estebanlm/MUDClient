@@ -1,6 +1,8 @@
 accessing
 reset 
 	self toolBar close.
-	toolBar := nil.
 	self console close.
-	console := nil
+
+	toolBar := nil.
+	console := nil.
+	displayConfigurations := nil

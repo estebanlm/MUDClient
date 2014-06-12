@@ -10,5 +10,5 @@
 	"name" : "RpcGameDisconnected",
 	"pools" : [
 		 ],
-	"super" : "Announcement",
+	"super" : "RpcGameAnnouncement",
 	"type" : "normal" }

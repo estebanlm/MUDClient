@@ -2,5 +2,6 @@ showing
 open
 	window 
 		ifNotNil: [ self ensureShowWindow ] 
-		ifNil: [ self ensureCreateWindow ].
+		ifNil: [ self ensureOpenWindow ].
+	window model: self.
 	self postOpen

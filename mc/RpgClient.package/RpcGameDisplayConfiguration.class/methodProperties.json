@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"activate" : "EstebanLorenzano 6/12/2014 10:27",
+		"cleanUp" : "EstebanLorenzano 6/12/2014 12:45",
+		"deactivate" : "EstebanLorenzano 6/12/2014 10:27",
+		"initialize" : "EstebanLorenzano 6/9/2014 16:59",
+		"registerWindow:" : "EstebanLorenzano 6/9/2014 16:58",
+		"restore" : "EstebanLorenzano 6/12/2014 09:50",
+		"unregisterWindow:" : "EstebanLorenzano 6/9/2014 17:30",
+		"windows" : "EstebanLorenzano 6/9/2014 17:06" } }

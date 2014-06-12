@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-View-Glamour",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcMorphicRenderer",
+	"pools" : [
+		 ],
+	"super" : "GLMMorphicRenderer",
+	"type" : "normal" }
