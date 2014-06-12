@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client" ],
+		"client",
+		"game" ],
 	"name" : "RpcPluginBrowser",
 	"pools" : [
 		 ],

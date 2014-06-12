@@ -7,7 +7,6 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"name",
-		"visible",
 		"commands",
 		"prefix" ],
 	"name" : "RpcPad",

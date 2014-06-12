@@ -2,7 +2,7 @@ execute
 executeFor: aClient 
 	| gamePad browser |
 	
-	gamePad := RpcGamePad findByGameCreateIfAbsent: aClient.
+	gamePad := RpcGamePad findByGameCreateIfAbsent: aClient activeGame.
 	browser := RpcPadBrowser client: aClient pad: gamePad addNew.
 	browser open.
 	browser window announcer
