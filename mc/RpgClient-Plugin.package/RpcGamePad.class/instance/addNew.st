@@ -1,5 +1,3 @@
 accessing
 addNew 
-	^ self add: (RpcPad new 
-		name: 'Unknown';
-		yourself)
+	^ self add: RpcPad new

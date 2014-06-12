@@ -1,0 +1,1 @@
+I define rendering extensions for the client.

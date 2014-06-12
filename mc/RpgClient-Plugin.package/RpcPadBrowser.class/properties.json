@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"pad" ],
+		"pad",
+		"horizontal" ],
 	"name" : "RpcPadBrowser",
 	"pools" : [
 		 ],

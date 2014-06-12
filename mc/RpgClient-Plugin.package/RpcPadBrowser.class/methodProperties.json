@@ -1,10 +1,15 @@
 {
 	"class" : {
 		"client:pad:" : "EstebanLorenzano 6/5/2014 12:04",
-		"new" : "EstebanLorenzano 6/5/2014 12:01" },
+		"horizontalExtent" : "EstebanLorenzano 6/12/2014 15:53",
+		"new" : "EstebanLorenzano 6/5/2014 12:01",
+		"verticalExtent" : "EstebanLorenzano 6/12/2014 15:51" },
 	"instance" : {
-		"buildBrowser" : "EstebanLorenzano 6/9/2014 18:00",
+		"buildBrowser" : "EstebanLorenzano 6/12/2014 15:49",
+		"buildToolBarOn:" : "EstebanLorenzano 6/12/2014 16:01",
 		"execute:onChange:" : "EstebanLorenzano 6/5/2014 12:24",
+		"initialize" : "EstebanLorenzano 6/12/2014 14:54",
 		"initializeClient:pad:" : "EstebanLorenzano 6/5/2014 12:03",
 		"pad" : "EstebanLorenzano 6/5/2014 12:01",
-		"requestTextForCommand:onChange:" : "EstebanLorenzano 6/5/2014 12:24" } }
+		"requestTextForCommand:onChange:" : "EstebanLorenzano 6/5/2014 12:24",
+		"rotate" : "EstebanLorenzano 6/12/2014 16:01" } }

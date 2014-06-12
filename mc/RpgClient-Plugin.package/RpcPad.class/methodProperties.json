@@ -1,15 +1,14 @@
 {
 	"class" : {
+		"defaultName" : "EstebanLorenzano 6/12/2014 16:00",
 		"defaultPadSize" : "EstebanLorenzano 6/5/2014 10:46" },
 	"instance" : {
 		"commandAt:" : "EstebanLorenzano 6/5/2014 11:01",
 		"commandAt:text:" : "EstebanLorenzano 6/5/2014 11:04",
-		"commandPrefix" : "EstebanLorenzano 5/31/2014 10:53",
-		"commandPrefix:" : "EstebanLorenzano 5/31/2014 10:53",
 		"commands" : "EstebanLorenzano 6/5/2014 10:44",
 		"descriptionName" : "EstebanLorenzano 6/5/2014 08:47",
 		"descriptionVisible" : "EstebanLorenzano 6/5/2014 09:26",
-		"initialize" : "EstebanLorenzano 6/5/2014 11:05",
+		"initialize" : "EstebanLorenzano 6/12/2014 16:00",
 		"isVisible" : "EstebanLorenzano 6/5/2014 09:27",
 		"name" : "EstebanLorenzano 6/5/2014 08:44",
 		"name:" : "EstebanLorenzano 6/5/2014 08:44",

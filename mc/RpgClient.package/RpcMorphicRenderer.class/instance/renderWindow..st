@@ -1,4 +1,4 @@
-as yet unclassified
+rendering actions
 renderWindow: aRenderable 
 	^ self windowRendererClass
 		render: aRenderable 
