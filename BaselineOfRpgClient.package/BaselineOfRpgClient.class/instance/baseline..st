@@ -3,8 +3,7 @@ baseline: spec
 	<baseline>
 	
 	spec for: #pharo do: [
-		spec repository: 'filetree://repository/mc'. 
-		
+		self logger: spec.
 		self voyage: spec.
 		self petitParser: spec.
 		self telnet: spec.

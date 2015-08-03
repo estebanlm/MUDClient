@@ -7,12 +7,11 @@ petitParser: spec
 		spec 
 			repository: 'http://smalltalkhub.com/mc/Moose/PetitParser/main';
 			className: 'ConfigurationOfPetitParser';
-			version: 'minimal';
-			loads: #('Core') ].
+			loads: #('Core' 'Tests') ].
 		
 	spec 
-		package: 'PetitXml';
-		package: 'PetitJson';
-		package: 'PetitXPath'.
+		package: 'PetitXml' with: [ spec requires: 'PetitParser-Base' ];
+		package: 'PetitJson' with: [ spec requires: 'PetitParser-Base' ];
+		package: 'PetitXPath' with: [ spec requires: 'PetitParser-Base' ].
 		
 	spec group: 'PetitParser' with: #('PetitParser-Base' 'PetitXml' 'PetitJson' 'PetitXPath')
