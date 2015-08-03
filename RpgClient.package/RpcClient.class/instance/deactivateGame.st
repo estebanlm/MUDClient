@@ -1,4 +1,4 @@
-private
+actions
 deactivateGame
 	| game |
 	game := self activeGame.

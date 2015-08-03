@@ -1,3 +1,3 @@
 accessing
 log 
-	^ log ifNil: [ log := ZnLogSupport new ]
+	^ log ifNil: [ log := Logger new ]

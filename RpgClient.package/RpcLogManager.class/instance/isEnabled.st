@@ -1,3 +1,3 @@
 testing
 isEnabled
-	^ self log enabled
+	^ self log isEnabled

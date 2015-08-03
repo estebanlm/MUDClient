@@ -1,4 +1,4 @@
-private
+actions
 activateGame: ann
 	self activeGame ifNotNil: [ self deactivateGame ]. "Deactivate if active"
 	activeGame := ann game.

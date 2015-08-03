@@ -7,6 +7,12 @@ buildToolBarOn: a
 		act: [ :presenter | self doConnect ifTrue: [ presenter pane browser update ] ]
 			icon: RpcIcons uniqueInstance connectIcon
 			entitled: 'Connect';
+		act: [ :presenter | 
+				"there is no need to refresh because disconnection will trigger one anyway" 
+				self doDisconnect ] 
+			icon: RpcIcons uniqueInstance disconnectIcon
+			entitled: 'Disconnect'
+			when: [ self client isConnectedAndRunning ];
 		act: [ self doConfigure ]
 			icon: RpcIcons uniqueInstance configureIcon
 			entitled: 'Configure'.

@@ -9,7 +9,8 @@
 		"game",
 		"session",
 		"areaMorph",
-		"inputMorph" ],
+		"inputMorph",
+		"plugins" ],
 	"name" : "RpcConsole",
 	"pools" : [
 		 ],
