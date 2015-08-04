@@ -1,3 +1,3 @@
 actions
 doDisconnect
-	self client deactivateGame
+	self client disconnect

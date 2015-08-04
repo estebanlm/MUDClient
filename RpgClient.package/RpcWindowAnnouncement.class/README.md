@@ -1,0 +1,1 @@
+I'm a base announcement to inform some events the system does not inform at the moment.

@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"game",
-		"session",
-		"areaMorph",
-		"inputMorph" ],
-	"name" : "RpcConsole",
+		 ],
+	"name" : "RpcDynamicKeyMappingCategory",
 	"pools" : [
 		 ],
-	"super" : "RpcBrowser",
+	"super" : "KMCategory",
 	"type" : "normal" }

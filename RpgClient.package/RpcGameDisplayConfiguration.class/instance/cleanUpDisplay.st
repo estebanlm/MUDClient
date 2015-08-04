@@ -1,5 +1,5 @@
 accessing
-cleanUp
+cleanUpDisplay
 	"Removes all windows from display. 
 	 It is useful when changing an active game for other"
-	self windows do: #delete
+	self windows do: #silentlyDelete

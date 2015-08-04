@@ -1,3 +1,3 @@
 accessing
 log 
-	^ RpcLogManager log
+	^ Logger current
