@@ -1,3 +1,3 @@
 instance creation
 new 
-	self error: 'Use #client:'
+	self error: 'Use #plugin:'

@@ -1,5 +1,5 @@
 instance creation
-client: aClient
+plugin: aPlugin
 	^ self basicNew 
-		initializeClient: aClient;
+		initializePlugin: aPlugin;
 		yourself

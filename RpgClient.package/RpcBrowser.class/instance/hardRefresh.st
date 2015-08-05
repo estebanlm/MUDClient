@@ -4,7 +4,7 @@ hardRefresh
 	| position |
 	window ifNil: [ ^ self open ].
 	position := window position.
-	window delete.
+	window silentlyDelete.
 	window := nil.
 	glamourBrowser := nil.
 	self open.
