@@ -1,15 +1,18 @@
 {
 	"class" : {
-		"client:pad:" : "EstebanLorenzano 6/5/2014 12:04",
-		"horizontalExtent" : "EstebanLorenzano 6/12/2014 15:53",
-		"new" : "EstebanLorenzano 6/5/2014 12:01",
-		"verticalExtent" : "EstebanLorenzano 6/12/2014 15:51" },
+		"horizontalExtent" : "EstebanLorenzano 8/3/2015 18:55",
+		"new" : "EstebanLorenzano 8/4/2015 19:44",
+		"plugin:pad:" : "EstebanLorenzano 8/4/2015 19:44",
+		"verticalExtent" : "EstebanLorenzano 8/3/2015 18:56" },
 	"instance" : {
-		"buildBrowser" : "EstebanLorenzano 6/12/2014 15:49",
+		"buildBrowser" : "EstebanLorenzano 8/3/2015 17:07",
 		"buildToolBarOn:" : "EstebanLorenzano 6/12/2014 16:01",
-		"execute:onChange:" : "EstebanLorenzano 6/5/2014 12:24",
+		"configure" : "EstebanLorenzano 8/3/2015 14:02",
+		"execute:then:" : "EstebanLorenzano 7/31/2015 11:23",
 		"initialize" : "EstebanLorenzano 6/12/2014 14:54",
-		"initializeClient:pad:" : "EstebanLorenzano 6/5/2014 12:03",
+		"initializePlugin:pad:" : "EstebanLorenzano 8/4/2015 19:46",
+		"installKeyBindingsOn:" : "EstebanLorenzano 8/4/2015 20:06",
 		"pad" : "EstebanLorenzano 6/5/2014 12:01",
-		"requestTextForCommand:onChange:" : "EstebanLorenzano 6/5/2014 12:24",
+		"padCommands" : "EstebanLorenzano 7/31/2015 10:50",
+		"requestTextForCommand:then:" : "EstebanLorenzano 7/31/2015 11:40",
 		"rotate" : "EstebanLorenzano 6/12/2014 16:01" } }

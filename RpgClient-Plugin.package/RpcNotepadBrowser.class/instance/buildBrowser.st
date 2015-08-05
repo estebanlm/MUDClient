@@ -12,13 +12,15 @@ buildBrowser
 		to: #notes;
 		andShow: [ :a | 
 			a tree
+				title: 'Notes';
 				in: [ :presenter |  self addNotesMenuOn: presenter ];
 				display: [ self roots ];
 				format: #title;
 				children: [ :node |
 					node isGroup 
 						ifTrue: [ self childrenOf: node ]
-						ifFalse: [ #() ] ] ].
+						ifFalse: [ #() ] ];
+				sorted: [ :n1 :n2 | n1 title < n2 title ] ].
 
 	browser transmit 
 		to: #note;

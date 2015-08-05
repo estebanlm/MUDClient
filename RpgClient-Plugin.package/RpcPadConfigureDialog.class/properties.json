@@ -1,0 +1,15 @@
+{
+	"category" : "RpgClient-Plugin-Buttonpad-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pad",
+		"gamePad" ],
+	"name" : "RpcPadConfigureDialog",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

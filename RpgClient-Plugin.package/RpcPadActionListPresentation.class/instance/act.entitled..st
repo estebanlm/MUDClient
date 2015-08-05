@@ -1,4 +1,4 @@
-scripting
+scripting actions
 act: aBlock entitled: aStringOrBlock
 	self addAction: (RpcPadAction new 
 		action: aBlock; 

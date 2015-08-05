@@ -1,3 +1,3 @@
 accessing
 horizontalExtent
-	^ 750 @ 50
+	^ 800@50

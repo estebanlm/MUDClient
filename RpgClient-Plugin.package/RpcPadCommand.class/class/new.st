@@ -1,3 +1,3 @@
 instance creation
 new 
-	self error: 'Use #pad:'
+	self error: 'Use #pad:keyBinding:'

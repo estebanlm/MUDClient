@@ -1,3 +1,3 @@
 execute
 executeFor: aClient
-	(RpcNotepadBrowser client: aClient) open
+	(RpcNotepadBrowser plugin: self) open

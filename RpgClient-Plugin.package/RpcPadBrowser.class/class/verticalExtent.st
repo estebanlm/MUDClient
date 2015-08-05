@@ -1,3 +1,3 @@
 accessing
 verticalExtent
-	^ 100 @ 350
+	^ 150@350

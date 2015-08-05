@@ -1,12 +1,14 @@
 {
-	"category" : "RpgClient-Plugin-Pad",
+	"category" : "RpgClient-Plugin-Buttonpad-Model",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
+		"owner",
 		"name",
+		"modifier",
 		"commands",
 		"prefix" ],
 	"name" : "RpcPad",

@@ -1,12 +1,12 @@
 {
-	"category" : "RpgClient-Plugin-Pad",
+	"category" : "RpgClient-Plugin-Buttonpad-View",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"help" ],
 	"name" : "RpcPadAction",
 	"pools" : [
 		 ],

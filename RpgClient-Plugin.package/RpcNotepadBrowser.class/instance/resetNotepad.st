@@ -1,4 +1,3 @@
 private
 resetNotepad
-	notepad := RpcGameNotepad findByGameCreateIfAbsent: self client activeGame 
-		
+	notepad := self client activeGame notepad

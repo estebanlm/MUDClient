@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializePad: aPad
 	self initialize.
 	pad := aPad

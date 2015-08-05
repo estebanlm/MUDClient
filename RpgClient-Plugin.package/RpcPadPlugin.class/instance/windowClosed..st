@@ -1,8 +1,8 @@
 execute
 windowClosed: ann
-	| browser gamePad |
+	| browser buttonpad |
 	
 	browser := openPads detect: [ :each | each window = ann window ].
-	gamePad := RpcGamePad findByGameCreateIfAbsent: browser game.
+	buttonpad := browser game buttonpad.
 	openPads remove: browser.
-	gamePad remove: browser pad
+	buttonpad remove: browser pad

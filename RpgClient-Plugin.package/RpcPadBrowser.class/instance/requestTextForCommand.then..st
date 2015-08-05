@@ -1,5 +1,5 @@
 actions
-requestTextForCommand: aCommand onChange: aBlock 
+requestTextForCommand: aCommand then: aBlock 
 	| text |
 	
 	text := UIManager default request: 'Command to send'.
