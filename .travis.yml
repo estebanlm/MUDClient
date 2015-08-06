@@ -1,7 +1,7 @@
 language: c
+sudo: required
 env: 
   - OS=linux
-sudo: required
 install: 
   - scripts/prepare-travis-linux.sh
 script: 
