@@ -4,11 +4,11 @@ set -e # exit on error
 
 wget --quiet -O - get.pharo.org/50+vm | bash
 
-./pharo Pharo.image eval "
+./pharo Pharo.image eval --save "
 Metacello new 
 	baseline: 'RpgClient';
-	repository: 'filetree://../mc';
+	repository: 'filetree://./mc';
 	load.
 "
 
-./pharo Pharo.image test "RpcClient.*"
+./pharo Pharo.image test "RpgClient.*"
