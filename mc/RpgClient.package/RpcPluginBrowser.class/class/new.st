@@ -1,3 +1,3 @@
 instance creation
 new 
-	self error: 'Use #plugin:'
+	self error: 'Use #game:plugin:'

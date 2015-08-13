@@ -6,7 +6,7 @@ testExecuteForWithPrefix
 	game := RpcGameForTest new.
 	client console connectTo: game.
 	session := client console session.
-	gamePad := RpcGamePad game: game.
+	gamePad := RpcButtonPad game: game.
 	pad := gamePad addNew.
 	pad prefix: 'tune'.
 	command := pad commandAt: 1.

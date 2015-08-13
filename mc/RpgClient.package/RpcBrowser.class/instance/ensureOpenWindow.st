@@ -1,10 +1,9 @@
-showing
+private
 ensureOpenWindow
 	"Creates and open window"
-	glamourBrowser := self buildBrowser.
-	glamourBrowser startOn: 	self startValue.
-	window := GLMRenderer renderer renderWindow: glamourBrowser.
-	window announcer 
-		when: RpcWindowDidOpen send: #windowOpened: to: self client;
-		when: RpcWindowWillClose send: #windowClosed: to: self client.
-	window open
+	self startOn: self startValue.
+	self window: (GLMRenderer renderer renderWindow: self).
+	"self window announcer 
+		when: RpcWindowDidOpen send: #windowOpened: to: self;
+		when: RpcWindowWillClose send: #windowClosed: to: self."
+	self window open

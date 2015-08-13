@@ -1,0 +1,3 @@
+*RpgClient
+windowRendererClass
+	^ GLMMorphicWindowRenderer

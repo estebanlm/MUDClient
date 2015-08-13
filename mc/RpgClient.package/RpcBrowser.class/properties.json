@@ -2,17 +2,16 @@
 	"category" : "RpgClient-View",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TRpcLogueable classTrait + TRpcAnnouncer classTrait + TRpcClient classTrait",
+	"classtraitcomposition" : "TRpcLogueable classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"announcer",
-		"glamourBrowser",
+		"game",
 		"window" ],
 	"name" : "RpcBrowser",
 	"pools" : [
 		 ],
-	"super" : "Object",
-	"traitcomposition" : "TRpcLogueable + TRpcAnnouncer + TRpcClient",
+	"super" : "GLMCompositePresentation",
+	"traitcomposition" : "TRpcLogueable",
 	"type" : "normal" }

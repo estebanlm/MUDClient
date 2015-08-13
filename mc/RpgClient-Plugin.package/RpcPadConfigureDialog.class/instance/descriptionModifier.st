@@ -8,6 +8,6 @@ descriptionModifier
 		reference: (MAStringDescription new 
 			accessor: #asString;
 			asContainer);
-		options: self buttonpad freeAvailableModifiers;
+		options: self buttonPad freeAvailableModifiers;
 		morphClass: MADropListMorph;
 		yourself

@@ -2,12 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"browserModel" : "EstebanLorenzano 8/4/2015 19:52",
-		"browserModel:" : "EstebanLorenzano 8/4/2015 19:51",
-		"delete" : "EstebanLorenzano 6/12/2014 11:49",
+		"contentMorph" : "EstebanLorenzano 8/11/2015 20:01",
+		"contentMorph:" : "EstebanLorenzano 8/11/2015 20:01",
+		"delete" : "EstebanLorenzano 8/11/2015 19:12",
+		"disable" : "EstebanLorenzano 8/12/2015 08:50",
+		"enable" : "EstebanLorenzano 8/11/2015 23:27",
 		"ensureShown" : "EstebanLorenzano 6/12/2014 12:47",
-		"initialize" : "EstebanLorenzano 6/12/2014 16:05",
+		"initialize" : "EstebanLorenzano 8/5/2015 20:16",
+		"isEnabled" : "EstebanLorenzano 8/11/2015 20:01",
 		"open" : "EstebanLorenzano 6/9/2014 19:26",
 		"removeBoxes" : "EstebanLorenzano 6/12/2014 16:06",
+		"silentlyShown" : "EstebanLorenzano 8/6/2015 11:29",
 		"sleep" : "EstebanLorenzano 6/12/2014 10:26",
-		"wakeUp" : "EstebanLorenzano 6/12/2014 11:47" } }
+		"toolbarMorph" : "EstebanLorenzano 8/11/2015 20:29",
+		"toolbarMorph:" : "EstebanLorenzano 8/11/2015 20:29",
+		"wakeUp" : "EstebanLorenzano 8/11/2015 08:43" } }

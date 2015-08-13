@@ -1,4 +1,4 @@
 {
-	"category" : "RpgClient-Model",
-	"commentStamp" : "",
+	"category" : "RpgClient-Model-Plugin",
+	"commentStamp" : "EstebanLorenzano 8/12/2015 14:32",
 	"name" : "TRpcPluginModel" }

@@ -1,1 +1,0 @@
-I give access to current client to my users.

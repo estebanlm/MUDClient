@@ -6,4 +6,6 @@ readIconMethodsFromDirectory: dir
 				and: [ 
 					(each extension = 'gif') 
 					or: [ each extension = 'png' ] ] ] )
-		do: [ :each | self storeIconMethodFor: each ]
+		do: [ :each | 
+			self storeIconContentsMethodFor: each.
+			self storeIconMethodFor: each ]

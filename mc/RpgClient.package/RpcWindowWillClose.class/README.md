@@ -1,1 +1,0 @@
-I announce a window will be closed.

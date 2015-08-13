@@ -1,1 +1,0 @@
-I keep display configuration for games.

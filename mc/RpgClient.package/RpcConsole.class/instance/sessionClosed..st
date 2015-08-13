@@ -1,6 +1,10 @@
-private
+private session
 sessionClosed: ann
-	window ifNotNil: [ window disable ].
+	self logInfo: 'Connection closed.'.
 	session := nil.
-	self announce: RpcGameDisconnected new.
-	self logInfo: 'Connection closed.'
+	
+	self game ifNotNil: [ previousGame := self game ]. "Keep previous game"
+	self game: nil. "Reset game"
+	self refresh.
+	self window disable.
+	self dependentWindows do: #close

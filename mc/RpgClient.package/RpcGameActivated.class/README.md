@@ -1,1 +1,0 @@
-I indicate a game has been activated.

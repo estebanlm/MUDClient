@@ -1,5 +1,5 @@
 showing
 close
-	window ifNil: [ ^ self ].
-	window delete.
-	window := nil
+	self window ifNil: [ ^ self ].
+	self window delete.
+	self resetWindow

@@ -1,6 +1,6 @@
 executing
-executeFor: aClient
+executeFor: aBrowser
 	self isDefined ifFalse: [ ^ self ].
-	aClient sendCommand: (self pad prefix 
+	aBrowser sendCommand: (self pad prefix 
 		ifNotNil: [ :prefix | (prefix, ' ', self text) trimBoth ]
 		ifNil: [ self text ])

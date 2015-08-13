@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"game",
 		"plugin" ],
 	"name" : "RpcPluginBrowser",
 	"pools" : [

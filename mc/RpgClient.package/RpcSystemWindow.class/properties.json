@@ -2,15 +2,14 @@
 	"category" : "RpgClient-View-Glamour",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TRpcClient classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"browserModel" ],
+		"toolbarMorph",
+		"contentMorph" ],
 	"name" : "RpcSystemWindow",
 	"pools" : [
 		 ],
 	"super" : "GLMSystemWindow",
-	"traitcomposition" : "TRpcClient",
 	"type" : "normal" }

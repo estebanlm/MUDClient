@@ -1,10 +1,7 @@
 {
 	"class" : {
-		"new" : "EstebanLorenzano 8/4/2015 19:44",
-		"plugin:" : "EstebanLorenzano 8/4/2015 19:44" },
+		"game:plugin:" : "EstebanLorenzano 8/12/2015 14:55",
+		"new" : "EstebanLorenzano 8/12/2015 14:58" },
 	"instance" : {
-		"game" : "EstebanLorenzano 6/12/2014 16:42",
-		"initialize" : "EstebanLorenzano 6/9/2014 18:04",
-		"initializePlugin:" : "EstebanLorenzano 8/4/2015 19:47",
-		"plugin" : "EstebanLorenzano 8/4/2015 19:35",
-		"refresh" : "EstebanLorenzano 6/9/2014 17:59" } }
+		"initializeGame:plugin:" : "EstebanLorenzano 8/13/2015 18:46",
+		"plugin" : "EstebanLorenzano 8/12/2015 14:58" } }

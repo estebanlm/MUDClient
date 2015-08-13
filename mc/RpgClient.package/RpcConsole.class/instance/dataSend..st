@@ -1,4 +1,4 @@
-private
+private session
 dataSend: ann
 	self session isRunning ifFalse: [ ^ self ].
 	self session writeln: inputMorph text asString.

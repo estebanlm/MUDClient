@@ -1,3 +1,0 @@
-private
-defaultRenderer 
-	^ GLMRenderer renderer

@@ -6,7 +6,7 @@ testExecuteFor
 	game := RpcGameForTest new.
 	client console connectTo: game.
 	session := client console session.
-	gamePad := RpcGamePad game: game.
+	gamePad := RpcButtonPad game: game.
 	pad := gamePad addNew.
 	command := pad commandAt: 1.
 	command text: 'test'.

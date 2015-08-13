@@ -1,3 +1,3 @@
 accessing
-buttonpad
+buttonPad
 	^ self pad owner

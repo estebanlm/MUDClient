@@ -1,4 +1,3 @@
 accessing
 roots 
-	^ self notepad root children
-		sorted: [ :a :b | a name < b name ]
+	^ self nodesSorted: self notepad root children

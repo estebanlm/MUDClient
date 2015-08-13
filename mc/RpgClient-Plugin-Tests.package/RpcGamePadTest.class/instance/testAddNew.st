@@ -2,7 +2,7 @@ tests
 testAddNew 
 	| gamePad pad |
 	
-	gamePad := RpcGamePad new.
+	gamePad := RpcButtonPad new.
 	self assert: gamePad pads isEmpty.
 	pad := gamePad addNew. 
 	self deny: gamePad pads isEmpty.

@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"openPads" ],
+		 ],
 	"name" : "RpcPadPlugin",
 	"pools" : [
 		 ],

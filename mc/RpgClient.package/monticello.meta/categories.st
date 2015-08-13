@@ -1,5 +1,6 @@
 SystemOrganization addCategory: #RpgClient!
 SystemOrganization addCategory: 'RpgClient-Model'!
+SystemOrganization addCategory: 'RpgClient-Model-Plugin'!
 SystemOrganization addCategory: 'RpgClient-Model-Telnet'!
 SystemOrganization addCategory: 'RpgClient-View'!
 SystemOrganization addCategory: 'RpgClient-View-Generator'!

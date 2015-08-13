@@ -1,4 +1,4 @@
 open/close
 wakeUp
-	self ensureShown.
+	self silentlyShown.
 	self enable

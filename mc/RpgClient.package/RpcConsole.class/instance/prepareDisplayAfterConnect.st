@@ -1,6 +1,6 @@
-private
+private ui
 prepareDisplayAfterConnect
-	window ifNil: [ ^ self ]. "No display"
-  	window enable.
+	self hardRefresh.
 	self clearContents.
+  	self window enable.
 	self transmitFocus.

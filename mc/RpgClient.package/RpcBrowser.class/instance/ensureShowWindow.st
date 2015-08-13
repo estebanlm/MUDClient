@@ -1,3 +1,4 @@
-showing
+private
 ensureShowWindow
-	window ensureShown
+	self window model ifNil: [ self window model: self ].
+	self window ensureShown

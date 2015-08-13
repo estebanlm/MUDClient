@@ -1,1 +1,0 @@
-I indicate when active game has been disconnected.

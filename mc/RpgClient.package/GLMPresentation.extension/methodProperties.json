@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"act:icon:entitled:enabledWhen:" : "EstebanLorenzano 8/11/2015 21:37",
 		"act:icon:entitled:when:" : "EstebanLorenzano 5/29/2014 11:45",
-		"selectionAct:entitled:when:" : "EstebanLorenzano 5/17/2014 10:53" } }
+		"selectionAct:entitled:enabledWhen:" : "EstebanLorenzano 8/11/2015 21:33",
+		"selectionAct:entitled:when:" : "EstebanLorenzano 5/17/2014 10:53",
+		"windowRendererClass" : "EstebanLorenzano 8/11/2015 19:36" } }

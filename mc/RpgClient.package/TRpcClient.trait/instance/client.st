@@ -1,3 +1,0 @@
-private
-client
-	^ RpcClient uniqueInstance

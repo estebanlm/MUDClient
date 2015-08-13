@@ -1,7 +1,8 @@
 showing
 open
-	window 
+	self window 
 		ifNotNil: [ self ensureShowWindow ] 
 		ifNil: [ self ensureOpenWindow ].
-	window browserModel: self.
+	self window model: self.
+	self window extent: self preferredExtent.
 	self postOpen

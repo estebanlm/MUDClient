@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"game",
+		"previousGame",
 		"session",
 		"areaMorph",
-		"inputMorph" ],
+		"inputMorph",
+		"dependentWindows" ],
 	"name" : "RpcConsole",
 	"pools" : [
 		 ],

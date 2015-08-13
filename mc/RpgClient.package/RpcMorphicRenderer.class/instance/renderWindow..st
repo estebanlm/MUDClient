@@ -1,5 +1,5 @@
 rendering actions
 renderWindow: aRenderable 
-	^ self windowRendererClass
+	^ aRenderable windowRendererClass
 		render: aRenderable 
 		from: self

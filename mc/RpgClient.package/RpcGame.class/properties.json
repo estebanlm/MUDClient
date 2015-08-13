@@ -8,7 +8,8 @@
 	"instvars" : [
 		"name",
 		"host",
-		"port" ],
+		"port",
+		"plugins" ],
 	"name" : "RpcGame",
 	"pools" : [
 		 ],

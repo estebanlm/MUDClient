@@ -1,7 +1,6 @@
 showing
 postOpen
+	self window disable.
 	self window announcer
 		when: WindowActivated send: #transmitFocus to: self;
-		when: WindowClosed send: #closeSessionAndCleanUpDisplay to: self.	
-	inputMorph takeKeyboardFocus.
-	window disable
+		when: WindowClosed send: #windowClosed: to: self

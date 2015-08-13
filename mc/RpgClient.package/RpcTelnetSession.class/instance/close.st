@@ -1,4 +1,6 @@
 connection
 close 
 	super close.
-	self stopProcess
+	self announce: RpcConnectionClosed new.
+	self stopProcess.
+	

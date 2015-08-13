@@ -1,3 +1,3 @@
 accessing
 notepad
-	^ notepad
+	^ self plugin

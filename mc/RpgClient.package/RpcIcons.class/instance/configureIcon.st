@@ -1,5 +1,6 @@
 accessing icons
 configureIcon
-	^ icons
-	at: #'configureIcon'
-	ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self configureIconContents readStream) ].
+	"Method generated"
+	^ icons 
+		at: #configureIcon
+		ifAbsentPut: [ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self configureIconContents readStream) ]

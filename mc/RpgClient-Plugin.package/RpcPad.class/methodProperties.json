@@ -1,9 +1,9 @@
 {
 	"class" : {
 		"characterBindingAt:" : "EstebanLorenzano 7/31/2015 12:01",
-		"characterBindings" : "EstebanLorenzano 7/31/2015 12:03",
+		"characterBindings" : "EstebanLorenzano 8/12/2015 17:19",
 		"defaultName" : "EstebanLorenzano 6/12/2014 16:00",
-		"padSize" : "EstebanLorenzano 7/31/2015 11:59" },
+		"padSize" : "EstebanLorenzano 8/12/2015 17:19" },
 	"instance" : {
 		"commandAt:" : "EstebanLorenzano 6/5/2014 11:01",
 		"commandAt:text:" : "EstebanLorenzano 6/5/2014 11:04",
@@ -21,4 +21,6 @@
 		"owner:" : "EstebanLorenzano 8/3/2015 13:51",
 		"prefix" : "EstebanLorenzano 6/5/2014 11:39",
 		"prefix:" : "EstebanLorenzano 6/5/2014 11:39",
+		"printOn:" : "EstebanLorenzano 8/6/2015 22:32",
+		"removeFromOwner" : "EstebanLorenzano 8/5/2015 21:35",
 		"resetCommandBindings" : "EstebanLorenzano 8/3/2015 13:47" } }

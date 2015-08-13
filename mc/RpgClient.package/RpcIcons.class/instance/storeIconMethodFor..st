@@ -1,13 +1,14 @@
 utils
 storeIconMethodFor: each
-	| base64 selector source |
+	| selector source |
 	
-	base64 := Smalltalk ui icons base64ContentsOfFileNamed: each fullName.
-	selector := (each asFileReference base, 'IconContents') asSymbol.
+	selector := (each asFileReference base, 'Icon') asSymbol.
 	source := '{1}
-	"Private - Method generated"
-	^ ''{2}''' format: {selector. base64}.
+	"Method generated"
+	^ icons 
+		at: #{1}
+		ifAbsentPut: [ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self {1}Contents readStream) ]' format: {selector}.
 	
 	self class 
 		compile: source 
-		classified: 'private - contents'
+		classified: 'accessing icons'
