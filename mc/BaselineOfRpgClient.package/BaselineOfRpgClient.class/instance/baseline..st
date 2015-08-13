@@ -14,6 +14,7 @@ baseline: spec
 		spec 
 			package: 'RpgClient' with: [
 				spec requires: #(
+					'Logger'
 					'Voyage'
 					'PetitParser' 
 					'TelnetSessionBasic' 
