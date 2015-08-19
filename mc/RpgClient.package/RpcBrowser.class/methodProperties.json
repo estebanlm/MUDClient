@@ -4,12 +4,13 @@
 		"preferredExtent" : "EstebanLorenzano 8/5/2015 21:16",
 		"title" : "EstebanLorenzano 5/17/2014 10:05" },
 	"instance" : {
+		"browserSettings" : "EstebanLorenzano 8/15/2015 14:16",
 		"buildContentsOn:" : "EstebanLorenzano 8/12/2015 16:21",
 		"buildOn:" : "EstebanLorenzano 8/12/2015 14:35",
 		"buildToolbarOn:" : "EstebanLorenzano 8/12/2015 14:35",
 		"close" : "EstebanLorenzano 8/12/2015 08:42",
 		"compose" : "EstebanLorenzano 8/12/2015 16:18",
-		"ensureOpenWindow" : "EstebanLorenzano 8/12/2015 08:45",
+		"ensureOpenWindow" : "EstebanLorenzano 8/15/2015 14:28",
 		"ensureShowWindow" : "EstebanLorenzano 8/12/2015 08:35",
 		"game" : "EstebanLorenzano 8/13/2015 18:44",
 		"game:" : "EstebanLorenzano 8/13/2015 18:45",
@@ -26,4 +27,6 @@
 		"title" : "EstebanLorenzano 8/12/2015 11:46",
 		"window" : "EstebanLorenzano 5/17/2014 09:01",
 		"window:" : "EstebanLorenzano 8/12/2015 08:45",
+		"windowClosed:" : "EstebanLorenzano 8/15/2015 14:30",
+		"windowOpened:" : "EstebanLorenzano 8/15/2015 14:30",
 		"windowRendererClass" : "EstebanLorenzano 8/11/2015 19:18" } }

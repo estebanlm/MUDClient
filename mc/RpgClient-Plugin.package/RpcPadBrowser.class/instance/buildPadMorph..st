@@ -9,7 +9,7 @@ buildPadMorph: aPad
 		vResizing: #spaceFill;
 		yourself.
 		
-	aPad commands do: [ :each | 
+	aPad commands do: [ :each |
 		padMorph addMorphBack: (self buildCommandMorph: each) ].
 	
 	^ padMorph

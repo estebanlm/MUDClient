@@ -1,5 +1,11 @@
 {
 	"class" : {
-		"install" : "EstebanLorenzano 5/12/2014 19:59" },
+		"initialize" : "EstebanLorenzano 8/15/2015 13:43",
+		"install" : "EstebanLorenzano 5/12/2014 19:59",
+		"repositoryFileName" : "EstebanLorenzano 8/15/2015 13:44",
+		"restoreFromDisk" : "EstebanLorenzano 8/15/2015 13:45",
+		"saveToDisk" : "EstebanLorenzano 8/15/2015 13:44",
+		"shutDown:" : "EstebanLorenzano 8/15/2015 13:41",
+		"startUp:" : "EstebanLorenzano 8/15/2015 13:32" },
 	"instance" : {
 		 } }

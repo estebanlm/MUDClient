@@ -1,0 +1,15 @@
+{
+	"category" : "RpgClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"game",
+		"logReference" ],
+	"name" : "RpcSessionLog",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

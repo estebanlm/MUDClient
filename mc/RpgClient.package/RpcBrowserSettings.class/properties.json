@@ -1,0 +1,16 @@
+{
+	"category" : "RpgClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browserClass",
+		"game",
+		"bounds" ],
+	"name" : "RpcBrowserSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

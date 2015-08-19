@@ -5,4 +5,4 @@ ensureShown
 	currentPosition := self position.
 	self openAsIs.
 	self position: currentPosition. "Restore position to ensure is displayed correctly"
-	self announce: (RpcWindowDidOpen window: self)
+	self announce: (WindowOpened new window: self)

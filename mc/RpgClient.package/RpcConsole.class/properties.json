@@ -10,7 +10,8 @@
 		"session",
 		"areaMorph",
 		"inputMorph",
-		"dependentWindows" ],
+		"dependentWindows",
+		"register" ],
 	"name" : "RpcConsole",
 	"pools" : [
 		 ],
