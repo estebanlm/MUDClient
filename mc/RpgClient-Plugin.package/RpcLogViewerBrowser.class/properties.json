@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Plugin-LogViewer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcLogViewerBrowser",
+	"pools" : [
+		 ],
+	"super" : "RpcPluginBrowser",
+	"type" : "normal" }

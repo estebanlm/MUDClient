@@ -1,0 +1,16 @@
+{
+	"category" : "RpgClient-Plugin-LogViewer",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TRpcPluginModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"game" ],
+	"name" : "RpcLogViewer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TRpcPluginModel",
+	"type" : "normal" }
