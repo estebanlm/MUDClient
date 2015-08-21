@@ -14,7 +14,7 @@ baseline: spec
 		spec
 			package: 'Glamour-FastTable' with: [ 
 				spec 
-					repository: 'http://smalltalk.com/mc/estebanlm/FastTable/main';
+					repository: 'http://smalltalkhub.com/mc/estebanlm/FastTable/main';
 					requires: #('Glamour') ]; 
 			package: 'RpgClient' with: [
 				spec requires: #(
