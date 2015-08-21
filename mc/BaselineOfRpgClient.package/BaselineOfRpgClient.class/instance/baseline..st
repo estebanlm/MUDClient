@@ -11,7 +11,11 @@ baseline: spec
 		self magritte3: spec.
 		self glamour: spec.
 		
-		spec 
+		spec
+			package: 'Glamour-FastTable' with: [ 
+				spec 
+					repository: 'http://smalltalk.com/mc/estebanlm/FastTable/main';
+					requires: #('Glamour') ]; 
 			package: 'RpgClient' with: [
 				spec requires: #(
 					'Logger'
@@ -20,7 +24,8 @@ baseline: spec
 					'TelnetSessionBasic' 
 					'Rubric' 
 					'Magritte3' 
-					'Glamour') ];
+					'Glamour'
+					'Glamour-FastTable') ];
 			package: 'RpgClient-Protocol' with: [ 
 				spec requires: #('RpgClient') ];
 			package: 'RpgClient-Plugin' with: [ 
