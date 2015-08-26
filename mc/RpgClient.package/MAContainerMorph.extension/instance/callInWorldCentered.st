@@ -7,6 +7,6 @@ callInWorldCentered
 		fullBounds;
 		position: Display extent - self morph extent // 2.
 	self
-		openInWorld;
+		openAsIs;
 		waitUntilClosed.
 	^ result

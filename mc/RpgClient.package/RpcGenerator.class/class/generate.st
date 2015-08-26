@@ -1,3 +1,3 @@
-as yet unclassified
+generation
 generate
 	^ self new generate

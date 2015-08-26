@@ -9,8 +9,8 @@ buildAreaMorphFor: aNote
 		textFont: StandardFonts codeFont;
 		textColor: Smalltalk ui theme textColor;
 		backgroundColor: Smalltalk ui theme backgroundColor;
-		autoAccept: true;
-		beWrapped	.
+		autoAccept: true";
+		beWrapped	".
 
 	morph announcer 
 		when: RubTextAccepted do: [ :ann | aNote contents: ann text asString ].

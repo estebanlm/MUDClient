@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcRefreshKeyBindingsAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "RpcAnnouncement",
+	"type" : "normal" }

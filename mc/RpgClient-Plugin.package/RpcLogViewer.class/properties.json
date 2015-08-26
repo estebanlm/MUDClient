@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "TRpcPluginModel classTrait",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"game" ],
 	"name" : "RpcLogViewer",

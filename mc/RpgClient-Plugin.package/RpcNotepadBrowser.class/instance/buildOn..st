@@ -32,5 +32,6 @@ buildOn: browser
 		from: #notes;
 		when: [ :node | node notNil and: [ node isGroup not ] ];
 		andShow: [ :a | a 
-			morph morph: [ :presenter :note | 
-				self buildAreaMorphFor: note ] ]
+			morph 
+				title: [ :node | node title ];
+				morph: [ :presenter :note | self buildAreaMorphFor: note ] ]

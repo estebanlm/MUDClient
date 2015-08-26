@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Plugin-Buttonpad-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"command" ],
+	"name" : "RpcPadCommandDialog",
+	"pools" : [
+		 ],
+	"super" : "RpcGenerator",
+	"type" : "normal" }

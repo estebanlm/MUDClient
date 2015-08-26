@@ -1,12 +1,13 @@
 {
 	"class" : {
-		"pad:" : "EstebanLorenzano 8/3/2015 08:45" },
+		"pad:" : "EstebanLorenzano 8/3/2015 08:45",
+		"preferredExtent" : "EstebanLorenzano 8/26/2015 20:55",
+		"title" : "EstebanLorenzano 8/26/2015 20:55" },
 	"instance" : {
 		"buttonPad" : "EstebanLorenzano 8/5/2015 20:31",
+		"createObject" : "EstebanLorenzano 8/26/2015 20:49",
 		"descriptionModifier" : "EstebanLorenzano 8/5/2015 20:31",
 		"descriptionName" : "EstebanLorenzano 8/3/2015 08:46",
 		"descriptionPrefix" : "EstebanLorenzano 8/3/2015 20:04",
-		"initializeGamePad:pad:" : "EstebanLorenzano 8/3/2015 13:51",
 		"initializePad:" : "EstebanLorenzano 8/3/2015 08:45",
-		"openModal" : "EstebanLorenzano 8/3/2015 08:47",
 		"pad" : "EstebanLorenzano 8/3/2015 08:45" } }

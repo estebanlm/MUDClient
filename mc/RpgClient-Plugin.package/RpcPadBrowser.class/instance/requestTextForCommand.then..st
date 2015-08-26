@@ -1,8 +1,7 @@
 actions
 requestTextForCommand: aCommand then: aBlock 
-	| text |
+	| command |
 	
-	text := UIManager default request: 'Command to send'.
-	text ifNil: [ ^ self ].
-	aCommand text: text.
-	aBlock cull: aCommand
+	command := (RpcPadCommandDialog command: aCommand) generate.
+	command ifNil: [ ^ self ].
+	aBlock cull: command

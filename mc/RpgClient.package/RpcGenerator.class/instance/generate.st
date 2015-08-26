@@ -2,7 +2,7 @@ generation
 generate 
 	^ (self asMagritteMorph 
 		addButtons;
-		addWindow;
+		addWindowWithTitle: self title extent: self preferredExtent;
 		callInWorldCentered)
 			 ifNotNil: [ self createObject ] 
 			

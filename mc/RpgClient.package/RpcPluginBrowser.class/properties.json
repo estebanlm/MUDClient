@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"plugin" ],
+		"plugin",
+		"owner" ],
 	"name" : "RpcPluginBrowser",
 	"pools" : [
 		 ],

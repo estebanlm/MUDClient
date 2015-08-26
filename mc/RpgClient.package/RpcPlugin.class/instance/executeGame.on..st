@@ -7,4 +7,4 @@ executeGame: aGame on: aConsole
 		ifTrue: [ self openWindowFor: plugin game: aGame console: aConsole ]
 		ifFalse: [ 
 			"I need to send a hard-refresh because plugin will change console display"
-			aConsole hardRefresh ]
+			aConsole hardRefresh ].

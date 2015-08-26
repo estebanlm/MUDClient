@@ -1,0 +1,3 @@
+showing
+createObject 
+	^ self pad

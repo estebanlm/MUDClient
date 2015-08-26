@@ -1,6 +1,6 @@
 executing
-executeFor: aBrowser
+executeFor: aConsole
 	self isDefined ifFalse: [ ^ self ].
-	aBrowser sendCommand: (self pad prefix 
+	aConsole send: (self pad prefix 
 		ifNotNil: [ :prefix | (prefix, ' ', self text) trimBoth ]
 		ifNil: [ self text ])

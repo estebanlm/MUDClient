@@ -1,3 +1,4 @@
 private
 windowOpened: ann
-	self restoreBrowserSettings: ann window
+	super windowOpened: ann.
+	self owner announce: RpcRefreshKeyBindingsAnnouncement new
