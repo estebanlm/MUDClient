@@ -11,4 +11,4 @@ Metacello new
 	load.
 "
 
-./pharo Pharo.image test "RpgClient.*"
+./pharo Pharo.image test --fail-on-failure "RpgClient.*" 2>&1
