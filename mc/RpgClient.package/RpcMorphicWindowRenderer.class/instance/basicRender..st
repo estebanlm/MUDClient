@@ -1,29 +1,29 @@
 rendering
 basicRender: aRenderable
-	| toolbarMorph contentMorph offset bottomOffset |
+	| toolbarMorph contentMorph toolbarOffsets topOffset bottomOffset |
 
-	offset := 4.
+	toolbarOffsets := 0@0 corner: 0@0.
+	topOffset := 4.
 	bottomOffset := self handlePotentialStatusbarFor: aRenderable.
 
 	self setLabelOf: window for: aRenderable.
-
 	aRenderable hasToolbar ifTrue: [ 
 		toolbarMorph := self renderToolbarForPresentation: aRenderable inMorph: window.
 		window toolbarMorph: toolbarMorph.
-		window 
-			addMorph: toolbarMorph
-			fullFrame: ((0 @ 0 corner: 1 @ 0) asLayoutFrame
-				topOffset: 0;
-				bottomOffset: 20).
-			offset := offset + 20 ].
+		toolbarOffsets := aRenderable toolbarPosition 
+			addToolbar: toolbarMorph 
+			to: window ].
 
 	contentMorph := self renderObject: aRenderable. 
 	window contentMorph: contentMorph.	
 	window
 		addMorph: contentMorph
 		fullFrame: ((0@0 corner: 1@1) asLayoutFrame 
-				topOffset: offset;
-				bottomOffset: bottomOffset).
+			leftOffset: toolbarOffsets left;
+			topOffset: topOffset + toolbarOffsets top;
+			rightOffset: toolbarOffsets right;
+			bottomOffset: bottomOffset + toolbarOffsets bottom;
+			yourself).
 	
 	self setPotentialBackgroundColorFor: aRenderable.
 	aRenderable on: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.

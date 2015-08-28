@@ -1,0 +1,3 @@
+*RpgClient
+toolbarPosition
+	^ #top asToolbarPosition

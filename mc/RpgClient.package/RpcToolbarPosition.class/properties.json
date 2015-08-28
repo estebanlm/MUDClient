@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-View-Glamour",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcToolbarPosition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

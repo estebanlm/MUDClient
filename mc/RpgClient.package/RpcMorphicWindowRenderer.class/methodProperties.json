@@ -2,10 +2,10 @@
 	"class" : {
 		"refresh:window:from:" : "EstebanLorenzano 8/11/2015 20:43" },
 	"instance" : {
-		"basicRender:" : "EstebanLorenzano 8/11/2015 20:45",
+		"basicRender:" : "EstebanLorenzano 8/28/2015 20:17",
 		"refresh:" : "EstebanLorenzano 8/12/2015 08:51",
 		"removePresentationMorphs" : "EstebanLorenzano 8/11/2015 20:46",
 		"render:" : "EstebanLorenzano 8/11/2015 20:45",
-		"renderToolbarForPresentation:inMorph:" : "EstebanLorenzano 8/12/2015 09:01",
+		"renderToolbarForPresentation:inMorph:" : "EstebanLorenzano 8/28/2015 19:41",
 		"toolbarButtonsForPresentation:" : "EstebanLorenzano 8/11/2015 21:35",
 		"window:" : "EstebanLorenzano 8/11/2015 20:44" } }
