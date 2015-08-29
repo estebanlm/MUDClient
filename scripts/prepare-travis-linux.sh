@@ -16,7 +16,7 @@ case "$(uname -m)" in
 			# Pharo specific
 			sudo apt-get -qq install libssl1.0.0:i386
 			# libFT2Plugin
-			sudo apt-get -qq install libfreetype6
+			sudo apt-get -qq install libfreetype6:i386
 			;;
 		*)
 			echo "32bit os"
