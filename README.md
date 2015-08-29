@@ -1,8 +1,8 @@
-# RPGClient
+# MUDClient
 A client to play MUDs (The ones I play :P), made in [Pharo](http://pharo.org).
 
 ## Build Status
-- Master Branch: [![Build Status](https://travis-ci.org/estebanlm/rpgclient.png?branch=master)](https://travis-ci.org/estebanlm/rpgclient)
+- Master Branch: [![Build Status](https://travis-ci.org/estebanlm/MUDClient.png?branch=master)](https://travis-ci.org/estebanlm/MUDClient)
 
 ## Features
 It implements several features:
