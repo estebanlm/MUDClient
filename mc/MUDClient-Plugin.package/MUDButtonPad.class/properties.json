@@ -2,7 +2,7 @@
 	"category" : "MUDClient-Plugin-Buttonpad-Model",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "MUDcPluginModel classTrait",
+	"classtraitcomposition" : "TMUDPluginModel classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "EstebanLorenzano 5/31/2014 11:37",
@@ -13,5 +13,5 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "MUDcPluginModel",
+	"traitcomposition" : "TMUDPluginModel",
 	"type" : "normal" }

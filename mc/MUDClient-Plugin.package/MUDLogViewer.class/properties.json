@@ -2,7 +2,7 @@
 	"category" : "MUDClient-Plugin-LogViewer",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "MUDcPluginModel classTrait",
+	"classtraitcomposition" : "TMUDPluginModel classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
@@ -12,5 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "MUDcPluginModel",
+	"traitcomposition" : "TMUDPluginModel",
 	"type" : "normal" }
