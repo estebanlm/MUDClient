@@ -3,10 +3,10 @@ testExecuteFor
 	| console game gamePad pad command session |
 	
 	game := RpcGameForTest new.
-	console := RpcConsole new. 
+	console := RpcConsoleForTest new. 
 	console connectTo: game.
 	session := console session.
-	gamePad := RpcButtonPad game: game.
+	gamePad := RpcButtonPad new.
 	pad := gamePad addNew.
 	command := pad commandAt: 1.
 	command text: 'test'.

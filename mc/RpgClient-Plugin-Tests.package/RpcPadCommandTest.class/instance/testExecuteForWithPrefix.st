@@ -1,17 +1,17 @@
 tests
 testExecuteForWithPrefix
-	| client game gamePad pad command session |
+	| console game gamePad pad command session |
 	
-	client := RpcClient basicNew initialize.
+	console := RpcConsoleForTest new.
 	game := RpcGameForTest new.
-	client console connectTo: game.
-	session := client console session.
-	gamePad := RpcButtonPad game: game.
+	console connectTo: game.
+	session := console session.
+	gamePad := RpcButtonPad new.
 	pad := gamePad addNew.
 	pad prefix: 'tune'.
 	command := pad commandAt: 1.
 	command text: 'test'.
 	
-	command executeFor: client.
+	command executeFor: console.
 	
 	self assert: session contents equals: ('tune test', String crlf)

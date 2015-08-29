@@ -1,0 +1,14 @@
+{
+	"category" : "RpgClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RpcConsoleForTest",
+	"pools" : [
+		 ],
+	"super" : "RpcConsole",
+	"type" : "normal" }
