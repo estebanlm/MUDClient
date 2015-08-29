@@ -1,3 +1,3 @@
 accessing
 preferredExtent 
-	^ 600@350
+	^ 500 @ 250

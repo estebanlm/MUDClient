@@ -1,10 +1,10 @@
 building
 buildToolbarOn: aPresentation
 	aPresentation 
-		act: [  ] 
+		act: [ self addPad ] 
 			icon: RpcIcons uniqueInstance addIcon 
 			entitled: 'Add';
-		act: []
+		act: [ self configure ]
 			icon: RpcIcons uniqueInstance configureIcon
 			entitled: 'Configure'.
 	

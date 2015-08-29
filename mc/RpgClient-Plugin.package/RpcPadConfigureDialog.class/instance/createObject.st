@@ -1,3 +1,0 @@
-showing
-createObject 
-	^ self pad

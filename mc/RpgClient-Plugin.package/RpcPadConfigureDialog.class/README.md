@@ -1,1 +1,1 @@
-I'm a dialog to configure Pads.
+I'm a configuration dialog for the button pad.

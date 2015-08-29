@@ -1,12 +1,12 @@
 building
 buildObjectsOn: a
 	a list
-		title: self class title;
+		title: self listTitle;
 		act: [ :presenter | | newObject |
 				newObject := self addObject. 
 				presenter update.
 				presenter selection: newObject ]
-			icon: RpcIcons uniqueInstance newGameIcon
+			icon: RpcIcons uniqueInstance addIcon
 			entitled: 'Add new';
 		selectionAct: [ :presenter | 
 				(self removeObject: presenter selection)

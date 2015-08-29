@@ -4,6 +4,7 @@ buildBrowser
 	
 	browser := GLMTabulator new 
 		title: self class title;
+		initialExtent: self preferredExtent;
 		row: [ :row |
 			row 
 				column: #objects;

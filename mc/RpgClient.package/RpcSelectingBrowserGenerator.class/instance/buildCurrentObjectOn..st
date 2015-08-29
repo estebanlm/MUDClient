@@ -1,5 +1,5 @@
 building
 buildCurrentObjectOn: a
 	a magritte 
-		title: 'Selected';
+		title: [ :object | object name ];
 		onAnswer: [ :v :presenter | presenter pane browser update ]

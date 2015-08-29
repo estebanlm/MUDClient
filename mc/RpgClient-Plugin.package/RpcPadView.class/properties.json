@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "EstebanLorenzano 8/29/2015 15:50",
 	"instvars" : [
-		"preferredExtent" ],
-	"name" : "RpcPadBrowser",
+		"pad" ],
+	"name" : "RpcPadView",
 	"pools" : [
 		 ],
-	"super" : "RpcPluginBrowser",
+	"super" : "Object",
 	"type" : "normal" }

@@ -1,3 +1,3 @@
 accessing
 title
-	^ 'Pad Configuration'
+	^ 'Button Pad Configuration'

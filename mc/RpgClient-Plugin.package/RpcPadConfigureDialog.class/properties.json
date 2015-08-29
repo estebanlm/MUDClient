@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"pad",
-		"gamePad" ],
+		"buttonPad",
+		"objects" ],
 	"name" : "RpcPadConfigureDialog",
 	"pools" : [
 		 ],
-	"super" : "RpcGenerator",
+	"super" : "RpcSelectingBrowserGenerator",
 	"type" : "normal" }

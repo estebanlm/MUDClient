@@ -1,6 +1,7 @@
 descriptions
 descriptionModifier
 	<magritteDescription>
+
 	^ MASingleOptionDescription new
 		priority: 20;
 		label: 'Modifier';
@@ -8,6 +9,6 @@ descriptionModifier
 		reference: (MAStringDescription new 
 			accessor: #asString;
 			asContainer);
-		options: self buttonPad freeAvailableModifiers;
+		options: self availableModifiers;
 		morphClass: MADropListMorph;
 		yourself
