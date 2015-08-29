@@ -1,3 +1,3 @@
 accessing
 help
-	^ help
+	^ help ifNil: [ self title ]
