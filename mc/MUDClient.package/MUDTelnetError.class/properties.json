@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Model-Telnet",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MUDTelnetError",
+	"pools" : [
+		 ],
+	"super" : "MUDError",
+	"type" : "normal" }

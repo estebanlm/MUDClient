@@ -1,0 +1,3 @@
+actions
+connect 
+	^ MUDSessionForTest new

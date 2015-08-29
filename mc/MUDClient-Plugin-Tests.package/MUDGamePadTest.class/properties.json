@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDGamePadTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

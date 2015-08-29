@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"decoration" ],
+	"name" : "MUDANSIDecorationTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Model-Plugin",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MUDPluginPositionTop",
+	"pools" : [
+		 ],
+	"super" : "MUDPluginPosition",
+	"type" : "normal" }

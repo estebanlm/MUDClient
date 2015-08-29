@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-View-Generator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MUDGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

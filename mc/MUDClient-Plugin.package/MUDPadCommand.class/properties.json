@@ -1,0 +1,16 @@
+{
+	"category" : "MUDClient-Plugin-Buttonpad-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 5/31/2014 10:18",
+	"instvars" : [
+		"pad",
+		"text",
+		"keyBinding" ],
+	"name" : "MUDPadCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

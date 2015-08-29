@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-View-Generator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDSelectingBrowserGenerator",
+	"pools" : [
+		 ],
+	"super" : "MUDBrowserGenerator",
+	"type" : "normal" }

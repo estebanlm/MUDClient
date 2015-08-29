@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MUDError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

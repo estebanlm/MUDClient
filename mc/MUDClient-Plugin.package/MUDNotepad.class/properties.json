@@ -1,0 +1,17 @@
+{
+	"category" : "MUDClient-Plugin-Notepad",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "MUDcPluginModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"game",
+		"root" ],
+	"name" : "MUDNotepad",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "MUDcPluginModel",
+	"type" : "normal" }

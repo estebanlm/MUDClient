@@ -1,0 +1,17 @@
+{
+	"category" : "MUDClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "MUDcAnnouncer classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"announcer" ],
+	"name" : "MUDSessionForTest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "MUDcAnnouncer",
+	"type" : "normal" }

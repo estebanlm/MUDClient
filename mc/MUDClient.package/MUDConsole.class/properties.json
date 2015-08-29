@@ -1,0 +1,18 @@
+{
+	"category" : "MUDClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"session",
+		"areaMorph",
+		"inputMorph",
+		"dependentWindows",
+		"register" ],
+	"name" : "MUDConsole",
+	"pools" : [
+		 ],
+	"super" : "MUDBrowser",
+	"type" : "normal" }

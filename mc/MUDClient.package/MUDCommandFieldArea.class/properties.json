@@ -1,0 +1,16 @@
+{
+	"category" : "MUDClient-View-Morph",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TMUDAnnouncer classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 5/29/2014 21:35",
+	"instvars" : [
+		 ],
+	"name" : "MUDCommandFieldArea",
+	"pools" : [
+		 ],
+	"super" : "RubTextFieldArea",
+	"traitcomposition" : "TMUDAnnouncer",
+	"type" : "normal" }

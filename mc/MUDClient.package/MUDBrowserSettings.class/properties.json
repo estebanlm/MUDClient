@@ -1,0 +1,16 @@
+{
+	"category" : "MUDClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"browserClass",
+		"game",
+		"bounds" ],
+	"name" : "MUDBrowserSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

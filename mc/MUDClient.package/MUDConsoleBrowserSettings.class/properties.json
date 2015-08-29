@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 8/21/2015 14:41",
+	"instvars" : [
+		"lastActiveGame" ],
+	"name" : "MUDConsoleBrowserSettings",
+	"pools" : [
+		 ],
+	"super" : "MUDBrowserSettings",
+	"type" : "normal" }

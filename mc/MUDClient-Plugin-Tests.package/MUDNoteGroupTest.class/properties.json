@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"group" ],
+	"name" : "MUDNoteGroupTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

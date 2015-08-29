@@ -1,0 +1,17 @@
+{
+	"category" : "MUDClient-Plugin-Buttonpad-Model",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "MUDcPluginModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 5/31/2014 11:37",
+	"instvars" : [
+		"game",
+		"pads" ],
+	"name" : "MUDButtonPad",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "MUDcPluginModel",
+	"type" : "normal" }

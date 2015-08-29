@@ -1,0 +1,15 @@
+{
+	"category" : "MUDClient-Plugin-Buttonpad-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"buttonPad",
+		"objects" ],
+	"name" : "MUDPadConfigureDialog",
+	"pools" : [
+		 ],
+	"super" : "MUDSelectingBrowserGenerator",
+	"type" : "normal" }

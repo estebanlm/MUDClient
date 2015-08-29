@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDConsoleForTest",
+	"pools" : [
+		 ],
+	"super" : "MUDConsole",
+	"type" : "normal" }

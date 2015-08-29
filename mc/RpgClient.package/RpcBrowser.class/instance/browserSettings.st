@@ -1,3 +1,0 @@
-private
-browserSettings
-	^ RpcBrowserSettings findByBrowserCreateIfAbsent: self

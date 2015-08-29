@@ -1,0 +1,17 @@
+{
+	"category" : "MUDClient-Protocol-ANSI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"textColor",
+		"defaultTextColor",
+		"bold",
+		"text" ],
+	"name" : "MUDANSITextFormatter",
+	"pools" : [
+		 ],
+	"super" : "MUDANSIVisitor",
+	"type" : "normal" }

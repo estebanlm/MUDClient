@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Buttonpad-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"horizontal" ],
+	"name" : "MUDPadActionListPresentation",
+	"pools" : [
+		 ],
+	"super" : "GLMActionListPresentation",
+	"type" : "normal" }

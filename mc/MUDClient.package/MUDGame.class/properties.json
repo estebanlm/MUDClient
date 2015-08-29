@@ -1,0 +1,17 @@
+{
+	"category" : "MUDClient-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"host",
+		"port",
+		"plugins" ],
+	"name" : "MUDGame",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

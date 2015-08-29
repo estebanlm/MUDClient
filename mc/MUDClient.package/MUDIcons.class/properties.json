@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-View",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"icons" ],
+	"name" : "MUDIcons",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

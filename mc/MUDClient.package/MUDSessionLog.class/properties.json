@@ -1,0 +1,15 @@
+{
+	"category" : "MUDClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"game",
+		"logReference" ],
+	"name" : "MUDSessionLog",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

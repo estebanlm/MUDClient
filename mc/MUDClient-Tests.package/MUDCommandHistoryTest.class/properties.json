@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"history" ],
+	"name" : "MUDCommandHistoryTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

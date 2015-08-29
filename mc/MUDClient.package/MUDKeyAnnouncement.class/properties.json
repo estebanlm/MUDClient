@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-View-Morph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 5/29/2014 21:30",
+	"instvars" : [
+		 ],
+	"name" : "MUDKeyAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

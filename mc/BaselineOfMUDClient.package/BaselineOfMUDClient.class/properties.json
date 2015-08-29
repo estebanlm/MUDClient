@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfMUDClient",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfMUDClient",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

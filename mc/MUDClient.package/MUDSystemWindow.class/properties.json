@@ -1,0 +1,15 @@
+{
+	"category" : "MUDClient-View-Glamour",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"toolbarMorph",
+		"contentMorph" ],
+	"name" : "MUDSystemWindow",
+	"pools" : [
+		 ],
+	"super" : "GLMSystemWindow",
+	"type" : "normal" }

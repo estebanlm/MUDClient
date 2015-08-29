@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Notepad",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"children" ],
+	"name" : "MUDNoteGroup",
+	"pools" : [
+		 ],
+	"super" : "MUDNoteNode",
+	"type" : "normal" }

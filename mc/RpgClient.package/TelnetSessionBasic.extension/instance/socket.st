@@ -1,3 +1,0 @@
-*RpgClient
-socket 
-	^ socket

@@ -1,0 +1,3 @@
+accessing
+availablePlugins
+	^ MUDPlugin allAvailable

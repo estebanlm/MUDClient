@@ -1,0 +1,16 @@
+{
+	"category" : "MUDClient-View-Morph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 5/29/2014 21:32",
+	"instvars" : [
+		"maxLines",
+		"mutex",
+		"parseDecoration" ],
+	"name" : "MUDConsoleTextModel",
+	"pools" : [
+		 ],
+	"super" : "RubScrolledTextModel",
+	"type" : "normal" }

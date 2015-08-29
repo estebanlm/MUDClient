@@ -1,0 +1,3 @@
+accessing
+right
+	^ MUDPluginPositionRight uniqueInstance

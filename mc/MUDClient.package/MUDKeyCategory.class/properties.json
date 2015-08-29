@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"owner" ],
+	"name" : "MUDKeyCategory",
+	"pools" : [
+		 ],
+	"super" : "KMCategory",
+	"type" : "normal" }

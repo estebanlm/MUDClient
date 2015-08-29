@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Protocol-ANSI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"value" ],
+	"name" : "MUDANSIEscape",
+	"pools" : [
+		 ],
+	"super" : "MUDANSINode",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+*MUDClient
+toolbarPosition
+	^ #top asToolbarPosition

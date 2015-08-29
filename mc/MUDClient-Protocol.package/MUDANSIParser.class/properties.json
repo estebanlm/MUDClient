@@ -1,0 +1,22 @@
+{
+	"category" : "MUDClient-Protocol-ANSI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"ps",
+		"csi",
+		"color",
+		"reset",
+		"document",
+		"text",
+		"escape",
+		"sequence",
+		"clear" ],
+	"name" : "MUDANSIParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

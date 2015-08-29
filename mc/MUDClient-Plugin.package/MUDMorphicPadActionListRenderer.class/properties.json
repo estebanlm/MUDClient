@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Buttonpad-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MUDMorphicPadActionListRenderer",
+	"pools" : [
+		 ],
+	"super" : "GLMMorphicActionListRenderer",
+	"type" : "normal" }

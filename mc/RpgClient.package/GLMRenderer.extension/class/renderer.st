@@ -1,3 +1,0 @@
-*RpgClient
-renderer
-	^ RpcMorphicRenderer new
