@@ -6,9 +6,9 @@ wget --quiet -O - get.pharo.org/50+vm | bash
 
 ./pharo Pharo.image eval --save "
 Metacello new 
-	baseline: 'RpgClient';
-	repository: 'filetree://./mc';
+	baseline: 'MUDClient';
+	repository: 'filetree://mc';
 	load.
 "
 
-./pharo Pharo.image test --fail-on-failure "RpgClient.*" 2>&1
+./pharo Pharo.image test --fail-on-failure "MUDClient.*" 2>&1
