@@ -1,4 +1,3 @@
 actions
-basicRemoveObject: aPadView 
-	aPadView pad removeFromOwner.
-	self resetObjects
+basicRemoveObject: aPad 
+	aPad removeFromOwner

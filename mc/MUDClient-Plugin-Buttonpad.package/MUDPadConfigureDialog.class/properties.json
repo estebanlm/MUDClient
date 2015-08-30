@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"buttonPad",
-		"objects" ],
+		"buttonPad" ],
 	"name" : "MUDPadConfigureDialog",
 	"pools" : [
 		 ],

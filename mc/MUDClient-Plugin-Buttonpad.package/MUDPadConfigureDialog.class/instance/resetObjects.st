@@ -1,3 +1,0 @@
-private
-resetObjects
-	objects := nil

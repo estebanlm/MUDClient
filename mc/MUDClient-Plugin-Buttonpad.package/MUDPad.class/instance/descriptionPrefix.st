@@ -5,5 +5,5 @@ descriptionPrefix
 	^ MAStringDescription new 
 		priority: 30;
 		label: 'Prefix';
-		accessor: #(pad prefix);
+		accessor: #prefix;
 		yourself	

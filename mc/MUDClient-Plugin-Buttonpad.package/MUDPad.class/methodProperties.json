@@ -5,10 +5,13 @@
 		"defaultName" : "EstebanLorenzano 6/12/2014 16:00",
 		"padSize" : "EstebanLorenzano 8/12/2015 17:19" },
 	"instance" : {
+		"availableModifiers" : "EstebanLorenzano 8/30/2015 12:57",
 		"commandAt:" : "EstebanLorenzano 6/5/2014 11:01",
 		"commandAt:text:" : "EstebanLorenzano 6/5/2014 11:04",
 		"commands" : "EstebanLorenzano 6/5/2014 10:44",
+		"descriptionModifier" : "EstebanLorenzano 8/30/2015 12:56",
 		"descriptionName" : "EstebanLorenzano 6/5/2014 08:47",
+		"descriptionPrefix" : "EstebanLorenzano 8/30/2015 12:56",
 		"hasModifier" : "EstebanLorenzano 8/4/2015 20:06",
 		"initialize" : "EstebanLorenzano 7/31/2015 11:58",
 		"initializeCommands" : "EstebanLorenzano 8/29/2015 18:10",
