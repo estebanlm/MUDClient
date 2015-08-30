@@ -26,19 +26,19 @@ baseline: spec
 					'Magritte3' 
 					'Glamour'
 					'Glamour-FastTable') ];
-			package: 'MUDClient-Protocol' with: [ 
-				spec requires: #('MUDClient') ];
-			package: 'MUDClient-Plugin' with: [ 
-				spec requires: #('MUDClient') ];
-			package: 'MUDClient-Tests' with: [ 
-				spec requires: #('MUDClient') ];
-			package: 'MUDClient-Protocol-Tests' with: [ 
-				spec requires: #('MUDClient-Tests') ];
-			package: 'MUDClient-Plugin-Tests' with: [ 
-				spec requires: #('MUDClient-Tests') ].
+			package: 'MUDClient-Protocol' with: [ spec requires: #('MUDClient') ];
+			package: 'MUDClient-Plugin-Notepad' with: [ spec requires: #('MUDClient') ];
+			package: 'MUDClient-Plugin-Buttonpad' with: [ spec requires: #('MUDClient') ];
+			package: 'MUDClient-Plugin-LogViewer' with: [ spec requires: #('MUDClient') ];
+			package: 'MUDClient-Tests' with: [ spec requires: #('MUDClient') ];
+			package: 'MUDClient-Protocol-Tests' with: [ spec requires: #('MUDClient-Tests') ].
 
 		spec 
 			group: 'default' with: #('core' 'plugins' 'tests');
 			group: 'core' with: #('MUDClient' 'MUDClient-Protocol');
-			group: 'plugins' with: #('core' 'MUDClient-Plugin');
-			group: 'tests' with: #('core' 'MUDClient-Tests' 'MUDClient-Protocol-Tests' 'MUDClient-Plugin-Tests') ]
+			group: 'plugins' with: #(
+				'core' 
+				'MUDClient-Plugin-Notepad' 
+				'MUDClient-Plugin-Buttonpad' 
+				'MUDClient-Plugin-LogViewer');
+			group: 'tests' with: #('core' 'MUDClient-Tests' 'MUDClient-Protocol-Tests') ]

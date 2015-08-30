@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Notepad-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDGameNotepadTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
