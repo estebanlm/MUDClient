@@ -16,8 +16,9 @@ It implements several features:
 - **Notepad**: keep your game notes.
 - **Alias**: define alias for repetitive tasks.
 
-*Comming soon:*
+*Planned:*
 - **Log viewer**: review all your game sassions.
+- **Filter** move chats, etc. to special windows.
 - **Bot**: Automate tedious tasks.
 - **Cartographer**: Draw your maps.
 
