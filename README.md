@@ -11,5 +11,15 @@ It implements several features:
 - Parsers for common telnet protocols: ANSI, ...
 - Parsers for MUD telnet protocols: MSDP, ...
 
+### Available plugins
+- *Buttonpad*: program buttons and key combinations.
+- *Notepad*: keep your game notes.
+- *Alias*: define alias for repetitive tasks
+- *Log viewer*: review all your game sassions
+
+_Comming soon:_
+- Bot
+- Cartographer
+
 ##License
 For now, license is [GPL3](LICENSE.txt) (but I'm just starting to play with is so there is no much to see)
