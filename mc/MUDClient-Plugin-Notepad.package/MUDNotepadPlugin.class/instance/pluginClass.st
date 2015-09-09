@@ -1,3 +1,3 @@
 accessing
 pluginClass
-	^ MUDNotepad
+	^ MUDGameNotepad

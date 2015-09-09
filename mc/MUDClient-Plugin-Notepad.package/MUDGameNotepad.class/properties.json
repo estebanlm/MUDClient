@@ -9,7 +9,7 @@
 	"instvars" : [
 		"game",
 		"root" ],
-	"name" : "MUDNotepad",
+	"name" : "MUDGameNotepad",
 	"pools" : [
 		 ],
 	"super" : "Object",
