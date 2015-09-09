@@ -11,6 +11,6 @@ testExecuteFor
 	command := pad commandAt: 1.
 	command text: 'test'.
 	
-	command executeFor: console.
+	command executeOn: console.
 	
 	self assert: session contents equals: ('test', String crlf)

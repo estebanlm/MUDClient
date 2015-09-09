@@ -6,4 +6,4 @@ installKeyBindingsOn: category
 		thenDo: [ :each | 
 			category addKeymapEntry: (KMKeymap 
 				shortcut: each keyBinding 
-				action: [ each executeFor: category owner ] ) ]
+				action: [ each executeOn: category owner ] ) ]
