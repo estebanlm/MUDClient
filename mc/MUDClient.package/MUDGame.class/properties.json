@@ -9,7 +9,8 @@
 		"name",
 		"host",
 		"port",
-		"plugins" ],
+		"plugins",
+		"loginSequence" ],
 	"name" : "MUDGame",
 	"pools" : [
 		 ],

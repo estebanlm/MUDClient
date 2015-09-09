@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Model-Plugin",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"game" ],
+	"name" : "MUDPluginModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

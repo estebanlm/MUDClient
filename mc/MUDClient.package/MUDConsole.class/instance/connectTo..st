@@ -7,7 +7,8 @@ connectTo: aGame
 			when: MUDDataReceived send: #dataReceived: to: self;
 			when: MUDConnectionClosed send: #sessionClosed: to: self.
 		self prepareDisplayAfterConnect.
-		self logInfo: [ 'Connected to: {1}:{2}' format: { aGame host. aGame port } ] ]
+		self logInfo: [ 'Connected to: {1}:{2}' format: { aGame host. aGame port } ].
+		self postConnect ]
 	on: ConnectionTimedOut, NameLookupFailure, MUDError 
 	do: [ :e | 
 		self inform: e messageText.

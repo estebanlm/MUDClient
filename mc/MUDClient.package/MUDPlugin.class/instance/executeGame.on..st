@@ -1,6 +1,5 @@
 execute
 executeGame: aGame on: aConsole
-	"There is just one notepad for game"
 	| plugin |
 	plugin := self addToGame: aGame. 
 	self position == #none asPluginPosition
