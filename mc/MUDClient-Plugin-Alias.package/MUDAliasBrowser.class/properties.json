@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Alias",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDAliasBrowser",
+	"pools" : [
+		 ],
+	"super" : "MUDPluginBrowser",
+	"type" : "normal" }

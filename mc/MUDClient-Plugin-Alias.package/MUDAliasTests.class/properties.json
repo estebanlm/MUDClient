@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Alias",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDAliasTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

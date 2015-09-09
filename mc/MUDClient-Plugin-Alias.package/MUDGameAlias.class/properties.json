@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Alias",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"aliases" ],
+	"name" : "MUDGameAlias",
+	"pools" : [
+		 ],
+	"super" : "MUDPluginModel",
+	"type" : "normal" }

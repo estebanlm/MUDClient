@@ -1,0 +1,15 @@
+{
+	"category" : "MUDClient-Plugin-Alias",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 8/30/2015 12:54",
+	"instvars" : [
+		"input",
+		"output" ],
+	"name" : "MUDAlias",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
