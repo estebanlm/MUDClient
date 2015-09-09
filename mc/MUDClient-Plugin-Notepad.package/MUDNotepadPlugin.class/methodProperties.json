@@ -1,8 +1,6 @@
 {
 	"class" : {
-		 },
+		"isVoyageRoot" : "EstebanLorenzano 5/29/2014 09:09",
+		"pluginDefinition" : "EstebanLorenzano 9/9/2015 17:40" },
 	"instance" : {
-		"browserClass" : "EstebanLorenzano 8/29/2015 18:10",
-		"icon" : "EstebanLorenzano 8/29/2015 18:10",
-		"name" : "EstebanLorenzano 5/28/2014 16:17",
-		"pluginClass" : "EstebanLorenzano 9/9/2015 15:35" } }
+		"root" : "EstebanLorenzano 8/29/2015 18:10" } }

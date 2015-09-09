@@ -2,7 +2,7 @@ tests
 testAddNew 
 	| gamePad pad |
 	
-	gamePad := MUDGamePad new.
+	gamePad := MUDPadPlugin new.
 	self assert: gamePad pads isEmpty.
 	pad := gamePad addNew. 
 	self deny: gamePad pads isEmpty.

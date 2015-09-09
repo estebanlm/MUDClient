@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"root" ],
 	"name" : "MUDNotepadPlugin",
 	"pools" : [
 		 ],

@@ -1,1 +1,0 @@
-I provide the minimum functionality, needed to define an arbitrary object as a plugin. 

@@ -1,8 +1,6 @@
 {
 	"class" : {
-		 },
+		"pluginDefinition" : "EstebanLorenzano 9/9/2015 17:40" },
 	"instance" : {
-		"browserClass" : "EstebanLorenzano 8/29/2015 18:10",
-		"icon" : "EstebanLorenzano 8/29/2015 18:10",
-		"name" : "EstebanLorenzano 8/19/2015 14:44",
-		"pluginClass" : "EstebanLorenzano 9/9/2015 15:35" } }
+		"directory" : "EstebanLorenzano 8/29/2015 18:10",
+		"logs" : "EstebanLorenzano 8/19/2015 14:58" } }

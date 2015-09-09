@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"allAvailable" : "EstebanLorenzano 8/5/2015 17:17",
+		"isAbstract" : "EstebanLorenzano 9/9/2015 17:40",
+		"isVisible" : "EstebanLorenzano 5/30/2014 16:18",
+		"new" : "EstebanLorenzano 8/5/2015 17:17",
+		"uniqueInstance" : "EstebanLorenzano 9/9/2015 17:40" },
+	"instance" : {
+		"addToGame:" : "EstebanLorenzano 8/12/2015 13:59",
+		"browserClass" : "EstebanLorenzano 8/12/2015 14:03",
+		"executeGame:on:" : "EstebanLorenzano 9/9/2015 16:23",
+		"icon" : "EstebanLorenzano 5/28/2014 16:22",
+		"isVisibleFor:" : "EstebanLorenzano 8/12/2015 12:19",
+		"name" : "EstebanLorenzano 5/28/2014 16:16",
+		"openWindowFor:game:console:" : "EstebanLorenzano 8/21/2015 15:17",
+		"pluginClass" : "EstebanLorenzano 8/12/2015 14:48",
+		"position" : "EstebanLorenzano 8/12/2015 14:49",
+		"windowFor:game:" : "EstebanLorenzano 8/12/2015 14:03" } }

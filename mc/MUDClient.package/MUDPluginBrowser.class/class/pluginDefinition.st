@@ -1,3 +1,3 @@
 accessing
 pluginDefinition 
-	^ MUDPlugin allAvailable detect: [ :each | each browserClass = self ]
+	^ MUDPluginDefinition allAvailable detect: [ :each | each browserClass = self ]

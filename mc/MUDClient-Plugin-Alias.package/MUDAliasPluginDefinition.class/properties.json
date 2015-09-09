@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Alias",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MUDAliasPluginDefinition",
+	"pools" : [
+		 ],
+	"super" : "MUDPluginDefinition",
+	"type" : "normal" }

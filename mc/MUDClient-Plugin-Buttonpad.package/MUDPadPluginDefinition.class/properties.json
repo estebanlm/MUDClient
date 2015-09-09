@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Buttonpad-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MUDPadPluginDefinition",
+	"pools" : [
+		 ],
+	"super" : "MUDPluginDefinition",
+	"type" : "normal" }
