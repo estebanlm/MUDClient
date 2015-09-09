@@ -2,15 +2,13 @@
 	"category" : "MUDClient-Plugin-LogViewer",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TMUDPluginModel classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"game" ],
+		 ],
 	"name" : "MUDGameLogViewer",
 	"pools" : [
 		 ],
-	"super" : "Object",
-	"traitcomposition" : "TMUDPluginModel",
+	"super" : "MUDPluginModel",
 	"type" : "normal" }
