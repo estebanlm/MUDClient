@@ -16,8 +16,9 @@ It implements several features:
 - **Notepad**: keep your game notes.
 - **Alias**: define alias for repetitive tasks.
 
-*Planned:*
-- **Log viewer**: review all your game sassions.
+*Next:*
+- **Trigger**: define triggers on events.
+- **Log viewer**: review all your game sessions.
 - **Filter** move chats, etc. to special windows.
 - **Bot**: Automate tedious tasks.
 - **Cartographer**: Draw your maps.
