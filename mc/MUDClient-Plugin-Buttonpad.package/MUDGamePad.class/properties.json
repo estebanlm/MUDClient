@@ -9,7 +9,7 @@
 	"instvars" : [
 		"game",
 		"pads" ],
-	"name" : "MUDButtonPad",
+	"name" : "MUDGamePad",
 	"pools" : [
 		 ],
 	"super" : "Object",

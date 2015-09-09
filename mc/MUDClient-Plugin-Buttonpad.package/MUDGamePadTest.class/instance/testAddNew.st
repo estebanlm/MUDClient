@@ -2,7 +2,7 @@ tests
 testAddNew 
 	| gamePad pad |
 	
-	gamePad := MUDButtonPad new.
+	gamePad := MUDGamePad new.
 	self assert: gamePad pads isEmpty.
 	pad := gamePad addNew. 
 	self deny: gamePad pads isEmpty.

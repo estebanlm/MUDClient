@@ -6,7 +6,7 @@ testExecuteFor
 	console := MUDConsoleForTest new. 
 	console connectTo: game.
 	session := console session.
-	gamePad := MUDButtonPad new.
+	gamePad := MUDGamePad new.
 	pad := gamePad addNew.
 	command := pad commandAt: 1.
 	command text: 'test'.
