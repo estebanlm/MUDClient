@@ -31,12 +31,12 @@ For now, license is [GPL3](LICENSE.txt) (but I'm just starting to play with is s
 # Install
 MUDClient is early development, but you can install and play with it: 
 
-    wget -O- get.pharo.org/50+vm | bash
-    ./pharo Pharo.image eval --save "
-    Metacello new 
-      repository: 'github://estebanlm/MUDClient/mc';
-      baseline: 'MUDClient';
-      load. 
-    MUDConsole open."
-    ./pharo-ui Pharo.image &   
+    $ wget -O- get.pharo.org/50+vm | bash
+    $ ./pharo Pharo.image eval --save "
+        Metacello new 
+            repository: 'github://estebanlm/MUDClient/mc';
+            baseline: 'MUDClient';
+            load. 
+        MUDConsole open."
+    $ ./pharo-ui Pharo.image &   
 
