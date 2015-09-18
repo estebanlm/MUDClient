@@ -1,3 +1,3 @@
 private ui
 prepareDisplayAfterConnect
-	"Test console does not have display"
+	"Test terminal does not have display"

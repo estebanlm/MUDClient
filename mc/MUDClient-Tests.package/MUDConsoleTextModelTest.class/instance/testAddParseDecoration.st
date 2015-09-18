@@ -2,7 +2,7 @@ tests
 testAddParseDecoration
 	| morph |
 	
-	morph := MUDConsoleTextModel new.
+	morph := MUDTerminalTextModel new.
 	self assert: morph parseDecoration notNil.
 	self assert: morph parseDecoration class equals: MUDANSIDecoration.
 	self assert: morph parseDecoration next isNil.
