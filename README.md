@@ -17,7 +17,7 @@ It implements several features:
 - **Alias**: define alias for repetitive tasks.
 
 *Next:*
-- **Combat bar**: visualise some data (health, movement, enemy health, etc.) using a graphic view.
+- **Status bar**: visualise some data (health, movement, enemy health, etc.) using a graphic view.
 - **Triggers**: define triggers on events.
 - **Timers**: define triggers on time based events.
 - **Log viewer**: review all your game sessions.
