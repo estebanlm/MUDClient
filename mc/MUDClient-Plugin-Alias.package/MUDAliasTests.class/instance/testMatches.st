@@ -2,10 +2,8 @@ tests
 testMatches
 	| alias |
 	
-	alias := MUDAlias new 
-		whenReceive: 'alias' send: 'some-trigger-command';
-		yourself.
-		
+	alias := MUDAlias whenCommand: 'alias' send: 'some-trigger-command'.
+	
 	self assert: (alias matches: 'alias').
 	self assert: (alias matches: 'alias with parameters').
 	self assert: (alias matches: 'ALIAS').

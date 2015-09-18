@@ -5,6 +5,6 @@ addAliasThen: aBlock
 	alias := (MUDMagritteGenerator for: (MUDAlias new)) generate.
 	alias ifNil: [ ^ self ].
 	self plugin addAlias: alias. 
-	aBlock value. 
+	aBlock cull: alias
 	
 	

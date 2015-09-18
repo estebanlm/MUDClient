@@ -1,17 +1,15 @@
 tests
 testExecuteFor
-	| alias console game session |
+	| alias terminal game session |
 	
 	game := MUDGameForTest new.
-	console := MUDConsoleForTest new. 
-	console connectTo: game.
-	session := console session.
-	alias := MUDAlias new
-		whenReceive: 'alias' 
-		send: 'trigger1
+	terminal := MUDTerminalForTest new. 
+	terminal connectTo: game.
+	session := terminal session.
+	alias := MUDAlias whenCommand: 'alias' send: 'trigger1
 trigger2
 trigger3'.
-	alias executeOn: console.
+	alias executeOn: terminal.
 	self 
 		assert: session contents 
 		equals: ('trigger1', String crlf,'trigger2', String crlf,'trigger3', String crlf)

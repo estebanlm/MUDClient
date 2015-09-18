@@ -1,4 +1,4 @@
 accessing
-whenReceive: inputString send: outputString
+whenCommand: inputString send: outputString
 	self input: inputString.
 	self output: outputString
