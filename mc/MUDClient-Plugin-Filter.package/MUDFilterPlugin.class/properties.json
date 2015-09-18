@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Filter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ANSIParser" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"filters" ],
+	"name" : "MUDFilterPlugin",
+	"pools" : [
+		 ],
+	"super" : "MUDPlugin",
+	"type" : "normal" }

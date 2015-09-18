@@ -1,0 +1,18 @@
+{
+	"category" : "MUDClient-Plugin-Filter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"pattern",
+		"eatLines",
+		"compiledPattern",
+		"active" ],
+	"name" : "MUDFilter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

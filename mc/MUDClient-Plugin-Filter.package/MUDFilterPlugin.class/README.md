@@ -1,0 +1,1 @@
+I'm a filter plugin who will act to filter out different kind of strings (whatever you want)
