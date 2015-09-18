@@ -1,17 +1,17 @@
 tests
 testExecuteForWithPrefix
-	| console game gamePad pad command session |
+	| terminal game gamePad pad command session |
 	
-	console := MUDConsoleForTest new.
+	terminal := MUDTerminalForTest new.
 	game := MUDGameForTest new.
-	console connectTo: game.
-	session := console session.
+	terminal connectTo: game.
+	session := terminal session.
 	gamePad := MUDPadPlugin new.
 	pad := gamePad addNew.
 	pad prefix: 'tune'.
 	command := pad commandAt: 1.
 	command text: 'test'.
 	
-	command executeOn: console.
+	command executeOn: terminal.
 	
 	self assert: session contents equals: ('tune test', String crlf)

@@ -1,16 +1,16 @@
 tests
 testExecuteFor
-	| console game gamePad pad command session |
+	| terminal game gamePad pad command session |
 	
 	game := MUDGameForTest new.
-	console := MUDConsoleForTest new. 
-	console connectTo: game.
-	session := console session.
+	terminal := MUDTerminalForTest new. 
+	terminal connectTo: game.
+	session := terminal session.
 	gamePad := MUDPadPlugin new.
 	pad := gamePad addNew.
 	command := pad commandAt: 1.
 	command text: 'test'.
 	
-	command executeOn: console.
+	command executeOn: terminal.
 	
 	self assert: session contents equals: ('test', String crlf)

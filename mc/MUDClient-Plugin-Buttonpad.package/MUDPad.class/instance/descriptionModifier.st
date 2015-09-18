@@ -2,7 +2,6 @@ descriptions
 descriptionModifier
 	<magritteDescription>
 
-
 	^ MASingleOptionDescription new
 		priority: 20;
 		label: 'Modifier';
