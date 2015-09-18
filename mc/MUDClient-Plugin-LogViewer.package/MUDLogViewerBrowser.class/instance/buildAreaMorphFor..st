@@ -2,7 +2,7 @@ building
 buildAreaMorphFor: aNote
 	| morph |
 	
-	morph := MUDConsoleTextModel new 
+	morph := MUDTerminalTextModel new 
 		maxLines: SmallInteger maxVal;
 		text: (aNote contents ifNil: [ '' ]);
 		newScrolledText.
