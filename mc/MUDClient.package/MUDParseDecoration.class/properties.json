@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "EstebanLorenzano 9/18/2015 19:43",
 	"instvars" : [
 		"next" ],
 	"name" : "MUDParseDecoration",

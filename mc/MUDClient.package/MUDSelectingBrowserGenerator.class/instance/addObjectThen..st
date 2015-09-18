@@ -1,3 +1,3 @@
 actions
-addObject
+addObjectThen: aBlock
 	self subclassResponsibility

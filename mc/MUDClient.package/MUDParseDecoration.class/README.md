@@ -1,1 +1,1 @@
-I'm a base decoration to modify the text I will display in console.
+I'm a base decoration to modify the text I will display in terminal.

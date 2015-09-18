@@ -1,3 +1,3 @@
 accessing
 title 
-	^ 'Console'
+	^ 'MUD Terminal'

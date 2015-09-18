@@ -4,14 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "EstebanLorenzano 9/18/2015 19:47",
 	"instvars" : [
 		"session",
 		"areaMorph",
 		"inputMorph",
 		"dependentWindows",
 		"register" ],
-	"name" : "MUDConsole",
+	"name" : "MUDTerminal",
 	"pools" : [
 		 ],
 	"super" : "MUDBrowser",

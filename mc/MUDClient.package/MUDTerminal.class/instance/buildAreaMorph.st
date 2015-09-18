@@ -1,6 +1,6 @@
 building
 buildAreaMorph
-	^ (MUDConsoleTextModel new 
+	^ (MUDTerminalTextModel new 
 		"maxLines: self class maxLines;"
 		newScrolledText)
 		textFont: StandardFonts codeFont;
