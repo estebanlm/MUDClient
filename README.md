@@ -15,13 +15,13 @@ It implements several features:
 - **Buttonpad**: program buttons and key combinations.
 - **Notepad**: keep your game notes.
 - **Alias**: define alias for repetitive tasks.
+- **Filter** move chats, etc. to special windows.
 
 *Next:*
 - **Status bar**: visualise some data (health, movement, enemy health, etc.) using a graphic view.
 - **Triggers**: define triggers on events.
 - **Timers**: define triggers on time based events.
 - **Log viewer**: review all your game sessions.
-- **Filter** move chats, etc. to special windows.
 - **Bot**: Automate tedious tasks.
 - **Cartographer**: Draw your maps.
 
