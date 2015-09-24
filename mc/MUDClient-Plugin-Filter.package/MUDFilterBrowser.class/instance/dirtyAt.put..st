@@ -1,3 +1,3 @@
 private
-dirtiesAt: aFilter put: anObject
+dirtyAt: aFilter put: anObject
 	^ dirties at: aFilter put: anObject

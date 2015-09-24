@@ -3,7 +3,7 @@ descriptionPattern
 	<magritteDescription>
 
 	^ MAStringDescription new 
-		priority: 20;
+		priority: 10;
 		label: 'Match';
 		accessor: #pattern;
 		beRequired;

@@ -4,10 +4,13 @@ buildOn: browser
 	browser transmit 
 		to: #filters;
 		andShow: [ :a |
+			"a enhancedTabbedArrangement."
+			a stackedVerticallyArrangement.
 			self filters do: [ :each |
+				self areaAt: each ifAbsentPut: [ self buildAreaMorph ].
 				a morph 
 					title: [ self titleFor: each ];
-					display: [ self areasAt: each ifAbsentPut: [ self buildAreaMorph ]];
-					initialize: [ :presenter | self dirtiesAt: each put: false ]].
-			a updateOn: MUDFilterUpdated from: self announcer.
-			a announcer when: GLMPresentationActivated send: #presentationActivated: to: self ]
+					display: [ self areaAt: each ];
+					initialize: [ :presenter | self dirtyAt: each put: false ]].
+			"a updateOn: MUDFilterUpdated from: self announcer.
+			a announcer when: MUDPresentationActivated send: #presentationActivated: to: self "]

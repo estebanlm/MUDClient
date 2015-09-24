@@ -1,3 +1,3 @@
-private
+accessing
 eatLines: aNumber
 	eatLines := aNumber

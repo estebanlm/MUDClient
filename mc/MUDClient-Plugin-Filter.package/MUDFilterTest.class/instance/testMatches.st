@@ -3,8 +3,10 @@ testMatches
 	| filter |
 	
 	filter := MUDFilter new 
-		title: 'Test';
-		pattern: '^\(OOC\).*|^\(NEWBIE\).*';
+		name: 'Test';
+		addPattern: (MUDFilterPattern new 
+			pattern: '^\(OOC\).*|^\(NEWBIE\).*';
+			yourself);
 		yourself.
 		
 	self assert: (filter matches: '(OOC) test of string').

@@ -1,0 +1,3 @@
+private
+resetCompiledPattern
+	compiledPattern := nil

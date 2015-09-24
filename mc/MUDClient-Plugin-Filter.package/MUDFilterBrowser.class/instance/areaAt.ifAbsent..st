@@ -1,5 +1,5 @@
 private
-areasAt: aFilter ifAbsent: aBlock 
+areaAt: aFilter ifAbsent: aBlock 
 	^ areaMorphs 
 		at: aFilter 
 		ifAbsent: aBlock

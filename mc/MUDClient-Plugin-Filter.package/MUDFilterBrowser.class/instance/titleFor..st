@@ -1,5 +1,5 @@
 private
 titleFor: aFilter
-	^ (self dirtiesAt: aFilter)
+	^ (self dirtyAt: aFilter)
 		ifTrue: [ '*', aFilter name ]
 		ifFalse: [ aFilter name ]

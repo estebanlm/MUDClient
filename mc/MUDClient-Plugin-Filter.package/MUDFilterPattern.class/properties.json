@@ -4,12 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "EstebanLorenzano 9/24/2015 21:01",
 	"instvars" : [
-		"name",
-		"patterns",
-		"active" ],
-	"name" : "MUDFilter",
+		"filter",
+		"pattern",
+		"eatLines",
+		"ignoreCase",
+		"compiledPattern" ],
+	"name" : "MUDFilterPattern",
 	"pools" : [
 		 ],
 	"super" : "Object",

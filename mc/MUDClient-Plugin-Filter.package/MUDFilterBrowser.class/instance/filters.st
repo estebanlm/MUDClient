@@ -1,3 +1,3 @@
 accessing
 filters
-	^ self plugin filters
+	^ self plugin activeFilters

@@ -1,4 +1,4 @@
-private
+accessing
 pattern: anObject
 	pattern := anObject.
-	compiledPattern := nil
+	self resetCompiledPattern

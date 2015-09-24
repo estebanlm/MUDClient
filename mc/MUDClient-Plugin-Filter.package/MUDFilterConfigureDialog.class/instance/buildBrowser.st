@@ -6,7 +6,7 @@ buildBrowser
 		title: self class title;
 		initialExtent: self class preferredExtent;
 		column: #objects;
-		column: #currentObject;
+		column: #currentObject span: 2;
 		yourself.
 		
 	browser transmit 
