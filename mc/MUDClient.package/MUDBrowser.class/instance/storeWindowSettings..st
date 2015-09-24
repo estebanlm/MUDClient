@@ -2,4 +2,5 @@ private
 storeWindowSettings: aWindow
 	| settings |
 	settings := self browserSettings.
-	settings bounds: aWindow bounds
+	aWindow isRestored 
+		ifTrue: [ settings bounds: aWindow bounds ]

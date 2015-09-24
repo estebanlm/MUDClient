@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-View-Glamour",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDMorphicEnhancedTabbedRenderer",
+	"pools" : [
+		 ],
+	"super" : "GLMMorphicTabbedRenderer",
+	"type" : "normal" }
