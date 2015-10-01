@@ -37,6 +37,6 @@ MUDClient is early development, but you can install and play with it:
             repository: 'github://estebanlm/MUDClient/mc';
             baseline: 'MUDClient';
             load. 
-        MUDConsole open."
+        MUDTerminal open."
     $ ./pharo-ui Pharo.image &   
 
