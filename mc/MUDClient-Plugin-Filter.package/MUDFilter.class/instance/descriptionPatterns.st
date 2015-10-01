@@ -3,7 +3,7 @@ descriptionPatterns
 	<magritteDescription>
 	
 	^ MAToManyRelationDescription new
-		priority: 20;
+		priority: 40;
 		label: 'Patterns';
 		classes: { MUDFilterPattern };
 		accessor: #patterns;

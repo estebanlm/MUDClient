@@ -8,7 +8,8 @@
 	"instvars" : [
 		"areaMorphs",
 		"dirties",
-		"activeFilter" ],
+		"activeFilter",
+		"alert" ],
 	"name" : "MUDFilterBrowser",
 	"pools" : [
 		 ],

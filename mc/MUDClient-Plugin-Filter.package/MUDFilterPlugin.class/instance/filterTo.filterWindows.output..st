@@ -1,6 +1,6 @@
 private
 filterTo: stream filterWindows: windows output: aString  
-	| lines nextLinesToFilter lastMatchingPattern |
+	| lines nextLinesToFilter lastFilter |
 	
 	lines := aString lines.
 	nextLinesToFilter := 0.
@@ -11,14 +11,13 @@ filterTo: stream filterWindows: windows output: aString
 		thenDo: [ :each | 
 			nextLinesToFilter = 0
 				ifTrue: [  
-					lastMatchingPattern := self filterPatternForLine: each.
-					lastMatchingPattern
-						ifNotNil: [ 
-							windows do: [ :w | w send: each toFilter: lastMatchingPattern filter ].
-							nextLinesToFilter := lastMatchingPattern eatLines ifNil: [0]]
-						ifNil: [ stream << each; lf ]]
+					lastFilter := self 
+						filter: each 
+						filterWindows: windows
+						ifUpdateEatingLines: [ :value | nextLinesToFilter := value ]
+						ifNotFiltering: [ stream << each; lf ] ]
 				ifFalse: [
-					windows do: [ :w | w send: each toFilter: lastMatchingPattern filter ].
+					windows do: [ :w | w send: each toFilter: lastFilter ].
 					nextLinesToFilter := nextLinesToFilter - 1]].
 			
 	"Extra lf if last one was an empty line"

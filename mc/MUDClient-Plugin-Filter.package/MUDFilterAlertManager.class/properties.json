@@ -4,14 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"patterns",
-		"active",
-		"alert",
-		"alertColor" ],
-	"name" : "MUDFilter",
+		"ansiParser" ],
+	"name" : "MUDFilterAlertManager",
 	"pools" : [
 		 ],
 	"super" : "Object",

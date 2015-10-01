@@ -1,3 +1,3 @@
 accessing
 filters
-	^ self plugin activeFilters
+	^ self plugin activeFilters select: [ :each | each isAlert not ]
