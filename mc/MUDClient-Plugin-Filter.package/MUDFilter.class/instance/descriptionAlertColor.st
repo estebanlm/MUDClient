@@ -2,11 +2,9 @@ descriptions
 descriptionAlertColor
 	<magritteDescription>
 
-	^ MASingleOptionDescription new 
-		priority: 30;
+	^ MAColorDescription new 
+		priority: 40;
 		label: 'Alert Color';
 		accessor: #alertColor;
-		options: { Color darkGray. Color lightGray. Color green. Color yellow. Color orange. Color red };
-		morphClass: MADropListMorph; 
+		morphClass: MUDColorMorph; 
 		yourself
-			

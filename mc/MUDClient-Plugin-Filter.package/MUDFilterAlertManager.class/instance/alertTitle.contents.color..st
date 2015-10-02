@@ -4,6 +4,7 @@ alertTitle: titleString contents: aString color: aColor
 	parsed := (self ansiParser parse: aString onError: [ {MUDANSIText new text: aString} ]).
 	color := parsed detect: [ :each | each class = MUDANSIColor ] ifNone: [ nil ]. 
 	cleanString := MUDANSITextCleaner visitAll: parsed.
+	
 	GrowlMorph 
 		openWithLabel: titleString
 		contents: cleanString 
