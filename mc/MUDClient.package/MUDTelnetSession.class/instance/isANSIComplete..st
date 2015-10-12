@@ -1,4 +1,4 @@
-private 
+private
 isANSIComplete: buffer
 	"This is a hacky way to check for ANSI completion without scaning all string. 
 	 I assume that an ANSI escape will not be larger than 12... this is just a 

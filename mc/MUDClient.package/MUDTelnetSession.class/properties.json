@@ -11,7 +11,8 @@
 		"port",
 		"error",
 		"dataProcess",
-		"announcer" ],
+		"announcer",
+		"protocols" ],
 	"name" : "MUDTelnetSession",
 	"pools" : [
 		 ],

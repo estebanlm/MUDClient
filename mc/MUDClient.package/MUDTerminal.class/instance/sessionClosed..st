@@ -1,6 +1,6 @@
 private session
 sessionClosed: ann
-	self logInfo: 'Connection closed.'.
+	self log info: 'Connection closed.'.
 	session := nil.
 	
 	self game ifNotNil: [ self storeGameBeforeClose ]. "Keep previous game"
