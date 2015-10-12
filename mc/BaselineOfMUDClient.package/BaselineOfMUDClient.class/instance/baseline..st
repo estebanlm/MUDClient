@@ -16,8 +16,10 @@ baseline: spec
 				spec 
 					repository: 'http://smalltalkhub.com/mc/estebanlm/FastTable/main';
 					requires: #('Glamour') ]; 
+			package: 'MUDClient-Protocol';
 			package: 'MUDClient' with: [
 				spec requires: #(
+					'MUDClient-Protocol'
 					'Logger'
 					'Voyage'
 					'PetitParser' 
@@ -26,7 +28,7 @@ baseline: spec
 					'Magritte3' 
 					'Glamour'
 					'Glamour-FastTable') ];
-			package: 'MUDClient-Protocol' with: [ spec requires: #('MUDClient') ];
+			package: 'MUDClient-Plugin-Alias' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-Notepad' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-Buttonpad' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-LogViewer' with: [ spec requires: #('MUDClient') ];
@@ -39,6 +41,7 @@ baseline: spec
 			group: 'core' with: #('MUDClient' 'MUDClient-Protocol');
 			group: 'plugins' with: #(
 				'core' 
+				'MUDClient-Plugin-Alias'
 				'MUDClient-Plugin-Notepad' 
 				'MUDClient-Plugin-Buttonpad' 
 				'MUDClient-Plugin-LogViewer'
