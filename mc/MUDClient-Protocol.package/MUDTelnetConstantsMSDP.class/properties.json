@@ -1,0 +1,20 @@
+{
+	"category" : "MUDClient-Protocol-MSDP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MSDP",
+		"MSDP_ARRAY_CLOSE",
+		"MSDP_ARRAY_OPEN",
+		"MSDP_TABLE_CLOSE",
+		"MSDP_TABLE_OPEN",
+		"MSDP_VAL",
+		"MSDP_VAR" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDTelnetConstantsMSDP",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"type" : "normal" }

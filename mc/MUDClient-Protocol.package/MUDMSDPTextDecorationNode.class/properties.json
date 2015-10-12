@@ -1,0 +1,15 @@
+{
+	"category" : "MUDClient-Protocol-MSDP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"decoration",
+		"text" ],
+	"name" : "MUDMSDPTextDecorationNode",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

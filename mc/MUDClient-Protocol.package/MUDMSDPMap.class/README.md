@@ -1,0 +1,1 @@
+I'm a map (table) instance of a MSDP variable.

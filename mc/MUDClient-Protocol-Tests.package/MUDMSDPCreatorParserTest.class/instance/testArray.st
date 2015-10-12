@@ -1,0 +1,5 @@
+tests
+testArray
+	self 
+		parse: 'MSDP_ARRAY_OPEN MSDP_VAL "HEALTH" MSDP_VAL "HEALTH_MAX" MSDP_VAL "MANA" MSDP_VAL "MANA_MAX" MSDP_ARRAY_CLOSE'
+		rule: #array

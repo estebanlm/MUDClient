@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Protocol-MSDP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"list" ],
+	"name" : "MUDMSDPList",
+	"pools" : [
+		 ],
+	"super" : "MUDMSDPInstance",
+	"type" : "normal" }

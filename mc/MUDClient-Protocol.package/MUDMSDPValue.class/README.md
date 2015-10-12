@@ -1,0 +1,1 @@
+I'm a value (string) instance of a MSDP variable.

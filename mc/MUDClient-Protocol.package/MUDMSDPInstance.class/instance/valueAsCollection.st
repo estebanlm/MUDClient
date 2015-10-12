@@ -1,0 +1,3 @@
+accessing
+valueAsCollection
+	self subclassResponsibility
