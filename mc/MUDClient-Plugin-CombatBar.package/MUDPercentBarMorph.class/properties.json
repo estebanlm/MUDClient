@@ -1,0 +1,18 @@
+{
+	"category" : "MUDClient-Plugin-CombatBar",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"value",
+		"max",
+		"showPercent",
+		"font",
+		"colorPairs" ],
+	"name" : "MUDPercentBarMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

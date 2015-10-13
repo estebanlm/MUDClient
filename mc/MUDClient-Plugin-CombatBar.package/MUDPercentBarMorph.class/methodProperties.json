@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"defaultColorPairs" : "EstebanLorenzano 10/9/2013 23:53" },
+	"instance" : {
+		"colorFor:" : "EstebanLorenzano 9/29/2013 13:09",
+		"colorPairs" : "EstebanLorenzano 9/29/2013 13:25",
+		"colorPairs:" : "EstebanLorenzano 9/29/2013 13:04",
+		"drawOn:" : "EstebanLorenzano 9/28/2013 21:08",
+		"font" : "EstebanLorenzano 9/28/2013 21:07",
+		"font:" : "EstebanLorenzano 9/28/2013 21:07",
+		"initialize" : "EstebanLorenzano 9/28/2013 23:17",
+		"isShowPercent" : "EstebanLorenzano 9/28/2013 20:36",
+		"max" : "EstebanLorenzano 9/28/2013 20:19",
+		"max:" : "EstebanLorenzano 9/28/2013 20:25",
+		"percent" : "EstebanLorenzano 9/28/2013 20:32",
+		"showPercent" : "EstebanLorenzano 9/28/2013 20:37",
+		"showValue" : "EstebanLorenzano 9/28/2013 20:37",
+		"value" : "EstebanLorenzano 9/28/2013 20:30",
+		"value:" : "EstebanLorenzano 9/28/2013 20:25" } }

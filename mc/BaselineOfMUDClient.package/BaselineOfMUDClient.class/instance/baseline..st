@@ -33,6 +33,7 @@ baseline: spec
 			package: 'MUDClient-Plugin-Buttonpad' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-LogViewer' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-Filter' with: [ spec requires: #('MUDClient') ];
+			package: 'MUDClient-Plugin-CombatBar' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Tests' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Protocol-Tests' with: [ spec requires: #('MUDClient-Tests') ].
 
@@ -45,5 +46,6 @@ baseline: spec
 				'MUDClient-Plugin-Notepad' 
 				'MUDClient-Plugin-Buttonpad' 
 				'MUDClient-Plugin-LogViewer'
-				'MUDClient-Plugin-Filter');
+				'MUDClient-Plugin-Filter'
+				'MUDClient-Plugin-CombatBar');
 			group: 'tests' with: #('core' 'MUDClient-Tests' 'MUDClient-Protocol-Tests') ]
