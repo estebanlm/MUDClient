@@ -26,7 +26,7 @@ basicRender: aRenderable
 			yourself).
 	
 	self setPotentialBackgroundColorFor: aRenderable.
-	aRenderable on: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
+	aRenderable when: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
 	aRenderable watcherPane notNil
 		ifTrue: [ GLMMorphicWatcherRenderer render: aRenderable watcherPane from: self renderer ].
 	

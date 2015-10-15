@@ -11,5 +11,5 @@ render: aPresentation
 		vResizing: #spaceFill;
 		hResizing: #spaceFill.
 	container addMorphBack: (self morphFrom: aPresentation).
-	aPresentation on: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
+	aPresentation when: GLMPresentationUpdated send: #actOnPresentationUpdated: to: self.
 	^container 
