@@ -2,6 +2,8 @@ accessing
 send: aString toFilter: aFilter
 	| filterMorph |
 	
+	aFilter playSound.
+	
 	aFilter isAlert ifTrue: [ 
 		self alert 
 			alertTitle: aFilter name 

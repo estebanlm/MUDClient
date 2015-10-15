@@ -1,4 +1,4 @@
-accessing
+external projects
 petitParser: spec
 	spec project: 'PetitParser' with: [
 		spec 

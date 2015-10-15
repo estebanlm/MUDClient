@@ -1,4 +1,4 @@
-accessing
+external projects
 voyage: spec
 	spec project: 'Voyage' with: [
 		spec 

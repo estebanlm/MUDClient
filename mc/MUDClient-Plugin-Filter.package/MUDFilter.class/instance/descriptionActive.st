@@ -3,7 +3,7 @@ descriptionActive
 	<magritteDescription>
 	
 	^ MABooleanDescription new 
-		priority: 50;
+		priority: 60;
 		label: 'Active';
 		accessor: (MAPluggableAccessor 
 			read: [ :filter | filter isActive ]

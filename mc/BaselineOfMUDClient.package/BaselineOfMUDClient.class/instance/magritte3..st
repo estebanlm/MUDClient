@@ -1,4 +1,4 @@
-accessing
+external projects
 magritte3: spec
 	spec project: 'Magritte3' with: [ 
 		spec

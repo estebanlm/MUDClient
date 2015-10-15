@@ -1,4 +1,4 @@
-accessing
+external projects
 glamour: spec
 	spec project: 'Glamour' with: [ 
 		spec

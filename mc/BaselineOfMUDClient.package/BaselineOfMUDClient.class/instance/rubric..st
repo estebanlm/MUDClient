@@ -1,4 +1,4 @@
-accessing
+external projects
 rubric: spec
 	spec project: 'Rubric' with: [
 		spec 

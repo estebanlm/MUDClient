@@ -10,6 +10,7 @@ baseline: spec
 		self rubric: spec.
 		self magritte3: spec.
 		self glamour: spec.
+		self sound: spec.
 		
 		spec
 			package: 'Glamour-FastTable' with: [ 
@@ -32,7 +33,7 @@ baseline: spec
 			package: 'MUDClient-Plugin-Notepad' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-Buttonpad' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-LogViewer' with: [ spec requires: #('MUDClient') ];
-			package: 'MUDClient-Plugin-Filter' with: [ spec requires: #('MUDClient') ];
+			package: 'MUDClient-Plugin-Filter' with: [ spec requires: #('MUDClient' 'Sound') ];
 			package: 'MUDClient-Plugin-CombatBar' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Tests' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Protocol-Tests' with: [ spec requires: #('MUDClient-Tests') ].

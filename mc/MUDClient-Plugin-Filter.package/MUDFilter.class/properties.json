@@ -3,14 +3,15 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Sounds" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"name",
 		"patterns",
 		"active",
 		"alert",
-		"alertColor" ],
+		"alertColor",
+		"soundName" ],
 	"name" : "MUDFilter",
 	"pools" : [
 		 ],
