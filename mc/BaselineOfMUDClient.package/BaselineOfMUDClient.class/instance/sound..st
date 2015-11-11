@@ -1,6 +1,6 @@
 external projects
 sound: spec
-	spec project: 'sound' with: [ 
+	spec project: 'Sound' with: [ 
 		spec
 			className: 'ConfigurationOfPharoSound';
 			versionString: #'stable'; 
