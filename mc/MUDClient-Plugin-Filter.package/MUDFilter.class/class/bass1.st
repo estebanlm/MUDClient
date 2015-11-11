@@ -6,4 +6,4 @@ bass1
 	| sound |
 	sound := FMSound new modulation: 0 ratio: 0.
 	sound addEnvelope: (VolumeEnvelope exponentialDecay: 0.95).
-	^ sound setPitch: 220 duration: 0.2 loudness: 0.3
+	^ sound setPitch: 220 duration: 0.1 loudness: 0.2

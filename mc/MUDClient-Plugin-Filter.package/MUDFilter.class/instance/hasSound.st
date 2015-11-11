@@ -1,3 +1,3 @@
 testing
 hasSound
-	^ self sound notNil
+	^ self soundName notNil
