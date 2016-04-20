@@ -1,2 +1,3 @@
 {"packageExtension" : ".package",
-"propertyFileExtension" : ".json" }
+"propertyFileExtension" : ".json"
+"metadata" : "false" }
