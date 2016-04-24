@@ -2,9 +2,10 @@
 	"class" : {
 		"findAll" : "EstebanLorenzano 5/12/2014 19:57",
 		"findByName:" : "EstebanLorenzano 5/12/2014 19:57",
+		"importFrom:" : "EstebanLorenzano 4/24/2016 17:38",
+		"importFromFileNamed:" : "EstebanLorenzano 4/24/2016 17:39",
 		"isVoyageRoot" : "EstebanLorenzano 5/12/2014 19:56",
 		"name:host:port:" : "EstebanLorenzano 5/12/2014 16:36",
-		"new" : "EstebanLorenzano 6/5/2014 11:24",
 		"sessionClass" : "EstebanLorenzano 8/29/2015 18:10" },
 	"instance" : {
 		"addPlugin:" : "EstebanLorenzano 8/12/2015 13:05",
@@ -13,6 +14,7 @@
 		"descriptionLoginSequence" : "EstebanLorenzano 9/1/2015 22:30",
 		"descriptionName" : "EstebanLorenzano 5/12/2014 20:01",
 		"descriptionPort" : "EstebanLorenzano 5/15/2014 10:49",
+		"export" : "EstebanLorenzano 4/24/2016 17:37",
 		"hasLoginSequence" : "EstebanLorenzano 9/1/2015 22:28",
 		"host" : "EstebanLorenzano 5/12/2014 16:35",
 		"host:" : "EstebanLorenzano 5/12/2014 20:02",
