@@ -1,4 +1,4 @@
-as yet unclassified
+private
 rectangleMorphFrom: anActionListPresentation
 	^ (super rectangleMorphFrom: anActionListPresentation)
 		cellInset: 2;

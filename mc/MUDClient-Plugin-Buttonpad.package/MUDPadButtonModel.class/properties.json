@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"help",
-		"actions" ],
-	"name" : "MUDPadAction",
+		 ],
+	"name" : "MUDPadButtonModel",
 	"pools" : [
 		 ],
-	"super" : "GLMGenericAction",
+	"super" : "GLMButtonModel",
 	"type" : "normal" }

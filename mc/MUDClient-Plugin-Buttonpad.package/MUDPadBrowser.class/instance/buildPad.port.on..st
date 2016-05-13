@@ -4,9 +4,6 @@ buildPad: aPad port: port on: browser
 	browser transmit 
 		to: port; 
 		andShow: [ :a |
-			a padActionList
-				in: [ :this | 
-					aPad commands do: [ :each | 
-						this
-							act: [ :presenter | self execute: each then: [ presenter update ] ] 
-							entitled: [ each title ]]]]
+			a padActionList in: [ :this | 
+				aPad commands do: [ :each | 
+					this addAction: (self buildCommand: each) ]]]

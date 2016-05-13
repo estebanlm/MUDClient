@@ -1,6 +1,6 @@
 private
 buttonMorph: aModel
-	^ Smalltalk ui theme
+	^ (Smalltalk ui theme
 		newButtonIn: nil 
 		for: aModel 
 		getState: nil
@@ -8,4 +8,6 @@ buttonMorph: aModel
 		arguments: nil 
 		getEnabled: nil 
 		label: aModel buttonLabel
-		help: aModel glamourAction help
+		help: aModel glamourAction help)
+		getMenuSelector: #buttonMenu:;
+		yourself

@@ -4,7 +4,7 @@ morphFrom: anActionListPresentation
 	
 	buttonsContainer := self rectangleMorphFrom: anActionListPresentation.
 	anActionListPresentation allActions do: [ :each | 
-		buttonModel := GLMButtonModel new.
+		buttonModel := MUDPadButtonModel new.
 		buttonModel glamourPresentation: anActionListPresentation.
 		buttonModel glamourAction: each.
 
