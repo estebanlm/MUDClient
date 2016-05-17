@@ -14,10 +14,6 @@ baseline: spec
 		self sound: spec.
 		
 		spec
-			package: 'Glamour-FastTable' with: [ 
-				spec 
-					repository: 'http://smalltalkhub.com/mc/estebanlm/FastTable/main';
-					requires: #('Glamour') ]; 
 			package: 'MUDClient-Protocol';
 			package: 'MUDClient' with: [
 				spec requires: #(
@@ -29,7 +25,7 @@ baseline: spec
 					'Rubric' 
 					'Magritte3' 
 					'Glamour'
-					'Glamour-FastTable') ];
+					'Toolkit') ];
 			package: 'MUDClient-Plugin-Alias' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-Notepad' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-Buttonpad' with: [ spec requires: #('MUDClient') ];
