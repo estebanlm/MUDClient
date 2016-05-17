@@ -4,5 +4,5 @@ voyage: spec
 		baseline: 'Voyage' with: [ 
 			spec 
 				className: 'BaselineOfVoyageMongo';
-				repository: 'github://estebanlm/voyage:master/mc' ];
+				repository: 'gitfiletree://github.com/estebanlm/voyage:master/mc' ];
 		import: 'Voyage'
