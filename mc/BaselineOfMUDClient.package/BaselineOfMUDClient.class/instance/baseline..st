@@ -7,7 +7,6 @@ baseline: spec
 		self voyage: spec.
 		self petitParser: spec.
 		self telnet: spec.
-		self rubric: spec.
 		self magritte3: spec.
 		self glamour: spec.
 		self toolkit: spec.
@@ -22,7 +21,6 @@ baseline: spec
 					'Voyage'
 					'PetitParser' 
 					'TelnetSessionBasic' 
-					'Rubric' 
 					'Magritte3' 
 					'Glamour'
 					'Toolkit') ];
