@@ -1,6 +1,5 @@
 external projects
 voyage: spec
-	spec project: 'Voyage' with: [
-		spec 
-			repository: 'http://smalltalkhub.com/mc/estebanlm/Voyage/main';
-			className: 'ConfigurationOfVoyageMongo' ]
+	spec
+		baseline: 'Voyage' 
+		with: [ spec repository: 'github://estebanlm/voyage:master/mc' ]
