@@ -10,6 +10,7 @@ baseline: spec
 		self rubric: spec.
 		self magritte3: spec.
 		self glamour: spec.
+		self toolkit: spec.
 		self sound: spec.
 		
 		spec
