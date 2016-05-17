@@ -17,4 +17,4 @@ script:
 env:
   global: 
     - baseline="MUDClient"
-    - pharo_version=50
+    - pharo_version=60
