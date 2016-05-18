@@ -6,7 +6,10 @@ descriptionPatterns
 		priority: 20;
 		label: 'Patterns';
 		classes: { MUDFilterPattern };
+		reference: MUDFilterPattern basicNew descriptionPattern asContainer;
 		accessor: #patterns;
 		display: [ :v | v pattern truncateWithElipsisTo: 28 ];
-		default: (OrderedCollection new);
+		default: OrderedCollection new;
+		morphClass: TkOneToManyFastListMorph;
+		tkRowsToShow: 5;
 		yourself

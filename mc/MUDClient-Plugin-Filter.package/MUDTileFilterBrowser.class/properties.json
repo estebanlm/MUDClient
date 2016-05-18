@@ -1,0 +1,17 @@
+{
+	"category" : "MUDClient-Plugin-Filter-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"areaMorphs",
+		"dirties",
+		"activeFilter",
+		"alert" ],
+	"name" : "MUDTileFilterBrowser",
+	"pools" : [
+		 ],
+	"super" : "MUDPluginBrowser",
+	"type" : "normal" }

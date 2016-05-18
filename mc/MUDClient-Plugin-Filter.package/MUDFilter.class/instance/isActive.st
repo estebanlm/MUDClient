@@ -1,3 +1,3 @@
 testing
 isActive 
-	^ active
+	^ active and: [ self patterns notEmpty ]

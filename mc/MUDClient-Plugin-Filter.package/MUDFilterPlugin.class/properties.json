@@ -1,10 +1,10 @@
 {
-	"category" : "MUDClient-Plugin-Filter",
+	"category" : "MUDClient-Plugin-Filter-Model",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		"ANSIParser" ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "EstebanLorenzano 5/17/2016 22:09",
 	"instvars" : [
 		"filters" ],
 	"name" : "MUDFilterPlugin",
