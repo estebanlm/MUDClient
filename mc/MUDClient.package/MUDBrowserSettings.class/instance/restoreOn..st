@@ -1,0 +1,3 @@
+showing
+restoreOn: aTerminal
+	

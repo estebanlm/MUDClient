@@ -1,0 +1,1 @@
+I'm a spec for adding plugins to the toolbar.

@@ -2,25 +2,26 @@ building
 buildToolbarOn: aPresentation
 	aPresentation 
 		act: [ self doConnect ] 
-			icon: MUDIcons uniqueInstance connectIcon
+			icon: #connect asMUDIcon
 			entitled: 'Connect';
 		act: [ self doReconnect ] 
-			icon: MUDIcons uniqueInstance reconnectIcon
+			icon: #reconnect asMUDIcon
 			entitled: 'Reconnect to last game'
 			when: [ self hasPreviousGame and: [ self isConnectedAndRunning not ] ];
-		act: [ :presenter | 
-				"there is no need to refresh because disconnection will trigger one anyway" 
-				self doDisconnect ] 
-			icon: MUDIcons uniqueInstance disconnectIcon
+		act: [ :presenter | self doDisconnect ] 
+			icon: #disconnect asMUDIcon
 			entitled: 'Disconnect'
 			when: [ self isConnectedAndRunning ];		
 		act: [ self doConfigure ]
-			icon: MUDIcons uniqueInstance configureIcon
+			icon: #configure asMUDIcon
 			entitled: 'Configure'.
 
-	self availablePlugins do: [ :each | 
-		aPresentation
-			act: [ each executeGame: self game on: self ]
-			icon: (each icon ifNil: [ MUDIcons uniqueInstance unknownIcon ])
-			entitled: each name
-			when: [ each isVisibleFor: self ] ]
+	MUDPluginSpec allSpecs do: [ :each | 
+		| toolbarSpec |
+		toolbarSpec := each toolbarSpec.
+		toolbarSpec ifNotNil: [ 
+			aPresentation 
+				act: [ toolbarSpec action cull: self cull: self game ]
+				icon: toolbarSpec icon
+				entitled: toolbarSpec title
+				when: [ each isVisibleFor: self ]]]

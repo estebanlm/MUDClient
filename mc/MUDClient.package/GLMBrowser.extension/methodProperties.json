@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"defaultRenderer" : "EstebanLorenzano 6/9/2014 18:18" } }
+		"defaultRenderer" : "EstebanLorenzano 6/9/2014 18:18",
+		"hasToolbar" : "EstebanLorenzano 5/17/2016 23:20",
+		"windowRendererClass" : "EstebanLorenzano 5/17/2016 23:19" } }

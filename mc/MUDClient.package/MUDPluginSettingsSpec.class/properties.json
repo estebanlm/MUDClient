@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Model-Plugin",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"remember" ],
+	"name" : "MUDPluginSettingsSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

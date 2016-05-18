@@ -10,5 +10,3 @@ buildOn: browser
 	browser transmit 
 		to: #input; 
 		andShow: [ :a | a morph morph: [ inputMorph ifNil: [ inputMorph := self buildInputMorph ]]].
-		
-	self buildPlugins: #bottom asPluginPosition on: browser.

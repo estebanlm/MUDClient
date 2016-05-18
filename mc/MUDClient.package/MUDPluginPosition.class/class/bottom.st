@@ -1,3 +1,0 @@
-accessing
-bottom
-	^ MUDPluginPositionBottom uniqueInstance

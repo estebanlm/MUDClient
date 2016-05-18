@@ -1,6 +1,4 @@
 accessing
-dependentWindowsOf: aPlugin 
-	| pluginBrowserClass |
-	pluginBrowserClass := aPlugin pluginDefinition browserClass.
+dependentWindowsOf: aPlugin
 	^ self dependentWindows 
-		select: [ :each | each class = pluginBrowserClass ]
+		select: [ :each | each plugin = aPlugin ]

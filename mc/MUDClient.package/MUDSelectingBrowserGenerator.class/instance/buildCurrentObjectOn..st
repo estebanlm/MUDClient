@@ -1,5 +1,7 @@
 building
 buildCurrentObjectOn: a
-	a magritte 
+	a tkMagritte 
 		title: [ :object | object name ];
-		onAnswer: [ :v :presenter | presenter pane browser update ]
+		onAnswer: [ :v :presenter | 
+			self accepted: v.
+			presenter pane browser update ]

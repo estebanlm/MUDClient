@@ -1,3 +1,3 @@
 accessing
 top 
-	^ MUDPluginPositionTop uniqueInstance
+	^ MUDToolbarPositionTop uniqueInstance

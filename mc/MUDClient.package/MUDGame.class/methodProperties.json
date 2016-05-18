@@ -8,7 +8,7 @@
 		"name:host:port:" : "EstebanLorenzano 5/12/2014 16:36",
 		"sessionClass" : "EstebanLorenzano 8/29/2015 18:10" },
 	"instance" : {
-		"addPlugin:" : "EstebanLorenzano 8/12/2015 13:05",
+		"addPlugin:" : "EstebanLorenzano 5/17/2016 18:20",
 		"connect" : "EstebanLorenzano 5/12/2014 23:49",
 		"descriptionHost" : "EstebanLorenzano 5/12/2014 20:50",
 		"descriptionLoginSequence" : "EstebanLorenzano 9/1/2015 22:30",
@@ -25,6 +25,7 @@
 		"name" : "EstebanLorenzano 5/12/2014 16:18",
 		"name:" : "EstebanLorenzano 5/12/2014 20:02",
 		"pluginByClass:ifAbsent:" : "EstebanLorenzano 8/12/2015 13:01",
+		"pluginByClass:ifAbsentPut:" : "EstebanLorenzano 5/17/2016 18:20",
 		"plugins" : "EstebanLorenzano 8/12/2015 12:07",
 		"port" : "EstebanLorenzano 5/12/2014 16:18",
 		"port:" : "EstebanLorenzano 5/12/2014 20:02",

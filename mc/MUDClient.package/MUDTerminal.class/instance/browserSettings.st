@@ -1,5 +1,6 @@
-private
+private settings
+"protocol: private"
 browserSettings
-	^ MUDBrowserSettings 
-		findBy: [ :each | each browserClass = self class ] 
-		ifAbsent: [ (MUDTerminalBrowserSettings browserClass: self class) save ]
+	^ MUDTerminalBrowserSettings
+		findMatchFor: self   
+		ifNone: [ (MUDTerminalBrowserSettings browserClass: self class) save ]

@@ -7,4 +7,4 @@ sessionClosed: ann
 	self game: nil. "Reset game"
 	self refresh.
 	self window disable.
-	self dependentWindows do: #close.
+	self dependentWindows do: #closeBySessionTerminate.

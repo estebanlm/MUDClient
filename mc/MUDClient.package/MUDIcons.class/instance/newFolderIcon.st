@@ -1,3 +1,3 @@
 accessing icons
 newFolderIcon
-	^ Smalltalk ui icons smallOpenIcon
+	^ Smalltalk ui icons iconNamed: #smallOpen

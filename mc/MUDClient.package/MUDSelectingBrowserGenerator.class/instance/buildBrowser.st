@@ -25,19 +25,24 @@ buildBrowser
 	browser transmit 
 		to: #actions;
 		andShow: [ :a | 
-			a actionList
-				act: [ self inform: 'Please select one element first!' ] entitled: 'Accept';
-				act: [ window close ] entitled: 'Cancel'. ].
+			a tkActionList
+				act: [ window close ] 
+					icon: #cancel asMUDIcon
+					entitled: 'Cancel';
+				act: [ self inform: 'Please select one element first!' ] 
+					icon: #accept asMUDIcon
+					entitled: 'Accept' ].
 
 	browser transmit 
 		from: #objects;
 		to: #actions;
 		andShow: [ :a | 
-			a actionList
-				act: [ :presenter :selection | 
-					value := selection.
-					window close ] 
-					entitled: 'Accept';
-				act: [ window close ] entitled: 'Cancel' ].
+			a tkActionList
+				act: [ window close ] 
+					icon: #cancel asMUDIcon
+					entitled: 'Cancel';
+				act: [ :presenter :selection | value := selection. window close ] 
+					icon: #accept asMUDIcon
+					entitled: 'Accept' ].
 
 	^ browser

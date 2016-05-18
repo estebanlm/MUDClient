@@ -1,3 +1,3 @@
-private
+private settings
 browserSettings
-	^ MUDBrowserSettings findByBrowserCreateIfAbsent: self
+	^ self settingsClass findMatchCreateIfNoneFor: self

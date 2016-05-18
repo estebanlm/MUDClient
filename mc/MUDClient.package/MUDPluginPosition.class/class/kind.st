@@ -1,3 +1,0 @@
-accessing
-kind
-	^ self subclassResponsibility

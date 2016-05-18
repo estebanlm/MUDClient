@@ -6,7 +6,7 @@ buildObjectsOn: a
 				self addObjectThen: [ :newObject |
 					presenter update.
 					presenter selection: newObject]]
-			icon: MUDIcons uniqueInstance addIcon
+			icon: #add asMUDIcon
 			entitled: 'Add new';
 		selectionAct: [ :presenter | 
 				(self removeObject: presenter selection)

@@ -1,3 +1,3 @@
 accessing
 left
-	^ MUDPluginPositionLeft uniqueInstance
+	^ MUDToolbarPositionTop uniqueInstance

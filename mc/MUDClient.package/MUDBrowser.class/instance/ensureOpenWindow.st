@@ -1,4 +1,4 @@
-private
+private showing
 ensureOpenWindow
 	"Creates and open window"
 	self startOn: self startValue.
@@ -6,4 +6,4 @@ ensureOpenWindow
 	self window announcer 
 		when: WindowOpened send: #windowOpened: to: self;
 		when: WindowClosed send: #windowClosed: to: self.
-	self window open
+	self window tkOpen

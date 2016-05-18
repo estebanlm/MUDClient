@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Model-Plugin",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MUDPluginSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

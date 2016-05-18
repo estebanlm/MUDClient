@@ -4,3 +4,4 @@ prepareDisplayAfterConnect
 	self clearContents.
   	self window enable.
 	self transmitFocus.
+	self restorePlugins

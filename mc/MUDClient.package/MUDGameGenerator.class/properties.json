@@ -10,5 +10,5 @@
 	"name" : "MUDGameGenerator",
 	"pools" : [
 		 ],
-	"super" : "MUDSelectingBrowserGenerator",
+	"super" : "TkGlamourSelectingEditor",
 	"type" : "normal" }

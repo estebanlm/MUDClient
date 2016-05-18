@@ -1,3 +1,3 @@
-private
+accessing
 game: aGame 
 	game := aGame
