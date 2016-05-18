@@ -7,8 +7,8 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "MUDAliasPluginDefinition",
+	"name" : "MUDAliasPluginSpec",
 	"pools" : [
 		 ],
-	"super" : "MUDPluginDefinition",
+	"super" : "MUDPluginSpec",
 	"type" : "normal" }

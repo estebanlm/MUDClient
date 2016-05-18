@@ -2,7 +2,7 @@ building
 addAliasMenuOn: aPresenter
 	aPresenter 
 		act: [ :presenter | self addAliasThen: [ presenter update ] ] 
-			icon: MUDIcons uniqueInstance newIcon 
+			icon: #new asMUDIcon 
 			entitled: 'Add alias...';
 		selectionAct: [ :presenter | 
 				self 

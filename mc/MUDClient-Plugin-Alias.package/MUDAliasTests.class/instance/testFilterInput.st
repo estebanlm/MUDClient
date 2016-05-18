@@ -6,7 +6,7 @@ testFilterInput
 	alias := MUDAlias whenCommand: 'alias' send: 'trigger1
 trigger2
 trigger3'.
-	game addPlugin: (MUDAliasPlugin new 
+	game addPlugin: ((MUDAliasPlugin game: game) 
 		addAlias: alias;
 		yourself).
 
