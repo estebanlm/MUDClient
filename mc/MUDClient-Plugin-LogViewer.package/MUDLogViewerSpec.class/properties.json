@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MUDLogViewerBrowser",
+	"name" : "MUDLogViewerSpec",
 	"pools" : [
 		 ],
-	"super" : "MUDPluginBrowser",
+	"super" : "MUDPluginSpec",
 	"type" : "normal" }
