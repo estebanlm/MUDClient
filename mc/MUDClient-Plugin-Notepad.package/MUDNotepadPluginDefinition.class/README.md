@@ -1,1 +1,0 @@
-I define a notepad (a place where user can take notes related to the current game)

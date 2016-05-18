@@ -5,13 +5,13 @@ addNotesMenuOn: aPresenter
 			(self addNoteTo: nil) ifNotNil: [ :newNote | 
 				presenter update.
 				presenter selection: newNote ] ] 
-			icon: MUDIcons uniqueInstance newIcon 
+			icon: #new asMUDIcon 
 			entitled: 'Add note...';
 		act: [ :presenter | 
 			(self addFolderTo: nil) ifNotNil: [ :newFolder | 
 				presenter update.
 				presenter selection: newFolder ] ] 
-			icon: MUDIcons uniqueInstance newFolderIcon 
+			icon: #newFolder asMUDIcon 
 			entitled: 'Add folder...';
 		selectionAct: [ :presenter | 
 			(self addNoteTo: presenter selection closestGroup) ifNotNil: [ :newNote |
