@@ -6,7 +6,7 @@ testExecuteForWithPrefix
 	game := MUDGameForTest new.
 	terminal connectTo: game.
 	session := terminal session.
-	gamePad := MUDPadPlugin new.
+	gamePad := MUDPadPlugin game: game.
 	pad := gamePad addNew.
 	pad prefix: 'tune'.
 	command := pad commandAt: 1.

@@ -6,7 +6,7 @@ testExecuteFor
 	terminal := MUDTerminalForTest new. 
 	terminal connectTo: game.
 	session := terminal session.
-	gamePad := MUDPadPlugin new.
+	gamePad := MUDPadPlugin game: game.
 	pad := gamePad addNew.
 	command := pad commandAt: 1.
 	command text: 'test'.

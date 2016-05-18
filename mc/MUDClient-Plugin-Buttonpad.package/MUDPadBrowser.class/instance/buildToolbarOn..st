@@ -2,9 +2,9 @@ building
 buildToolbarOn: aPresentation
 	aPresentation 
 		act: [ self addPad ] 
-			icon: MUDIcons uniqueInstance addIcon 
+			icon: #add asMUDIcon 
 			entitled: 'Add';
 		act: [ self configure ]
-			icon: MUDIcons uniqueInstance configureIcon
+			icon: #configure asMUDIcon
 			entitled: 'Configure'.
 	

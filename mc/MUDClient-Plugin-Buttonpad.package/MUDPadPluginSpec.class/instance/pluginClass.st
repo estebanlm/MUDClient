@@ -1,3 +1,3 @@
 accessing
-pluginClass 
+pluginClass
 	^ MUDPadPlugin

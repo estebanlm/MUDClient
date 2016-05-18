@@ -1,12 +1,15 @@
 tests
 testAddNew 
-	| gamePad pad |
+	| buttonPad pad |
 	
-	gamePad := MUDPadPlugin new.
-	self assert: gamePad pads isEmpty.
-	pad := gamePad addNew. 
-	self deny: gamePad pads isEmpty.
+	buttonPad := MUDPadPlugin game: nil.
+	self deny: buttonPad pads isEmpty.
+	self assert: buttonPad pads size equals: 1.
+	pad := buttonPad pads anyOne.
 	self assert: pad notNil.
 	self assert: pad name equals: 'Pad 1'.
-	self assert: gamePad pads size equals: 1.
-	self assert: gamePad pads anyOne equals: pad
+	pad := buttonPad addNew. 
+	self assert: buttonPad pads size equals: 2.
+	self assert: buttonPad pads last equals: pad.
+	
+	

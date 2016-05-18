@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MUDPadPluginDefinition",
+	"name" : "MUDPadPluginSpec",
 	"pools" : [
 		 ],
-	"super" : "MUDPluginDefinition",
+	"super" : "MUDPluginSpec",
 	"type" : "normal" }
