@@ -1,3 +1,3 @@
 actions
 editFilter: aFilter
-	(MUDMagritteGenerator for: aFilter) generate	
+	(TkMagritteEditor object: aFilter) go

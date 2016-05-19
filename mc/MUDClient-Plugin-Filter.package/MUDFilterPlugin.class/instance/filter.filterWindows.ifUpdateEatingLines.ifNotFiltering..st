@@ -6,8 +6,8 @@ filter: aString filterWindows: windows ifUpdateEatingLines: eatLinesBlock ifNotF
 	"no match"
 	matchingPattern ifNil: [ aBlock value. ^ nil ].
 
-	filter := matchingPattern filter.	
-	windows do: [ :w | w send: aString toFilter: filter ].
+	filter := matchingPattern filter.
+	filter send: aString toWindows: (windows select: [ :each | each filter = filter]).
 	filter isAlert 
 		ifTrue: [ aBlock value ]
 		ifFalse: [ eatLinesBlock value: (matchingPattern eatLines ifNil: [0]) ].
