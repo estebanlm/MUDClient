@@ -1,3 +1,0 @@
-actions
-basicRemoveObject: anObject
-	self subclassResponsibility

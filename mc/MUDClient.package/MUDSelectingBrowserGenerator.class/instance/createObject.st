@@ -1,3 +1,0 @@
-factory
-createObject 
-	^ self value

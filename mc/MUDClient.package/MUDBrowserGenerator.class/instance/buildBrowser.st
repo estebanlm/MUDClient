@@ -1,3 +1,0 @@
-building
-buildBrowser
-	^ self subclassResponsibility
