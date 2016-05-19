@@ -1,0 +1,15 @@
+{
+	"category" : "MUDClient-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"owner",
+		"ansiParser" ],
+	"name" : "MUDAlertManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

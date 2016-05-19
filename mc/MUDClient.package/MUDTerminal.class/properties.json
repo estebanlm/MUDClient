@@ -10,7 +10,8 @@
 		"areaMorph",
 		"inputMorph",
 		"dependentWindows",
-		"register" ],
+		"register",
+		"alert" ],
 	"name" : "MUDTerminal",
 	"pools" : [
 		 ],

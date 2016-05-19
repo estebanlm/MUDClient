@@ -1,2 +1,2 @@
-(name 'MUDClient-EstebanLorenzano.19' message 'using Conosolas as terminal font' id 'ea5bdae0-a52e-4b5e-98bb-ff98796edf14' date '19 May 2016' time '8:01:33.408883 pm' author 'EstebanLorenzano' ancestors ((name 'MUDClient-EstebanLorenzano.18' message 'setting preferred extent first (even if later it can be changed)
-' id '26b9879e-44a4-5908-bb6b-a6ee19a5b242' date '19 May 2016' time '3:21:56 pm' author 'EstebanLorenzano' ancestors () stepChildren ())) stepChildren ())
+(name 'MUDClient-EstebanLorenzano.20' message 'added alert manager and growl classes to handle our own alerts (not depending on the window).' id 'f0d4da7b-a2dd-4a14-951f-dd239894ea30' date '19 May 2016' time '9:10:05.37033 pm' author 'EstebanLorenzano' ancestors ((name 'MUDClient-EstebanLorenzano.19' message 'using Conosolas as terminal font
+' id '0ae5509b-b11e-501a-8c34-6d3b98ae6f6d' date '19 May 2016' time '8:01:49 pm' author 'EstebanLorenzano' ancestors () stepChildren ())) stepChildren ())
