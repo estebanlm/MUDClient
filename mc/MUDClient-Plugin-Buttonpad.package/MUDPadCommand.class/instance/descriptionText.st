@@ -1,11 +1,11 @@
 descriptions
-descriptionCommand
+descriptionText
 	<magritteDescription>
 	
 	^ MAMemoDescription new 
 		priority: 10;
 		label: 'Definition';
-		accessor: #(command text);
-		lineCount: 8;
+		accessor: #text;
+		lineCount: 3;
 		beRequired;
 		yourself

@@ -10,5 +10,5 @@
 	"name" : "MUDPadConfigureDialog",
 	"pools" : [
 		 ],
-	"super" : "MUDSelectingBrowserGenerator",
+	"super" : "TkGlamourSelectingEditor",
 	"type" : "normal" }
