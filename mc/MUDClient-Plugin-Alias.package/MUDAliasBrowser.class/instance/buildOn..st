@@ -18,5 +18,5 @@ buildOn: browser
 		from: #aliases;
 		to: #alias;
 		andShow: [ :a | 
-			a magritte
+			a tkMagritte
 				title: [ :alias | alias name ] ]
