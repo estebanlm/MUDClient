@@ -1,3 +1,0 @@
-*MUDClient
-defaultRenderer 
-	^ GLMRenderer renderer

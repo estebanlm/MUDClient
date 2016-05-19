@@ -1,3 +1,3 @@
 building
 windowRendererClass
-	^ MUDMorphicWindowRenderer
+	^ TkSystemWindowRenderer

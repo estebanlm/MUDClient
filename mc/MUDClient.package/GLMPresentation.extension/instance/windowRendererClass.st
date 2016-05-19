@@ -1,3 +1,0 @@
-*MUDClient
-windowRendererClass
-	^ GLMMorphicWindowRenderer

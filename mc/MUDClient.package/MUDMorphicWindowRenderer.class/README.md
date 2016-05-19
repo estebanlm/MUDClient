@@ -1,1 +1,0 @@
-I render windows with the style and extensions needed for the clients. 

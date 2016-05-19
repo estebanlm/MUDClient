@@ -1,4 +1,4 @@
-accessing
+testing
 isEnabledOn: aPresentation
 	^ self enabledCondition glamourValueWithArgs: 
 			(Array 

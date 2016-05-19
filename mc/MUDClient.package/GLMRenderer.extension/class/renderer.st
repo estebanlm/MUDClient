@@ -1,3 +1,0 @@
-*MUDClient
-renderer
-	^ MUDMorphicRenderer new
