@@ -6,7 +6,7 @@ buildAreaMorphFor: aNote
 		text: (aNote contents ifNil: [ '' ]);
 		newScrolledText.
 	morph
-		textFont: StandardFonts codeFont;
+		textFont: MUDFonts terminalFont;
 		textColor: Smalltalk ui theme textColor;
 		backgroundColor: Smalltalk ui theme backgroundColor;
 		autoAccept: true";
