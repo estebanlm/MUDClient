@@ -1,0 +1,3 @@
+accessing
+originalFileName
+	^ 'Consolas.ttf'

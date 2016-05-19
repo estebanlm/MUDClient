@@ -1,2 +1,2 @@
-(name 'MUDClient-EstebanLorenzano.18' message 'setting preferred extent first (even if later it can be changed)' id '532a6e7b-f2ec-4851-b29e-70240c688c94' date '19 May 2016' time '3:21:41.235476 pm' author 'EstebanLorenzano' ancestors ((name 'MUDClient-EstebanLorenzano.17' message 'some functionality transferred to Toolkit
-' id 'b408869b-4204-50c2-9f9f-314efb962f4a' date '19 May 2016' time '12:52:47 pm' author 'EstebanLorenzano' ancestors () stepChildren ())) stepChildren ())
+(name 'MUDClient-EstebanLorenzano.19' message 'using Conosolas as terminal font' id 'ea5bdae0-a52e-4b5e-98bb-ff98796edf14' date '19 May 2016' time '8:01:33.408883 pm' author 'EstebanLorenzano' ancestors ((name 'MUDClient-EstebanLorenzano.18' message 'setting preferred extent first (even if later it can be changed)
+' id '26b9879e-44a4-5908-bb6b-a6ee19a5b242' date '19 May 2016' time '3:21:56 pm' author 'EstebanLorenzano' ancestors () stepChildren ())) stepChildren ())

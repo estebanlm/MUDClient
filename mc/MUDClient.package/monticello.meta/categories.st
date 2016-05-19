@@ -1,4 +1,5 @@
 SystemOrganization addCategory: #MUDClient!
+SystemOrganization addCategory: 'MUDClient-Fonts'!
 SystemOrganization addCategory: 'MUDClient-Model'!
 SystemOrganization addCategory: 'MUDClient-Model-Plugin'!
 SystemOrganization addCategory: 'MUDClient-Model-Telnet'!

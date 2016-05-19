@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Fonts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Consolas",
+	"pools" : [
+		 ],
+	"super" : "EmbeddedFreeTypeFontFontDescription",
+	"type" : "normal" }

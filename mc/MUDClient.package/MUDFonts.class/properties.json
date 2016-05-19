@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Fonts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDFonts",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

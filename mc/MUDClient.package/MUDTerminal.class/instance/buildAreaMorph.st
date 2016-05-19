@@ -3,7 +3,7 @@ buildAreaMorph
 	^ (MUDTerminalTextModel new 
 		"maxLines: self class maxLines;"
 		newScrolledText)
-		textFont: StandardFonts codeFont;
+		textFont: MUDFonts terminalFont;
 		textColor: self textColor;
 		backgroundColor: self backgroundColor;
 		beWrapped;
