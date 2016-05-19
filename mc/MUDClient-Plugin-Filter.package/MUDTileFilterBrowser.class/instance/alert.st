@@ -1,3 +1,3 @@
 private
 alert
-	^ alert ifNil: [ alert := MUDFilterAlertManager new ] 
+	^ alert ifNil: [ alert := MUDAlertManager new ] 

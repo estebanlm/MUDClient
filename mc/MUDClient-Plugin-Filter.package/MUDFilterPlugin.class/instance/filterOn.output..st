@@ -11,8 +11,8 @@ filterOn: aTerminal output: aString
 		streamContents: [ :stream | 
 			self 
 				filterTo: stream 
-				filterWindows: (aTerminal dependentWindowsOf: self) 
-				output: aString ].
+				output: aString
+				in: aTerminal ].
 
 	^ (result allSatisfy: #isSeparator)
 		ifTrue: [ '' ]

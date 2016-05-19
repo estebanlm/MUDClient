@@ -1,2 +1,2 @@
-(name 'MUDClient-Plugin-Filter-EstebanLorenzano.11' message 'using our own #terminalFony' id '0ba15d3e-2b52-4d07-9676-5979b54c5037' date '19 May 2016' time '8:02:16.745557 pm' author 'EstebanLorenzano' ancestors ((name 'MUDClient-Plugin-Filter-EstebanLorenzano.10' message 'using toolkit for editors
-' id '83007bcb-5d7c-5189-a202-4a757449d0fb' date '19 May 2016' time '6:17:38 am' author 'EstebanLorenzano' ancestors () stepChildren ())) stepChildren ())
+(name 'MUDClient-Plugin-Filter-EstebanLorenzano.12' message 'using our own alert system' id '4835078f-5222-4baf-95a1-723e6ade93b5' date '19 May 2016' time '9:11:47.055455 pm' author 'EstebanLorenzano' ancestors ((name 'MUDClient-Plugin-Filter-EstebanLorenzano.11' message 'using our own #terminalFony
+' id '3b7c23e4-115d-5f7e-94f6-c563a327dbda' date '19 May 2016' time '8:02:27 pm' author 'EstebanLorenzano' ancestors () stepChildren ())) stepChildren ())
