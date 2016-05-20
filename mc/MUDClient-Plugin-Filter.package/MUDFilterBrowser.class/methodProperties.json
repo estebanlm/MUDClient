@@ -4,12 +4,11 @@
 		"game:plugin:filter:" : "EstebanLorenzano 5/17/2016 22:49" },
 	"instance" : {
 		"areaMorph" : "EstebanLorenzano 5/17/2016 22:56",
-		"backgroundColor" : "EstebanLorenzano 5/17/2016 22:56",
 		"buildOn:" : "EstebanLorenzano 5/18/2016 17:13",
 		"buildToolbarOn:" : "EstebanLorenzano 5/19/2016 00:01",
 		"clearAreaMorph" : "EstebanLorenzano 5/17/2016 22:54",
 		"configure" : "EstebanLorenzano 5/17/2016 22:52",
-		"createAreaMorph" : "EstebanLorenzano 5/19/2016 20:00",
+		"createAreaMorph" : "EstebanLorenzano 5/20/2016 17:29",
 		"createSettings" : "EstebanLorenzano 5/18/2016 22:26",
 		"edit" : "EstebanLorenzano 5/19/2016 06:11",
 		"filter" : "EstebanLorenzano 5/17/2016 22:51",
@@ -17,5 +16,4 @@
 		"isSettingsMatching:" : "EstebanLorenzano 5/18/2016 18:27",
 		"send:" : "EstebanLorenzano 5/19/2016 05:34",
 		"settingsClass" : "EstebanLorenzano 5/18/2016 18:05",
-		"textColor" : "EstebanLorenzano 5/17/2016 22:55",
 		"title" : "EstebanLorenzano 5/17/2016 22:48" } }
