@@ -1,3 +1,3 @@
 accessing
 terminalFont
-	^ LogicalFont familyName: 'Consolas' pointSize: 11
+	^ LogicalFont familyName: 'Consolas' pointSize: 10

@@ -1,4 +1,6 @@
 accessing
 appendText: aStringOrText
-	self mutex critical: [ 
-		self basicAppendText: aStringOrText ]
+	self basicAppendText: aStringOrText.
+	[ self announcer announce: RubTextUpdatedInModel ]
+	on: Error 
+	do: [ :e | self log debug: e messageText ]	

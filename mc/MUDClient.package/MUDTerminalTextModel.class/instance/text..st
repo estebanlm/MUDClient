@@ -1,4 +1,6 @@
 accessing
 text: aString
-	self mutex critical: [
-		super text: (self parseText: aString) ]
+	| parsedText |
+	parsedText := self parseText: aString.
+	self mutex critical: [ 
+		super text: parsedText ]

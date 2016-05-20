@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-View-Morph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"mutex" ],
+	"name" : "MUDTerminalTextMorph",
+	"pools" : [
+		 ],
+	"super" : "RubScrolledTextMorph",
+	"type" : "normal" }
