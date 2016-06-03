@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"browserClass" : "EstebanLorenzano 9/17/2015 18:56",
-		"icon" : "EstebanLorenzano 9/17/2015 19:07",
 		"name" : "EstebanLorenzano 9/17/2015 18:56",
-		"pluginClass" : "EstebanLorenzano 9/17/2015 18:55" } }
+		"pluginClass" : "EstebanLorenzano 9/17/2015 18:55",
+		"browserClass" : "EstebanLorenzano 9/17/2015 18:56",
+		"icon" : "EstebanLorenzano 9/17/2015 19:07"
+	},
+	"class" : { }
+}

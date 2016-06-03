@@ -6,10 +6,10 @@ addObjectsMenuOn: aPresentation
 					moveUp: list selection
 					then: [ list update ] ] 
 			entitled: 'Move up' 
-			when: [ :list | self filters first ~= list selection ];
+			when: [ :list | self filters notEmpty and: [ self filters first ~= list selection ] ];
 		selectionAct: [ :list | 
 				self 
 					moveDown: list selection
 					then: [ list update ] ] 
 			entitled: 'Move down' 
-			when: [ :list | self filters last ~= list selection ]
+			when: [ :list | self filters notEmpty and: [ self filters last ~= list selection ] ]

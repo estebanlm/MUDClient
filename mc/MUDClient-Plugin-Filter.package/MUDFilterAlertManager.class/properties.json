@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Plugin-Filter",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"ansiParser" ],
-	"name" : "MUDFilterAlertManager",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Filter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ansiParser"
+	],
+	"name" : "MUDFilterAlertManager",
+	"type" : "normal"
+}

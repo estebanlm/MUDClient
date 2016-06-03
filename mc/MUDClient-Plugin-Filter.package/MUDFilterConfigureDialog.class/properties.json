@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Plugin-Filter",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"plugin" ],
-	"name" : "MUDFilterConfigureDialog",
-	"pools" : [
-		 ],
 	"super" : "MUDSelectingBrowserGenerator",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Filter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"plugin"
+	],
+	"name" : "MUDFilterConfigureDialog",
+	"type" : "normal"
+}
