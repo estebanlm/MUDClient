@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-View-Morph",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "MUDKeyDownEntered",
-	"pools" : [
-		 ],
 	"super" : "MUDKeyAnnouncement",
-	"type" : "normal" }
+	"category" : "MUDClient-View-Morph",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDKeyDownEntered",
+	"type" : "normal"
+}

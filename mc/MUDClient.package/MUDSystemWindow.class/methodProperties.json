@@ -1,19 +1,20 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"contentMorph" : "EstebanLorenzano 8/11/2015 20:01",
-		"contentMorph:" : "EstebanLorenzano 8/11/2015 20:01",
-		"delete" : "EstebanLorenzano 8/13/2015 19:35",
-		"disable" : "EstebanLorenzano 8/12/2015 08:50",
-		"enable" : "EstebanLorenzano 8/11/2015 23:27",
-		"ensureShown" : "EstebanLorenzano 8/15/2015 14:34",
-		"initialize" : "EstebanLorenzano 8/5/2015 20:16",
 		"isEnabled" : "EstebanLorenzano 8/11/2015 20:01",
-		"open" : "EstebanLorenzano 8/15/2015 14:36",
-		"removeBoxes" : "EstebanLorenzano 6/12/2014 16:06",
-		"silentlyShown" : "EstebanLorenzano 8/6/2015 11:29",
-		"sleep" : "EstebanLorenzano 6/12/2014 10:26",
+		"ensureShown" : "EstebanLorenzano 8/15/2015 14:34",
+		"enable" : "EstebanLorenzano 8/11/2015 23:27",
 		"toolbarMorph" : "EstebanLorenzano 8/11/2015 20:29",
+		"wakeUp" : "EstebanLorenzano 8/11/2015 08:43",
+		"sleep" : "EstebanLorenzano 6/12/2014 10:26",
+		"initialize" : "EstebanLorenzano 8/5/2015 20:16",
+		"open" : "EstebanLorenzano 8/15/2015 14:36",
+		"disable" : "EstebanLorenzano 8/12/2015 08:50",
+		"removeBoxes" : "EstebanLorenzano 6/12/2014 16:06",
+		"contentMorph:" : "EstebanLorenzano 8/11/2015 20:01",
+		"contentMorph" : "EstebanLorenzano 8/11/2015 20:01",
+		"silentlyShown" : "EstebanLorenzano 8/6/2015 11:29",
 		"toolbarMorph:" : "EstebanLorenzano 8/11/2015 20:29",
-		"wakeUp" : "EstebanLorenzano 8/11/2015 08:43" } }
+		"delete" : "EstebanLorenzano 8/13/2015 19:35"
+	},
+	"class" : { }
+}

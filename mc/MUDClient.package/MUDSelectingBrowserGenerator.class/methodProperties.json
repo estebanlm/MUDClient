@@ -1,14 +1,17 @@
 {
-	"class" : {
-		"title" : "EstebanLorenzano 5/31/2014 11:47" },
 	"instance" : {
+		"listTitle" : "EstebanLorenzano 8/29/2015 16:22",
+		"buildObjectsOn:" : "EstebanLorenzano 9/18/2015 08:30",
 		"addObjectThen:" : "EstebanLorenzano 9/17/2015 21:06",
-		"addObjectsMenuOn:" : "EstebanLorenzano 9/18/2015 08:30",
 		"basicRemoveObject:" : "EstebanLorenzano 5/31/2014 11:43",
+		"createObject" : "EstebanLorenzano 5/31/2014 11:43",
+		"removeObject:" : "EstebanLorenzano 5/31/2014 11:42",
 		"buildBrowser" : "EstebanLorenzano 8/29/2015 15:48",
 		"buildCurrentObjectOn:" : "EstebanLorenzano 8/29/2015 15:20",
-		"buildObjectsOn:" : "EstebanLorenzano 9/18/2015 08:30",
-		"createObject" : "EstebanLorenzano 5/31/2014 11:43",
-		"listTitle" : "EstebanLorenzano 8/29/2015 16:22",
-		"objects" : "EstebanLorenzano 5/31/2014 11:43",
-		"removeObject:" : "EstebanLorenzano 5/31/2014 11:42" } }
+		"addObjectsMenuOn:" : "EstebanLorenzano 9/18/2015 08:30",
+		"objects" : "EstebanLorenzano 5/31/2014 11:43"
+	},
+	"class" : {
+		"title" : "EstebanLorenzano 5/31/2014 11:47"
+	}
+}

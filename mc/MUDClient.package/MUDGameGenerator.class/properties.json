@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-View-Generator",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "MUDGameGenerator",
-	"pools" : [
-		 ],
 	"super" : "MUDSelectingBrowserGenerator",
-	"type" : "normal" }
+	"category" : "MUDClient-View-Generator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDGameGenerator",
+	"type" : "normal"
+}

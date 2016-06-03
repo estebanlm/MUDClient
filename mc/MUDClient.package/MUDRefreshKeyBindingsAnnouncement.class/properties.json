@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-View",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "MUDRefreshKeyBindingsAnnouncement",
-	"pools" : [
-		 ],
 	"super" : "MUDAnnouncement",
-	"type" : "normal" }
+	"category" : "MUDClient-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDRefreshKeyBindingsAnnouncement",
+	"type" : "normal"
+}

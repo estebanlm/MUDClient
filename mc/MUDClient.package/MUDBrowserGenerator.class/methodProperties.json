@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"buildBrowser" : "EstebanLorenzano 5/12/2014 17:28",
 		"generate" : "EstebanLorenzano 6/9/2014 18:17",
-		"value" : "EstebanLorenzano 5/12/2014 19:16" } }
+		"buildBrowser" : "EstebanLorenzano 5/12/2014 17:28",
+		"value" : "EstebanLorenzano 5/12/2014 19:16"
+	},
+	"class" : { }
+}

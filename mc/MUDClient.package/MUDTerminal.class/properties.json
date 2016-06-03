@@ -1,18 +1,17 @@
 {
-	"category" : "MUDClient-View",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "EstebanLorenzano 9/18/2015 19:47",
+	"super" : "MUDBrowser",
+	"category" : "MUDClient-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"session",
 		"areaMorph",
 		"inputMorph",
 		"dependentWindows",
-		"register" ],
+		"register"
+	],
 	"name" : "MUDTerminal",
-	"pools" : [
-		 ],
-	"super" : "MUDBrowser",
-	"type" : "normal" }
+	"type" : "normal"
+}

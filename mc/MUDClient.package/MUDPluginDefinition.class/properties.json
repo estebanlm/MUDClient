@@ -1,14 +1,13 @@
 {
+	"commentStamp" : "EstebanLorenzano 8/5/2015 17:09",
+	"super" : "Object",
 	"category" : "MUDClient-Model-Plugin",
 	"classinstvars" : [
-		"uniqueInstance" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "EstebanLorenzano 8/5/2015 17:09",
-	"instvars" : [
-		 ],
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "MUDPluginDefinition",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"asPluginPosition" : "EstebanLorenzano 8/29/2015 18:10",
-		"asToolbarPosition" : "EstebanLorenzano 8/29/2015 18:10" } }
+		"asToolbarPosition" : "EstebanLorenzano 8/29/2015 18:10",
+		"asPluginPosition" : "EstebanLorenzano 8/29/2015 18:10"
+	},
+	"class" : { }
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-View-Theme",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "MUDTheme",
-	"pools" : [
-		 ],
 	"super" : "Pharo3DarkTheme",
-	"type" : "normal" }
+	"category" : "MUDClient-View-Theme",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDTheme",
+	"type" : "normal"
+}

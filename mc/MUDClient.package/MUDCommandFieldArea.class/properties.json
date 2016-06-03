@@ -1,16 +1,13 @@
 {
-	"category" : "MUDClient-View-Morph",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TMUDAnnouncer classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "EstebanLorenzano 5/29/2014 21:35",
-	"instvars" : [
-		 ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "MUDCommandFieldArea",
-	"pools" : [
-		 ],
+	"commentStamp" : "EstebanLorenzano 5/29/2014 21:35",
 	"super" : "RubTextFieldArea",
 	"traitcomposition" : "TMUDAnnouncer",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MUDClient-View-Morph"
+}

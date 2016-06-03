@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-View-Generator",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"object" ],
-	"name" : "MUDMagritteGenerator",
-	"pools" : [
-		 ],
 	"super" : "MUDGenerator",
-	"type" : "normal" }
+	"category" : "MUDClient-View-Generator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"object"
+	],
+	"name" : "MUDMagritteGenerator",
+	"type" : "normal"
+}

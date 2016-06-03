@@ -1,13 +1,16 @@
 {
-	"class" : {
-		"fromSymbol:" : "EstebanLorenzano 8/28/2015 18:09",
+	"instance" : {
+		"configureToolbar:" : "EstebanLorenzano 8/28/2015 19:36",
 		"kind" : "EstebanLorenzano 8/28/2015 18:09",
+		"addToolbar:to:" : "EstebanLorenzano 8/28/2015 20:17",
+		"asToolbarPosition" : "EstebanLorenzano 8/28/2015 18:10"
+	},
+	"class" : {
 		"left" : "EstebanLorenzano 8/29/2015 18:10",
 		"new" : "EstebanLorenzano 8/28/2015 18:09",
+		"kind" : "EstebanLorenzano 8/28/2015 18:09",
+		"uniqueInstance" : "EstebanLorenzano 8/29/2015 18:10",
 		"top" : "EstebanLorenzano 8/29/2015 18:10",
-		"uniqueInstance" : "EstebanLorenzano 8/29/2015 18:10" },
-	"instance" : {
-		"addToolbar:to:" : "EstebanLorenzano 8/28/2015 20:17",
-		"asToolbarPosition" : "EstebanLorenzano 8/28/2015 18:10",
-		"configureToolbar:" : "EstebanLorenzano 8/28/2015 19:36",
-		"kind" : "EstebanLorenzano 8/28/2015 18:09" } }
+		"fromSymbol:" : "EstebanLorenzano 8/28/2015 18:09"
+	}
+}

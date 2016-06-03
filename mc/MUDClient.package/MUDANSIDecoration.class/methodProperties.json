@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"formatter" : "EstebanLorenzano 8/29/2015 18:10",
 		"parse:" : "EstebanLorenzano 5/15/2014 11:36",
-		"parser" : "EstebanLorenzano 8/29/2015 18:10" } }
+		"parser" : "EstebanLorenzano 8/29/2015 18:10"
+	},
+	"class" : { }
+}

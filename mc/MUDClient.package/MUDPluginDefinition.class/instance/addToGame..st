@@ -2,4 +2,8 @@ private
 addToGame: aGame
 	^ aGame 
 		pluginByClass: self pluginClass
-		ifAbsent: [ aGame addPlugin: self pluginClass new ]		
+		ifAbsent: [ 
+			| newPlugin |
+			newPlugin := self pluginClass new.
+			aGame addPlugin: newPlugin.
+			newPlugin ]		

@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"open:" : "EstebanLorenzano 6/9/2014 16:20",
 		"refreshWindow:window:" : "EstebanLorenzano 8/11/2015 20:41",
+		"renderWindow:" : "EstebanLorenzano 8/11/2015 19:17",
 		"renderAction:" : "EstebanLorenzano 6/12/2014 14:27",
-		"renderWindow:" : "EstebanLorenzano 8/11/2015 19:17" } }
+		"open:" : "EstebanLorenzano 6/9/2014 16:20"
+	},
+	"class" : { }
+}

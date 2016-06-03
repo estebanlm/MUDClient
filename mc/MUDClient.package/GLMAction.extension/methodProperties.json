@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"isEnabledOn:" : "EstebanLorenzano 8/11/2015 21:34" } }
+		"isEnabledOn:" : "EstebanLorenzano 8/11/2015 21:34"
+	},
+	"class" : { }
+}

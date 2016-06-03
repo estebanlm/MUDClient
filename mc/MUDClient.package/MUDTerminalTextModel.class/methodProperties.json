@@ -1,17 +1,20 @@
 {
-	"class" : {
-		"defaultMaxLines" : "EstebanLorenzano 5/12/2014 14:28" },
 	"instance" : {
-		"addParseDecoration:" : "EstebanLorenzano 5/13/2014 09:04",
-		"appendParsedText:" : "EstebanLorenzano 5/13/2014 17:36",
 		"appendText:" : "EstebanLorenzano 5/13/2014 14:30",
-		"basicAppendText:" : "EstebanLorenzano 5/13/2014 14:30",
-		"clear" : "EstebanLorenzano 4/19/2016 22:54",
-		"initialize" : "EstebanLorenzano 8/29/2015 18:10",
-		"maxLines" : "EstebanLorenzano 5/12/2014 14:28",
-		"maxLines:" : "EstebanLorenzano 5/12/2014 14:28",
-		"mutex" : "EstebanLorenzano 5/13/2014 07:55",
 		"parseDecoration" : "EstebanLorenzano 5/13/2014 09:09",
+		"basicAppendText:" : "EstebanLorenzano 5/13/2014 14:30",
+		"maxLines" : "EstebanLorenzano 5/12/2014 14:28",
 		"parseText:" : "EstebanLorenzano 5/13/2014 08:58",
+		"mutex" : "EstebanLorenzano 5/13/2014 07:55",
+		"initialize" : "EstebanLorenzano 8/29/2015 18:10",
+		"maxLines:" : "EstebanLorenzano 5/12/2014 14:28",
+		"clear" : "EstebanLorenzano 4/19/2016 22:54",
 		"removeFirstLines" : "EstebanLorenzano 5/12/2014 14:29",
-		"text:" : "EstebanLorenzano 8/21/2015 07:03" } }
+		"text:" : "EstebanLorenzano 8/21/2015 07:03",
+		"addParseDecoration:" : "EstebanLorenzano 5/13/2014 09:04",
+		"appendParsedText:" : "EstebanLorenzano 5/13/2014 17:36"
+	},
+	"class" : {
+		"defaultMaxLines" : "EstebanLorenzano 5/12/2014 14:28"
+	}
+}

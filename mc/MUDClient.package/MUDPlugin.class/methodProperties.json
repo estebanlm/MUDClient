@@ -1,11 +1,14 @@
 {
-	"class" : {
-		"pluginDefinition" : "EstebanLorenzano 9/9/2015 17:40" },
 	"instance" : {
-		"filterOn:input:" : "EstebanLorenzano 9/18/2015 19:43",
-		"filterOn:output:" : "EstebanLorenzano 9/18/2015 19:43",
-		"game" : "EstebanLorenzano 9/9/2015 17:17",
-		"game:" : "EstebanLorenzano 9/9/2015 17:17",
-		"isActiveOn:" : "EstebanLorenzano 9/18/2015 19:44",
+		"printOn:" : "EstebanLorenzano 9/9/2015 17:17",
 		"pluginDefinition" : "EstebanLorenzano 9/9/2015 17:17",
-		"printOn:" : "EstebanLorenzano 9/9/2015 17:17" } }
+		"game:" : "EstebanLorenzano 9/9/2015 17:17",
+		"filterOn:output:" : "EstebanLorenzano 9/18/2015 19:43",
+		"isActiveOn:" : "EstebanLorenzano 9/18/2015 19:44",
+		"filterOn:input:" : "EstebanLorenzano 9/18/2015 19:43",
+		"game" : "EstebanLorenzano 9/9/2015 17:17"
+	},
+	"class" : {
+		"pluginDefinition" : "EstebanLorenzano 9/9/2015 17:40"
+	}
+}

@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"isRawModeOn" : "EstebanLorenzano 5/12/2014 23:32",
-		"socket" : "EstebanLorenzano 5/12/2014 23:29" } }
+		"socket" : "EstebanLorenzano 5/12/2014 23:29"
+	},
+	"class" : { }
+}

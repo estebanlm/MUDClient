@@ -1,15 +1,14 @@
 {
-	"category" : "MUDClient-View-Generator",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "MUDGenerator",
+	"category" : "MUDClient-View-Generator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"value",
-		"window" ],
+		"window"
+	],
 	"name" : "MUDBrowserGenerator",
-	"pools" : [
-		 ],
-	"super" : "MUDGenerator",
-	"type" : "normal" }
+	"type" : "normal"
+}

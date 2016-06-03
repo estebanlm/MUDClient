@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-View-Glamour",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "MUDMorphicWindowRenderer",
-	"pools" : [
-		 ],
 	"super" : "GLMMorphicWindowRenderer",
-	"type" : "normal" }
+	"category" : "MUDClient-View-Glamour",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDMorphicWindowRenderer",
+	"type" : "normal"
+}

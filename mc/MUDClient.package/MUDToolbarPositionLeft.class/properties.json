@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-View-Glamour",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "MUDToolbarPositionLeft",
-	"pools" : [
-		 ],
 	"super" : "MUDToolbarPosition",
-	"type" : "normal" }
+	"category" : "MUDClient-View-Glamour",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDToolbarPositionLeft",
+	"type" : "normal"
+}

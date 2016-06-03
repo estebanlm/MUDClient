@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"defaultRenderer" : "EstebanLorenzano 6/9/2014 18:18" } }
+		"defaultRenderer" : "EstebanLorenzano 6/9/2014 18:18"
+	},
+	"class" : { }
+}

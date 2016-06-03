@@ -1,14 +1,17 @@
 {
-	"class" : {
-		"browserClass:game:" : "EstebanLorenzano 8/15/2015 14:24",
-		"findBy:ifAbsent:" : "EstebanLorenzano 8/17/2015 20:33",
-		"findByBrowserCreateIfAbsent:" : "EstebanLorenzano 8/15/2015 14:23",
-		"isVoyageRoot" : "EstebanLorenzano 8/15/2015 14:17",
-		"new" : "EstebanLorenzano 8/15/2015 14:24" },
 	"instance" : {
-		"bounds" : "EstebanLorenzano 8/15/2015 14:17",
 		"bounds:" : "EstebanLorenzano 8/21/2015 14:07",
-		"browserClass" : "EstebanLorenzano 8/15/2015 14:20",
-		"game" : "EstebanLorenzano 8/15/2015 14:21",
+		"printOn:" : "EstebanLorenzano 9/24/2015 08:29",
 		"initializeBrowserClass:game:" : "EstebanLorenzano 8/15/2015 14:25",
-		"printOn:" : "EstebanLorenzano 9/24/2015 08:29" } }
+		"bounds" : "EstebanLorenzano 8/15/2015 14:17",
+		"browserClass" : "EstebanLorenzano 8/15/2015 14:20",
+		"game" : "EstebanLorenzano 8/15/2015 14:21"
+	},
+	"class" : {
+		"findBy:ifAbsent:" : "EstebanLorenzano 8/17/2015 20:33",
+		"new" : "EstebanLorenzano 8/15/2015 14:24",
+		"browserClass:game:" : "EstebanLorenzano 8/15/2015 14:24",
+		"findByBrowserCreateIfAbsent:" : "EstebanLorenzano 8/15/2015 14:23",
+		"isVoyageRoot" : "EstebanLorenzano 8/15/2015 14:17"
+	}
+}

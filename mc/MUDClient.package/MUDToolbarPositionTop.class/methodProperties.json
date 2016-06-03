@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"kind" : "EstebanLorenzano 8/28/2015 18:10" },
 	"instance" : {
-		"addToolbar:to:" : "EstebanLorenzano 8/28/2015 20:17",
-		"configureToolbar:" : "EstebanLorenzano 8/28/2015 19:59" } }
+		"configureToolbar:" : "EstebanLorenzano 8/28/2015 19:59",
+		"addToolbar:to:" : "EstebanLorenzano 8/28/2015 20:17"
+	},
+	"class" : {
+		"kind" : "EstebanLorenzano 8/28/2015 18:10"
+	}
+}
