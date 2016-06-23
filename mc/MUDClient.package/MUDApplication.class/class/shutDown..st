@@ -1,4 +1,5 @@
 system startup
 shutDown: quitting
 	quitting ifFalse: [ ^ self ].
-	self saveToDisk
+	self saveToDisk.
+	self reset.

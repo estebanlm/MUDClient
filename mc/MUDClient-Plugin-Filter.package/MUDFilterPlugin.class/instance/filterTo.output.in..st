@@ -16,9 +16,8 @@ filterTo: stream output: aString in: aTerminal
 						in: aTerminal
 						ifUpdateEatingLines: [ :value | nextLinesToFilter := value ]
 						ifNotFiltering: [ stream << each; lf ] ]
-				ifFalse: [
-					(aTerminal dependentWindowsOf: self) 
-						do: [ :w | w send: each toFilter: lastFilter ].
+				ifFalse: [				
+					self forwardLine: each forFilter: lastFilter in: aTerminal.
 					nextLinesToFilter := nextLinesToFilter - 1]].
 			
 	"Extra lf if last one was an empty line"
