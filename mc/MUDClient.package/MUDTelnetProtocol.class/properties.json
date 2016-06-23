@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-Model-Telnet",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "MUDTelnetProtocol",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "MUDClient-Model-Telnet",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDTelnetProtocol",
+	"type" : "normal"
+}

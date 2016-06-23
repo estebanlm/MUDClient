@@ -1,5 +1,10 @@
 showing
 restoreOn: aTerminal
+	| browser |
+	
 	self isOpened ifFalse: [ ^ self ].
-	(self browserClass game: self game plugin: self plugin)
-		openOn: aTerminal
+	
+	browser := self newBrowser.
+	browser openOn: aTerminal.
+	self bounds ifNotNil: [ 
+		browser window bounds: self bounds ] 

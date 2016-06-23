@@ -1,23 +1,26 @@
 {
+	"instance" : {
+		"list" : "EstebanLorenzano 5/18/2016 13:27",
+		"launch:" : "EstebanLorenzano 5/18/2016 17:31",
+		"moveUp:then:" : "EstebanLorenzano 9/18/2015 08:37",
+		"removeObject:then:" : "EstebanLorenzano 5/18/2016 15:13",
+		"listTitle" : "EstebanLorenzano 9/17/2015 20:47",
+		"descriptionFor:" : "EstebanLorenzano 5/18/2016 16:37",
+		"accepted:" : "EstebanLorenzano 5/18/2016 00:12",
+		"onLaunch:" : "EstebanLorenzano 5/18/2016 17:09",
+		"basicRemoveObject:" : "EstebanLorenzano 9/17/2015 20:48",
+		"addObjectThen:" : "EstebanLorenzano 5/18/2016 15:15",
+		"plugin" : "EstebanLorenzano 9/17/2015 21:16",
+		"initializePlugin:" : "EstebanLorenzano 9/17/2015 20:52",
+		"filters" : "EstebanLorenzano 9/18/2015 08:34",
+		"buildBrowser" : "EstebanLorenzano 5/18/2016 00:20",
+		"moveDown:then:" : "EstebanLorenzano 9/18/2015 08:37",
+		"addObjectsMenuOn:" : "EstebanLorenzano 5/18/2016 17:31",
+		"objects" : "EstebanLorenzano 9/18/2015 08:34"
+	},
 	"class" : {
 		"plugin:" : "EstebanLorenzano 9/17/2015 20:53",
-		"preferredExtent" : "EstebanLorenzano 9/17/2015 20:45",
-		"title" : "EstebanLorenzano 9/17/2015 21:44" },
-	"instance" : {
-		"accepted:" : "EstebanLorenzano 5/18/2016 00:12",
-		"addObjectThen:" : "EstebanLorenzano 5/18/2016 15:15",
-		"addObjectsMenuOn:" : "EstebanLorenzano 5/18/2016 17:31",
-		"basicRemoveObject:" : "EstebanLorenzano 9/17/2015 20:48",
-		"buildBrowser" : "EstebanLorenzano 5/18/2016 00:20",
-		"descriptionFor:" : "EstebanLorenzano 5/18/2016 16:37",
-		"filters" : "EstebanLorenzano 9/18/2015 08:34",
-		"initializePlugin:" : "EstebanLorenzano 9/17/2015 20:52",
-		"launch:" : "EstebanLorenzano 5/18/2016 17:31",
-		"list" : "EstebanLorenzano 5/18/2016 13:27",
-		"listTitle" : "EstebanLorenzano 9/17/2015 20:47",
-		"moveDown:then:" : "EstebanLorenzano 9/18/2015 08:37",
-		"moveUp:then:" : "EstebanLorenzano 9/18/2015 08:37",
-		"objects" : "EstebanLorenzano 9/18/2015 08:34",
-		"onLaunch:" : "EstebanLorenzano 5/18/2016 17:09",
-		"plugin" : "EstebanLorenzano 9/17/2015 21:16",
-		"removeObject:then:" : "EstebanLorenzano 5/18/2016 15:13" } }
+		"title" : "EstebanLorenzano 9/17/2015 21:44",
+		"preferredExtent" : "EstebanLorenzano 9/17/2015 20:45"
+	}
+}

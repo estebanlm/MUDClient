@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-Model-Telnet",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "MUDConnectionClosed",
-	"pools" : [
-		 ],
 	"super" : "Announcement",
-	"type" : "normal" }
+	"category" : "MUDClient-Model-Telnet",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDConnectionClosed",
+	"type" : "normal"
+}

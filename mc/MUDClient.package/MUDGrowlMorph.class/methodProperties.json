@@ -1,11 +1,14 @@
 {
-	"class" : {
-		"openWithLabel:contents:backgroundColor:labelColor:in:" : "EstebanLorenzano 5/19/2016 20:51" },
 	"instance" : {
+		"unoccupiedPositionBottomRight" : "EstebanLorenzano 5/19/2016 21:07",
 		"activeGrowlMorphs" : "EstebanLorenzano 5/19/2016 20:56",
 		"clearArea" : "EstebanLorenzano 5/19/2016 21:06",
-		"openOn:" : "EstebanLorenzano 5/19/2016 21:08",
 		"unoccupiedPositionBottomLeft" : "EstebanLorenzano 5/19/2016 21:07",
-		"unoccupiedPositionBottomRight" : "EstebanLorenzano 5/19/2016 21:07",
 		"unoccupiedPositionTopLeft" : "EstebanLorenzano 5/19/2016 21:07",
-		"unoccupiedPositionTopRight" : "EstebanLorenzano 5/19/2016 21:06" } }
+		"openOn:" : "EstebanLorenzano 5/19/2016 21:08",
+		"unoccupiedPositionTopRight" : "EstebanLorenzano 5/19/2016 21:06"
+	},
+	"class" : {
+		"openWithLabel:contents:backgroundColor:labelColor:in:" : "EstebanLorenzano 5/19/2016 20:51"
+	}
+}

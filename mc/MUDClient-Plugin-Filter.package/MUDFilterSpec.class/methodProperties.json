@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"configureFiltersFor:in:" : "EstebanLorenzano 5/19/2016 19:54",
-		"openBrowserFor:plugin:filter:in:" : "EstebanLorenzano 5/19/2016 19:59",
+		"toolbarSpec" : "EstebanLorenzano 5/19/2016 00:02",
 		"pluginClass" : "EstebanLorenzano 5/17/2016 21:58",
-		"toolbarSpec" : "EstebanLorenzano 5/19/2016 00:02" } }
+		"openBrowserFor:plugin:filter:in:" : "EstebanLorenzano 5/19/2016 19:59",
+		"configureFiltersFor:in:" : "EstebanLorenzano 5/19/2016 19:54"
+	},
+	"class" : { }
+}

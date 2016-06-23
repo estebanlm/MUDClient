@@ -1,8 +1,11 @@
 {
-	"class" : {
-		"willDO" : "EstebanLorenzano 10/2/2015 20:22",
-		"willMSDP" : "EstebanLorenzano 10/2/2015 20:22" },
 	"instance" : {
-		"command" : "EstebanLorenzano 10/2/2015 20:14",
 		"processCommand:session:stream:" : "EstebanLorenzano 10/2/2015 21:34",
-		"processSubCommandSession:stream:" : "EstebanLorenzano 10/2/2015 21:32" } }
+		"processSubCommandSession:stream:" : "EstebanLorenzano 10/2/2015 21:32",
+		"command" : "EstebanLorenzano 10/2/2015 20:14"
+	},
+	"class" : {
+		"willMSDP" : "EstebanLorenzano 10/2/2015 20:22",
+		"willDO" : "EstebanLorenzano 10/2/2015 20:22"
+	}
+}

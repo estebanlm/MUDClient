@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"announcer" : "EstebanLorenzano 8/4/2015 20:27",
-		"drawOnAthensCanvas:" : "EstebanLorenzano 5/30/2016 09:44",
-		"initialize" : "EstebanLorenzano 5/14/2014 10:37",
 		"initializeKeyBindings" : "EstebanLorenzano 8/29/2015 18:10",
-		"mutex" : "EstebanLorenzano 5/30/2016 09:44" } }
+		"announcer" : "EstebanLorenzano 8/4/2015 20:27",
+		"initialize" : "EstebanLorenzano 5/14/2014 10:37",
+		"drawOnAthensCanvas:" : "EstebanLorenzano 5/30/2016 09:44",
+		"mutex" : "EstebanLorenzano 5/30/2016 09:44"
+	},
+	"class" : { }
+}

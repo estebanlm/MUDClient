@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"command" : "EstebanLorenzano 10/2/2015 20:10",
-		"processCommand:session:stream:" : "EstebanLorenzano 10/2/2015 20:12" } }
+		"processCommand:session:stream:" : "EstebanLorenzano 10/2/2015 20:12",
+		"command" : "EstebanLorenzano 10/2/2015 20:10"
+	},
+	"class" : { }
+}

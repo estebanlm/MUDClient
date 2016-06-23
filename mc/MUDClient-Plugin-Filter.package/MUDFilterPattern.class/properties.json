@@ -1,18 +1,17 @@
 {
-	"category" : "MUDClient-Plugin-Filter-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "EstebanLorenzano 9/24/2015 21:01",
+	"super" : "Object",
+	"category" : "MUDClient-Plugin-Filter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"filter",
 		"pattern",
 		"eatLines",
 		"ignoreCase",
-		"compiledPattern" ],
+		"compiledPattern"
+	],
 	"name" : "MUDFilterPattern",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

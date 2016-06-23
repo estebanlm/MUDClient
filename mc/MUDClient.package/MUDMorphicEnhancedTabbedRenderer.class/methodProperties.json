@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"lastActivePresentationIndexOf:in:" : "EstebanLorenzano 9/21/2015 19:56",
-		"render:" : "EstebanLorenzano 9/21/2015 20:20",
+		"subscribePresentationToContextNotifications:" : "EstebanLorenzano 9/21/2015 19:58",
 		"subscribePresentation:toNotificationsOf:" : "EstebanLorenzano 9/21/2015 19:53",
-		"subscribePresentationToContextNotifications:" : "EstebanLorenzano 9/21/2015 19:58" } }
+		"render:" : "EstebanLorenzano 9/21/2015 20:20"
+	},
+	"class" : { }
+}

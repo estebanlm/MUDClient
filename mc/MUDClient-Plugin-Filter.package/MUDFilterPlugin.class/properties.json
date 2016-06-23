@@ -1,14 +1,15 @@
 {
-	"category" : "MUDClient-Plugin-Filter-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"ANSIParser" ],
 	"commentStamp" : "EstebanLorenzano 5/17/2016 22:09",
-	"instvars" : [
-		"filters" ],
-	"name" : "MUDFilterPlugin",
-	"pools" : [
-		 ],
 	"super" : "MUDPlugin",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Filter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"ANSIParser"
+	],
+	"instvars" : [
+		"filters"
+	],
+	"name" : "MUDFilterPlugin",
+	"type" : "normal"
+}

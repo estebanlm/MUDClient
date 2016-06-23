@@ -1,15 +1,14 @@
 {
-	"category" : "MUDClient-View-Glamour",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "GLMSystemWindow",
+	"category" : "MUDClient-View-Glamour",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"toolbarMorph",
-		"contentMorph" ],
+		"contentMorph"
+	],
 	"name" : "MUDSystemWindow",
-	"pools" : [
-		 ],
-	"super" : "GLMSystemWindow",
-	"type" : "normal" }
+	"type" : "normal"
+}

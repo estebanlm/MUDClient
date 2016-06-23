@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"forget" : "EstebanLorenzano 5/18/2016 23:51",
 		"initialize" : "EstebanLorenzano 5/18/2016 23:51",
+		"forget" : "EstebanLorenzano 5/18/2016 23:51",
 		"isRemembered" : "EstebanLorenzano 5/18/2016 23:51",
-		"remember" : "EstebanLorenzano 5/18/2016 23:52" } }
+		"remember" : "EstebanLorenzano 5/18/2016 23:52"
+	},
+	"class" : { }
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "MUDApplication",
-	"pools" : [
-		 ],
 	"super" : "VOMemoryRepository",
-	"type" : "normal" }
+	"category" : "MUDClient-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDApplication",
+	"type" : "normal"
+}
