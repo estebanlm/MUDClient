@@ -9,7 +9,7 @@ removeFirstLines
 		count := count + 1.
 		size := size + line size.
 		count = linesToRemove ifTrue: [ 
-			^ self text 
+			self text 
 				replaceFrom: 1 
 				to: size 
 				with: '' asText ] ]

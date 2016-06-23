@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-View-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDTextNullStyler",
+	"pools" : [
+		 ],
+	"super" : "MUDTextStyler",
+	"type" : "normal" }

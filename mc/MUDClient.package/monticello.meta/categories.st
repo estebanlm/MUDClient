@@ -7,3 +7,4 @@ SystemOrganization addCategory: 'MUDClient-View'!
 SystemOrganization addCategory: 'MUDClient-View-Glamour'!
 SystemOrganization addCategory: 'MUDClient-View-Magritte'!
 SystemOrganization addCategory: 'MUDClient-View-Morph'!
+SystemOrganization addCategory: 'MUDClient-View-Text'!

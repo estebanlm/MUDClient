@@ -7,7 +7,7 @@
 		 ],
 	"commentStamp" : "EstebanLorenzano 5/29/2014 21:35",
 	"instvars" : [
-		 ],
+		"mutex" ],
 	"name" : "MUDCommandFieldArea",
 	"pools" : [
 		 ],
