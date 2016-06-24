@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "LOTJ-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value",
+		"max",
+		"showPercent",
+		"font",
+		"colorPairs"
+	],
+	"name" : "MUDPercentBarMorph",
+	"type" : "normal"
+}

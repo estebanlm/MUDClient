@@ -1,0 +1,3 @@
+accessing
+showValue
+	showPercent := false.

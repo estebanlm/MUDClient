@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MUDPlugin",
+	"category" : "LOTJ-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [
+		"LOTJMSDPVariables"
+	],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LOTJCombatBarPlugin",
+	"type" : "normal"
+}
