@@ -1,7 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"name" : "EstebanLorenzano 6/24/2016 20:39",
 		"configureAliasesFor:in:" : "EstebanLorenzano 5/17/2016 23:43",
 		"pluginClass" : "EstebanLorenzano 5/17/2016 20:52",
-		"toolbarSpec" : "EstebanLorenzano 5/19/2016 00:01" } }
+		"toolbarSpec" : "EstebanLorenzano 6/24/2016 20:39"
+	},
+	"class" : { }
+}

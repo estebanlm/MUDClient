@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Plugin-Notepad-View",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"notepad" ],
-	"name" : "MUDNotepadBrowser",
-	"pools" : [
-		 ],
 	"super" : "MUDPluginBrowser",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Notepad-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"notepad"
+	],
+	"name" : "MUDNotepadBrowser",
+	"type" : "normal"
+}

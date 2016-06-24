@@ -1,8 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"openLogFor:in:" : "EstebanLorenzano 5/18/2016 23:34",
+		"toolbarSpec" : "EstebanLorenzano 6/24/2016 20:40",
 		"pluginClass" : "EstebanLorenzano 5/18/2016 23:25",
-		"settingsSpec" : "EstebanLorenzano 5/18/2016 23:51",
-		"toolbarSpec" : "EstebanLorenzano 5/18/2016 23:24" } }
+		"name" : "EstebanLorenzano 6/24/2016 20:39",
+		"openLogFor:in:" : "EstebanLorenzano 5/18/2016 23:34",
+		"settingsSpec" : "EstebanLorenzano 5/18/2016 23:51"
+	},
+	"class" : { }
+}

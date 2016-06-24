@@ -1,10 +1,13 @@
 {
-	"class" : {
-		"preferredExtent" : "EstebanLorenzano 9/9/2015 16:30",
-		"title" : "EstebanLorenzano 9/9/2015 16:29" },
 	"instance" : {
 		"addAliasMenuOn:" : "EstebanLorenzano 5/19/2016 00:00",
-		"addAliasThen:" : "EstebanLorenzano 5/19/2016 06:10",
 		"aliases" : "EstebanLorenzano 9/9/2015 16:47",
 		"buildOn:" : "EstebanLorenzano 5/19/2016 12:33",
-		"removeAlias:then:" : "EstebanLorenzano 9/9/2015 16:38" } }
+		"removeAlias:then:" : "EstebanLorenzano 9/9/2015 16:38",
+		"addAliasThen:" : "EstebanLorenzano 5/19/2016 06:10"
+	},
+	"class" : {
+		"title" : "EstebanLorenzano 9/9/2015 16:29",
+		"preferredExtent" : "EstebanLorenzano 9/9/2015 16:30"
+	}
+}

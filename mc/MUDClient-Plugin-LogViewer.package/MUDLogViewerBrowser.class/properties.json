@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-Plugin-LogViewer-View",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "MUDLogViewerBrowser",
-	"pools" : [
-		 ],
 	"super" : "MUDPluginBrowser",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-LogViewer-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDLogViewerBrowser",
+	"type" : "normal"
+}

@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"testClosestGroup" : "EstebanLorenzano 8/29/2015 18:10",
-		"testNew" : "EstebanLorenzano 8/29/2015 18:10" } }
+		"testNew" : "EstebanLorenzano 8/29/2015 18:10"
+	},
+	"class" : { }
+}

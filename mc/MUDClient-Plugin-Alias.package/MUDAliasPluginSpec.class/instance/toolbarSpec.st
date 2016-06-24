@@ -3,4 +3,4 @@ toolbarSpec
 	^ MUDPluginToolbarSpec
 		act: [ :aTerminal :aGame | self configureAliasesFor: aGame in: aTerminal ]
 		icon: #alias asMUDIcon
-		entitled: 'Alias'
+		entitled: self name

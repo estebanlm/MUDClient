@@ -1,15 +1,14 @@
 {
-	"category" : "MUDClient-Plugin-Buttonpad-View",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "GLMGenericAction",
+	"category" : "MUDClient-Plugin-Buttonpad-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"help",
-		"actions" ],
+		"actions"
+	],
 	"name" : "MUDPadAction",
-	"pools" : [
-		 ],
-	"super" : "GLMGenericAction",
-	"type" : "normal" }
+	"type" : "normal"
+}

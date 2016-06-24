@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Plugin-Notepad-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"group" ],
-	"name" : "MUDNoteGroupTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Notepad-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"group"
+	],
+	"name" : "MUDNoteGroupTest",
+	"type" : "normal"
+}

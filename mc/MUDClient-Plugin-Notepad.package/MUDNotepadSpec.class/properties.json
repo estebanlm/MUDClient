@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Plugin-Notepad-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"root" ],
-	"name" : "MUDNotepadSpec",
-	"pools" : [
-		 ],
 	"super" : "MUDPluginSpec",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Notepad-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"root"
+	],
+	"name" : "MUDNotepadSpec",
+	"type" : "normal"
+}
