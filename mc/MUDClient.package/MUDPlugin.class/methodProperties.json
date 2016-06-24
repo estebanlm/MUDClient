@@ -1,6 +1,8 @@
 {
 	"instance" : {
 		"spec" : "EstebanLorenzano 5/18/2016 23:47",
+		"processOn:command:" : "EstebanLorenzano 6/24/2016 19:55",
+		"isProcessingProtocol:" : "EstebanLorenzano 6/24/2016 19:50",
 		"game:" : "EstebanLorenzano 5/17/2016 23:51",
 		"filterOn:output:" : "EstebanLorenzano 5/17/2016 23:46",
 		"isActiveOn:" : "EstebanLorenzano 5/18/2016 21:50",
@@ -8,7 +10,7 @@
 		"game" : "EstebanLorenzano 5/17/2016 17:45"
 	},
 	"class" : {
-		"spec" : "EstebanLorenzano 5/18/2016 23:54",
+		"spec" : "EstebanLorenzano 6/24/2016 20:24",
 		"game:" : "EstebanLorenzano 5/17/2016 23:51"
 	}
 }

@@ -7,9 +7,9 @@
 		"filterIcon" : "EstebanLorenzano 9/17/2015 19:06",
 		"rotateIcon" : "EstebanLorenzano 9/17/2015 19:06",
 		"addIcon" : "EstebanLorenzano 8/26/2015 21:12",
-		"smallConfigureIcon" : "EstebanLorenzano 8/11/2015 17:08",
 		"padIcon" : "EstebanLorenzano 9/17/2015 19:06",
 		"aliasIconContents" : "EstebanLorenzano 9/17/2015 19:06",
+		"smallConfigureIcon" : "EstebanLorenzano 8/11/2015 17:08",
 		"padIconContents" : "EstebanLorenzano 9/17/2015 19:06",
 		"notepadIconContents" : "EstebanLorenzano 9/17/2015 19:06",
 		"openIcon" : "EstebanLorenzano 5/17/2016 23:08",
@@ -21,7 +21,8 @@
 		"initialize" : "EstebanLorenzano 5/29/2014 08:36",
 		"smallRotateIcon" : "EstebanLorenzano 8/11/2015 17:08",
 		"icons" : "EstebanLorenzano 4/28/2014 10:00",
-		"cancelIcon" : "EstebanLorenzano 5/17/2016 23:24",
+		"okIcon" : "EstebanLorenzano 6/24/2016 20:50",
+		"cancelIcon" : "EstebanLorenzano 6/24/2016 20:50",
 		"configureIconContents" : "EstebanLorenzano 9/17/2015 19:06",
 		"iconSelectors" : "EstebanLorenzano 5/29/2014 08:37",
 		"smallRotateIconContents" : "EstebanLorenzano 8/11/2015 17:08",
@@ -39,9 +40,11 @@
 		"unknownIconContents" : "EstebanLorenzano 9/17/2015 19:06",
 		"filterIconContents" : "EstebanLorenzano 9/17/2015 19:06",
 		"storeIconMethodFor:" : "EstebanLorenzano 8/11/2015 17:08",
+		"findIcon" : "EstebanLorenzano 6/24/2016 20:52",
 		"notepadIcon" : "EstebanLorenzano 9/17/2015 19:06",
 		"logViewerIcon" : "EstebanLorenzano 9/17/2015 19:06",
-		"reconnectIconContents" : "EstebanLorenzano 9/17/2015 19:06"
+		"reconnectIconContents" : "EstebanLorenzano 9/17/2015 19:06",
+		"deleteIcon" : "EstebanLorenzano 6/24/2016 20:46"
 	},
 	"class" : {
 		"new" : "EstebanLorenzano 4/28/2014 10:00",

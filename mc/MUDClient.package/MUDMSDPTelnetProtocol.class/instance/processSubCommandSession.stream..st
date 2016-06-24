@@ -1,6 +1,6 @@
 processing
 processSubCommandSession: aSession stream: aStream
-	| cs byte  |
+	| cs byte data |
 	
 	cs := ByteArray new writeStream. 
 	
@@ -13,9 +13,12 @@ processSubCommandSession: aSession stream: aStream
 		byte := aStream next asInteger. 
 		cs nextPut: byte ].
 	
-	"commandBlock ifNotNil: [ 
-		commandBlock value: cs contents asString ]"
-	]
+		data := cs contents.
+		aSession announce: (MUDMSDPCommandReceived new
+			protocol: self;
+			data: data;
+			variable: (self parser parse: data asString);
+			yourself) ]
 	 on: Error do: [ :e | 
 		e crLog.
 		self log error: e ].

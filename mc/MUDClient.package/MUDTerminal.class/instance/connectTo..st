@@ -4,6 +4,7 @@ connectTo: aGame
 	[ 
 		session := aGame connect.
 		session 
+			when: MUDCommandReceived send: #commandReceived: to: self;
 			when: MUDDataReceived send: #dataReceived: to: self;
 			when: MUDConnectionClosed send: #sessionClosed: to: self.
 		self prepareDisplayAfterConnect.

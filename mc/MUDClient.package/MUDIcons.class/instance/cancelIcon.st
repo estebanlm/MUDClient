@@ -1,3 +1,3 @@
 accessing icons
 cancelIcon
-	^ Smalltalk ui icons iconNamed: #smallCancel
+	^ #smallCancel asIcon

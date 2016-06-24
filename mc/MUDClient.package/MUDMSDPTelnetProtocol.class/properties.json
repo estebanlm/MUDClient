@@ -1,16 +1,17 @@
 {
 	"classtraitcomposition" : "TMUDLogueable classTrait",
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"parser"
+	],
 	"name" : "MUDMSDPTelnetProtocol",
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "MUDTelnetProtocol",
 	"traitcomposition" : "TMUDLogueable",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [
-		"MUDTelnetConstantsMSDP",
-		"TelnetConstantsRFC854"
+		"MUDTelnetConstantsMSDP"
 	],
 	"category" : "MUDClient-Model-Telnet"
 }

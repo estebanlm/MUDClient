@@ -3,7 +3,9 @@
 	"super" : "MUDBrowser",
 	"category" : "MUDClient-View",
 	"classinstvars" : [ ],
-	"pools" : [ ],
+	"pools" : [
+		"MUDTelnetConstants"
+	],
 	"classvars" : [ ],
 	"instvars" : [
 		"session",
