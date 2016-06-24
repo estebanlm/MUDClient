@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "PPCompositeParserTest",
+	"super" : "TestCase",
 	"category" : "MUDClient-Protocol-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "MUDANSIParserTest",
+	"name" : "MUDMSDPParserTest",
 	"type" : "normal"
 }

@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"parserClass" : "EstebanLorenzano 8/29/2015 18:10",
 		"testClear" : "EstebanLorenzano 8/29/2015 18:10",
 		"testColor" : "EstebanLorenzano 8/29/2015 18:10",
 		"testDocument" : "EstebanLorenzano 8/29/2015 18:10",
+		"testText" : "EstebanLorenzano 8/29/2015 18:10",
 		"testReset" : "EstebanLorenzano 8/29/2015 18:10",
-		"testText" : "EstebanLorenzano 8/29/2015 18:10" } }
+		"parserClass" : "EstebanLorenzano 8/29/2015 18:10"
+	},
+	"class" : { }
+}

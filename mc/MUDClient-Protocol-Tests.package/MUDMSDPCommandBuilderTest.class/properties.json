@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Protocol-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"parser" ],
-	"name" : "MUDMSDPCommandBuilderTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "MUDClient-Protocol-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parser"
+	],
+	"name" : "MUDMSDPCommandBuilderTest",
+	"type" : "normal"
+}
