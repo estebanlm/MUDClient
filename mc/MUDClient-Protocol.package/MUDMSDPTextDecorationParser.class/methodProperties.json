@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"ampersand" : "EstebanLorenzano 10/1/2013 20:12",
-		"decoratedText" : "EstebanLorenzano 10/7/2015 09:35",
 		"decoration" : "EstebanLorenzano 9/29/2013 14:50",
-		"decorationWithoutText" : "EstebanLorenzano 10/7/2015 09:35",
-		"document" : "EstebanLorenzano 9/29/2013 14:52",
+		"text" : "EstebanLorenzano 9/29/2013 14:55",
+		"decoratedText" : "EstebanLorenzano 10/7/2015 09:35",
 		"nonDecoratedText" : "EstebanLorenzano 10/7/2015 09:35",
+		"decorationWithoutText" : "EstebanLorenzano 10/7/2015 09:35",
+		"ampersand" : "EstebanLorenzano 10/1/2013 20:12",
+		"document" : "EstebanLorenzano 9/29/2013 14:52",
 		"sequence" : "EstebanLorenzano 9/29/2013 18:36",
-		"start" : "EstebanLorenzano 9/29/2013 14:51",
-		"text" : "EstebanLorenzano 9/29/2013 14:55" } }
+		"start" : "EstebanLorenzano 9/29/2013 14:51"
+	},
+	"class" : { }
+}

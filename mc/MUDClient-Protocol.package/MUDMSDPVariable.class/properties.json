@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Protocol-MSDP",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"name" ],
-	"name" : "MUDMSDPVariable",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "MUDClient-Protocol-MSDP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name"
+	],
+	"name" : "MUDMSDPVariable",
+	"type" : "normal"
+}

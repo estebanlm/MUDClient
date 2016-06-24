@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"map" : "EstebanLorenzano 9/17/2013 21:03",
 		"map:" : "EstebanLorenzano 9/26/2013 16:00",
 		"value" : "EstebanLorenzano 9/17/2013 21:04",
+		"map" : "EstebanLorenzano 9/17/2013 21:03",
 		"value:" : "EstebanLorenzano 10/3/2013 20:52",
 		"valueAsCollection" : "EstebanLorenzano 2/6/2014 21:57",
-		"valueAt:" : "EstebanLorenzano 9/26/2013 16:00" } }
+		"valueAt:" : "EstebanLorenzano 9/26/2013 16:00"
+	},
+	"class" : { }
+}

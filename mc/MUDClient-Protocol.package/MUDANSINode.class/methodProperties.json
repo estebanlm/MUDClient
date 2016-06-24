@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"acceptCollector:" : "EstebanLorenzano 5/13/2014 09:12",
-		"isEscape" : "EstebanLorenzano 5/13/2014 09:12",
 		"isText" : "EstebanLorenzano 5/13/2014 09:12",
-		"size" : "EstebanLorenzano 5/13/2014 09:12" } }
+		"acceptCollector:" : "EstebanLorenzano 5/13/2014 09:12",
+		"size" : "EstebanLorenzano 5/13/2014 09:12",
+		"isEscape" : "EstebanLorenzano 5/13/2014 09:12"
+	},
+	"class" : { }
+}

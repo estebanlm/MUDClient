@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"contents" : "EstebanLorenzano 9/17/2015 15:06",
 		"visitAll:" : "EstebanLorenzano 9/17/2015 22:13",
-		"visitText:" : "EstebanLorenzano 9/17/2015 15:04" } }
+		"contents" : "EstebanLorenzano 9/17/2015 15:06",
+		"visitText:" : "EstebanLorenzano 9/17/2015 15:04"
+	},
+	"class" : { }
+}

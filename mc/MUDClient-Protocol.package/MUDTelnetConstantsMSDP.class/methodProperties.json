@@ -1,5 +1,6 @@
 {
+	"instance" : { },
 	"class" : {
-		"initialize" : "EstebanLorenzano 2/7/2014 09:56" },
-	"instance" : {
-		 } }
+		"initialize" : "EstebanLorenzano 2/7/2014 09:56"
+	}
+}

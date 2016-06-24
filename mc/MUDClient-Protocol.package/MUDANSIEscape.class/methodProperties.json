@@ -1,7 +1,10 @@
 {
-	"class" : {
-		"value:" : "EstebanLorenzano 5/13/2014 09:13" },
 	"instance" : {
-		"isEscape" : "EstebanLorenzano 5/13/2014 09:13",
+		"value:" : "EstebanLorenzano 5/13/2014 09:13",
 		"value" : "EstebanLorenzano 5/13/2014 09:13",
-		"value:" : "EstebanLorenzano 5/13/2014 09:13" } }
+		"isEscape" : "EstebanLorenzano 5/13/2014 09:13"
+	},
+	"class" : {
+		"value:" : "EstebanLorenzano 5/13/2014 09:13"
+	}
+}

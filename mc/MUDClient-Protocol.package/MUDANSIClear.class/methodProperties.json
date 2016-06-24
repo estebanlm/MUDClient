@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"acceptCollector:" : "EstebanLorenzano 5/13/2014 09:13" } }
+		"acceptCollector:" : "EstebanLorenzano 5/13/2014 09:13"
+	},
+	"class" : { }
+}
