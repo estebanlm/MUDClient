@@ -1,10 +1,25 @@
 {
+	"class" : {
+		"stonAllInstVarNames" : "EstebanLorenzano 6/27/2016 13:26" },
 	"instance" : {
-		"processOn:command:" : "EstebanLorenzano 6/24/2016 21:41",
-		"reportVariables" : "EstebanLorenzano 6/24/2016 21:42",
+		"CHARACTERNAME" : "EstebanLorenzano 6/27/2016 13:51",
+		"HEALTH" : "EstebanLorenzano 6/27/2016 13:29",
+		"HEALTHMAX" : "EstebanLorenzano 6/27/2016 13:51",
+		"MANA" : "EstebanLorenzano 6/27/2016 13:29",
+		"MANAMAX" : "EstebanLorenzano 6/27/2016 13:51",
+		"MOVEMENT" : "EstebanLorenzano 6/27/2016 13:29",
+		"MOVEMENTMAX" : "EstebanLorenzano 6/27/2016 13:51",
+		"OPPONENTHEALTH" : "EstebanLorenzano 6/27/2016 13:51",
+		"OPPONENTNAME" : "EstebanLorenzano 6/27/2016 13:52",
+		"acceptsProcotolCommand:" : "EstebanLorenzano 6/27/2016 13:01",
+		"activateOn:" : "EstebanLorenzano 6/27/2016 09:37",
+		"createPanel" : "EstebanLorenzano 6/27/2016 13:52",
 		"isProcessingProtocol:" : "EstebanLorenzano 6/24/2016 19:53",
-		"command:variables:" : "EstebanLorenzano 6/24/2016 20:23",
-		"doActivateOn:" : "EstebanLorenzano 6/24/2016 20:19"
-	},
-	"class" : { }
-}
+		"processOn:command:" : "EstebanLorenzano 6/27/2016 14:29",
+		"reportVariables" : "EstebanLorenzano 6/24/2016 21:42",
+		"togglePanelVisibilityOn:" : "EstebanLorenzano 6/27/2016 14:53",
+		"valueAt:" : "EstebanLorenzano 6/27/2016 13:27",
+		"valueAt:ifAbsent:" : "EstebanLorenzano 6/27/2016 13:06",
+		"valueAt:ifPresent:ifAbsent:" : "EstebanLorenzano 6/27/2016 13:16",
+		"valueAt:put:" : "EstebanLorenzano 6/27/2016 13:42",
+		"values" : "EstebanLorenzano 6/27/2016 12:03" } }

@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"forceLabel" : "EstebanLorenzano 6/27/2016 11:20",
+		"healthLabel" : "EstebanLorenzano 6/27/2016 10:46",
+		"horizontalLabelWidth" : "EstebanLorenzano 6/27/2016 14:57",
+		"lineHeight" : "EstebanLorenzano 6/27/2016 11:13",
+		"movementLabel" : "EstebanLorenzano 6/27/2016 10:46",
+		"width" : "EstebanLorenzano 6/27/2016 15:36" },
+	"instance" : {
+		"buildCharacterPanel" : "EstebanLorenzano 6/27/2016 15:51",
+		"buildEnemyPanel" : "EstebanLorenzano 6/27/2016 15:49",
+		"buildForcePanel" : "EstebanLorenzano 6/27/2016 15:10",
+		"buildHealthPanel" : "EstebanLorenzano 6/27/2016 15:10",
+		"buildMovementPanel" : "EstebanLorenzano 6/27/2016 15:10",
+		"characterLabel" : "EstebanLorenzano 6/27/2016 10:25",
+		"enemyBar" : "EstebanLorenzano 6/27/2016 10:25",
+		"enemyLabel" : "EstebanLorenzano 6/27/2016 10:25",
+		"forceBar" : "EstebanLorenzano 6/27/2016 11:20",
+		"healthBar" : "EstebanLorenzano 6/27/2016 10:25",
+		"initialize" : "EstebanLorenzano 6/27/2016 15:43",
+		"movementBar" : "EstebanLorenzano 6/27/2016 10:25",
+		"movementBar:" : "EstebanLorenzano 6/27/2016 10:25",
+		"newHorizontalLabel:" : "EstebanLorenzano 6/27/2016 11:15",
+		"newHorizontalPanel" : "EstebanLorenzano 6/27/2016 15:49",
+		"newPercentBar" : "EstebanLorenzano 6/27/2016 15:34",
+		"newVerticalPanel" : "EstebanLorenzano 6/27/2016 15:49" } }

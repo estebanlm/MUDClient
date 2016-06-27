@@ -1,3 +1,0 @@
-accessing
-showPercent 
-	showPercent := true.

@@ -1,0 +1,1 @@
+I'm the spec for the combat bar plugin.
