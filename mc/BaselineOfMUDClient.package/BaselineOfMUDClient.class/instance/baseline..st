@@ -31,10 +31,12 @@ baseline: spec
 			package: 'MUDClient-Plugin-Filter' with: [ spec requires: #('MUDClient' 'Sound') ];
 			package: 'MUDClient-Plugin-CombatBar' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Tests' with: [ spec requires: #('MUDClient') ];
-			package: 'MUDClient-Protocol-Tests' with: [ spec requires: #('MUDClient-Tests') ].
+			package: 'MUDClient-Protocol-Tests' with: [ spec requires: #('MUDClient-Tests') ];
+			"LOTJ"
+			package: 'LOTJ-Plugins' with: [ spec requires: #('MUDClient') ].
 
 		spec 
-			group: 'default' with: #('core' 'plugins' 'tests');
+			group: 'default' with: #('core' 'plugins' 'LOTJ' 'tests');
 			group: 'core' with: #('MUDClient' 'MUDClient-Protocol');
 			group: 'plugins' with: #(
 				'core' 
@@ -44,4 +46,5 @@ baseline: spec
 				'MUDClient-Plugin-LogViewer'
 				'MUDClient-Plugin-Filter'
 				'MUDClient-Plugin-CombatBar');
-			group: 'tests' with: #('core' 'MUDClient-Tests' 'MUDClient-Protocol-Tests') ]
+			group: 'LOTJ' with: #('LOTJ-Plugins');	
+			group: 'tests' with: #('core' 'MUDClient-Tests' 'MUDClient-Protocol-Tests') ] 
