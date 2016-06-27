@@ -1,9 +1,8 @@
 {
+	"class" : {
+		 },
 	"instance" : {
+		"openModalCentered" : "EstebanLorenzano 5/30/2014 15:20",
 		"silentlyDelete" : "EstebanLorenzano 8/3/2015 17:43",
-		"withAllSubmorphsOf:do:" : "EstebanLorenzano 5/16/2014 10:32",
 		"withAllSubmorphsDo:" : "EstebanLorenzano 5/16/2014 10:31",
-		"openModalCentered" : "EstebanLorenzano 5/30/2014 15:20"
-	},
-	"class" : { }
-}
+		"withAllSubmorphsOf:do:" : "EstebanLorenzano 5/16/2014 10:32" } }

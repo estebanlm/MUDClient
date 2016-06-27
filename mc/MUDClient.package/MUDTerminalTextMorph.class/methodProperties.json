@@ -1,14 +1,12 @@
 {
-	"instance" : {
-		"initialize" : "EstebanLorenzano 5/20/2016 17:30",
-		"drawOnAthensCanvas:" : "EstebanLorenzano 5/20/2016 17:38",
-		"textColor" : "EstebanLorenzano 5/20/2016 17:46",
-		"backgroundColor" : "EstebanLorenzano 5/20/2016 17:46",
-		"mutex" : "EstebanLorenzano 5/20/2016 17:27",
-		"drawOn:" : "EstebanLorenzano 5/20/2016 17:38"
-	},
 	"class" : {
-		"textColor" : "EstebanLorenzano 5/20/2016 17:46",
-		"backgroundColor" : "EstebanLorenzano 5/20/2016 17:46"
-	}
-}
+		"backgroundColor" : "EstebanLorenzano 5/20/2016 17:46",
+		"textColor" : "EstebanLorenzano 5/20/2016 17:46" },
+	"instance" : {
+		"backgroundColor" : "EstebanLorenzano 5/20/2016 17:46",
+		"calculatePositionOf:position:" : "EstebanLorenzano 6/27/2016 15:21",
+		"drawOn:" : "EstebanLorenzano 5/20/2016 17:38",
+		"drawOnAthensCanvas:" : "EstebanLorenzano 5/20/2016 17:38",
+		"initialize" : "EstebanLorenzano 5/20/2016 17:30",
+		"mutex" : "EstebanLorenzano 5/20/2016 17:27",
+		"textColor" : "EstebanLorenzano 5/20/2016 17:46" } }

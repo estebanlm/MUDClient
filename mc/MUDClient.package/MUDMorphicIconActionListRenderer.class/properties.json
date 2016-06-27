@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "GLMMorphicActionListRenderer",
 	"category" : "MUDClient-View-Glamour",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "MUDMorphicIconActionListRenderer",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GLMMorphicActionListRenderer",
+	"type" : "normal" }

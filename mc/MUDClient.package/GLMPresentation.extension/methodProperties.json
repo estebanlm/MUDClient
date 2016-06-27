@@ -1,9 +1,8 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"selectionAct:entitled:enabledWhen:" : "EstebanLorenzano 8/29/2015 18:10",
+		"act:icon:entitled:enabledWhen:" : "EstebanLorenzano 8/29/2015 18:10",
 		"act:icon:entitled:when:" : "EstebanLorenzano 5/29/2014 11:45",
-		"selectionAct:entitled:when:" : "EstebanLorenzano 5/17/2014 10:53",
-		"act:icon:entitled:enabledWhen:" : "EstebanLorenzano 8/29/2015 18:10"
-	},
-	"class" : { }
-}
+		"selectionAct:entitled:enabledWhen:" : "EstebanLorenzano 8/29/2015 18:10",
+		"selectionAct:entitled:when:" : "EstebanLorenzano 5/17/2014 10:53" } }

@@ -1,11 +1,8 @@
 {
-	"instance" : {
-		"owner" : "EstebanLorenzano 5/19/2016 20:45",
-		"owner:" : "EstebanLorenzano 5/19/2016 20:45",
-		"alertTitle:contents:color:" : "EstebanLorenzano 5/19/2016 20:58",
-		"ansiParser" : "EstebanLorenzano 10/1/2015 17:27"
-	},
 	"class" : {
-		"for:" : "EstebanLorenzano 5/19/2016 20:45"
-	}
-}
+		"for:" : "EstebanLorenzano 5/19/2016 20:45" },
+	"instance" : {
+		"alertTitle:contents:color:" : "EstebanLorenzano 5/19/2016 20:58",
+		"ansiParser" : "EstebanLorenzano 10/1/2015 17:27",
+		"owner" : "EstebanLorenzano 5/19/2016 20:45",
+		"owner:" : "EstebanLorenzano 5/19/2016 20:45" } }

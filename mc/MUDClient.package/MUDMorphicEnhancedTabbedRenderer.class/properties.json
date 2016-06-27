@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GLMMorphicTabbedRenderer",
 	"category" : "MUDClient-View-Glamour",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MUDMorphicEnhancedTabbedRenderer",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GLMMorphicTabbedRenderer",
+	"type" : "normal" }

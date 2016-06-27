@@ -1,5 +1,7 @@
 private session
 commandReceived: ann
-	self game plugins 
-		select: [ :each | each isProcessingProtocol: ann protocol ] 
+	self activePlugins
+		select: [ :each | 
+			(each isProcessingProtocol: ann protocol) 
+				and: [ each acceptsProcotolCommand: ann  ] ] 
 		thenDo: [ :each | each processOn: self command: ann ]

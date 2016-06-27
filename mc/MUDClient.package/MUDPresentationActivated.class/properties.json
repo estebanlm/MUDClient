@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "Announcement",
 	"category" : "MUDClient-View-Glamour",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"presentation"
-	],
+		"presentation" ],
 	"name" : "MUDPresentationActivated",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

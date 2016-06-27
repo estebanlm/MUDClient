@@ -1,3 +1,3 @@
 accessing
 alert 
-	^ alert ifNil: [ alert := MUDAlertManager for: self window ]
+	^ alert ifNil: [ alert := MUDAlertManager for: self textArea ]
