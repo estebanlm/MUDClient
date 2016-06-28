@@ -13,9 +13,9 @@ It implements several features:
 - **Notepad**: keep your game notes.
 - **Alias**: define alias for repetitive tasks.
 - **Filter** move chats, etc. to special windows.
+- **LOTJ Status bar**: visualise some data (health, movement, enemy health, etc.) using a graphic view (made work for LOTJ because MSDP variables are not homogeneous between MUDs).
 
 *Next:*
-- **Status bar**: visualise some data (health, movement, enemy health, etc.) using a graphic view.
 - **Triggers**: define triggers on events.
 - **Timers**: define triggers on time based events.
 - **Log viewer**: review all your game sessions.
