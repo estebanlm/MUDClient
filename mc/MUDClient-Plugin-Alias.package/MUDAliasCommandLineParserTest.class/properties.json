@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MUDAliasPluginSpec",
+	"name" : "MUDAliasCommandLineParserTest",
 	"pools" : [
 		 ],
-	"super" : "MUDPluginSpec",
+	"super" : "PPCompositeParserTest",
 	"type" : "normal" }

@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MUDAliasTests",
+		"sentence",
+		"whitespace",
+		"argument",
+		"command" ],
+	"name" : "MUDAliasCommandLineParser",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PPCompositeParser",
 	"type" : "normal" }

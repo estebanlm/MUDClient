@@ -1,13 +1,12 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"removeAlias:" : "EstebanLorenzano 5/17/2016 18:32",
-		"aliases" : "EstebanLorenzano 5/17/2016 18:32",
-		"initialize" : "EstebanLorenzano 5/17/2016 18:32",
-		"addAlias:" : "EstebanLorenzano 5/17/2016 18:32",
 		"activeAliases" : "EstebanLorenzano 5/17/2016 18:32",
-		"isActiveOn:" : "EstebanLorenzano 5/17/2016 18:32",
+		"addAlias:" : "EstebanLorenzano 5/17/2016 18:32",
+		"aliases" : "EstebanLorenzano 5/17/2016 18:32",
 		"filterOn:input:" : "EstebanLorenzano 5/17/2016 18:32",
-		"hasAliases" : "EstebanLorenzano 5/17/2016 18:32"
-	},
-	"class" : { }
-}
+		"hasAliases" : "EstebanLorenzano 5/17/2016 18:32",
+		"initialize" : "EstebanLorenzano 5/17/2016 18:32",
+		"isActiveOn:" : "EstebanLorenzano 5/17/2016 18:32",
+		"removeAlias:" : "EstebanLorenzano 5/17/2016 18:32" } }

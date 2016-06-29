@@ -4,11 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MUDAliasPluginSpec",
+		"terminal",
+		"do",
+		"while",
+		"until" ],
+	"name" : "MUDScript",
 	"pools" : [
 		 ],
-	"super" : "MUDPluginSpec",
+	"super" : "Object",
 	"type" : "normal" }

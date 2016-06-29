@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MUDAliasPluginSpec",
+		"terminal",
+		"script",
+		"game" ],
+	"name" : "MUDScriptTest",
 	"pools" : [
 		 ],
-	"super" : "MUDPluginSpec",
+	"super" : "TestCase",
 	"type" : "normal" }
