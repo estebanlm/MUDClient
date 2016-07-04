@@ -3,12 +3,14 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"CommandLineDefinitionParser",
+		"CommandLineParser" ],
 	"commentStamp" : "EstebanLorenzano 8/30/2015 12:54",
 	"instvars" : [
 		"input",
 		"output",
-		"active" ],
+		"active",
+		"command" ],
 	"name" : "MUDAlias",
 	"pools" : [
 		 ],

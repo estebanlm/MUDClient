@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Plugin-Alias-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keywords" ],
+	"name" : "MUDAliasCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

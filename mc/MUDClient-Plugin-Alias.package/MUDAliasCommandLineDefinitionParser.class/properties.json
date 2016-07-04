@@ -1,0 +1,17 @@
+{
+	"category" : "MUDClient-Plugin-Alias-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sentence",
+		"whitespace",
+		"argument",
+		"command" ],
+	"name" : "MUDAliasCommandLineDefinitionParser",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

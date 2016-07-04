@@ -1,5 +1,5 @@
 {
-	"category" : "MUDClient-Plugin-Alias",
+	"category" : "MUDClient-Plugin-Alias-Parser",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -9,7 +9,10 @@
 		"sentence",
 		"whitespace",
 		"argument",
-		"command" ],
+		"command",
+		"keyword",
+		"string",
+		"number" ],
 	"name" : "MUDAliasCommandLineParser",
 	"pools" : [
 		 ],

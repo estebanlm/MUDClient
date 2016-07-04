@@ -1,4 +1,5 @@
 tests
 testSentence
-	self parse: 'reparmpr' rule: #sentence.
-	self parse: 'reparmpr $arg1' rule: #sentence
+	self parse: 'command' rule: #sentence.
+	self parse: 'command argument' rule: #sentence.
+	self parse: 'command 42 argument' rule: #sentence.
