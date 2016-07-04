@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assert:command:" : "EstebanLorenzano 7/4/2016 23:58",
 		"parserClass" : "EstebanLorenzano 6/30/2016 08:10",
-		"testArgument" : "EstebanLorenzano 7/4/2016 09:32",
-		"testCommand" : "EstebanLorenzano 7/4/2016 12:12",
-		"testSentence" : "EstebanLorenzano 7/4/2016 11:12" } }
+		"testArgument" : "EstebanLorenzano 7/4/2016 12:14:43",
+		"testCommand" : "EstebanLorenzano 7/5/2016 00:01",
+		"testSentence" : "EstebanLorenzano 7/4/2016 12:14:43" } }
