@@ -1,8 +1,7 @@
 accessing
 newDefaultSettings
 	self setPreferredPreferences.
-	
-	^super newDefaultSettings
+	^ super newDefaultSettings
 		menuColor: self baseColor;
 		menuTitleColor: self baseColor;
 		windowColor: self baseColor;
