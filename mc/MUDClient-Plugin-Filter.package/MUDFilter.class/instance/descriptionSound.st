@@ -3,7 +3,7 @@ descriptionSound
 	<magritteDescription>
 
 	^ MASingleOptionDescription new
-		priority: 50;
+		priority: 900;
 		label: 'Sound';
 		accessor: #soundName;
 		options: self class availableSoundsWithLabels keys;

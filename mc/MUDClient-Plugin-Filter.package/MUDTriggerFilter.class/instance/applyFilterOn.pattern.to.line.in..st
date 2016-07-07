@@ -1,4 +1,4 @@
 private
-applyFilterOn: aPlugin pattern: aStream to: aString line: aTerminal in: anObject 
-	^ aPlugin applyTriggerFilterTo: aStream line: aStream in: aTerminal
+applyFilterOn: aPlugin pattern: aPattern to: aStream line: aString in: aTerminal 
+	^ aPlugin applyTriggerFilter: self to: aStream line: aString in: aTerminal
 	
