@@ -1,14 +1,17 @@
 {
-	"class" : {
-		"game:" : "EstebanLorenzano 5/17/2016 23:51",
-		"spec" : "EstebanLorenzano 6/24/2016 20:24" },
 	"instance" : {
-		"acceptsProcotolCommand:" : "EstebanLorenzano 6/27/2016 09:31",
-		"filterOn:input:" : "EstebanLorenzano 5/17/2016 23:46",
-		"filterOn:output:" : "EstebanLorenzano 5/17/2016 23:46",
-		"game" : "EstebanLorenzano 5/17/2016 17:45",
-		"game:" : "EstebanLorenzano 5/17/2016 23:51",
-		"isActiveOn:" : "EstebanLorenzano 5/18/2016 21:50",
-		"isProcessingProtocol:" : "EstebanLorenzano 6/24/2016 19:50",
+		"spec" : "EstebanLorenzano 5/18/2016 23:47",
 		"processOn:command:" : "EstebanLorenzano 6/24/2016 19:55",
-		"spec" : "EstebanLorenzano 5/18/2016 23:47" } }
+		"isProcessingProtocol:" : "EstebanLorenzano 6/24/2016 19:50",
+		"game:" : "EstebanLorenzano 5/17/2016 23:51",
+		"filterOn:output:" : "EstebanLorenzano 5/17/2016 23:46",
+		"acceptsProcotolCommand:" : "EstebanLorenzano 6/27/2016 09:31",
+		"isActiveOn:" : "EstebanLorenzano 5/18/2016 21:50",
+		"filterOn:input:" : "EstebanLorenzano 5/17/2016 23:46",
+		"game" : "EstebanLorenzano 5/17/2016 17:45"
+	},
+	"class" : {
+		"spec" : "EstebanLorenzano 6/24/2016 20:24",
+		"game:" : "EstebanLorenzano 5/17/2016 23:51"
+	}
+}

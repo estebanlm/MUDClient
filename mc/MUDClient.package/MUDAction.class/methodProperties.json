@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"enabledCondition" : "EstebanLorenzano 8/11/2015 21:35",
 		"enabledCondition:" : "EstebanLorenzano 8/11/2015 21:32",
-		"isEnabledOn:" : "EstebanLorenzano 8/11/2015 21:34" } }
+		"enabledCondition" : "EstebanLorenzano 8/11/2015 21:35",
+		"isEnabledOn:" : "EstebanLorenzano 8/11/2015 21:34"
+	},
+	"class" : { }
+}

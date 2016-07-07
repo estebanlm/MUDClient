@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"buttonMorph:" : "EstebanLorenzano 7/31/2015 16:42",
 		"buttonWidthFor:" : "EstebanLorenzano 5/30/2014 12:00",
-		"morphFrom:" : "EstebanLorenzano 5/30/2014 12:00" } }
+		"morphFrom:" : "EstebanLorenzano 5/30/2014 12:00"
+	},
+	"class" : { }
+}

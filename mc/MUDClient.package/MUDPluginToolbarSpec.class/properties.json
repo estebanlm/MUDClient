@@ -1,16 +1,15 @@
 {
-	"category" : "MUDClient-Model-Plugin",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "MUDClient-Model-Plugin",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"action",
 		"icon",
-		"title" ],
+		"title"
+	],
 	"name" : "MUDPluginToolbarSpec",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

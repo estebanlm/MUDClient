@@ -1,29 +1,32 @@
 {
-	"class" : {
-		"defaultColorPairs" : "EstebanLorenzano 6/29/2016 14:47:06" },
 	"instance" : {
-		"colorFor:" : "EstebanLorenzano 6/27/2016 11:18",
-		"colorPairs" : "EstebanLorenzano 9/29/2013 13:25",
-		"colorPairs:" : "EstebanLorenzano 9/29/2013 13:04",
+		"max:" : "EstebanLorenzano 6/27/2016 12:43",
+		"initialize" : "EstebanLorenzano 6/27/2016 15:40",
+		"fontColor" : "EstebanLorenzano 6/27/2016 11:19",
+		"updateValue" : "EstebanLorenzano 6/27/2016 13:13",
 		"drawOn:" : "EstebanLorenzano 6/27/2016 15:39",
 		"font" : "EstebanLorenzano 6/27/2016 11:19",
-		"font:" : "EstebanLorenzano 9/28/2013 21:07",
-		"fontColor" : "EstebanLorenzano 6/27/2016 11:19",
-		"getMaxSelector" : "EstebanLorenzano 6/27/2016 12:36",
-		"getMaxSelector:" : "EstebanLorenzano 6/27/2016 12:36",
-		"getValueSelector" : "EstebanLorenzano 6/27/2016 12:36",
-		"getValueSelector:" : "EstebanLorenzano 6/27/2016 12:38",
-		"initialize" : "EstebanLorenzano 6/27/2016 15:40",
-		"isShowPercent" : "EstebanLorenzano 9/28/2013 20:36",
-		"max" : "EstebanLorenzano 9/28/2013 20:19",
-		"max:" : "EstebanLorenzano 6/27/2016 12:43",
 		"model" : "EstebanLorenzano 6/27/2016 13:10",
-		"model:" : "EstebanLorenzano 6/27/2016 13:10",
-		"percent" : "EstebanLorenzano 9/28/2013 20:32",
 		"showPercent" : "EstebanLorenzano 9/28/2013 20:37",
-		"showValue" : "EstebanLorenzano 9/28/2013 20:37",
-		"update:" : "EstebanLorenzano 6/27/2016 12:39",
+		"isShowPercent" : "EstebanLorenzano 9/28/2013 20:36",
+		"colorPairs:" : "EstebanLorenzano 9/29/2013 13:04",
+		"model:" : "EstebanLorenzano 6/27/2016 13:10",
+		"getMaxSelector" : "EstebanLorenzano 6/27/2016 12:36",
+		"getValueSelector" : "EstebanLorenzano 6/27/2016 12:36",
 		"updateMax" : "EstebanLorenzano 6/27/2016 13:14",
-		"updateValue" : "EstebanLorenzano 6/27/2016 13:13",
+		"max" : "EstebanLorenzano 9/28/2013 20:19",
+		"percent" : "EstebanLorenzano 9/28/2013 20:32",
+		"showValue" : "EstebanLorenzano 9/28/2013 20:37",
+		"getMaxSelector:" : "EstebanLorenzano 6/27/2016 12:36",
+		"colorPairs" : "EstebanLorenzano 9/29/2013 13:25",
+		"colorFor:" : "EstebanLorenzano 6/27/2016 11:18",
+		"font:" : "EstebanLorenzano 9/28/2013 21:07",
+		"update:" : "EstebanLorenzano 6/27/2016 12:39",
+		"getValueSelector:" : "EstebanLorenzano 6/27/2016 12:38",
 		"value" : "EstebanLorenzano 9/28/2013 20:30",
-		"value:" : "EstebanLorenzano 6/27/2016 12:42" } }
+		"value:" : "EstebanLorenzano 6/27/2016 12:42"
+	},
+	"class" : {
+		"defaultColorPairs" : "EstebanLorenzano 6/29/2016 14:47:06"
+	}
+}

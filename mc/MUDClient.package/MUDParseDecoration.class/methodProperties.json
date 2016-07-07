@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"next" : "EstebanLorenzano 5/13/2014 08:59",
 		"next:" : "EstebanLorenzano 5/13/2014 08:59",
 		"parse:" : "EstebanLorenzano 5/13/2014 08:59",
-		"parseNext:" : "EstebanLorenzano 5/13/2014 09:01" } }
+		"parseNext:" : "EstebanLorenzano 5/13/2014 09:01",
+		"next" : "EstebanLorenzano 5/13/2014 08:59"
+	},
+	"class" : { }
+}

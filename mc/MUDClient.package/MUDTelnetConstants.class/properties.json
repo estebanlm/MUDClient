@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Model-Telnet",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"ESC" ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "MUDTelnetConstants",
-	"pools" : [
-		 ],
 	"super" : "SharedPool",
-	"type" : "normal" }
+	"category" : "MUDClient-Model-Telnet",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"ESC"
+	],
+	"instvars" : [ ],
+	"name" : "MUDTelnetConstants",
+	"type" : "normal"
+}
