@@ -1,0 +1,3 @@
+accessing
+baseSelectionColor
+	^ (Color r: 0.148 g: 0.168 b: 0.194 alpha: 1.0)

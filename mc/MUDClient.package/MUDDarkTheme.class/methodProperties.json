@@ -1,0 +1,26 @@
+{
+	"instance" : {
+		"selectionColor" : "EstebanLorenzano 7/7/2016 19:49",
+		"borderColor" : "EstebanLorenzano 7/7/2016 18:50",
+		"backgroundColor" : "EstebanLorenzano 7/7/2016 18:38",
+		"lightBackgroundColor" : "EstebanLorenzano 7/7/2016 18:58",
+		"desktopColor" : "EstebanLorenzano 7/7/2016 19:17",
+		"scrollbarNormalFillStyleFor:" : "EstebanLorenzano 7/7/2016 19:15",
+		"growlBorderColorFor:" : "EstebanLorenzano 7/7/2016 19:25",
+		"buttonColor" : "EstebanLorenzano 7/7/2016 19:01",
+		"windowInactiveFillStyleFor:" : "EstebanLorenzano 7/7/2016 19:21",
+		"growlFillColorFor:" : "EstebanLorenzano 7/7/2016 19:26",
+		"listBackgroundColor" : "EstebanLorenzano 7/7/2016 19:09",
+		"buttonNormalBorderStyleFor:" : "EstebanLorenzano 7/7/2016 19:11"
+	},
+	"class" : {
+		"baseColor" : "EstebanLorenzano 7/7/2016 18:52",
+		"baseSelectionColor" : "EstebanLorenzano 7/7/2016 19:48",
+		"themeName" : "EstebanLorenzano 7/7/2016 18:54",
+		"lightBaseColor" : "EstebanLorenzano 7/7/2016 18:54",
+		"basePassiveBackgroundColor" : "EstebanLorenzano 7/7/2016 18:54",
+		"lightSelectionColor" : "EstebanLorenzano 7/7/2016 19:50",
+		"newDefaultSettings" : "EstebanLorenzano 7/7/2016 20:11",
+		"darkBaseColor" : "EstebanLorenzano 7/7/2016 18:50"
+	}
+}
