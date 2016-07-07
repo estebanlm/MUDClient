@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "MUDPluginSpec",
+	"super" : "MUDFilter",
 	"category" : "MUDClient-Plugin-Filter-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "MUDFilterSpec",
+	"instvars" : [
+		"alertColor"
+	],
+	"name" : "MUDAlertFilter",
 	"type" : "normal"
 }

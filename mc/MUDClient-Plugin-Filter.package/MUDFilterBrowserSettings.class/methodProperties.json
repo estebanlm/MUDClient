@@ -1,8 +1,11 @@
 {
-	"class" : {
-		"findByFilter:" : "EstebanLorenzano 5/18/2016 18:05" },
 	"instance" : {
-		"filter" : "EstebanLorenzano 5/18/2016 18:04",
 		"filter:" : "EstebanLorenzano 5/18/2016 18:04",
+		"filter" : "EstebanLorenzano 5/18/2016 18:04",
 		"newBrowser" : "EstebanLorenzano 6/23/2016 19:35",
-		"printOn:" : "EstebanLorenzano 5/18/2016 20:38" } }
+		"printOn:" : "EstebanLorenzano 5/18/2016 20:38"
+	},
+	"class" : {
+		"findByFilter:" : "EstebanLorenzano 5/18/2016 18:05"
+	}
+}

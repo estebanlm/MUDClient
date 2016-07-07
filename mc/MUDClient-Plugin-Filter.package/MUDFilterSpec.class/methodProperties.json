@@ -1,11 +1,14 @@
 {
-	"class" : {
-		"isAbstract" : "EstebanLorenzano 7/7/2016 12:09" },
 	"instance" : {
-		"configureFiltersFor:in:" : "EstebanLorenzano 7/7/2016 12:11",
-		"filterClass" : "EstebanLorenzano 7/7/2016 12:11",
 		"icon" : "EstebanLorenzano 7/7/2016 13:22",
-		"name" : "EstebanLorenzano 7/7/2016 14:27",
 		"openBrowserFor:plugin:filter:in:" : "EstebanLorenzano 7/7/2016 12:11",
+		"configureFiltersFor:in:" : "EstebanLorenzano 7/7/2016 12:11",
+		"toolbarSpec" : "EstebanLorenzano 7/7/2016 13:22",
 		"pluginClass" : "EstebanLorenzano 7/7/2016 12:07",
-		"toolbarSpec" : "EstebanLorenzano 7/7/2016 13:22" } }
+		"name" : "EstebanLorenzano 7/7/2016 14:27",
+		"filterClass" : "EstebanLorenzano 7/7/2016 12:11"
+	},
+	"class" : {
+		"isAbstract" : "EstebanLorenzano 7/7/2016 12:09"
+	}
+}
