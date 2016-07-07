@@ -1,16 +1,17 @@
 {
-	"commentStamp" : "",
-	"super" : "MUDPluginBrowser",
 	"category" : "MUDClient-Plugin-Filter-View",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"areaMorphs",
 		"dirties",
 		"activeFilter",
-		"alert"
-	],
+		"alert" ],
 	"name" : "MUDTileFilterBrowser",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MUDPluginBrowser",
+	"type" : "normal" }

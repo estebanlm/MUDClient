@@ -1,3 +1,3 @@
 testing
 isAlert
-	^ alert
+	^ false

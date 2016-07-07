@@ -12,4 +12,7 @@ descriptionPatterns
 		default: OrderedCollection new;
 		morphClass: TkOneToManyFastListMorph;
 		tkRowsToShow: 5;
+		tkAddIcon: #add asMUDIcon;
+		tkEditIcon: #edit asMUDIcon;
+		tkRemoveIcon: #delete asMUDIcon;
 		yourself

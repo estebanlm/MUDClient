@@ -1,14 +1,16 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "TkGlamourSelectingEditor",
 	"category" : "MUDClient-Plugin-Filter-View",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"plugin",
-		"launchAction"
-	],
+		"launchAction",
+		"filterClass" ],
 	"name" : "MUDFilterConfigureDialog",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TkGlamourSelectingEditor",
+	"type" : "normal" }

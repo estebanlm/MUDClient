@@ -3,7 +3,7 @@ buildBrowser
 	| browser |
 	
 	browser := GLMTabulator new 
-		title: self class title;
+		title: self title;
 		initialExtent: self class preferredExtent;
 		column: #objects;
 		column: #currentObject span: 2;

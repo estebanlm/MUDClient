@@ -1,3 +1,3 @@
 accessing
-name
-	^ 'Filter'
+name 
+	^ self filterClass label

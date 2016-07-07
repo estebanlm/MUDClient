@@ -1,3 +1,3 @@
 accessing
 listTitle
-	^ 'Filters'
+	^ self filterClass label

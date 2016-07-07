@@ -1,25 +1,22 @@
 {
-	"instance" : {
-		"eatLines:" : "EstebanLorenzano 9/24/2015 20:47",
-		"matches:" : "EstebanLorenzano 9/24/2015 20:47",
-		"compilePattern" : "EstebanLorenzano 9/24/2015 20:47",
-		"descriptionIgnoreCase" : "EstebanLorenzano 9/24/2015 20:48",
-		"descriptionEatLines" : "EstebanLorenzano 9/24/2015 20:48",
-		"filter:" : "EstebanLorenzano 9/24/2015 21:11",
-		"isAlert" : "EstebanLorenzano 10/1/2015 16:34",
-		"compiledPattern" : "EstebanLorenzano 9/24/2015 20:47",
-		"initialize" : "EstebanLorenzano 9/24/2015 20:48",
-		"isIgnoreCase" : "EstebanLorenzano 9/24/2015 20:47",
-		"pattern" : "EstebanLorenzano 9/24/2015 20:47",
-		"eatLines" : "EstebanLorenzano 9/24/2015 20:47",
-		"ignoreCase:" : "EstebanLorenzano 9/24/2015 20:47",
-		"filter" : "EstebanLorenzano 9/24/2015 21:11",
-		"pattern:" : "EstebanLorenzano 9/24/2015 20:47",
-		"descriptionPattern" : "EstebanLorenzano 9/24/2015 20:48",
-		"printOn:" : "EstebanLorenzano 9/24/2015 21:23",
-		"resetCompiledPattern" : "EstebanLorenzano 9/24/2015 20:47"
-	},
 	"class" : {
-		"stonAllInstVarNames" : "EstebanLorenzano 5/17/2016 14:58"
-	}
-}
+		"stonAllInstVarNames" : "EstebanLorenzano 5/17/2016 14:58" },
+	"instance" : {
+		"compilePattern" : "EstebanLorenzano 9/24/2015 20:47",
+		"compiledPattern" : "EstebanLorenzano 9/24/2015 20:47",
+		"descriptionEatLines" : "EstebanLorenzano 9/24/2015 20:48",
+		"descriptionIgnoreCase" : "EstebanLorenzano 9/24/2015 20:48",
+		"descriptionPattern" : "EstebanLorenzano 9/24/2015 20:48",
+		"eatLines" : "EstebanLorenzano 9/24/2015 20:47",
+		"eatLines:" : "EstebanLorenzano 9/24/2015 20:47",
+		"filter" : "EstebanLorenzano 9/24/2015 21:11",
+		"filter:" : "EstebanLorenzano 9/24/2015 21:11",
+		"ignoreCase:" : "EstebanLorenzano 9/24/2015 20:47",
+		"initialize" : "EstebanLorenzano 9/24/2015 20:48",
+		"isAlert" : "EstebanLorenzano 10/1/2015 16:34",
+		"isIgnoreCase" : "EstebanLorenzano 9/24/2015 20:47",
+		"matches:" : "EstebanLorenzano 9/24/2015 20:47",
+		"pattern" : "EstebanLorenzano 9/24/2015 20:47",
+		"pattern:" : "EstebanLorenzano 9/24/2015 20:47",
+		"printOn:" : "EstebanLorenzano 9/24/2015 21:23",
+		"resetCompiledPattern" : "EstebanLorenzano 9/24/2015 20:47" } }
