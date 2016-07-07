@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GLMButtonModel",
 	"category" : "MUDClient-Plugin-Buttonpad-View",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MUDPadButtonModel",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GLMButtonModel",
+	"type" : "normal" }

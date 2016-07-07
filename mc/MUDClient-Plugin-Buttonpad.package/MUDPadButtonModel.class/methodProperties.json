@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"buttonLabel" : "EstebanLorenzano 5/13/2016 18:08",
 		"addMenu:to:" : "EstebanLorenzano 5/13/2016 17:58",
-		"buttonMenu:" : "EstebanLorenzano 5/13/2016 17:36"
-	},
-	"class" : { }
-}
+		"buttonLabel" : "EstebanLorenzano 5/13/2016 18:08",
+		"buttonMenu:" : "EstebanLorenzano 5/13/2016 17:36" } }

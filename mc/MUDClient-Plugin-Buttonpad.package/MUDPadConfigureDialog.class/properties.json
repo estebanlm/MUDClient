@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "TkGlamourSelectingEditor",
 	"category" : "MUDClient-Plugin-Buttonpad-View",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"buttonPad"
-	],
+		"buttonPad" ],
 	"name" : "MUDPadConfigureDialog",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TkGlamourSelectingEditor",
+	"type" : "normal" }

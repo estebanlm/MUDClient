@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "TableLayout",
 	"category" : "MUDClient-Plugin-Buttonpad-View",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "MUDUniformTableLayout",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TableLayout",
+	"type" : "normal" }

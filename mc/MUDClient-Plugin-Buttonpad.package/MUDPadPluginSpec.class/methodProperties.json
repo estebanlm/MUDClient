@@ -1,9 +1,8 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"name" : "EstebanLorenzano 6/24/2016 20:41",
 		"openButtonpadFor:in:" : "EstebanLorenzano 5/17/2016 21:50",
 		"pluginClass" : "EstebanLorenzano 5/17/2016 21:40",
-		"toolbarSpec" : "EstebanLorenzano 6/24/2016 20:41"
-	},
-	"class" : { }
-}
+		"toolbarSpec" : "EstebanLorenzano 6/24/2016 20:41" } }
