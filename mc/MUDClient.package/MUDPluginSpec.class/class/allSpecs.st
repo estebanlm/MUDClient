@@ -1,3 +1,5 @@
 accessing
 allSpecs
-	^ self allSubclasses collect: #uniqueInstance
+	^ self allSubclasses 
+		reject: #isAbstract
+		thenCollect: #uniqueInstance

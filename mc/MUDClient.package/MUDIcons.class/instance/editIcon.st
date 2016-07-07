@@ -1,3 +1,6 @@
 accessing icons
 editIcon
-	^ Smalltalk ui icons glamorousEdit
+	"Method generated"
+	^ icons 
+		at: #editIcon
+		ifAbsentPut: [ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self editIconContents readStream) ]

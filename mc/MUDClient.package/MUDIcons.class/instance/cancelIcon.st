@@ -1,3 +1,6 @@
 accessing icons
 cancelIcon
-	^ #smallCancel asIcon
+	"Method generated"
+	^ icons 
+		at: #cancelIcon
+		ifAbsentPut: [ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self cancelIconContents readStream) ]

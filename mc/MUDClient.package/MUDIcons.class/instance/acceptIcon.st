@@ -1,3 +1,6 @@
 accessing icons
 acceptIcon
-	^ Smalltalk ui icons iconNamed: #smallOk
+	"Method generated"
+	^ icons 
+		at: #acceptIcon
+		ifAbsentPut: [ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self acceptIconContents readStream) ]

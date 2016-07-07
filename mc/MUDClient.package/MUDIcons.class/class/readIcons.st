@@ -1,5 +1,5 @@
 utils
 readIcons 
 	self uniqueInstance 
-		readIconMethodsFromDirectory: 'repository/icons' asFileReference;
+		readIconMethodsFromDirectory: '/Users/esteban/Dev/Repository/MUDClient/icons/16' asFileReference;
 		initialize.

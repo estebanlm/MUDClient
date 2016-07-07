@@ -1,3 +1,6 @@
 accessing icons
 findIcon
-	^ #smallFind asIcon
+	"Method generated"
+	^ icons 
+		at: #findIcon
+		ifAbsentPut: [ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self findIconContents readStream) ]

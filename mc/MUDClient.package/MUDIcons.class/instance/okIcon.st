@@ -1,3 +1,3 @@
 accessing icons
 okIcon
-	^ #smallOk asIcon
+	^ self acceptIcon
