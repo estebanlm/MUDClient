@@ -1,15 +1,16 @@
 {
 	"instance" : {
 		"activeGrowlMorphs" : "EstebanLorenzano 5/19/2016 20:56",
-		"clearArea" : "EstebanLorenzano 7/8/2016 20:02",
+		"clearArea" : "EstebanLorenzano 7/8/2016 20:08",
 		"unoccupiedPositionBottomLeft" : "EstebanLorenzano 6/27/2016 14:28",
-		"unoccupiedPositionTopRight" : "EstebanLorenzano 5/19/2016 21:06",
 		"unoccupiedPosition" : "EstebanLorenzano 7/8/2016 19:27",
+		"unoccupiedPositionTopRight" : "EstebanLorenzano 5/19/2016 21:06",
 		"unoccupiedPositionTopLeft" : "EstebanLorenzano 5/19/2016 21:07",
 		"notifyPosition:" : "EstebanLorenzano 7/8/2016 19:26",
 		"openOn:" : "EstebanLorenzano 5/19/2016 21:08",
 		"unoccupiedPositionBottomRight" : "EstebanLorenzano 5/19/2016 21:07",
-		"notifyPosition" : "EstebanLorenzano 7/8/2016 19:25"
+		"notifyPosition" : "EstebanLorenzano 7/8/2016 19:25",
+		"clearAreaInset" : "EstebanLorenzano 7/8/2016 20:10"
 	},
 	"class" : {
 		"openWithLabel:contents:position:backgroundColor:labelColor:in:" : "EstebanLorenzano 7/8/2016 19:58",
