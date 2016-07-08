@@ -1,14 +1,19 @@
 {
 	"instance" : {
-		"unoccupiedPositionBottomRight" : "EstebanLorenzano 5/19/2016 21:07",
 		"activeGrowlMorphs" : "EstebanLorenzano 5/19/2016 20:56",
-		"clearArea" : "EstebanLorenzano 6/27/2016 15:42",
+		"clearArea" : "EstebanLorenzano 7/8/2016 20:02",
 		"unoccupiedPositionBottomLeft" : "EstebanLorenzano 6/27/2016 14:28",
+		"unoccupiedPositionTopRight" : "EstebanLorenzano 5/19/2016 21:06",
+		"unoccupiedPosition" : "EstebanLorenzano 7/8/2016 19:27",
 		"unoccupiedPositionTopLeft" : "EstebanLorenzano 5/19/2016 21:07",
+		"notifyPosition:" : "EstebanLorenzano 7/8/2016 19:26",
 		"openOn:" : "EstebanLorenzano 5/19/2016 21:08",
-		"unoccupiedPositionTopRight" : "EstebanLorenzano 5/19/2016 21:06"
+		"unoccupiedPositionBottomRight" : "EstebanLorenzano 5/19/2016 21:07",
+		"notifyPosition" : "EstebanLorenzano 7/8/2016 19:25"
 	},
 	"class" : {
-		"openWithLabel:contents:backgroundColor:labelColor:in:" : "EstebanLorenzano 5/19/2016 20:51"
+		"openWithLabel:contents:position:backgroundColor:labelColor:in:" : "EstebanLorenzano 7/8/2016 19:58",
+		"openWithLabel:contents:backgroundColor:labelColor:in:" : "EstebanLorenzano 5/19/2016 20:51",
+		"positionsAndLabels" : "EstebanLorenzano 7/8/2016 19:44"
 	}
 }

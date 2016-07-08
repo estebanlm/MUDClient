@@ -1,3 +1,7 @@
 private
 clearArea
-	^ self owner bounds insetBy: 5@ -8
+	| inset |
+	inset := (#(topRight bottomRight) includes: self notifyPosition) 
+		ifTrue: [ 5@ -8 ]
+		ifFalse: [ 5@5 ].
+	^ self owner bounds insetBy: inset

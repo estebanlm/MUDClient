@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"alertColor"
+		"alertColor",
+		"notifyPosition"
 	],
 	"name" : "MUDAlertFilter",
 	"type" : "normal"
