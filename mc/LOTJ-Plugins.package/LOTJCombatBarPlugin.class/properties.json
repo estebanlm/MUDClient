@@ -1,14 +1,17 @@
 {
-	"category" : "LOTJ-Plugins",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"CombatBarPanel" ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"values" ],
-	"name" : "LOTJCombatBarPlugin",
-	"pools" : [
-		"LOTJMSDPVariables" ],
 	"super" : "MUDPlugin",
-	"type" : "normal" }
+	"category" : "LOTJ-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [
+		"LOTJMSDPVariables"
+	],
+	"classvars" : [
+		"CombatBarPanel"
+	],
+	"instvars" : [
+		"values"
+	],
+	"name" : "LOTJCombatBarPlugin",
+	"type" : "normal"
+}

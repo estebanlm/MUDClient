@@ -8,4 +8,5 @@ newHorizontalPanel
 		listDirection: #leftToRight;
 		cellPositioning: #topLeft;
 		borderWidth: 0;
+		clipSubmorphs: true;
 		yourself	

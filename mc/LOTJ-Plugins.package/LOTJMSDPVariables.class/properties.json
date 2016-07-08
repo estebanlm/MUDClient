@@ -1,7 +1,9 @@
 {
+	"commentStamp" : "<historical>",
+	"super" : "SharedPool",
 	"category" : "LOTJ-Plugins",
-	"classinstvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [
 		"AC",
 		"AFFECTS",
@@ -106,12 +108,9 @@
 		"WIS",
 		"WIS_PERM",
 		"WORLD_TIME",
-		"XTERM_256_COLORS" ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
+		"XTERM_256_COLORS"
+	],
+	"instvars" : [ ],
 	"name" : "LOTJMSDPVariables",
-	"pools" : [
-		 ],
-	"super" : "SharedPool",
-	"type" : "normal" }
+	"type" : "normal"
+}

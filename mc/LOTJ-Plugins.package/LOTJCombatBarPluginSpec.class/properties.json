@@ -1,14 +1,11 @@
 {
-	"category" : "LOTJ-Plugins",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "LOTJCombatBarPluginSpec",
-	"pools" : [
-		 ],
 	"super" : "MUDPluginSpec",
-	"type" : "normal" }
+	"category" : "LOTJ-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LOTJCombatBarPluginSpec",
+	"type" : "normal"
+}

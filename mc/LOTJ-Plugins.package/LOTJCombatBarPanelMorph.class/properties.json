@@ -1,10 +1,10 @@
 {
-	"category" : "LOTJ-Plugins",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "EstebanLorenzano 6/27/2016 16:14",
+	"super" : "Morph",
+	"category" : "LOTJ-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"enemyLabel",
 		"enemyBar",
@@ -12,9 +12,8 @@
 		"healthBar",
 		"movementBar",
 		"forceBar",
-		"model" ],
+		"model"
+	],
 	"name" : "LOTJCombatBarPanelMorph",
-	"pools" : [
-		 ],
-	"super" : "Morph",
-	"type" : "normal" }
+	"type" : "normal"
+}

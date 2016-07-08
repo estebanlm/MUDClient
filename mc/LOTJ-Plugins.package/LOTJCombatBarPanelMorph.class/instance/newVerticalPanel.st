@@ -8,4 +8,5 @@ newVerticalPanel
 		listDirection: #topToBottom;
 		cellPositioning: #topLeft;
 		borderWidth: 0;
+		clipSubmorphs: true;
 		yourself	

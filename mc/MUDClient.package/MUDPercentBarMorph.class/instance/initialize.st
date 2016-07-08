@@ -6,5 +6,6 @@ initialize
 	self 
 		layoutFrame: LayoutFrame identity;
 		hResizing: #spaceFill; 
-		vResizing: #spaceFill.
+		vResizing: #spaceFill;
+		clipSubmorphs: true.
 	self showPercent.
