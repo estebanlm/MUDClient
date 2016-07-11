@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"script" : "EstebanLorenzano 6/29/2016 08:16",
+		"testSend" : "EstebanLorenzano 6/29/2016 08:44",
 		"session" : "EstebanLorenzano 6/29/2016 08:22",
-		"setUp" : "EstebanLorenzano 6/29/2016 08:42",
-		"terminal" : "EstebanLorenzano 6/29/2016 08:22",
 		"testDoUntil" : "EstebanLorenzano 6/29/2016 08:48",
+		"setUp" : "EstebanLorenzano 6/29/2016 08:42",
 		"testDoUntilAnyOf" : "EstebanLorenzano 6/29/2016 08:48",
+		"script" : "EstebanLorenzano 6/29/2016 08:16",
+		"terminal" : "EstebanLorenzano 6/29/2016 08:22",
 		"testDoWhileAnyOfUntilAnyOf" : "EstebanLorenzano 6/29/2016 08:48",
-		"testDoWhileUntil" : "EstebanLorenzano 6/29/2016 08:48",
-		"testSend" : "EstebanLorenzano 6/29/2016 08:44" } }
+		"testDoWhileUntil" : "EstebanLorenzano 6/29/2016 08:48"
+	},
+	"class" : { }
+}

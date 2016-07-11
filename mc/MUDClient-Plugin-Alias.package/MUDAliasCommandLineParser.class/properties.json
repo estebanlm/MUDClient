@@ -1,10 +1,10 @@
 {
-	"category" : "MUDClient-Plugin-Alias-Parser",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PPCompositeParser",
+	"category" : "MUDClient-Plugin-Alias-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"sentence",
 		"whitespace",
@@ -12,9 +12,8 @@
 		"command",
 		"keyword",
 		"string",
-		"number" ],
+		"number"
+	],
 	"name" : "MUDAliasCommandLineParser",
-	"pools" : [
-		 ],
-	"super" : "PPCompositeParser",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -3,7 +3,7 @@ assert: command command: aCollection
 	| readStream |
 	
 	readStream := aCollection readStream.
-	command do: [ :each | 
+	command keywords do: [ :each | 
 		self assert: each value equals: readStream next.
 		each argument 
 			ifNotNil: [ | argument |

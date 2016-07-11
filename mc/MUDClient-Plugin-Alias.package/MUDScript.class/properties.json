@@ -1,17 +1,16 @@
 {
-	"category" : "MUDClient-Plugin-Alias",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MUDClient-Plugin-Alias",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"terminal",
 		"do",
 		"while",
-		"until" ],
+		"until"
+	],
 	"name" : "MUDScript",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

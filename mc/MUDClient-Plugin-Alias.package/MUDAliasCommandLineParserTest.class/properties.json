@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-Plugin-Alias-Parser",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "MUDAliasCommandLineParserTest",
-	"pools" : [
-		 ],
 	"super" : "PPCompositeParserTest",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Alias-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDAliasCommandLineParserTest",
+	"type" : "normal"
+}

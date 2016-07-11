@@ -1,4 +1,4 @@
 testing
-matches: aString 
-	self hasUniqueKeywordWithoutArguments ifTrue: [ ^ self matchesUniqueString: aString ]
-		
+matches: aCommandLine
+	self hasUniqueKeywordWithoutArguments ifTrue: [ ^ self matchesUniqueString: aCommandLine ].
+	^ self matchesKeywords: aCommandLine

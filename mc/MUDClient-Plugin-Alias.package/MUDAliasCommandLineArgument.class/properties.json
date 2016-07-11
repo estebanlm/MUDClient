@@ -1,15 +1,14 @@
 {
-	"category" : "MUDClient-Plugin-Alias-Parser",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MUDClient-Plugin-Alias-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"value",
-		"quantity" ],
+		"quantity"
+	],
 	"name" : "MUDAliasCommandLineArgument",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

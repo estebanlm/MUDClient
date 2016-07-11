@@ -1,3 +1,5 @@
 testing
-matchesUniqueString: aString
-	^ aString compare: self keywords first name caseSensitive: false
+matchesUniqueString: line
+	^ (line rawLine
+		compare: self keywords first value 
+		caseSensitive: false) == 2

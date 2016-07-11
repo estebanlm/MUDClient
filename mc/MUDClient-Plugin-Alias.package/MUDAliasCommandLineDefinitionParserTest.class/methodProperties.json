@@ -1,7 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"parserClass" : "EstebanLorenzano 6/30/2016 08:00",
-		"testCommand" : "EstebanLorenzano 6/30/2016 19:21",
-		"testSentence" : "EstebanLorenzano 6/30/2016 08:03" } }
+		"testKeyword" : "EstebanLorenzano 7/11/2016 09:04",
+		"testKeywordWithArgument" : "EstebanLorenzano 7/11/2016 09:04",
+		"testCommand" : "EstebanLorenzano 7/11/2016 09:20"
+	},
+	"class" : { }
+}

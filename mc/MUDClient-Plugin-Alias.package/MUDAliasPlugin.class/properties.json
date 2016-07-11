@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Plugin-Alias",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "EstebanLorenzano 5/17/2016 21:46",
-	"instvars" : [
-		"aliases" ],
-	"name" : "MUDAliasPlugin",
-	"pools" : [
-		 ],
 	"super" : "MUDPlugin",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Alias",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"aliases"
+	],
+	"name" : "MUDAliasPlugin",
+	"type" : "normal"
+}

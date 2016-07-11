@@ -1,6 +1,6 @@
 instance creation
-name: aString argument: argString
+value: aString argument: argString
 	^ self new
-		name: aString;
+		value: aString;
 		argument: argString;
 		yourself

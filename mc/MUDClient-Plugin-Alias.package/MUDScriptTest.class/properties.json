@@ -1,16 +1,15 @@
 {
-	"category" : "MUDClient-Plugin-Alias",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "MUDClient-Plugin-Alias",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"terminal",
 		"script",
-		"game" ],
+		"game"
+	],
 	"name" : "MUDScriptTest",
-	"pools" : [
-		 ],
-	"super" : "TestCase",
-	"type" : "normal" }
+	"type" : "normal"
+}
