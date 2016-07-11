@@ -1,4 +1,4 @@
-accessing
+settings
 newDefaultSettings
 	self setPreferredPreferences.
 	^ super newDefaultSettings
@@ -7,6 +7,7 @@ newDefaultSettings
 		windowColor: self baseColor;
 		selectionColor: self lightSelectionColor;
 		menuSelectionColor: self baseSelectionColor;
+		menuSelectionTextColor: self baseTextColor darker;
 		progressBarColor: self baseColor;
 		standardColorsOnly: true;
 		autoSelectionColor: false;

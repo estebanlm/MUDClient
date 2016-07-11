@@ -19,11 +19,12 @@
 	"class" : {
 		"baseColor" : "EstebanLorenzano 7/7/2016 18:52",
 		"baseSelectionColor" : "EstebanLorenzano 7/7/2016 19:48",
+		"baseTextColor" : "EstebanLorenzano 7/11/2016 08:02",
 		"themeName" : "EstebanLorenzano 7/7/2016 18:54",
-		"lightBaseColor" : "EstebanLorenzano 7/7/2016 18:54",
 		"basePassiveBackgroundColor" : "EstebanLorenzano 7/7/2016 18:54",
+		"lightBaseColor" : "EstebanLorenzano 7/7/2016 18:54",
 		"lightSelectionColor" : "EstebanLorenzano 7/7/2016 19:50",
-		"newDefaultSettings" : "EstebanLorenzano 7/8/2016 00:20",
+		"newDefaultSettings" : "EstebanLorenzano 7/11/2016 08:09",
 		"darkBaseColor" : "EstebanLorenzano 7/8/2016 00:20"
 	}
 }
