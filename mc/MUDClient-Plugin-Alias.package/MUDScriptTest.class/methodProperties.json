@@ -10,5 +10,7 @@
 		"testDoWhileAnyOfUntilAnyOf" : "EstebanLorenzano 6/29/2016 08:48",
 		"testDoWhileUntil" : "EstebanLorenzano 6/29/2016 08:48"
 	},
-	"class" : { }
+	"class" : {
+		"isAbstract" : "EstebanLorenzano 7/25/2016 13:50"
+	}
 }

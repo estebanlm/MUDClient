@@ -1,13 +1,19 @@
 {
 	"instance" : {
+		"isActiveOn:" : "EstebanLorenzano 7/25/2016 13:34",
+		"removeVariable:" : "EstebanLorenzano 7/25/2016 13:28",
+		"variables" : "EstebanLorenzano 7/25/2016 13:28",
 		"removeAlias:" : "EstebanLorenzano 5/17/2016 18:32",
-		"aliases" : "EstebanLorenzano 5/17/2016 18:32",
-		"initialize" : "EstebanLorenzano 5/17/2016 18:32",
-		"addAlias:" : "EstebanLorenzano 5/17/2016 18:32",
+		"filterOn:input:" : "EstebanLorenzano 7/25/2016 13:37",
+		"initialize" : "EstebanLorenzano 7/25/2016 13:27",
 		"activeAliases" : "EstebanLorenzano 5/17/2016 18:32",
-		"isActiveOn:" : "EstebanLorenzano 5/17/2016 18:32",
-		"filterOn:input:" : "EstebanLorenzano 5/17/2016 18:32",
-		"hasAliases" : "EstebanLorenzano 5/17/2016 18:32"
+		"hasAliases" : "EstebanLorenzano 5/17/2016 18:32",
+		"aliases" : "EstebanLorenzano 5/17/2016 18:32",
+		"addAlias:" : "EstebanLorenzano 5/17/2016 18:32",
+		"addVariable:" : "EstebanLorenzano 7/25/2016 13:28",
+		"filterVariables:" : "EstebanLorenzano 7/25/2016 13:39",
+		"filterAliases:" : "EstebanLorenzano 7/25/2016 13:36",
+		"activeVariables" : "EstebanLorenzano 7/25/2016 13:27"
 	},
 	"class" : { }
 }
