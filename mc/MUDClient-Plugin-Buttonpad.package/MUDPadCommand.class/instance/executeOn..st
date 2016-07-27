@@ -1,6 +1,8 @@
 executing
 executeOn: aTerminal
+	| output |
 	self isDefined ifFalse: [ ^ self ].
-	aTerminal send: (self pad prefix 
+	output := (self pad prefix 
 		ifNotNil: [ :prefix | (prefix, ' ', self text) trimBoth ]
-		ifNil: [ self text ])
+		ifNil: [ self text ]).
+	aTerminal sendFilteringInput: output

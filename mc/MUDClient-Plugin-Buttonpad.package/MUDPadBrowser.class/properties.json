@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Plugin-Buttonpad-View",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"preferredExtent" ],
-	"name" : "MUDPadBrowser",
-	"pools" : [
-		 ],
 	"super" : "MUDPluginBrowser",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Buttonpad-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"preferredExtent"
+	],
+	"name" : "MUDPadBrowser",
+	"type" : "normal"
+}

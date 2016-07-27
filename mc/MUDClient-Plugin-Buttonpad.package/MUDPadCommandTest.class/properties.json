@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-Plugin-Buttonpad-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "MUDPadCommandTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Buttonpad-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDPadCommandTest",
+	"type" : "normal"
+}

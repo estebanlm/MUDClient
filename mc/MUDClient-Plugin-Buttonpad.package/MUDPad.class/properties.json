@@ -1,18 +1,17 @@
 {
-	"category" : "MUDClient-Plugin-Buttonpad-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "MUDClient-Plugin-Buttonpad-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"owner",
 		"name",
 		"modifier",
 		"commands",
-		"prefix" ],
+		"prefix"
+	],
 	"name" : "MUDPad",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

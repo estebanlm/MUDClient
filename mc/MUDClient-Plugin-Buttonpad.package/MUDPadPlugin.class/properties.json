@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Plugin-Buttonpad-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "EstebanLorenzano 5/17/2016 21:45",
-	"instvars" : [
-		"pads" ],
-	"name" : "MUDPadPlugin",
-	"pools" : [
-		 ],
 	"super" : "MUDPlugin",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Buttonpad-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pads"
+	],
+	"name" : "MUDPadPlugin",
+	"type" : "normal"
+}

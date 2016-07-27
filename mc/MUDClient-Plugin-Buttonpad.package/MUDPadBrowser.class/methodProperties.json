@@ -1,22 +1,25 @@
 {
-	"class" : {
-		"preferredExtent" : "EstebanLorenzano 8/12/2015 15:10",
-		"preferredWidth" : "EstebanLorenzano 8/29/2015 14:52",
-		"title" : "EstebanLorenzano 8/5/2015 20:34" },
 	"instance" : {
-		"addPad" : "EstebanLorenzano 8/29/2015 14:48",
-		"buildCommand:" : "EstebanLorenzano 5/13/2016 18:10",
-		"buildOn:" : "EstebanLorenzano 8/26/2015 21:15",
 		"buildPad:port:on:" : "EstebanLorenzano 5/13/2016 18:09",
-		"buildTitleMorph:" : "EstebanLorenzano 8/21/2015 13:23",
-		"buildToolbarOn:" : "EstebanLorenzano 5/19/2016 00:08",
 		"calculatePreferredExtent" : "EstebanLorenzano 8/29/2015 16:10",
-		"clear:then:" : "EstebanLorenzano 5/13/2016 17:46",
-		"configure" : "EstebanLorenzano 5/19/2016 05:43",
-		"execute:then:" : "EstebanLorenzano 9/9/2015 17:09",
 		"hardRefresh" : "EstebanLorenzano 8/29/2015 16:02",
+		"configure" : "EstebanLorenzano 5/19/2016 05:43",
+		"toolbarPosition" : "EstebanLorenzano 8/28/2015 19:15",
+		"buildTitleMorph:" : "EstebanLorenzano 8/21/2015 13:23",
+		"addPad" : "EstebanLorenzano 8/29/2015 14:48",
+		"buildOn:" : "EstebanLorenzano 8/26/2015 21:15",
+		"buildCommand:" : "EstebanLorenzano 5/13/2016 18:10",
 		"initialize" : "EstebanLorenzano 8/29/2015 14:58",
-		"installKeyBindingsOn:" : "EstebanLorenzano 8/21/2015 15:05",
 		"preferredExtent" : "EstebanLorenzano 8/29/2015 14:52",
+		"buildToolbarOn:" : "EstebanLorenzano 5/19/2016 00:08",
+		"clear:then:" : "EstebanLorenzano 5/13/2016 17:46",
+		"execute:then:" : "EstebanLorenzano 9/9/2015 17:09",
 		"requestTextForCommand:then:" : "EstebanLorenzano 5/19/2016 06:01",
-		"toolbarPosition" : "EstebanLorenzano 8/28/2015 19:15" } }
+		"installKeyBindingsOn:" : "EstebanLorenzano 8/21/2015 15:05"
+	},
+	"class" : {
+		"title" : "EstebanLorenzano 8/5/2015 20:34",
+		"preferredWidth" : "EstebanLorenzano 8/29/2015 14:52",
+		"preferredExtent" : "EstebanLorenzano 8/12/2015 15:10"
+	}
+}

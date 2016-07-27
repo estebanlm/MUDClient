@@ -2,6 +2,7 @@
 	"instance" : {
 		"game:" : "EstebanLorenzano 8/17/2015 20:37",
 		"textArea" : "EstebanLorenzano 6/27/2016 14:52",
+		"sendFilteringInput:" : "EstebanLorenzano 7/27/2016 17:57",
 		"sessionClosed:" : "EstebanLorenzano 6/28/2016 10:52",
 		"doConnect" : "EstebanLorenzano 5/19/2016 06:09",
 		"disconnect" : "EstebanLorenzano 8/11/2015 21:17",
@@ -35,6 +36,7 @@
 		"replaceKeyBindings:with:" : "EstebanLorenzano 8/4/2015 20:37",
 		"refreshKeyBindings" : "EstebanLorenzano 9/18/2015 19:48",
 		"isConnectedAndRunning" : "EstebanLorenzano 8/11/2015 13:22",
+		"sendFilteringInput:excluding:" : "EstebanLorenzano 7/27/2016 17:57",
 		"send:" : "EstebanLorenzano 6/5/2014 13:26",
 		"title" : "EstebanLorenzano 8/12/2015 11:47",
 		"dependentWindows" : "EstebanLorenzano 8/12/2015 13:11",
