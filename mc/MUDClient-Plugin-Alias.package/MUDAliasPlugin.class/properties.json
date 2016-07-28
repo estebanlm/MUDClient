@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "EstebanLorenzano 5/17/2016 21:46",
+	"commentStamp" : "EstebanLorenzano 7/28/2016 09:55",
 	"super" : "MUDPlugin",
 	"category" : "MUDClient-Plugin-Alias",
 	"classinstvars" : [ ],
