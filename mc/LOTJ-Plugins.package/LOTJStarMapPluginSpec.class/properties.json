@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"super" : "MUDPluginSpec",
-	"category" : "LOTJ-Plugins-CombatBar",
+	"category" : "LOTJ-Plugins-StarMap",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "LOTJCombatBarPluginSpec",
+	"name" : "LOTJStarMapPluginSpec",
 	"type" : "normal"
 }

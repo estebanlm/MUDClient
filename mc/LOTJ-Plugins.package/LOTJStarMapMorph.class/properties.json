@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "LOTJ-Plugins-StarMap",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"starMap",
+		"regionRectangle"
+	],
+	"name" : "LOTJStarMapMorph",
+	"type" : "normal"
+}

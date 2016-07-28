@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "MUDPlugin",
-	"category" : "LOTJ-Plugins",
+	"category" : "LOTJ-Plugins-CombatBar",
 	"classinstvars" : [ ],
 	"pools" : [
 		"LOTJMSDPVariables"

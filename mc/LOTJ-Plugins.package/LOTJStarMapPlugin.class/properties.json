@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "EstebanLorenzano 7/28/2016 09:58",
+	"super" : "MUDPlugin",
+	"category" : "LOTJ-Plugins-StarMap",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"points",
+		"planetsSource",
+		"systemsSource"
+	],
+	"name" : "LOTJStarMapPlugin",
+	"type" : "normal"
+}
