@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EstebanLorenzano 6/27/2016 16:14",
 	"super" : "Morph",
-	"category" : "LOTJ-Plugins-CombatBar",
+	"category" : "LOTJ-Plugin-CombatBar",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "LOTJ-Plugins-StarMap",
+	"category" : "LOTJ-Plugin-StarMap",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

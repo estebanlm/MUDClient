@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "SharedPool",
-	"category" : "LOTJ-Plugins-CombatBar",
+	"category" : "LOTJ-Plugin-CombatBar",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [

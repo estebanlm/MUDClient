@@ -32,7 +32,8 @@ baseline: spec
 			package: 'MUDClient-Tests' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Protocol-Tests' with: [ spec requires: #('MUDClient-Tests') ];
 			"LOTJ"
-			package: 'LOTJ-Plugins' with: [ spec requires: #('MUDClient') ].
+			package: 'LOTJ-Plugin-CombatBar' with: [ spec requires: #('MUDClient') ];
+			package: 'LOTJ-Plugin-StarMap' with: [ spec requires: #('MUDClient') ].
 
 		spec 
 			group: 'default' with: #('core' 'plugins' 'LOTJ' 'tests');
@@ -44,5 +45,5 @@ baseline: spec
 				'MUDClient-Plugin-Buttonpad' 
 				'MUDClient-Plugin-LogViewer'
 				'MUDClient-Plugin-Filter');
-			group: 'LOTJ' with: #('LOTJ-Plugins');	
+			group: 'LOTJ' with: #('LOTJ-Plugin-CombatBar' 'LOTJ-Plugin-StarMap');	
 			group: 'tests' with: #('core' 'MUDClient-Tests' 'MUDClient-Protocol-Tests') ] 

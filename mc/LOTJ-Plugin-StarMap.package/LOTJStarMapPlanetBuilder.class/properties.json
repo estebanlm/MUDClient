@@ -1,18 +1,14 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "LOTJ-Plugins-StarMap",
+	"category" : "LOTJ-Plugin-StarMap",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"system",
-		"point",
-		"owner",
-		"notes",
-		"origin"
+		"planetsSource",
+		"systemsSource"
 	],
-	"name" : "LOTJStarMapPoint",
+	"name" : "LOTJStarMapPlanetBuilder",
 	"type" : "normal"
 }
