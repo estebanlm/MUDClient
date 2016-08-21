@@ -1,5 +1,3 @@
 accessing
 allExplicitActivationSpecs
-	^ self allSubclasses 
-		collect: #uniqueInstance
-		thenSelect: #needsExplicitActivation
+	^ self allSpecs select: #needsExplicitActivation

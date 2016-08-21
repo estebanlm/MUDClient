@@ -20,7 +20,7 @@ descriptionPlugins
 				"now add"
 				(value \ currentSpecs) do: [ :each | each pluginAt: this] ]);
 		tkRowsToShow: 4;
-		tkHideAdd;
+		"tkHideAdd;"
 		tkRemoveIcon: #delete asMUDIcon;
 		tkRemoveHelpText: 'Remove {1}' localised;
 		tkPickIcon: #find asMUDIcon;
