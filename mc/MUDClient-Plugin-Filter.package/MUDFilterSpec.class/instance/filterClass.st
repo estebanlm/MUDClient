@@ -1,3 +1,3 @@
 accessing
 filterClass
-	^ self subclassResponsibility
+	^ nil

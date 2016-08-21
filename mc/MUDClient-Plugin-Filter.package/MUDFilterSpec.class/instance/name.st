@@ -1,3 +1,3 @@
 accessing
 name 
-	^ self filterClass label
+	^ self filterClass ifNotNil: [ :c | c label ]
