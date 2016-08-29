@@ -1,0 +1,16 @@
+{
+	"category" : "MUDClient-Gtk",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TMUDLogueable classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"game" ],
+	"name" : "MUDModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TMUDLogueable",
+	"type" : "normal" }

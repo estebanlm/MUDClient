@@ -1,0 +1,17 @@
+{
+	"category" : "MUDClient-Gtk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"window",
+		"session",
+		"dependentWindows",
+		"register" ],
+	"name" : "MUDTerminalModel",
+	"pools" : [
+		"MUDTelnetConstants" ],
+	"super" : "MUDModel",
+	"type" : "normal" }

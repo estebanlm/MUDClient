@@ -1,0 +1,3 @@
+private
+disconnect
+	self closeSession
