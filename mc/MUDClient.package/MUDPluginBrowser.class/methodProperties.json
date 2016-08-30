@@ -1,18 +1,15 @@
 {
+	"class" : {
+		"game:plugin:" : "EstebanLorenzano 8/12/2015 14:55",
+		"new" : "EstebanLorenzano 8/12/2015 14:58" },
 	"instance" : {
-		"initializeGame:plugin:" : "EstebanLorenzano 8/13/2015 18:46",
 		"createSettings" : "EstebanLorenzano 5/18/2016 22:30",
-		"windowClosed:" : "EstebanLorenzano 8/29/2015 18:10",
-		"plugin" : "EstebanLorenzano 8/12/2015 14:58",
-		"owner:" : "EstebanLorenzano 8/21/2015 15:14",
-		"windowOpened:" : "EstebanLorenzano 8/29/2015 18:10",
+		"initializeGame:plugin:" : "EstebanLorenzano 8/13/2015 18:46",
+		"isPluginBrowser" : "EstebanLorenzano 8/29/2015 17:36",
 		"open" : "EstebanLorenzano 5/17/2016 21:49",
 		"openOn:" : "EstebanLorenzano 6/23/2016 19:28",
 		"owner" : "EstebanLorenzano 8/21/2015 15:14",
-		"isPluginBrowser" : "EstebanLorenzano 8/29/2015 17:36"
-	},
-	"class" : {
-		"new" : "EstebanLorenzano 8/12/2015 14:58",
-		"game:plugin:" : "EstebanLorenzano 8/12/2015 14:55"
-	}
-}
+		"owner:" : "EstebanLorenzano 8/21/2015 15:14",
+		"plugin" : "EstebanLorenzano 8/12/2015 14:58",
+		"windowClosed:" : "EstebanLorenzano 8/29/2015 18:10",
+		"windowOpened:" : "EstebanLorenzano 8/29/2015 18:10" } }

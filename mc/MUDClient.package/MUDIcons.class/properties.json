@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "MUDClient-View",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"icons"
-	],
+		"icons" ],
 	"name" : "MUDIcons",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,16 +1,17 @@
 {
+	"category" : "MUDClient-View",
+	"classinstvars" : [
+		 ],
 	"classtraitcomposition" : "TMUDLogueable classTrait",
-	"classvars" : [ ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"game",
-		"window"
-	],
+		"window" ],
 	"name" : "MUDBrowser",
-	"commentStamp" : "<historical>",
+	"pools" : [
+		 ],
 	"super" : "GLMCompositePresentation",
 	"traitcomposition" : "TMUDLogueable",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "MUDClient-View"
-}
+	"type" : "normal" }

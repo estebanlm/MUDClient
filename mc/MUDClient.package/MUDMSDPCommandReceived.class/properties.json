@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "MUDCommandReceived",
 	"category" : "MUDClient-Model-Telnet",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"variable"
-	],
+		"variable" ],
 	"name" : "MUDMSDPCommandReceived",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MUDCommandReceived",
+	"type" : "normal" }

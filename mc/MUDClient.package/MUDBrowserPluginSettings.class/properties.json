@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "MUDBrowserSettings",
 	"category" : "MUDClient-View",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"plugin"
-	],
+		"plugin" ],
 	"name" : "MUDBrowserPluginSettings",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MUDBrowserSettings",
+	"type" : "normal" }

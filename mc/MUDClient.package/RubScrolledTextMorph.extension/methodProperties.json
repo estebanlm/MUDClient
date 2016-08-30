@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"beReadOnly" : "EstebanLorenzano 5/12/2014 13:36",
-		"adjustScrollbars" : "EstebanLorenzano 5/13/2014 08:45"
-	},
-	"class" : { }
-}
+		"adjustScrollbars" : "EstebanLorenzano 5/13/2014 08:45",
+		"beReadOnly" : "EstebanLorenzano 5/12/2014 13:36" } }

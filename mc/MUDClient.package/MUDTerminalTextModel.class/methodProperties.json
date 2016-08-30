@@ -1,22 +1,19 @@
 {
-	"instance" : {
-		"appendText:" : "EstebanLorenzano 5/20/2016 17:19",
-		"text" : "EstebanLorenzano 6/28/2016 16:51",
-		"newScrolledText" : "EstebanLorenzano 5/20/2016 17:34",
-		"basicAppendText:" : "EstebanLorenzano 5/20/2016 17:18",
-		"parseDecoration" : "EstebanLorenzano 5/13/2014 09:09",
-		"maxLines" : "EstebanLorenzano 5/12/2014 14:28",
-		"parseText:" : "EstebanLorenzano 5/13/2014 08:58",
-		"mutex" : "EstebanLorenzano 5/20/2016 17:27",
-		"initialize" : "EstebanLorenzano 5/20/2016 17:27",
-		"maxLines:" : "EstebanLorenzano 5/12/2014 14:28",
-		"clear" : "EstebanLorenzano 4/19/2016 22:54",
-		"removeFirstLines" : "EstebanLorenzano 5/30/2016 08:54",
-		"text:" : "EstebanLorenzano 5/20/2016 17:14",
-		"addParseDecoration:" : "EstebanLorenzano 5/13/2014 09:04",
-		"appendParsedText:" : "EstebanLorenzano 5/20/2016 17:18"
-	},
 	"class" : {
-		"defaultMaxLines" : "EstebanLorenzano 5/12/2014 14:28"
-	}
-}
+		"defaultMaxLines" : "EstebanLorenzano 5/12/2014 14:28" },
+	"instance" : {
+		"addParseDecoration:" : "EstebanLorenzano 5/13/2014 09:04",
+		"appendParsedText:" : "EstebanLorenzano 5/20/2016 17:18",
+		"appendText:" : "EstebanLorenzano 5/20/2016 17:19",
+		"basicAppendText:" : "EstebanLorenzano 5/20/2016 17:18",
+		"clear" : "EstebanLorenzano 4/19/2016 22:54",
+		"initialize" : "EstebanLorenzano 5/20/2016 17:27",
+		"maxLines" : "EstebanLorenzano 5/12/2014 14:28",
+		"maxLines:" : "EstebanLorenzano 5/12/2014 14:28",
+		"mutex" : "EstebanLorenzano 5/20/2016 17:27",
+		"newScrolledText" : "EstebanLorenzano 5/20/2016 17:34",
+		"parseDecoration" : "EstebanLorenzano 5/13/2014 09:09",
+		"parseText:" : "EstebanLorenzano 5/13/2014 08:58",
+		"removeFirstLines" : "EstebanLorenzano 5/30/2016 08:54",
+		"text" : "EstebanLorenzano 6/28/2016 16:51",
+		"text:" : "EstebanLorenzano 5/20/2016 17:14" } }

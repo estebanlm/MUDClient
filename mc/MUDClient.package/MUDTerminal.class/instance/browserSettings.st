@@ -1,5 +1,4 @@
 private settings
-"protocol: private"
 browserSettings
 	^ MUDTerminalBrowserSettings
 		findMatchFor: self   

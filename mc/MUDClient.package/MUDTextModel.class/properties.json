@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "TxModel",
 	"category" : "MUDClient-View-Text",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"styler"
-	],
+		"styler" ],
 	"name" : "MUDTextModel",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TxModel",
+	"type" : "normal" }

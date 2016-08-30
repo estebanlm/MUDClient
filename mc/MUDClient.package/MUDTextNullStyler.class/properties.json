@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "MUDTextStyler",
 	"category" : "MUDClient-View-Text",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MUDTextNullStyler",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MUDTextStyler",
+	"type" : "normal" }

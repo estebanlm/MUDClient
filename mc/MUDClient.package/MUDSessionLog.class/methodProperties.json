@@ -1,16 +1,13 @@
 {
-	"instance" : {
-		"log" : "EstebanLorenzano 8/13/2015 20:06",
-		"initialize" : "EstebanLorenzano 8/13/2015 20:07",
-		"createFileName" : "EstebanLorenzano 8/13/2015 20:16",
-		"initializeGame:" : "EstebanLorenzano 8/13/2015 20:02",
-		"directory" : "EstebanLorenzano 8/13/2015 20:04",
-		"record:" : "EstebanLorenzano 8/13/2015 20:06",
-		"game" : "EstebanLorenzano 8/13/2015 20:02"
-	},
 	"class" : {
-		"new" : "EstebanLorenzano 8/13/2015 20:02",
 		"baseDirectory" : "EstebanLorenzano 8/13/2015 20:05",
-		"game:" : "EstebanLorenzano 8/13/2015 20:02"
-	}
-}
+		"game:" : "EstebanLorenzano 8/13/2015 20:02",
+		"new" : "EstebanLorenzano 8/13/2015 20:02" },
+	"instance" : {
+		"createFileName" : "EstebanLorenzano 8/13/2015 20:16",
+		"directory" : "EstebanLorenzano 8/13/2015 20:04",
+		"game" : "EstebanLorenzano 8/13/2015 20:02",
+		"initialize" : "EstebanLorenzano 8/13/2015 20:07",
+		"initializeGame:" : "EstebanLorenzano 8/13/2015 20:02",
+		"log" : "EstebanLorenzano 8/13/2015 20:06",
+		"record:" : "EstebanLorenzano 8/13/2015 20:06" } }
