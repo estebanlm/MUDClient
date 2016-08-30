@@ -7,6 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"window",
+		"toolbar",
+		"textArea",
+		"inputText",
 		"session",
 		"dependentWindows",
 		"register" ],

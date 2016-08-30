@@ -1,4 +1,5 @@
 opening
 show
 	window := self buildWindow. 
-	window show
+	window show.
+	window grabFocus

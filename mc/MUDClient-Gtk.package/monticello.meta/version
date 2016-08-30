@@ -1,1 +1,2 @@
-(name 'MUDClient-Gtk-EstebanLorenzano.1' message 'Importing package MUDClient-Gtk' id '7bf763c2-d78f-49cd-958a-7c459e90d4b4' date '29 August 2016' time '9:46:03.211372 pm' author 'EstebanLorenzano' ancestors () stepChildren ())
+(name 'MUDClient-Gtk-EstebanLorenzano.2' message 'working on MUDTerminalModel (just building the widget for now)' id 'de6b61c3-a57a-4a4a-9e3a-c8458f9406fe' date '30 August 2016' time '7:47:22.47975 am' author 'EstebanLorenzano' ancestors ((name 'MUDClient-Gtk-EstebanLorenzano.1' message 'Importing package MUDClient-Gtk
+' id 'ec3e21a7-3332-5610-8bc3-46271b872b13' date '29 August 2016' time '9:46:04 pm' author 'EstebanLorenzano' ancestors () stepChildren ())) stepChildren ())

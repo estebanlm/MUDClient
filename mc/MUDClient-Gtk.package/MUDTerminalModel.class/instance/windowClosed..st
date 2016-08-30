@@ -1,4 +1,5 @@
 private ui
 windowClosed: ann
 	"A WindowClosed event has been received"
-	self disconnect
+	self disconnect.
+	window := nil "destroy window"

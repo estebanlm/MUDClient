@@ -1,3 +1,6 @@
 building
 buildContents
-	^ (GtkLabel newLabel: 'TODO') overrideBackgroundColor: Color black
+	^ GtkBox newVertical 
+		packStart: (textArea := self buildTextArea);
+		packStart: (inputText := self buildInputField) expand: false fill: true padding: 0;
+		yourself
