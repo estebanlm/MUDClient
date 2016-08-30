@@ -1,0 +1,14 @@
+{
+	"category" : "MUDClient-Gtk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MUDSelectGameModel",
+	"pools" : [
+		 ],
+	"super" : "MUDEditorModel",
+	"type" : "normal" }

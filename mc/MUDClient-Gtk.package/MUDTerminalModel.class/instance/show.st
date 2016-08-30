@@ -1,4 +1,4 @@
 opening
 show
-	window := self buildWindow. 
+	window := self buildWindow autoRelease. 
 	window show

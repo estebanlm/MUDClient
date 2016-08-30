@@ -1,0 +1,17 @@
+{
+	"category" : "MUDClient-Gtk",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TMUDLogueable classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"window",
+		"value" ],
+	"name" : "MUDEditorModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TMUDLogueable",
+	"type" : "normal" }

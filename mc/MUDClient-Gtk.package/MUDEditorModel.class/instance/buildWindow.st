@@ -1,0 +1,3 @@
+building
+buildWindow
+	self subclassResponsibility
