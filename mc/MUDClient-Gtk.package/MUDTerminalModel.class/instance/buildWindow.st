@@ -7,12 +7,7 @@ buildWindow
 			packStart: (toolbar := self buildToolbar) expand: false fill: false padding: 0;
 			packStart: self buildContents;
 			yourself);
-	"	connectShow: [ 
-			InputEventFetcher default terminateEventLoop.
-			MorphicUIManager new terminateUIProcess ];"
 		connectHide: [ 
-			self windowClosed: (WindowClosed new window: self). 
-			"MorphicUIManager new spawnNewProcess.
-			InputEventFetcher default installEventLoop" ];
+			self windowClosed: (WindowClosed new window: self) ];
 		yourself
 	

@@ -1,0 +1,3 @@
+private
+closeWindow
+	window hide
