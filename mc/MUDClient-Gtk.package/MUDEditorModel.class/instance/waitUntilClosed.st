@@ -1,0 +1,3 @@
+private
+waitUntilClosed	
+	waitForClose wait

@@ -8,7 +8,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"window",
-		"value" ],
+		"value",
+		"waitForClose" ],
 	"name" : "MUDEditorModel",
 	"pools" : [
 		 ],

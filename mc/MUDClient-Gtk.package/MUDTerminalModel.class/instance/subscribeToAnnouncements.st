@@ -1,3 +1,3 @@
 initialization
 subscribeToAnnouncements
-	self when: MUDRefreshKeyBindingsAnnouncement send: #refreshKeyBindings to: self
+	"self when: MUDRefreshKeyBindingsAnnouncement send: #refreshKeyBindings to: self"
