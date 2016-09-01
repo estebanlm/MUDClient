@@ -13,8 +13,8 @@
 		"session",
 		"dependentWindows",
 		"register" ],
-	"name" : "MUDTerminalModel",
+	"name" : "MUDTerminalPresenter",
 	"pools" : [
 		"MUDTelnetConstants" ],
-	"super" : "MUDModel",
+	"super" : "MUDPresenter",
 	"type" : "normal" }

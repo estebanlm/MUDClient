@@ -1,7 +1,10 @@
 building
 buildListPanel
 	^ GtkBox newVertical 
-		packStart: GtkListBox new;
+		packStart: (GtkListBox new
+			addAll: (self games collect: [ :each | (GtkLabel newLabel: each name) data: each ]);
+			connectRowSelected: [ :w | self halt ];
+			yourself);
 		packStart: (GtkToolbar new 
 				beIconSizeSmallToolbar;
 				beIcons;
@@ -12,5 +15,5 @@ buildListPanel
 				yourself)
 			expand: false
 			fill: false
-		padding: 0;
+			padding: 0;
 		yourself

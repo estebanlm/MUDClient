@@ -2,13 +2,15 @@
 	"category" : "MUDClient-Gtk",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TMUDLogueable classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MUDSelectGameModel",
+		"game" ],
+	"name" : "MUDPresenter",
 	"pools" : [
 		 ],
-	"super" : "MUDEditorModel",
+	"super" : "Object",
+	"traitcomposition" : "TMUDLogueable",
 	"type" : "normal" }

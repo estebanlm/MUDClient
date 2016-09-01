@@ -10,7 +10,7 @@
 		"window",
 		"value",
 		"waitForClose" ],
-	"name" : "MUDEditorModel",
+	"name" : "MUDEditorPresenter",
 	"pools" : [
 		 ],
 	"super" : "Object",
