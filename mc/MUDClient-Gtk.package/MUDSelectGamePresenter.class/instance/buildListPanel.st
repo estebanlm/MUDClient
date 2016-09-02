@@ -3,7 +3,7 @@ buildListPanel
 	^ GtkBox newVertical 
 		packStart: (GtkListBox new
 			addAll: (self games collect: [ :each | (GtkLabel newLabel: each name) data: each ]);
-			connectRowSelected: [ :w | self halt ];
+			connectRowSelected: [ :w | self updateGamePanelWith: (w ifNotNil: [ w data ]) ];
 			yourself);
 		packStart: (GtkToolbar new 
 				beIconSizeSmallToolbar;
