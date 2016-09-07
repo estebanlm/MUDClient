@@ -1,8 +1,8 @@
 actions
 updateGamePanelWith: aGame
-	| w |
+	| contentWidget |
 	gamePanel removeAll.
 	aGame ifNil: [ ^ self ].
-	w := aGame asPresenter widget.
-	gamePanel packStart: w.
-	w showAll.
+	contentWidget := aGame asPresenter widget.
+	gamePanel packStart: contentWidget.
+	contentWidget showAll.
