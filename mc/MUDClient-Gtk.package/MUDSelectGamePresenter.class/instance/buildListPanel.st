@@ -4,6 +4,12 @@ buildListPanel
 		packStart: (GtkListBox new
 			addAll: (self games collect: [ :each | (GtkLabel newLabel: each name) data: each ]);
 			connectRowSelected: [ :w | self updateGamePanelWith: (w ifNotNil: [ w data ]) ];
+			"flow: (MarsFlow new
+				port: 'row-selected';
+				inputTransform: #data;
+				output: [ gamePanel ];
+				outputTransform: [ :game | game asPresenter widget ];
+				yourself);" 
 			yourself);
 		packStart: (GtkToolbar new 
 				beIconSizeSmallToolbar;
