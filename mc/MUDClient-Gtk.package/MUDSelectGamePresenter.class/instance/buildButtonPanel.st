@@ -2,8 +2,8 @@ building
 buildButtonPanel
 	^ GtkBox newHorizontal 
 		packEnd: ((GtkButton newLabel: 'Launch')
-				image: (GtkImage newForm: #connect asMUDIcon);
 				alwaysShowImage: true;
+				image: (GtkImage newForm: #connect asMUDIcon);
 				connectClicked: [ self launch ];
 				yourself) 
 			expand: false 

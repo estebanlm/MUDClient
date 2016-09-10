@@ -1,5 +1,13 @@
 actions
 updateGamePanelWith: aGame
+	| widget |
 	gamePanel removeAll.
 	aGame ifNil: [ ^ self ].
-	(gamePanel packStart: aGame asPresenter widget) showAll.
+	widget := aGame asPresenter 
+		addButtons: {
+			MarsButtonPresenter label: 'Accept' icon: #accept asMUDIcon action: [ :this | this save ]. 
+			MarsButtonPresenter label: 'Cancel' icon: #cancel asMUDIcon action: [ :this | this cancel ].
+		};
+		onAnswer: [ :v | self halt ];
+		widget.
+	(gamePanel packStart: widget) showAll.
