@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "MUDMSDPInstance",
 	"category" : "MUDClient-Protocol-MSDP",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"map"
-	],
+		"map" ],
 	"name" : "MUDMSDPMap",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MUDMSDPInstance",
+	"type" : "normal" }

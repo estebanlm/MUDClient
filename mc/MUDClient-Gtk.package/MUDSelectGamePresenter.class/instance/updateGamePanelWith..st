@@ -1,4 +1,4 @@
-actions
+updating
 updateGamePanelWith: aGame
 	| widget |
 	gamePanel removeAll.
@@ -8,6 +8,6 @@ updateGamePanelWith: aGame
 			MarsButtonPresenter label: 'Accept' icon: #accept asMUDIcon action: [ :this | this save ]. 
 			MarsButtonPresenter label: 'Cancel' icon: #cancel asMUDIcon action: [ :this | this cancel ].
 		};
-		onAnswer: [ :v | self halt ];
+		onAnswer: [ :v | v ifNotNil: [ self updateListBox ] ];
 		widget.
 	(gamePanel packStart: widget) showAll.

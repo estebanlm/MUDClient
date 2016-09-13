@@ -1,9 +1,8 @@
 building
 buildListPanel
 	^ GtkBox newVertical 
-		packStart: (GtkListBox new
-			addAll: (self games collect: [ :each | (GtkLabel newLabel: each name) data: each ]);
-			connectRowSelected: [ :w | self updateGamePanelWith: (w ifNotNil: [ w data ]) ];
+		packStart: ((listBox := GtkListBox new)
+			connectRowSelected: [ :row | self updateGamePanelWith: (row ifNotNil: [ row child data ]) ];
 			"flow: (MarsFlow new
 				port: 'row-selected';
 				inputTransform: #data;

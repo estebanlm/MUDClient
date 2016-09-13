@@ -1,16 +1,15 @@
 {
-	"commentStamp" : "EstebanLorenzano 2/18/2014 12:00",
-	"super" : "Object",
 	"category" : "MUDClient-Protocol-MSDP",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 2/18/2014 12:00",
+	"instvars" : [
+		"stream" ],
+	"name" : "MUDMSDPCommandBuilder",
 	"pools" : [
 		"MUDTelnetConstantsMSDP",
-		"TelnetConstantsRFC854"
-	],
-	"classvars" : [ ],
-	"instvars" : [
-		"stream"
-	],
-	"name" : "MUDMSDPCommandBuilder",
-	"type" : "normal"
-}
+		"TelnetConstantsRFC854" ],
+	"super" : "Object",
+	"type" : "normal" }

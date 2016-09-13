@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"gamePanel" ],
+		"gamePanel",
+		"listPanel",
+		"listBox" ],
 	"name" : "MUDSelectGamePresenter",
 	"pools" : [
 		 ],

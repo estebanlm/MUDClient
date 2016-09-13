@@ -1,18 +1,17 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "MUDANSIEscape",
 	"category" : "MUDClient-Protocol-ANSI",
 	"classinstvars" : [
 		"normalColorMap",
-		"brightColorMap"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"brightColorMap" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"backgroundColor",
 		"foregroundColor",
-		"bold"
-	],
+		"bold" ],
 	"name" : "MUDANSIColor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MUDANSIEscape",
+	"type" : "normal" }

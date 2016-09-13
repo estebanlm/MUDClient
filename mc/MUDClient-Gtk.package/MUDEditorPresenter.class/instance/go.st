@@ -1,6 +1,7 @@
 generating
 go
 	window := self buildWindow autoRelease.
+	self startPresenter.
 	window connectHide: [ self continue ].
 	window modal: true.
 	window center.

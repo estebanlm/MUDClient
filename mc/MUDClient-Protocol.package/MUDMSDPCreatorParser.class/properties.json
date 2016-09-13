@@ -1,13 +1,10 @@
 {
-	"commentStamp" : "EstebanLorenzano 2/4/2014 18:43",
-	"super" : "PPCompositeParser",
 	"category" : "MUDClient-Protocol-MSDP",
-	"classinstvars" : [ ],
-	"pools" : [
-		"MUDTelnetConstantsMSDP",
-		"TelnetConstantsRFC854"
-	],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 2/4/2014 18:43",
 	"instvars" : [
 		"esc",
 		"iac",
@@ -32,8 +29,10 @@
 		"array",
 		"subcommand",
 		"negotiation",
-		"command"
-	],
+		"command" ],
 	"name" : "MUDMSDPCreatorParser",
-	"type" : "normal"
-}
+	"pools" : [
+		"MUDTelnetConstantsMSDP",
+		"TelnetConstantsRFC854" ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

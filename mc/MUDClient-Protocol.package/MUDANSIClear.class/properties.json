@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "MUDANSIEscape",
 	"category" : "MUDClient-Protocol-ANSI",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "MUDANSIClear",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MUDANSIEscape",
+	"type" : "normal" }

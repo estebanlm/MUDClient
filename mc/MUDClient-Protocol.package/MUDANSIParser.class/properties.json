@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "PPCompositeParser",
 	"category" : "MUDClient-Protocol-ANSI",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"ps",
 		"csi",
@@ -14,8 +14,9 @@
 		"text",
 		"escape",
 		"sequence",
-		"clear"
-	],
+		"clear" ],
 	"name" : "MUDANSIParser",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

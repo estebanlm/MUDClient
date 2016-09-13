@@ -6,7 +6,7 @@ buildWindow
 		borderWidth: 5;
 		add: (GtkBox newVertical
 			packStart:  (GtkBox newHorizontal
-				packStart: self buildListPanel;
+				packStart: (listPanel := self buildListPanel);
 				packStart: (gamePanel := GtkBox newVertical);
 				yourself);
 			packStart: self buildButtonPanel expand: false fill: false padding: 5;
