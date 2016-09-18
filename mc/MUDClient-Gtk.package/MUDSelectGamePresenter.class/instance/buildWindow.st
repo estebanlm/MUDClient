@@ -7,7 +7,7 @@ buildWindow
 		add: (GtkBox newVertical
 			packStart:  (GtkBox newHorizontal
 				packStart: (listPanel := self buildListPanel);
-				packStart: (gamePanel := GtkBox newVertical);
+				packStart: (gamePresenter := self createGamePresenter) widget;
 				yourself);
 			packStart: self buildButtonPanel expand: false fill: false padding: 5;
 			yourself);

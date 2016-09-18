@@ -8,7 +8,8 @@
 	"instvars" : [
 		"gamePanel",
 		"listPanel",
-		"listBox" ],
+		"listBox",
+		"gamePresenter" ],
 	"name" : "MUDSelectGamePresenter",
 	"pools" : [
 		 ],
