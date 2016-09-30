@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-View",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"notifyPosition" ],
-	"name" : "MUDGrowlMorph",
-	"pools" : [
-		 ],
 	"super" : "GrowlMorph",
-	"type" : "normal" }
+	"category" : "MUDClient-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"notifyPosition"
+	],
+	"name" : "MUDGrowlMorph",
+	"type" : "normal"
+}

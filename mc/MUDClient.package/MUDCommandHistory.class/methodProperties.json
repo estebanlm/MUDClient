@@ -1,13 +1,16 @@
 {
-	"class" : {
-		"defaultMaxSize" : "EstebanLorenzano 5/30/2014 13:27" },
 	"instance" : {
+		"maxSize" : "EstebanLorenzano 5/30/2014 13:26",
+		"maxSize:" : "EstebanLorenzano 5/30/2014 13:26",
+		"initialize" : "EstebanLorenzano 5/14/2014 11:08",
 		"add:" : "EstebanLorenzano 5/30/2014 14:12",
 		"backward" : "EstebanLorenzano 5/14/2014 11:22",
 		"current" : "EstebanLorenzano 5/14/2014 11:18",
 		"elements" : "EstebanLorenzano 5/14/2014 11:10",
 		"first" : "EstebanLorenzano 5/14/2014 11:21",
-		"forward" : "EstebanLorenzano 5/30/2014 14:14",
-		"initialize" : "EstebanLorenzano 5/14/2014 11:08",
-		"maxSize" : "EstebanLorenzano 5/30/2014 13:26",
-		"maxSize:" : "EstebanLorenzano 5/30/2014 13:26" } }
+		"forward" : "EstebanLorenzano 5/30/2014 14:14"
+	},
+	"class" : {
+		"defaultMaxSize" : "EstebanLorenzano 5/30/2014 13:27"
+	}
+}

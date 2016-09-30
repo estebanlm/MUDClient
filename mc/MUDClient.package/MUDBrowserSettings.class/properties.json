@@ -1,17 +1,16 @@
 {
-	"category" : "MUDClient-View",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "MUDClient-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"browserClass",
 		"game",
 		"bounds",
-		"opened" ],
+		"opened"
+	],
 	"name" : "MUDBrowserSettings",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"callInWorldCentered" : "EstebanLorenzano 8/26/2015 20:53",
-		"openAsIs" : "EstebanLorenzano 8/26/2015 20:54" } }
+		"openAsIs" : "EstebanLorenzano 8/26/2015 20:54"
+	},
+	"class" : { }
+}

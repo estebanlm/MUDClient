@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-View",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "MUDAnnouncement",
-	"pools" : [
-		 ],
 	"super" : "Announcement",
-	"type" : "normal" }
+	"category" : "MUDClient-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDAnnouncement",
+	"type" : "normal"
+}
