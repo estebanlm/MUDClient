@@ -1,7 +1,12 @@
 {
 	"instance" : {
-		"isRedirect" : "EstebanLorenzano 7/7/2016 11:49",
-		"applyFilterOn:pattern:to:line:in:" : "EstebanLorenzano 7/7/2016 16:05"
+		"applyFilterOn:pattern:to:line:in:" : "EstebanLorenzano 7/7/2016 16:05",
+		"initialize" : "EstebanLorenzano 9/30/2016 19:27",
+		"echo:" : "EstebanLorenzano 9/30/2016 19:27",
+		"isEcho" : "EstebanLorenzano 9/30/2016 19:27",
+		"echo" : "EstebanLorenzano 9/30/2016 19:27",
+		"descriptionEcho" : "EstebanLorenzano 9/30/2016 19:26",
+		"isRedirect" : "EstebanLorenzano 7/7/2016 11:49"
 	},
 	"class" : {
 		"label" : "EstebanLorenzano 7/7/2016 14:27"
