@@ -1,6 +1,6 @@
 private
-applyTriggerFilter: aFilter to: aStream line: aString in: aTerminal
+applyTriggerFilter: aFilter to: aStream line: aLine in: aTerminal
 	aTerminal 
 		sendFilteringInput: aFilter output  
 		excluding: self.
-	^ self applyNullFilterTo: aStream line: aString in: aTerminal
+	^ self applyNullFilterTo: aStream line: aLine in: aTerminal

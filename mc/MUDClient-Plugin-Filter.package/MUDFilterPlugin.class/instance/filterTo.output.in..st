@@ -16,7 +16,7 @@ filterTo: stream output: aString in: aTerminal
 							applyFilterOn: self 
 							pattern: eachMatching 
 							to: stream 
-							line: each 
+							line: (MUDFilterLine for: each) 
 							in: aTerminal.
 						nextLinesToFilter > 0 ifTrue: [ eatingFilter := eachMatching filter ] ] ]
 				ifFalse: [				

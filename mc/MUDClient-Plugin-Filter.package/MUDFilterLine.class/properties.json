@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "MUDClient-Plugin-Filter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"line",
+		"echoed"
+	],
+	"name" : "MUDFilterLine",
+	"type" : "normal"
+}

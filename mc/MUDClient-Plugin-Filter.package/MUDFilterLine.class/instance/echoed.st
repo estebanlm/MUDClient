@@ -1,0 +1,3 @@
+accessing
+echoed
+	echoed := true.
