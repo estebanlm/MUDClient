@@ -4,10 +4,7 @@ applyRedirectFilter: aFilter pattern: aPattern to: aStream line: aLine in: aTerm
 	
 	"Filte ris echoing. I need to send to screen anyway"
 	aFilter isEcho ifTrue: [ 
-		self 
-			applyNullFilterTo: aStream 
-			line: aLine 
-			in: aTerminal ].
+		self applyNullFilterTo: aStream line: aLine in: aTerminal ].
 	
 	windows := aTerminal dependentWindowsOf: self.
 	aFilter send: aLine line toWindows: (windows select: [ :each | each filter = aFilter]).

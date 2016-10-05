@@ -10,13 +10,14 @@ filterTo: stream output: aString in: aTerminal
 		select: [ :each | each notEmpty ]
 		thenDo: [ :each |
 			nextLinesToFilter = 0
-				ifTrue: [ 
+				ifTrue: [ | line |
+					line := MUDFilterLine for: each.
 					(self allPatternMatchingForLine: each) do: [ :eachMatching |
 						nextLinesToFilter := eachMatching filter
 							applyFilterOn: self 
 							pattern: eachMatching 
 							to: stream 
-							line: (MUDFilterLine for: each) 
+							line: line 
 							in: aTerminal.
 						nextLinesToFilter > 0 ifTrue: [ eatingFilter := eachMatching filter ] ] ]
 				ifFalse: [				
