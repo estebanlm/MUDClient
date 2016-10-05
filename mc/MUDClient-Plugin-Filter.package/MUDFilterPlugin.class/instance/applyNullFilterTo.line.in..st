@@ -1,4 +1,6 @@
 private
-applyNullFilterTo: aStream line: aString in: aTerminal 
-	aStream << aString; lf.
+applyNullFilterTo: aStream line: aLine in: aTerminal 
+	aLine isEchoed ifTrue: [ ^ self ].
+	aStream << aLine line; lf.
+	aLine echoed.
 	^ 0
