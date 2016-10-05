@@ -5,4 +5,4 @@ applyAlertFilter: aFilter to: aStream line: aLine in: aTerminal
 		contents: aLine line
 		position: aFilter notifyPosition
 		color: aFilter alertColor.
-	^ self applyNullFilterTo: aStream line: aLine line in: aTerminal 
+	^ self applyNullFilterTo: aStream line: aLine in: aTerminal 
