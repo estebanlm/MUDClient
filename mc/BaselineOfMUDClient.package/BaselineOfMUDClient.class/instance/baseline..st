@@ -4,6 +4,7 @@ baseline: spec
 	
 	spec for: #pharo do: [
 		self logger: spec.
+		self themes: spec.
 		self voyage: spec.
 		self petitParser: spec.
 		self telnet: spec.
@@ -18,6 +19,7 @@ baseline: spec
 				spec requires: #(
 					'MUDClient-Protocol'
 					'Logger'
+					'Themes'
 					'Voyage'
 					'PetitParser' 
 					'TelnetSessionBasic' 
