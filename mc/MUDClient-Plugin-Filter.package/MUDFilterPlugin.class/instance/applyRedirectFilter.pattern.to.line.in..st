@@ -7,5 +7,5 @@ applyRedirectFilter: aFilter pattern: aPattern to: aStream line: aLine in: aTerm
 		self applyNullFilterTo: aStream line: aLine in: aTerminal ].
 	
 	windows := aTerminal dependentWindowsOf: self.
-	aFilter send: aLine line toWindows: (windows select: [ :each | each filter = aFilter]).
+	aFilter send: aLine line trimRight toWindows: (windows select: [ :each | each filter = aFilter]).
 	^ aPattern eatLines ifNil: [0]

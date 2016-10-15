@@ -19,6 +19,4 @@ filterTo: stream output: aString in: aTerminal
 					nextLinesToFilter > 0 ifTrue: [ eatingFilter := eachMatching filter ] ] ]
 			ifFalse: [					
 				self forwardLine: each forFilter: eatingFilter in: aTerminal.
-				nextLinesToFilter := nextLinesToFilter - 1 ] ].
-	"Now we check if last input was a new line, then we produce it"
-	(String crlf includes: aString last) ifTrue: [ stream lf ] 
+				nextLinesToFilter := nextLinesToFilter - 1 ] ]
