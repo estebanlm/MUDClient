@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"addMorph:position:" : "EstebanLorenzano 6/27/2016 15:06",
-		"calculatePositionOf:position:" : "EstebanLorenzano 6/27/2016 15:06"
-	},
-	"class" : { }
-}
+		"calculatePositionOf:position:" : "EstebanLorenzano 6/27/2016 15:06" } }

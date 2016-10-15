@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "TkGlamourSelectingEditor",
 	"category" : "MUDClient-View",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "MUDGameEditor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TkGlamourSelectingEditor",
+	"type" : "normal" }

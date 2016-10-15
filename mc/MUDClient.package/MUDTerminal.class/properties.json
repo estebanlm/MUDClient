@@ -1,20 +1,19 @@
 {
-	"commentStamp" : "EstebanLorenzano 9/18/2015 19:47",
-	"super" : "MUDBrowser",
 	"category" : "MUDClient-View",
-	"classinstvars" : [ ],
-	"pools" : [
-		"MUDTelnetConstants"
-	],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 9/18/2015 19:47",
 	"instvars" : [
 		"session",
 		"areaMorph",
 		"inputMorph",
 		"dependentWindows",
 		"register",
-		"alert"
-	],
+		"alert" ],
 	"name" : "MUDTerminal",
-	"type" : "normal"
-}
+	"pools" : [
+		"MUDTelnetConstants" ],
+	"super" : "MUDBrowser",
+	"type" : "normal" }

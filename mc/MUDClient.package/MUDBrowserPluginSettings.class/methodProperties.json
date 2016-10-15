@@ -1,10 +1,9 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"restoreOn:" : "EstebanLorenzano 6/23/2016 19:36",
 		"isRemembered" : "EstebanLorenzano 5/18/2016 23:51",
 		"newBrowser" : "EstebanLorenzano 6/23/2016 19:34",
 		"plugin" : "EstebanLorenzano 5/18/2016 22:24",
-		"plugin:" : "EstebanLorenzano 5/18/2016 22:24"
-	},
-	"class" : { }
-}
+		"plugin:" : "EstebanLorenzano 5/18/2016 22:24",
+		"restoreOn:" : "EstebanLorenzano 6/23/2016 19:36" } }

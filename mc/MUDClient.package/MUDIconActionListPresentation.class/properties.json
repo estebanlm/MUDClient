@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "EstebanLorenzano 5/29/2014 12:05",
-	"super" : "GLMActionListPresentation",
 	"category" : "MUDClient-View-Glamour",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 5/29/2014 12:05",
+	"instvars" : [
+		 ],
 	"name" : "MUDIconActionListPresentation",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GLMActionListPresentation",
+	"type" : "normal" }

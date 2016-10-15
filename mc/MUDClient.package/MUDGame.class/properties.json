@@ -1,17 +1,18 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "MUDClient-Model",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"name",
 		"host",
 		"port",
 		"plugins",
-		"loginSequence"
-	],
+		"loginSequence" ],
 	"name" : "MUDGame",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

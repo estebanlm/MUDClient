@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "MUDClient-Model-Telnet",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [
-		"TelnetConstantsRFC854"
-	],
-	"classvars" : [ ],
-	"instvars" : [ ],
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "MUDTelnetProtocol",
-	"type" : "normal"
-}
+	"pools" : [
+		"TelnetConstantsRFC854" ],
+	"super" : "Object",
+	"type" : "normal" }

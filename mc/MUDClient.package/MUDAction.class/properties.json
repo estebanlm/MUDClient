@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "GLMGenericAction",
 	"category" : "MUDClient-View-Glamour",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"enabledCondition"
-	],
+		"enabledCondition" ],
 	"name" : "MUDAction",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GLMGenericAction",
+	"type" : "normal" }

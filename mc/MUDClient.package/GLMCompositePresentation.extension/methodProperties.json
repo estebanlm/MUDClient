@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"enhancedTabbedArrangement" : "EstebanLorenzano 9/21/2015 17:23",
 		"defaultRenderer" : "EstebanLorenzano 6/9/2014 18:18",
-		"iconActionList" : "EstebanLorenzano 8/29/2015 18:10"
-	},
-	"class" : { }
-}
+		"enhancedTabbedArrangement" : "EstebanLorenzano 9/21/2015 17:23",
+		"iconActionList" : "EstebanLorenzano 8/29/2015 18:10" } }

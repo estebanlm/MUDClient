@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "Announcement",
 	"category" : "MUDClient-Model-Telnet",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"protocol",
-		"data"
-	],
+		"data" ],
 	"name" : "MUDCommandReceived",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

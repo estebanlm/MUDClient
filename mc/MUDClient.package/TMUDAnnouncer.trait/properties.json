@@ -1,5 +1,4 @@
 {
-	"name" : "TMUDAnnouncer",
+	"category" : "MUDClient-Model",
 	"commentStamp" : "<historical>",
-	"category" : "MUDClient-Model"
-}
+	"name" : "TMUDAnnouncer" }

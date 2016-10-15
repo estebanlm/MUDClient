@@ -1,5 +1,4 @@
 {
-	"name" : "TMUDLogueable",
+	"category" : "MUDClient-Model",
 	"commentStamp" : "<historical>",
-	"category" : "MUDClient-Model"
-}
+	"name" : "TMUDLogueable" }

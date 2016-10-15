@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "EstebanLorenzano 9/18/2015 19:47",
-	"super" : "Object",
 	"category" : "MUDClient-View",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 9/18/2015 19:47",
 	"instvars" : [
 		"game",
-		"logReference"
-	],
+		"logReference" ],
 	"name" : "MUDSessionLog",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

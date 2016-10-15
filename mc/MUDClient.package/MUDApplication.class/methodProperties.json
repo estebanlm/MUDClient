@@ -1,13 +1,12 @@
 {
-	"instance" : { },
 	"class" : {
-		"install" : "EstebanLorenzano 5/12/2014 19:59",
-		"shutDown:" : "EstebanLorenzano 6/23/2016 20:03",
-		"repositoryFileName" : "EstebanLorenzano 8/15/2015 13:44",
 		"initialize" : "EstebanLorenzano 8/15/2015 13:43",
+		"install" : "EstebanLorenzano 5/12/2014 19:59",
+		"repositoryFileName" : "EstebanLorenzano 8/15/2015 13:44",
 		"reset" : "EstebanLorenzano 6/23/2016 20:03",
 		"restoreFromDisk" : "EstebanLorenzano 8/15/2015 13:45",
-		"startUp:" : "EstebanLorenzano 8/15/2015 13:32",
-		"saveToDisk" : "EstebanLorenzano 8/15/2015 13:44"
-	}
-}
+		"saveToDisk" : "EstebanLorenzano 8/15/2015 13:44",
+		"shutDown:" : "EstebanLorenzano 6/23/2016 20:03",
+		"startUp:" : "EstebanLorenzano 8/15/2015 13:32" },
+	"instance" : {
+		 } }

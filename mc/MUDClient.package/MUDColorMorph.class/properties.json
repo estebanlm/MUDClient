@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "MAElementMorph",
 	"category" : "MUDClient-View-Magritte",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "MUDColorMorph",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MAElementMorph",
+	"type" : "normal" }

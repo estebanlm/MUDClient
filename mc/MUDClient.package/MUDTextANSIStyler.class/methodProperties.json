@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"initialize" : "EstebanLorenzano 5/30/2016 23:08",
 		"applyStyle:" : "EstebanLorenzano 5/31/2016 00:04",
-		"createFormatter" : "EstebanLorenzano 5/30/2016 23:10"
-	},
-	"class" : { }
-}
+		"createFormatter" : "EstebanLorenzano 5/30/2016 23:10",
+		"initialize" : "EstebanLorenzano 5/30/2016 23:08" } }
