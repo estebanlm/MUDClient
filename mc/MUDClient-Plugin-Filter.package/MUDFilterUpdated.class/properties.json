@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Announcement",
 	"category" : "MUDClient-Plugin-Filter-Model",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "MUDFilterUpdated",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

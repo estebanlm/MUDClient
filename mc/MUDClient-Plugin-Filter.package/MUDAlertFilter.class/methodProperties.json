@@ -1,15 +1,12 @@
 {
-	"instance" : {
-		"alertColor:" : "EstebanLorenzano 7/7/2016 16:08",
-		"descriptionAlertColor" : "EstebanLorenzano 7/7/2016 16:32",
-		"applyFilterOn:pattern:to:line:in:" : "EstebanLorenzano 10/5/2016 08:50",
-		"descriptionNotifyPosition" : "EstebanLorenzano 7/8/2016 19:48",
-		"notifyPosition:" : "EstebanLorenzano 7/8/2016 19:34",
-		"alertColor" : "EstebanLorenzano 7/7/2016 16:08",
-		"notifyPosition" : "EstebanLorenzano 7/8/2016 19:34",
-		"isAlert" : "EstebanLorenzano 7/7/2016 11:49"
-	},
 	"class" : {
-		"label" : "EstebanLorenzano 7/7/2016 14:27"
-	}
-}
+		"label" : "EstebanLorenzano 7/7/2016 14:27" },
+	"instance" : {
+		"alertColor" : "EstebanLorenzano 7/7/2016 16:08",
+		"alertColor:" : "EstebanLorenzano 7/7/2016 16:08",
+		"applyFilterOn:pattern:to:line:in:" : "EstebanLorenzano 10/5/2016 08:50",
+		"descriptionAlertColor" : "EstebanLorenzano 7/7/2016 16:32",
+		"descriptionNotifyPosition" : "EstebanLorenzano 7/8/2016 19:48",
+		"isAlert" : "EstebanLorenzano 7/7/2016 11:49",
+		"notifyPosition" : "EstebanLorenzano 7/8/2016 19:34",
+		"notifyPosition:" : "EstebanLorenzano 7/8/2016 19:34" } }

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "MUDFilter",
 	"category" : "MUDClient-Plugin-Filter-Model",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "MUDNullFilter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MUDFilter",
+	"type" : "normal" }

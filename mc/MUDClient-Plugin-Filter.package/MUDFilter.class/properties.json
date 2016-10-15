@@ -1,18 +1,17 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "MUDClient-Plugin-Filter-Model",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classinstvars" : [
+		 ],
 	"classvars" : [
-		"Sounds"
-	],
+		"Sounds" ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"name",
 		"patterns",
 		"active",
-		"soundName"
-	],
+		"soundName" ],
 	"name" : "MUDFilter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

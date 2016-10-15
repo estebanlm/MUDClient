@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"testMatches" : "EstebanLorenzano 9/24/2015 20:59",
-		"testPatternMatching" : "EstebanLorenzano 9/24/2015 21:10"
-	},
-	"class" : { }
-}
+		"testPatternMatching" : "EstebanLorenzano 9/24/2015 21:10" } }

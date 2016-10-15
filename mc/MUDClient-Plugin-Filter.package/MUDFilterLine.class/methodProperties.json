@@ -1,13 +1,10 @@
 {
+	"class" : {
+		"for:" : "EstebanLorenzano 10/5/2016 08:49",
+		"new" : "EstebanLorenzano 10/5/2016 08:49" },
 	"instance" : {
 		"echoed" : "EstebanLorenzano 10/5/2016 08:45",
 		"initialize" : "EstebanLorenzano 10/5/2016 08:44",
-		"line" : "EstebanLorenzano 10/5/2016 08:44",
 		"initializeLine:" : "EstebanLorenzano 10/5/2016 08:50",
-		"isEchoed" : "EstebanLorenzano 10/5/2016 08:47"
-	},
-	"class" : {
-		"for:" : "EstebanLorenzano 10/5/2016 08:49",
-		"new" : "EstebanLorenzano 10/5/2016 08:49"
-	}
-}
+		"isEchoed" : "EstebanLorenzano 10/5/2016 08:47",
+		"line" : "EstebanLorenzano 10/5/2016 08:44" } }

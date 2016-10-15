@@ -2,27 +2,23 @@ private
 filterTo: stream output: aString in: aTerminal  
 	| lines nextLinesToFilter eatingFilter "patternMatching" |
 	
-	lines := aString lines.
+	lines := aString linesWithLineEnding.
 	nextLinesToFilter := 0.
 
-	"lines first ifEmpty: [ stream lf ]."
-	lines 
-		select: [ :each | each notEmpty ]
-		thenDo: [ :each |
-			nextLinesToFilter = 0
-				ifTrue: [ | line |
-					line := MUDFilterLine for: each.
-					(self allPatternMatchingForLine: each) do: [ :eachMatching |
-						nextLinesToFilter := eachMatching filter
-							applyFilterOn: self 
-							pattern: eachMatching 
-							to: stream 
-							line: line 
-							in: aTerminal.
-						nextLinesToFilter > 0 ifTrue: [ eatingFilter := eachMatching filter ] ] ]
-				ifFalse: [				
-					self forwardLine: each forFilter: eatingFilter in: aTerminal.
-					nextLinesToFilter := nextLinesToFilter - 1]].
-
-	"Extra lf if last one was an empty line"
-	lines last ifEmpty: [ stream lf ]
+	lines withIndexDo: [ :each :index | 
+		nextLinesToFilter = 0
+			ifTrue: [ | line |
+				line := MUDFilterLine for: each.
+				(self allPatternMatchingForLine: each) do: [ :eachMatching |
+					nextLinesToFilter := eachMatching filter
+						applyFilterOn: self 
+						pattern: eachMatching 
+						to: stream 
+						line: line 
+						in: aTerminal.
+					nextLinesToFilter > 0 ifTrue: [ eatingFilter := eachMatching filter ] ] ]
+			ifFalse: [					
+				self forwardLine: each forFilter: eatingFilter in: aTerminal.
+				nextLinesToFilter := nextLinesToFilter - 1 ] ].
+	"Now we check if last input was a new line, then we produce it"
+	(String crlf includes: aString last) ifTrue: [ stream lf ] 

@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "MUDPluginBrowser",
 	"category" : "MUDClient-Plugin-Filter-View",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"filter",
-		"areaMorph"
-	],
+		"areaMorph" ],
 	"name" : "MUDFilterBrowser",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MUDPluginBrowser",
+	"type" : "normal" }
