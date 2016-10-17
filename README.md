@@ -1,7 +1,7 @@
 # MUDClient [![Build Status](https://travis-ci.org/estebanlm/MUDClient.png?branch=master)](https://travis-ci.org/estebanlm/MUDClient)
 A client to play MUDs (The ones I play :P), made in [Pharo](http://pharo.org).
 
-<img src="https://raw.githubusercontent.com/estebanlm/themes/master/images/MUDClient.png" alt="MUDClient ScreenShot" width="600px">
+<img src="https://raw.githubusercontent.com/estebanlm/themes/master/images/MUDClient.png" alt="MUDClient ScreenShot" width="800px">
 
 ## Features
 It implements several features:
