@@ -9,7 +9,7 @@ filterTo: stream output: aString in: aTerminal
 		nextLinesToFilter = 0
 			ifTrue: [ | line |
 				line := MUDFilterLine for: each.
-				(self allPatternMatchingForLine: each) do: [ :eachMatching |
+				(self allPatternMatchingForLine: line lineWithoutLineEnding) do: [ :eachMatching |
 					nextLinesToFilter := eachMatching filter
 						applyFilterOn: self 
 						pattern: eachMatching 
