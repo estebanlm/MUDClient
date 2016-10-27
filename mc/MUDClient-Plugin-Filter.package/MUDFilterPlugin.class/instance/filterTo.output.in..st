@@ -1,14 +1,13 @@
 private
 filterTo: stream output: aString in: aTerminal  
-	| lines nextLinesToFilter eatingFilter "patternMatching" |
+	| lines nextLinesToFilter eatingFilter |
 	
-	lines := aString linesWithLineEnding.
 	nextLinesToFilter := 0.
-
-	lines withIndexDo: [ :each :index | 
+	lines := aString linesWithLineEnding.
+	lines do: [ :each | | line | 
+		line := MUDFilterLine for: each.
 		nextLinesToFilter = 0
-			ifTrue: [ | line |
-				line := MUDFilterLine for: each.
+			ifTrue: [ 
 				(self allPatternMatchingForLine: line lineWithoutLineEnding) do: [ :eachMatching |
 					nextLinesToFilter := eachMatching filter
 						applyFilterOn: self 
@@ -17,6 +16,11 @@ filterTo: stream output: aString in: aTerminal
 						line: line 
 						in: aTerminal.
 					nextLinesToFilter > 0 ifTrue: [ eatingFilter := eachMatching filter ] ] ]
-			ifFalse: [					
-				self forwardLine: each forFilter: eatingFilter in: aTerminal.
-				nextLinesToFilter := nextLinesToFilter - 1 ] ]
+			ifFalse: [
+				"Just decrease in case I actual eat something (enters do not count)"
+				line lineWithoutLineEnding ifNotEmpty: [ 
+					self 
+						forwardLine: line lineWithoutLineEnding 
+						forFilter: eatingFilter 
+						in: aTerminal.
+					nextLinesToFilter := nextLinesToFilter - 1 ] ] ]
