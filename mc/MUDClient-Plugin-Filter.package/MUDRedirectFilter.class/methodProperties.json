@@ -4,8 +4,11 @@
 	"instance" : {
 		"applyFilterOn:pattern:to:line:in:" : "EstebanLorenzano 10/5/2016 08:51",
 		"descriptionEcho" : "EstebanLorenzano 9/30/2016 19:26",
-		"echo" : "EstebanLorenzano 9/30/2016 19:27",
+		"descriptionTimestamp" : "EstebanLorenzano 11/1/2016 20:59",
 		"echo:" : "EstebanLorenzano 9/30/2016 19:27",
-		"initialize" : "EstebanLorenzano 9/30/2016 19:27",
+		"initialize" : "EstebanLorenzano 11/1/2016 20:57",
 		"isEcho" : "EstebanLorenzano 9/30/2016 19:27",
-		"isRedirect" : "EstebanLorenzano 7/7/2016 11:49" } }
+		"isRedirect" : "EstebanLorenzano 7/7/2016 11:49",
+		"isTimestamp" : "EstebanLorenzano 11/1/2016 21:00",
+		"timestamp:" : "EstebanLorenzano 11/1/2016 21:00",
+		"transformLineToSend:" : "EstebanLorenzano 11/1/2016 21:01" } }

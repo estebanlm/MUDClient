@@ -1,4 +1,5 @@
 initialization
 initialize
 	super initialize. 
-	self echo: false
+	self echo: false.
+	

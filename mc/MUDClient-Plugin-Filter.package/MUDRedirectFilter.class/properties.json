@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"echo" ],
+		"echo",
+		"timestamp" ],
 	"name" : "MUDRedirectFilter",
 	"pools" : [
 		 ],

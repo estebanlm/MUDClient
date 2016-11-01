@@ -8,6 +8,6 @@ applyRedirectFilter: aFilter pattern: aPattern to: aStream line: aLine in: aTerm
 	
 	windows := aTerminal dependentWindowsOf: self.
 	aFilter 
-		send: aLine lineWithoutLineEnding 
+		send: (aFilter transformLineToSend: aLine)
 		toWindows: (windows select: [ :each | each filter = aFilter]).
 	^ aPattern eatLines ifNil: [0]
