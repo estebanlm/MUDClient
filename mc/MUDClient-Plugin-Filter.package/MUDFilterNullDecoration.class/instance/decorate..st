@@ -1,0 +1,3 @@
+decorating
+decorate: aString
+	^ aString

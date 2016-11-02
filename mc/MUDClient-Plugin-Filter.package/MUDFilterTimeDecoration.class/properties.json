@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"echo",
-		"decoration" ],
-	"name" : "MUDRedirectFilter",
+		 ],
+	"name" : "MUDFilterTimeDecoration",
 	"pools" : [
 		 ],
-	"super" : "MUDFilter",
+	"super" : "MUDFilterDecoration",
 	"type" : "normal" }
