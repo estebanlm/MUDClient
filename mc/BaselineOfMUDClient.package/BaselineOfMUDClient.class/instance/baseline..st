@@ -12,6 +12,7 @@ baseline: spec
 		self glamour: spec.
 		self toolkit: spec.
 		self sound: spec.
+		self objCBridge: spec.
 		
 		spec
 			package: 'MUDClient-Protocol';
@@ -30,7 +31,8 @@ baseline: spec
 			package: 'MUDClient-Plugin-Notepad' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-Buttonpad' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-LogViewer' with: [ spec requires: #('MUDClient') ];
-			package: 'MUDClient-Plugin-Filter' with: [ spec requires: #('MUDClient' 'Sound') ];
+			package: 'MUDClient-Plugin-Filter' with: [ 
+				spec requires: #('MUDClient' 'Sound' 'ObjCBridge') ];
 			package: 'MUDClient-Tests' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Protocol-Tests' with: [ spec requires: #('MUDClient-Tests') ];
 			"LOTJ"

@@ -3,10 +3,10 @@ descriptionDecoration
 	<magritteDescription>
 	
 	^ MASingleOptionDescription new
-		priority: 110;
+		priority: 120;
 		label: 'Decoration';
-		accessor: #dcoration;
+		accessor: #decoration;
 		options: self class availableDecorations;
-		reference: (MAStringDescription new accessor: #name); 
+		reference: (MAStringDescription new accessor: #name; asContainer); 
 		morphClass: MADropListMorph;
 		yourself

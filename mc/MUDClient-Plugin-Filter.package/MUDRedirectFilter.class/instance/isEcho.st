@@ -1,3 +1,3 @@
 testing
-isEcho 
+isEcho
 	^ echo ifNil: [ echo := false ]

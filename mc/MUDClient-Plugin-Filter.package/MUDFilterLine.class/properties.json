@@ -8,7 +8,8 @@
 	"instvars" : [
 		"line",
 		"echoed",
-		"lineWithoutLineEnding" ],
+		"lineWithoutLineEnding",
+		"cleanLine" ],
 	"name" : "MUDFilterLine",
 	"pools" : [
 		 ],
