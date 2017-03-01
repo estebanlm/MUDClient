@@ -1,21 +1,20 @@
 {
-	"category" : "MUDClient-Model-Telnet",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TMUDAnnouncer classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
+	"classvars" : [ ],
 	"instvars" : [
 		"host",
 		"port",
 		"error",
 		"dataProcess",
 		"announcer",
-		"protocols" ],
+		"protocols"
+	],
 	"name" : "MUDTelnetSession",
-	"pools" : [
-		 ],
+	"commentStamp" : "<historical>",
 	"super" : "TelnetSessionBasic",
 	"traitcomposition" : "TMUDAnnouncer",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MUDClient-Model-Telnet"
+}

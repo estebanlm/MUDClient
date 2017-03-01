@@ -1,15 +1,14 @@
 {
-	"category" : "MUDClient-View-Morph",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "MUDParseDecoration",
+	"category" : "MUDClient-View-Morph",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"formatter",
-		"parser" ],
+		"parser"
+	],
 	"name" : "MUDANSIDecoration",
-	"pools" : [
-		 ],
-	"super" : "MUDParseDecoration",
-	"type" : "normal" }
+	"type" : "normal"
+}

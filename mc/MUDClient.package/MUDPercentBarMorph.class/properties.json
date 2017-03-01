@@ -1,10 +1,10 @@
 {
-	"category" : "MUDClient-View-Morph-Util",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "Morph",
+	"category" : "MUDClient-View-Morph-Util",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"value",
 		"max",
@@ -13,9 +13,8 @@
 		"colorPairs",
 		"getValueSelector",
 		"getMaxSelector",
-		"model" ],
+		"model"
+	],
 	"name" : "MUDPercentBarMorph",
-	"pools" : [
-		 ],
-	"super" : "Morph",
-	"type" : "normal" }
+	"type" : "normal"
+}

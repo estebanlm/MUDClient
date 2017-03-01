@@ -1,16 +1,15 @@
 {
-	"category" : "MUDClient-View-Morph",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "MUDClient-View-Morph",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"elements",
 		"currentIndex",
-		"maxSize" ],
+		"maxSize"
+	],
 	"name" : "MUDCommandHistory",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}
