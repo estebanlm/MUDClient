@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-Plugin-Filter-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "MUDFilterSpec",
-	"pools" : [
-		 ],
 	"super" : "MUDPluginSpec",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Filter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDFilterSpec",
+	"type" : "normal"
+}

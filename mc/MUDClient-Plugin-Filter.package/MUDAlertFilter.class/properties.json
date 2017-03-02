@@ -1,16 +1,16 @@
 {
-	"category" : "MUDClient-Plugin-Filter-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "MUDFilter",
+	"category" : "MUDClient-Plugin-Filter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"alertColor",
 		"notifyPosition",
-		"echoDesktop" ],
+		"echoTerminal",
+		"echoDesktop"
+	],
 	"name" : "MUDAlertFilter",
-	"pools" : [
-		 ],
-	"super" : "MUDFilter",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "MUDClient-Plugin-Filter-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"output" ],
-	"name" : "MUDTriggerFilter",
-	"pools" : [
-		 ],
 	"super" : "MUDFilter",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Filter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"output"
+	],
+	"name" : "MUDTriggerFilter",
+	"type" : "normal"
+}

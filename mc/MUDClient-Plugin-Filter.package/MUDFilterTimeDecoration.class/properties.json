@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-Plugin-Filter-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "MUDFilterTimeDecoration",
-	"pools" : [
-		 ],
 	"super" : "MUDFilterDecoration",
-	"type" : "normal" }
+	"category" : "MUDClient-Plugin-Filter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDFilterTimeDecoration",
+	"type" : "normal"
+}

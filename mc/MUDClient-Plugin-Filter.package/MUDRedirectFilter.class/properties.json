@@ -1,16 +1,15 @@
 {
-	"category" : "MUDClient-Plugin-Filter-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "MUDFilter",
+	"category" : "MUDClient-Plugin-Filter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"echo",
 		"echoDesktop",
-		"decoration" ],
+		"decoration"
+	],
 	"name" : "MUDRedirectFilter",
-	"pools" : [
-		 ],
-	"super" : "MUDFilter",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -3,7 +3,7 @@ descriptionEchoDesktop
 	<magritteDescription>
 	
 	^ MABooleanDescription new 
-		priority: 120;
+		priority: 125;
 		label: 'Echo Desktop';
 		accessor: (MAPluggableAccessor 
 			read: [ :filter | filter isEchoDesktop ]
