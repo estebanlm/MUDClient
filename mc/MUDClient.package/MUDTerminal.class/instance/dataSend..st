@@ -4,7 +4,9 @@ dataSend: ann
 	self isRunning ifFalse: [ ^ self ].
 	
 	data := self filterInput: inputMorph text asString.
-	data linesDo: [ :each | self session writeln: each ].
+	data 
+		ifNotEmpty: [ data linesDo: [ :each | self session writeln: each ] ]
+		ifEmpty: [ self session writeln: '' ].
 
 	"Echo"
 	self isEchoOn ifFalse: [ ^ self ].
