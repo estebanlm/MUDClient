@@ -9,7 +9,6 @@ morphFrom: anActionListPresentation
 		buttonModel glamourAction: each.
 
 		button := self buttonMorph: buttonModel.
-		button hResizing: #spaceFill.
 		buttonsContainer addMorphBack: button ].
 	
 	^ buttonsContainer
