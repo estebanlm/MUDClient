@@ -10,5 +10,7 @@ addObjectsMenuOn: aList
 		strongSelectionAct: [ :p | self launch: p selection ];
 		selectionAct: [ :p | self launch: p selection ]
 			entitled: 'Launch';
+		selectionAct: [ :p | self duplicate: p selection then: [ p update ] ]
+			entitled: 'Duplicate as...';
 		selectionAct: [ :p | self removeObject: p selection then: [ p update ] ]
 			entitled: 'Remove'
