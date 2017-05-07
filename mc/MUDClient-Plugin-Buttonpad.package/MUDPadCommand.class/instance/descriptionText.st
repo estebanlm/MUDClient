@@ -6,6 +6,6 @@ descriptionText
 		priority: 10;
 		label: 'Definition';
 		accessor: #text;
-		lineCount: 3;
+		lineCount: 10;
 		beRequired;
 		yourself
