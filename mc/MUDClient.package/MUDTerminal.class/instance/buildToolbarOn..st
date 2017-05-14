@@ -24,4 +24,7 @@ buildToolbarOn: aPresentation
 				act: [ toolbarSpec action cull: self cull: self game ]
 				icon: toolbarSpec icon
 				entitled: toolbarSpec title
-				when: [ each isVisibleFor: self ]]]
+				when: [ each isVisibleFor: self ] ] ].
+	
+	aPresentation 
+		addAction: self developmentSnoopAction

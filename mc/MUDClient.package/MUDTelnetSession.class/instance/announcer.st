@@ -1,3 +1,3 @@
 announcing
 announcer 
-	^ announcer ifNil: [ announcer := Announcer new ]
+	^ announcer ifNil: [ announcer := MUDScheduledAnnouncer new ]

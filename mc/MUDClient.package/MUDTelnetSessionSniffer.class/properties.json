@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"category" : "MUDClient-Model-Telnet",
 	"classinstvars" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"buffer"
 	],
-	"name" : "MUDTelnetSniffer",
+	"name" : "MUDTelnetSessionSniffer",
 	"type" : "normal"
 }

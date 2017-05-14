@@ -4,4 +4,4 @@ commandReceived: ann
 		select: [ :each | 
 			(each isProcessingProtocol: ann protocol) 
 				and: [ each acceptsProcotolCommand: ann  ] ] 
-		thenDo: [ :each | each processOn: self command: ann ]
+		thenDo: [ :each | [ each processOn: self command: ann ] executeOnUIThread ]
