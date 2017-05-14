@@ -1,11 +1,11 @@
 tests
-testBuildPlanets
-	| plugin points |
+testRecalculatePlanets
+	| plugin |
 	
 	plugin := LOTJStarMapPlugin new
 		planetsSource: self class planetsForTest;
 		systemsSource: self class systemsForTest;
+		recalculatePlanets;
 		yourself.
-	points := plugin buildPlanets.
-	self assert: points size equals: 14
+	self assert: plugin points size equals: 14
 	

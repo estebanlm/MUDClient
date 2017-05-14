@@ -11,4 +11,6 @@ Y''toub System            ( 77, -65 )
 Mytaranor Sector         ( 48, -48 )
 Alderaan System          ( 40, -30 )
 Horuset                  ( 103, 5 )
-Ottega System            ( 19, -58 )'
+Mandalore Sector         ( 116, -43 )
+Ottega System            ( 19, -58 )
+Hoth System              ( 100, -110 )'
