@@ -1,4 +1,3 @@
 editing
 attachTo: aSession
-	aSession when: MUDDataReceived send: #dataReceived: to: self
-	
+	aSession weakWhen: MUDDataReceived send: #dataReceived: to: self
