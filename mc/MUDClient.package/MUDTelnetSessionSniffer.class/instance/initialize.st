@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	buffer := ZdcIOBuffer onByteArrayOfSize: 4096
+	buffer := MUDRingBuffer new: 4096

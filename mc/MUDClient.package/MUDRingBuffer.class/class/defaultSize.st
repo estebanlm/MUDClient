@@ -1,0 +1,4 @@
+initialization
+defaultSize
+
+	^ 128

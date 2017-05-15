@@ -1,14 +1,16 @@
 {
-	"commentStamp" : "EstebanLorenzano 9/18/2015 19:47",
+	"commentStamp" : "EstebanLorenzano 5/14/2017 19:12",
 	"super" : "Object",
 	"category" : "MUDClient-Utils",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"game",
-		"logReference"
+		"array",
+		"readIndex",
+		"writeIndex",
+		"overlapp"
 	],
-	"name" : "MUDSessionLog",
+	"name" : "MUDRingBuffer",
 	"type" : "normal"
 }
