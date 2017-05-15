@@ -2,4 +2,5 @@ accessing
 starMap: anObject
 	starMap := anObject.
 	regionRectangle := nil.
-	self calculateBounds
+	self calculateBounds.
+	self addPoints

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EstebanLorenzano 7/28/2016 09:58",
 	"super" : "MUDPlugin",
-	"category" : "LOTJ-Plugin-StarMap",
+	"category" : "LOTJ-Plugin-StarMap-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -11,6 +11,6 @@ build
 		LOTJStarMapPoint new 
 			name: eachPlanetTuple first;
 			system: eachPlanetTuple second;
-			point: (self toPoint: (systemTuples detect: [ :each | each first = eachPlanetTuple second ]) second);
+			sector: (self toPoint: (systemTuples detect: [ :each | each first = eachPlanetTuple second ]) second);
 			origin: LOTJStarMapPoint internalOrigin;
 			yourself ]

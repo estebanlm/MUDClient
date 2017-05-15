@@ -1,3 +1,3 @@
 private
 calculateBounds
-	self extent: self regionRectangle extent * self class sectorSize
+	self extent: self regionRectangle extent * self sectorSize

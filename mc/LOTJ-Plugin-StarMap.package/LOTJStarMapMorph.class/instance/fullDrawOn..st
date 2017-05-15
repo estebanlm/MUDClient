@@ -1,4 +1,4 @@
 drawing
 fullDrawOn: aCanvas
 	self drawGridOn: aCanvas.
-	self drawPointsOn: aCanvas
+	self drawSubmorphsOn: aCanvas

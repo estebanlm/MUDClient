@@ -2,7 +2,7 @@ drawing
 drawGridOn: aCanvas
 	| separation gridExtent expandedGridExtent current |
 	
-	separation := self class sectorSize. 	
+	separation := self sectorSize. 	
 	gridExtent := self regionRectangle extent.
 	expandedGridExtent := gridExtent * separation.
 	

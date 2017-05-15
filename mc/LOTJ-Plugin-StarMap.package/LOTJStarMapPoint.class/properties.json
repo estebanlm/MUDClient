@@ -1,17 +1,17 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "Object",
-	"category" : "LOTJ-Plugin-StarMap",
+	"category" : "LOTJ-Plugin-StarMap-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"name",
 		"system",
-		"point",
 		"owner",
 		"notes",
-		"origin"
+		"origin",
+		"sector"
 	],
 	"name" : "LOTJStarMapPoint",
 	"type" : "normal"
