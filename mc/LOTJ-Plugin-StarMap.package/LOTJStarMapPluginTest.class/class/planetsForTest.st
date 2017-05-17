@@ -13,4 +13,6 @@ Alderaan        Alderaan System       Rebel Alliance            100.0
 Korriban        Horuset                                         2.0
 Mandalore       Mandalore Sector      Neutral Government        100.0
 Ithor           Ottega System         Rebel Alliance            100.0
-Hoth-VI         Hoth System           Rebel Alliance            100.0'
+Hoth-VI         Hoth System           Rebel Alliance            100.0
+Rakata          Rakata System         Rebel Alliance            100.0
+Tython          Tython Sector         Rebel Alliance            100.0'

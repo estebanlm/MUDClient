@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MUDPluginBrowser",
+	"category" : "LOTJ-Plugin-StarMap-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"starMapMorph"
+	],
+	"name" : "LOTJStarMapBrowser",
+	"type" : "normal"
+}

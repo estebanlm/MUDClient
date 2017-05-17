@@ -13,4 +13,6 @@ Alderaan System          ( 40, -30 )
 Horuset                  ( 103, 5 )
 Mandalore Sector         ( 116, -43 )
 Ottega System            ( 19, -58 )
-Hoth System              ( 100, -110 )'
+Hoth System              ( 100, -110 )
+Rakata System            ( -20, -88 )
+Tython Sector            ( -20, 20)'

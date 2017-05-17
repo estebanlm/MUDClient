@@ -1,17 +1,17 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Morph",
+	"commentStamp" : "",
+	"super" : "ComposableModel",
 	"category" : "LOTJ-Plugin-StarMap-View",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"starMap",
-		"regionRectangle",
-		"sectorSize",
-		"selectionBlock",
-		"selected"
+		"toolBarPanel",
+		"mapPanel",
+		"detailPanel",
+		"mapMorph"
 	],
-	"name" : "LOTJStarMapMorph",
+	"name" : "LOTJStarMapModel",
 	"type" : "normal"
 }

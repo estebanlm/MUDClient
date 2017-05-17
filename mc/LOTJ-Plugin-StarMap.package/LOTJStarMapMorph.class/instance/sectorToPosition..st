@@ -1,5 +1,5 @@
 private
-locationToPosition: aPoint
+sectorToPosition: aPoint
 	| center point |
 	
 	point := aPoint * self sectorSize.
