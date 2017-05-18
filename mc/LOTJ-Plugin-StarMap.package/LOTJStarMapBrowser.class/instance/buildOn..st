@@ -7,17 +7,19 @@ buildOn: browser
 	browser transmit 
 		to: #map;
 		andShow: [ :a |
-			a morph
+			a tkMorph
 				title: 'Map';
 				morph: [ 
 					ScrollPane new
 						in: [ :this | | morph |
-							morph :=self starMapMorph.
-							this scroller addMorph: morph.
-							morph onSelect: [ :aPoint | a selection: aPoint ] ];
+							morph := self starMapMorph.
+							this scroller addMorph: morph ];
 						hResizing: #spaceFill;
 						vResizing: #spaceFill;
-						yourself ].
+						yourself ];
+				morphTransmissions: [ :presentation |
+					self starMapMorph 
+						onSelect: [ :aPoint | presentation selection: aPoint ] ].
 			a fastList 
 				title: 'List';
 				display: [ self plugin points asArray ] ].
@@ -26,6 +28,6 @@ buildOn: browser
 		from: #map;
 		from: #map port: #rawSelection;
 		to: #pointDetail;
-		andShow: [ :a :point |
-			a morph 
-				display: [ (point asMorphFor: #view) morph ] ]
+		andShow: [ :a |
+			a tkMagritte  
+				title: [ :point | point type ] ]

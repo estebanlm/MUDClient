@@ -1,6 +1,6 @@
 private
 recalculatePlanets
 	points removeAll: (points select: [ :each | 
-		each origin: LOTJStarMapPoint internalOrigin ]).
+		each origin: LOTJStarMapSystemPoint internalOrigin ]).
 	points addAll: self buildPlanets.
 	^ points 

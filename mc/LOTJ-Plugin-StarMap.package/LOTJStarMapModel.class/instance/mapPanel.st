@@ -1,3 +1,0 @@
-accessing ui
-mapPanel
-	^ mapPanel

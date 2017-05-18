@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LOTJStarMapPoint",
+	"category" : "LOTJ-Plugin-StarMap-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LOTJStarMapSpacePoint",
+	"type" : "normal"
+}

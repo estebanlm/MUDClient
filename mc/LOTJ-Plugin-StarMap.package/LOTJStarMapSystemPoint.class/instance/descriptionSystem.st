@@ -1,10 +1,10 @@
 descriptions
-descriptionName
+descriptionSystem
 	<magritteDescription>
 	
 	^ MAStringDescription new 
-		priority: 30;
+		priority: 100;
 		label: 'System';
-		accessor: #name;
+		accessor: #system;
 		beReadonly;
 		yourself

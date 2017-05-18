@@ -4,7 +4,7 @@ descriptionSector
 	
 	^ MAStringDescription new 
 		priority: 10;
-		label: 'Location';
+		label: 'Sector';
 		accessor: #sector;
 		beReadonly;
 		yourself

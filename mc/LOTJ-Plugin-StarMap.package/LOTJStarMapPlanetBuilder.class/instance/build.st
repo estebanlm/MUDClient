@@ -8,7 +8,7 @@ build
 	systemTuples := self systemsSource lines collect: [ :each | self cut: each on: systemsCutPoints ].
 	
 	^ planetTuples collect: [ :eachPlanetTuple |
-		LOTJStarMapPoint new 
+		LOTJStarMapSystemPoint new 
 			name: eachPlanetTuple first;
 			system: eachPlanetTuple second;
 			sector: (self toPoint: (systemTuples detect: [ :each | each first = eachPlanetTuple second ]) second);
