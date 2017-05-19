@@ -1,14 +1,11 @@
 {
-	"category" : "MUDClient-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "MUDTerminalForTest",
-	"pools" : [
-		 ],
 	"super" : "MUDTerminal",
-	"type" : "normal" }
+	"category" : "MUDClient-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MUDTerminalForTest",
+	"type" : "normal"
+}

@@ -3,7 +3,7 @@ descriptionSystem
 	<magritteDescription>
 	
 	^ MAStringDescription new 
-		priority: 100;
+		priority: 110;
 		label: 'System';
 		accessor: #system;
 		beReadonly;

@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "MUDClient-Tests",
+	"super" : "LOTJStarMapPointMorph",
+	"category" : "LOTJ-Plugin-StarMap-View",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "MUDConsoleTextModelTest",
+	"name" : "LOTJStarMapSystemMorph",
 	"type" : "normal"
 }

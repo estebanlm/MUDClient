@@ -3,7 +3,7 @@ descriptionName
 	<magritteDescription>
 	
 	^ MAStringDescription new 
-		priority: 110;
+		priority: 100;
 		label: 'Name';
 		accessor: #name;
 		beReadonly;

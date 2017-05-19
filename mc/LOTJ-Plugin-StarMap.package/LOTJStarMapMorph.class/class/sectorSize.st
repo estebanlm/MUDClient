@@ -1,3 +1,3 @@
 accessing
 sectorSize
-	^ 5
+	^ 6
