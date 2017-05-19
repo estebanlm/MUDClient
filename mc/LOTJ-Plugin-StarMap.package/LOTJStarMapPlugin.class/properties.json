@@ -7,8 +7,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"points",
-		"planetsSource",
-		"systemsSource",
 		"region"
 	],
 	"name" : "LOTJStarMapPlugin",

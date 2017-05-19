@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "LOTJStarMapPointMorph",
 	"category" : "LOTJ-Plugin-StarMap-View",
 	"classinstvars" : [ ],

@@ -1,5 +1,9 @@
 utils
 readIcons 
+	<script>
+	
+	| repository |
+	repository := self package iceRepository.
 	self uniqueInstance 
-		readIconMethodsFromDirectory: '/Users/esteban/Dev/Repository/MUDClient/icons/16' asFileReference;
+		readIconMethodsFromDirectory: repository location / 'icons' / '16';
 		initialize.
