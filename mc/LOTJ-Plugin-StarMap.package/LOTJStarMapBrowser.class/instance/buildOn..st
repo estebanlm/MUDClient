@@ -42,4 +42,7 @@ buildOn: browser
 			a text
 				title: 'Notes';
 				display: [ :point | point notes ifNil: [ '' ] ];
-				onChangeOfPort: #text act: [ :presentation :point | point notes: presentation text ] ]
+				onChangeOfPort: #text act: [ :presentation :point | 
+					self 
+						storeNote: presentation text asString 
+						on: point ] ]
