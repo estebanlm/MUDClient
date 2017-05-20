@@ -6,5 +6,5 @@ descriptionPlanets
 		priority: 20;
 		label: 'Planets';
 		accessor: #planetsSource;
-		lineCount: 5;
+		lineCount: 8;
 		yourself

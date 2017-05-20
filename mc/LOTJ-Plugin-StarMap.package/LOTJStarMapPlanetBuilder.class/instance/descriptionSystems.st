@@ -6,6 +6,6 @@ descriptionSystems
 		priority: 10;
 		label: 'Systems';
 		accessor: #systemsSource;
-		lineCount: 5;
+		lineCount: 8;
 		beRequired;
 		yourself
