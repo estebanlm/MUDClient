@@ -1,5 +1,6 @@
 private factory
 createStarMapMorph
-	^ LOTJStarMapMorph new 
+	^ LOTJStarMapMorph new
 		starMap: self plugin;
-		yourself.
+		showNames;
+		yourself

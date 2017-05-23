@@ -1,0 +1,3 @@
+accessing
+fontColor
+	^ Color white

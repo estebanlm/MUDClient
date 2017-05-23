@@ -1,0 +1,3 @@
+accessing
+hideNames
+	showNames := false.

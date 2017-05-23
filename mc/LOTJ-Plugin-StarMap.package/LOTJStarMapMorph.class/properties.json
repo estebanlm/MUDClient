@@ -10,7 +10,8 @@
 		"regionRectangle",
 		"sectorSize",
 		"selectionBlock",
-		"selected"
+		"selected",
+		"showNames"
 	],
 	"name" : "LOTJStarMapMorph",
 	"type" : "normal"
