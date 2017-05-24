@@ -1,14 +1,15 @@
 building
 build
-	| planetsCutPoints systemsCutPoints planetTuples moonTuples systemTuples |
+	| planetsCutPoints moonsCutPoints systemsCutPoints planetTuples moonTuples systemTuples |
 	
 	planetsCutPoints := #(16 38 64).
+	moonsCutPoints := #(32 54 70).
 	systemsCutPoints := #(25).
 	
 	planetTuples := (self planetsSource ifNil: [ '' ]) lines 
 		collect: [ :each | self cut: each on: planetsCutPoints ].
 	moonTuples := (self moonsSource ifNil: [ '' ]) lines 
-		collect: [ :each | self cut: each on: planetsCutPoints ].
+		collect: [ :each | self cut: each on: moonsCutPoints ].
 	systemTuples := (self systemsSource ifNil: [ '' ]) lines 
 		collect: [ :each | self cut: each on: systemsCutPoints ].
 	
