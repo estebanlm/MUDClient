@@ -1,5 +1,6 @@
 drawing
 drawOn: aCanvas
+	self isVisible ifFalse: [ ^ self ].
 	aCanvas 
 		fillRectangle: self bounds 
-		color: Color blue darker
+		color: self color

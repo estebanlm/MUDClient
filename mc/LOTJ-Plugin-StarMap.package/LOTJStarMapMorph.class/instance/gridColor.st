@@ -1,3 +1,3 @@
 accessing
 gridColor
-	^ Smalltalk ui theme backgroundColor slightlyLighter
+	^ Smalltalk ui theme backgroundColor muchDarker darker
