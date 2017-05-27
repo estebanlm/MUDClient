@@ -1,4 +1,4 @@
-private
+accessing
 newInternalSystems: aCollection
 	self removeAllOrigin: LOTJStarMapPoint internalOrigin.
 	aCollection do: [ :each | 

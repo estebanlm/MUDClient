@@ -1,3 +1,0 @@
-accessing
-hideNames
-	showNames := false.

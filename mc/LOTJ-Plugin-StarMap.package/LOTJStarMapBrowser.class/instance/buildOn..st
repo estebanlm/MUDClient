@@ -12,14 +12,7 @@ buildOn: browser
 		andShow: [ :a |
 			a tkMorph
 				title: 'Map';
-				morph: [ 
-					ScrollPane new
-						in: [ :this | | morph |
-							morph := self starMapMorph.
-							this scroller addMorph: morph ];
-						hResizing: #spaceFill;
-						vResizing: #spaceFill;
-						yourself ];
+				morph: [ self mapPaneMorph ];
 				morphTransmissions: [ :presentation |
 					self starMapMorph 
 						onSelect: [ :aPoint | presentation selection: aPoint ] ].

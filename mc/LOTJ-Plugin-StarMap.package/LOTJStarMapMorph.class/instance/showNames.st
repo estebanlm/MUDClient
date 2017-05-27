@@ -1,3 +1,0 @@
-accessing
-showNames
-	showNames := true
