@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "LOTJ-Plugin-Cartographer-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"direction",
+		"originRoom",
+		"arrivalRoom"
+	],
+	"name" : "LOTJCartographerRecord",
+	"type" : "normal"
+}

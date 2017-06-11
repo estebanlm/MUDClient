@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "MUDPlugin",
+	"category" : "LOTJ-Plugin-Cartographer-Model",
+	"classinstvars" : [ ],
+	"pools" : [
+		"LOTJMSDPVariables"
+	],
+	"classvars" : [ ],
+	"instvars" : [
+		"rooms",
+		"actualRoom",
+		"record"
+	],
+	"name" : "LOTJCartographerPlugin",
+	"type" : "normal"
+}

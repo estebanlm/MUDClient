@@ -1,0 +1,3 @@
+accessing
+exits
+	^ self ROOMEXITS

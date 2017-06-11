@@ -1,0 +1,3 @@
+accessing
+directions
+	^ #('d' 'down')

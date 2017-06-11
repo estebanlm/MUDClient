@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "MUDPluginSpec",
+	"category" : "LOTJ-Plugin-Cartographer-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LOTJCartographerPluginSpec",
+	"type" : "normal"
+}

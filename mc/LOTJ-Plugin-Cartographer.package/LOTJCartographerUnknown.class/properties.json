@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LOTJCartographerDirection",
+	"category" : "LOTJ-Plugin-Cartographer-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LOTJCartographerUnknown",
+	"type" : "normal"
+}

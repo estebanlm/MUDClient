@@ -1,0 +1,18 @@
+{
+	"classtraitcomposition" : "TMUDValueContainer classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"values",
+		"connections"
+	],
+	"name" : "LOTJCartographerRoom",
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"traitcomposition" : "TMUDValueContainer",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [
+		"LOTJMSDPVariables"
+	],
+	"category" : "LOTJ-Plugin-Cartographer-Model"
+}

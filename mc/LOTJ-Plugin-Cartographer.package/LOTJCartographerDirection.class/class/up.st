@@ -1,0 +1,3 @@
+accessing
+up
+	^ LOTJCartographerUp uniqueInstance

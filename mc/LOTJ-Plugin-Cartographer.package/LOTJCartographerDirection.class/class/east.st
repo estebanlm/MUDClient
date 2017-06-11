@@ -1,0 +1,3 @@
+accessing
+east
+	^ LOTJCartographerEast uniqueInstance

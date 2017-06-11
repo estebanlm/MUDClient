@@ -1,0 +1,3 @@
+accessing
+southwest
+	^ LOTJCartographerSouth uniqueInstance

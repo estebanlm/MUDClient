@@ -1,0 +1,3 @@
+accessing
+north
+	^ LOTJCartographerNorth uniqueInstance

@@ -1,0 +1,3 @@
+accessing
+west
+	^ LOTJCartographerWest uniqueInstance
