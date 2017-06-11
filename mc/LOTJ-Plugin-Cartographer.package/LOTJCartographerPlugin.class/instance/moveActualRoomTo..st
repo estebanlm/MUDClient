@@ -1,5 +1,5 @@
 private
-moveActualRoomTo: aNumber
+moveActualRoomTo: roomNumber
 	actualRoom := self rooms 
-		at: aNumber
-		ifAbsentPut: [ LOTJCartographerRoom new ]
+		at: roomNumber
+		ifAbsentPut: [ LOTJCartographerRoom number: roomNumber ]

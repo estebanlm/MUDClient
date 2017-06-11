@@ -1,6 +1,6 @@
 accessing spec
 toolbarSpec 
-	^ MUDPluginToolbarSpec
+	^ nil"MUDPluginToolbarSpec
 		act: [ :aTerminal :aGame | self openCartographerFor: aGame in: aTerminal ]
 		icon: #map1 asMUDIcon
-		entitled: self name
+		entitled: self name"
