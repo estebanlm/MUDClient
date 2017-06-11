@@ -1,11 +1,5 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "MUDPlugin",
-	"category" : "LOTJ-Plugin-CombatBar",
-	"classinstvars" : [ ],
-	"pools" : [
-		"LOTJMSDPVariables"
-	],
+	"classtraitcomposition" : "TMUDValueContainer classTrait",
 	"classvars" : [
 		"CombatBarPanel"
 	],
@@ -13,5 +7,13 @@
 		"values"
 	],
 	"name" : "LOTJCombatBarPlugin",
-	"type" : "normal"
+	"commentStamp" : "<historical>",
+	"super" : "MUDPlugin",
+	"traitcomposition" : "TMUDValueContainer",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [
+		"LOTJMSDPVariables"
+	],
+	"category" : "LOTJ-Plugin-CombatBar"
 }

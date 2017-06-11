@@ -1,3 +1,3 @@
 accessing
-reportVariables
+values
 	^ self required
