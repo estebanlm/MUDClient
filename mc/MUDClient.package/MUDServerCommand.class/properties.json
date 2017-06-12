@@ -1,14 +1,14 @@
 {
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "MUDClient-View",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"owner",
-		"ansiParser"
+		"terminal",
+		"value"
 	],
-	"name" : "MUDAlertManager",
+	"name" : "MUDServerCommand",
 	"type" : "normal"
 }

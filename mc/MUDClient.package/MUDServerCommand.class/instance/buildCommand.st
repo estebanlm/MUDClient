@@ -1,0 +1,3 @@
+private protocol
+buildCommand
+	self subclassResponsibility

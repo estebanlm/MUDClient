@@ -1,0 +1,1 @@
+I'm an alert manager to show growl messages in terminal.

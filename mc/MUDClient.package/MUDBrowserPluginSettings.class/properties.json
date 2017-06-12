@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "MUDBrowserSettings",
 	"category" : "MUDClient-View",
 	"classinstvars" : [ ],

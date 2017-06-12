@@ -13,7 +13,8 @@
 		"inputMorph",
 		"dependentWindows",
 		"register",
-		"alert"
+		"alert",
+		"serverCommandReceivers"
 	],
 	"name" : "MUDTerminal",
 	"type" : "normal"

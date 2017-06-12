@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Announcement",
+	"commentStamp" : "",
+	"super" : "MUDServerMSDPCommand",
 	"category" : "MUDClient-View",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "MUDAnnouncement",
+	"name" : "MUDMSDPListCommand",
 	"type" : "normal"
 }

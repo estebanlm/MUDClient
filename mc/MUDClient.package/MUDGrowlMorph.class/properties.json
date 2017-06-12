@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "GrowlMorph",
-	"category" : "MUDClient-View",
+	"category" : "MUDClient-View-Morph",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

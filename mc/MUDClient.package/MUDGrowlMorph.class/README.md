@@ -1,0 +1,1 @@
+I'm a "growl-like" morph, used to display messages inside the terminal window.

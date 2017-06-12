@@ -2,7 +2,6 @@ private session
 dataReceived: ann 
 	| data |
 	
-	self flag: #todo. "Esc. condition. Verify"
 	[  
 		self hasGame ifTrue: [ 
 			data := self filterOutput: ann data.
