@@ -7,4 +7,3 @@ processOn: aTerminal command: aCommand
 	
 	varName = SERVER_ID ifTrue: [ ^ self activateOn: aTerminal ].
 	varName = ROOM_VNUM ifTrue: [ ^ self arrivedToNewRoom: varValue asNumber ].
-	self actualRoom valueAt: varName put: varValue

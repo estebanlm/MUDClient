@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"variableName"
+		"variables"
 	],
 	"name" : "MUDServerMSDPCommand",
 	"type" : "normal"

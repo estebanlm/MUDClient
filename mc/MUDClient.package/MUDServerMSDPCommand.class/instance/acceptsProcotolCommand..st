@@ -1,3 +1,3 @@
 testing
 acceptsProcotolCommand: aCommand 
-	^ self variableName = aCommand variable variableName
+	^ self variables includes: aCommand variable variableName

@@ -1,4 +1,5 @@
-private
+private protocol
 buildCommand
 	^ MUDMSDPCommandBuilder subcommand: [ :command | 
-		command at: self commandName put: self variableName ]
+		command var: self commandName.
+		self variables do: [ :each | command put: each ] ]

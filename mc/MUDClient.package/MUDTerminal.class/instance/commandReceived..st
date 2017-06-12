@@ -6,7 +6,6 @@ commandReceived: ann
 				and: [ each acceptsProcotolCommand: ann  ] ] 
 		thenDo: [ :each | 
 			[ each processCommand: ann ] executeOnUIThread.
-			self removeServerCommandReceiver: each.
 			^ self  ].
 			
 	self activePlugins

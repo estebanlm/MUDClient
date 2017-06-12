@@ -1,6 +1,4 @@
 commands
 at: aString put: anObject 
-	stream 
-		<< MSDP_VAR;
-		<< aString asByteArray.
+	self var: aString.
 	self put: anObject.

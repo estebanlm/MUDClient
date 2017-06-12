@@ -1,3 +1,3 @@
-private
+private protocol
 commandName
 	^ self subclassResponsibility
