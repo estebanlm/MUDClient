@@ -1,3 +1,3 @@
 accessing
 southeast
-	^ LOTJCartographerSouth uniqueInstance
+	^ LOTJCartographerSoutheast uniqueInstance

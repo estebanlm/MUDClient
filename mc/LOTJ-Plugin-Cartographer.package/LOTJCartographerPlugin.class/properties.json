@@ -6,7 +6,9 @@
 	"pools" : [
 		"LOTJMSDPVariables"
 	],
-	"classvars" : [ ],
+	"classvars" : [
+		"TaskRunner"
+	],
 	"instvars" : [
 		"rooms",
 		"actualRoom",

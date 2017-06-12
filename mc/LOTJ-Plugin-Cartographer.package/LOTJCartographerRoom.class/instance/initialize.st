@@ -5,4 +5,4 @@ initialize
 		ROOM_VNUM. nil.
 		ROOM_NAME. nil.
 		ROOM_EXITS. nil }.
-	connections := Dictionary new
+	connections := SmallDictionary new

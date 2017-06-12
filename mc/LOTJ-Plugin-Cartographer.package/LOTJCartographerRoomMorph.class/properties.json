@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "LOTJ-Plugin-Cartographer-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"room"
+	],
+	"name" : "LOTJCartographerRoomMorph",
+	"type" : "normal"
+}

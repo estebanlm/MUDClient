@@ -1,9 +1,12 @@
 accessing
 addConnection: direction to: aRoom
-	| dirConnections |
-
-	dirConnections := self connections 
-		at: direction
-		ifAbsentPut: [ Set new ].
-	(dirConnections includes: aRoom)
-		ifFalse: [ dirConnections add: aRoom ]
+	| previousRoom |
+	
+	previousRoom := self connections at: direction ifAbsent: [ nil ].
+	previousRoom = aRoom ifTrue: [ ^ self ].
+	
+	self connections 
+		at: direction 
+		put: (previousRoom 
+			ifNotNil: [ previousRoom, aRoom ]
+			ifNil: [ aRoom ])
