@@ -1,3 +1,6 @@
 inspecting
 gtDisplayOn: stream 
-	stream << (LOTJTextDecorationParser cleanText: self ROOMNAME)
+	stream 
+		<< self ROOMVNUM asString
+		<< ' - '
+		<< (LOTJTextDecorationParser cleanText: self ROOMNAME)
