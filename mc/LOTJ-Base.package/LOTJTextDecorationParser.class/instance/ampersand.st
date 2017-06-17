@@ -1,0 +1,3 @@
+primitives
+ampersand
+	^ '&&' asParser

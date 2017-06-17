@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "PPCompositeParser",
+	"category" : "LOTJ-Base-TextDecoration",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Default"
+	],
+	"instvars" : [
+		"decoration",
+		"text",
+		"decoratedText",
+		"sequence",
+		"document",
+		"nonDecoratedText",
+		"decorationWithoutText",
+		"ampersand"
+	],
+	"name" : "LOTJTextDecorationParser",
+	"type" : "normal"
+}
