@@ -5,11 +5,11 @@ commandReceived: ann
 			(each isProcessingProtocol: ann protocol) 
 				and: [ each acceptsProcotolCommand: ann  ] ] 
 		thenDo: [ :each | 
-			[ each processCommand: ann ] executeOnUIThread.
+			[ each processCommand: ann ] schedule.
 			^ self  ].
 			
 	self activePlugins
 		select: [ :each | 
 			(each isProcessingProtocol: ann protocol) 
 				and: [ each acceptsProcotolCommand: ann  ] ] 
-		thenDo: [ :each | [ each processOn: self command: ann ] executeOnUIThread ]
+		thenDo: [ :each | [ each processOn: self command: ann ] schedule ]

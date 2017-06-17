@@ -8,4 +8,4 @@ processOn: aTerminal command: aCommand
 	self valueAt: varName put: varValue.
 	varName = OPPONENT_NAME
 		ifTrue: [ self togglePanelVisibilityOn: aTerminal ].
-	self changed: varName asSymbol
+	[ self changed: varName asSymbol ] executeOnUIThread

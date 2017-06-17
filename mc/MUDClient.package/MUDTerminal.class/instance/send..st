@@ -1,4 +1,6 @@
 accessing
 send: aString
 	self isRunning ifFalse: [ ^ self ].
-	self session writeln: aString
+	outputScheduler schedule: [ 
+		self isRunning ifTrue: [ 
+			self session writeln: aString ] ]

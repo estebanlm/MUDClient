@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "MUDServerCommand",
+	"super" : "MUDServerMSDPCommand",
 	"category" : "MUDClient-Model-ServerCommand",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "MUDServerMSDPCommand",
+	"instvars" : [
+		"variables"
+	],
+	"name" : "MUDServerMSDPReportCommand",
 	"type" : "normal"
 }

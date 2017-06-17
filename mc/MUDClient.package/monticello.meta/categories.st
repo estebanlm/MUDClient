@@ -2,6 +2,7 @@ SystemOrganization addCategory: #MUDClient!
 SystemOrganization addCategory: 'MUDClient-Fonts'!
 SystemOrganization addCategory: 'MUDClient-Model'!
 SystemOrganization addCategory: 'MUDClient-Model-Plugin'!
+SystemOrganization addCategory: 'MUDClient-Model-ServerCommand'!
 SystemOrganization addCategory: 'MUDClient-Model-Telnet'!
 SystemOrganization addCategory: 'MUDClient-Utils'!
 SystemOrganization addCategory: 'MUDClient-View'!

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "MUDServerMSDPCommand",
-	"category" : "MUDClient-View",
+	"super" : "MUDServerMSDPQueryCommand",
+	"category" : "MUDClient-Model-ServerCommand",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

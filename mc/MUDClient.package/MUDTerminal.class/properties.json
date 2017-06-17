@@ -14,7 +14,8 @@
 		"dependentWindows",
 		"register",
 		"alert",
-		"serverCommandReceivers"
+		"serverCommandReceivers",
+		"outputScheduler"
 	],
 	"name" : "MUDTerminal",
 	"type" : "normal"
