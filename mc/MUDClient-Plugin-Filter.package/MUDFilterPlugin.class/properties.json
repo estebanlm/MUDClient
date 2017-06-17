@@ -4,9 +4,7 @@
 	"category" : "MUDClient-Plugin-Filter-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"ANSIParser"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"filters"
 	],

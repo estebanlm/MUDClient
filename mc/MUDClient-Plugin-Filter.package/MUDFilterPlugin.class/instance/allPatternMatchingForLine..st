@@ -2,7 +2,7 @@ private
 allPatternMatchingForLine: aString 
 	| cleanString matchingFilters |
 	
-	cleanString := self class cleanText: aString.
+	cleanString := MUDANSITextCleaner cleanText: aString.
 	matchingFilters := Set new.
 	"Collect all possible filters"
 	self activeFilters do: [ :each |  

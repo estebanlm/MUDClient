@@ -4,7 +4,9 @@
 	"category" : "MUDClient-Protocol-ANSI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Default"
+	],
 	"instvars" : [
 		"ps",
 		"csi",
