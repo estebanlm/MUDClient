@@ -1,0 +1,3 @@
+accessing
+selectedColor
+	^ self backgroundColor

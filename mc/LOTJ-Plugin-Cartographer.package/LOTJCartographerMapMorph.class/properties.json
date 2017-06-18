@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"selectedRoom",
+		"levelRooms"
+	],
 	"name" : "LOTJCartographerMapMorph",
 	"type" : "normal"
 }

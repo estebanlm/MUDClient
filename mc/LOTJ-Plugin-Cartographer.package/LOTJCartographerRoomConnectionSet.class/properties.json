@@ -6,8 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"direction",
 		"rooms"
 	],
-	"name" : "LOTJCartographerRoomSet",
+	"name" : "LOTJCartographerRoomConnectionSet",
 	"type" : "normal"
 }

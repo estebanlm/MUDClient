@@ -1,0 +1,3 @@
+accessing
+roomSeparation
+	^ 30

@@ -13,7 +13,5 @@ processOn: aTerminal command: aCommand
 			self recordOriginRoom: self actualRoom.
 			self moveActualRoomTo: varValue asInteger.
 			self recordArrivalRoom: self actualRoom.
-			self actualRoom 
-				name: (values at: ROOM_NAME);
-				exits: (values at: ROOM_EXITS).
+			self actualRoom addValues: values.
 			self registerRecordedMovement ]

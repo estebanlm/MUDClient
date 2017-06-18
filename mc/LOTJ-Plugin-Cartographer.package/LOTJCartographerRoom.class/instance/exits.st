@@ -1,3 +1,3 @@
 accessing
 exits
-	^ self ROOMEXITS
+	^ self ROOMEXITS collect: [ :each | LOTJCartographerDirection findByName: each variableName ]

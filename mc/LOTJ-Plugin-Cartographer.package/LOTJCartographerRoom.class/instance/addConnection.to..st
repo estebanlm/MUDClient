@@ -1,12 +1,11 @@
 accessing
 addConnection: direction to: aRoom
-	| previousRoom |
+	| previousConnection |
 	
-	previousRoom := self connections at: direction ifAbsent: [ nil ].
-	previousRoom = aRoom ifTrue: [ ^ self ].
-	
-	self connections 
-		at: direction 
-		put: (previousRoom 
-			ifNotNil: [ previousRoom, aRoom ]
-			ifNil: [ aRoom ])
+	previousConnection := self connectionAt: direction ifAbsent: [ nil ].
+	previousConnection ifNil: [ 
+		connections add: (direction connectsTo: aRoom). 
+		^ self ].
+	(previousConnection includes: aRoom) ifTrue: [ ^ self ].
+	connections remove: previousConnection.
+	connections add: (previousConnection, aRoom) 	

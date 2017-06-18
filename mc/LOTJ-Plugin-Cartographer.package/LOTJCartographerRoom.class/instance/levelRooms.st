@@ -1,4 +1,4 @@
 accessing
-areaRooms
+levelRooms
 	"Answers all rooms reached at same level"
-	^ self traverseAreaRoomsTo: Set new
+	^ self collectLevelRoomsInto: Set new

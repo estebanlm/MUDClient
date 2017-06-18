@@ -3,7 +3,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"values",
-		"connections"
+		"connections",
+		"notes"
 	],
 	"name" : "LOTJCartographerRoom",
 	"commentStamp" : "<historical>",
