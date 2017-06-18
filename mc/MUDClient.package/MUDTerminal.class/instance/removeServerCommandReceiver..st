@@ -1,3 +1,5 @@
 private
 removeServerCommandReceiver: aReceiver
-	^ serverCommandReceivers remove: aReceiver
+	^ serverCommandReceivers 
+		remove: aReceiver
+		ifAbsent: [  ]

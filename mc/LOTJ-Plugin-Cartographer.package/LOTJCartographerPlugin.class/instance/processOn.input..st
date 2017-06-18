@@ -2,6 +2,11 @@ command processing
 processOn: aTerminal input: aString
 	"Chekc if 'direction' command: 
 	n, s, e, o, ne, nw, se, sw, u, d"
-	LOTJCartographerDirection all
+	| direction | 
+	
+	direction := LOTJCartographerDirection all
 		detect: [ :each | each matches: aString ]
-		ifFound: [ :each | self recordDirection: each ]
+		ifNone: [ ^ self "No direction, leave" ].
+	"Check if it is expected exit"
+	(self actualRoom exits includes: direction) 
+		ifTrue: [ self recordDirection: direction ]

@@ -12,6 +12,7 @@ processOn: aTerminal command: aCommand
 		executeThen: [ :values |
 			self recordOriginRoom: self actualRoom.
 			self moveActualRoomTo: varValue asInteger.
+			self updateActualRoomIn: aTerminal.
 			self recordArrivalRoom: self actualRoom.
 			self actualRoom addValues: values.
 			self registerRecordedMovement ]

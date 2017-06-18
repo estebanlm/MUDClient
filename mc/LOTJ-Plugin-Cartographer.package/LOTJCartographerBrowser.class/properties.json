@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Morph",
+	"commentStamp" : "",
+	"super" : "MUDPluginBrowser",
 	"category" : "LOTJ-Plugin-Cartographer-View",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"room"
+		"mapMorph"
 	],
-	"name" : "LOTJCartographerRoomMorph",
+	"name" : "LOTJCartographerBrowser",
 	"type" : "normal"
 }

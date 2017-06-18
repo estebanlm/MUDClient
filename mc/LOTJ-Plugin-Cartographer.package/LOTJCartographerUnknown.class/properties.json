@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "LOTJCartographerDirection",
 	"category" : "LOTJ-Plugin-Cartographer-Model",
 	"classinstvars" : [ ],

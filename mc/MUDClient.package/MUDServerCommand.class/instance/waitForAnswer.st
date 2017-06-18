@@ -1,3 +1,3 @@
 testing
 waitForAnswer
-	^ false
+	^ answerBlock notNil

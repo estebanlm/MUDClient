@@ -1,3 +1,0 @@
-testing
-waitForAnswer
-	^ true
