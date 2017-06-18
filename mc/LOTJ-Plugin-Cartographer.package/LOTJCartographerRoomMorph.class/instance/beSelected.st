@@ -1,5 +1,3 @@
 accessing
 beSelected
-	self 
-		borderWidth: 2;
-		color: self selectedColor
+	self color: self selectedColor

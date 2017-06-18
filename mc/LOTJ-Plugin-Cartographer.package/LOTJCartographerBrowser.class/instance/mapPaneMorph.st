@@ -1,11 +1,12 @@
 private accessing
 mapPaneMorph
-	| mapPane morph |
+	| mapPane |
 
-	morph := self mapMorph.
 	(mapPane := GeneralScrollPane new)
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.
-	mapPane scroller addMorph: morph.
+	mapPane scroller 
+		removeAllMorphs;
+		addMorph: self mapMorph.
 	
 	^ mapPane

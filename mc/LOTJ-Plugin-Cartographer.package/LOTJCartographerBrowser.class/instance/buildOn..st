@@ -12,7 +12,7 @@ buildOn: browser
 		andShow: [ :a |
 			a tkMorph
 				title: 'Map';
-				morph: [ self mapPaneMorph ];
+				morph: [ self mapMorph ];
 				morphTransmissions: [ :presentation |
 					self mapMorph 
 						onSelect: [ :aRoom | presentation selection: aRoom ] ] ].

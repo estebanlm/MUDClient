@@ -3,7 +3,7 @@ descriptionNotes
 	<magritteDescription>
 	
 	^ MAMemoDescription new 
-		priority: 30;
+		priority: 40;
 		label: 'Notes';
 		accessor: #notes;
 		lineCount: 8;

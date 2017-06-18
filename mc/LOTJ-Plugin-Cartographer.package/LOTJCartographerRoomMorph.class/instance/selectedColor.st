@@ -1,3 +1,3 @@
 accessing
 selectedColor
-	^ self backgroundColor
+	^ Color cyan

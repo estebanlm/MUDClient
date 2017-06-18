@@ -10,9 +10,10 @@ processOn: aTerminal command: aCommand
 	(MUDMSDPSendCommand on: aTerminal)
 		variables: { ROOM_NAME. ROOM_EXITS };
 		executeThen: [ :values |
-			self recordOriginRoom: self actualRoom.
+			self isActualRoomAvailable ifTrue: [ 
+				self recordOriginRoom: self actualRoom ].
 			self moveActualRoomTo: varValue asInteger.
-			self updateActualRoomIn: aTerminal.
 			self recordArrivalRoom: self actualRoom.
 			self actualRoom addValues: values.
-			self registerRecordedMovement ]
+			self registerRecordedMovement.
+			self updateActualRoomIn: aTerminal ]

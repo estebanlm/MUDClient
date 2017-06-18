@@ -8,6 +8,6 @@ descriptionExits
 		accessor: #exits;
 		reference: LOTJCartographerDirection basicNew descriptionLabel asContainer;
 		morphClass: TkOneToManyFastListMorph;
-		tkRowsToShow: 5;
+		tkRowsToShow: 4;
 		beReadonly;
 		yourself
