@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Announcement",
+	"super" : "TelnetCommandReceived",
 	"category" : "MUDClient-Model-Telnet",
 	"classinstvars" : [ ],
 	"pools" : [ ],
