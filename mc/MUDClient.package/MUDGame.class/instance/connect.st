@@ -1,9 +1,8 @@
 actions
 connect 
 	^ (TelnetSession new
-		handler: (TelnetStreamHandler new 
+		handler: (TelnetStreamThreadedHandler new 
 			alwaysFlush;
-			addDecoration: TelnetLfDecoration new;
 			addDecoration: TelnetANSIDecoration new;
 			yourself);
 	 	in: [ :session | self protocolHandlers do: [ :each | session addProtocolHandler: each ] ];

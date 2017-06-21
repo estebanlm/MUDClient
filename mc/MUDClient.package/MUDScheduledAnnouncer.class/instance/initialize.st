@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	runner := TKTNewProcessTaskRunner new
+	runner := TKTLocalProcessTaskRunner new
