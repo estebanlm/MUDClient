@@ -3,7 +3,9 @@
 	"super" : "MUDServerCommand",
 	"category" : "MUDClient-Model-ServerCommand",
 	"classinstvars" : [ ],
-	"pools" : [ ],
+	"pools" : [
+		"MUDTelnetConstantsMSDP"
+	],
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "MUDServerMSDPCommand",

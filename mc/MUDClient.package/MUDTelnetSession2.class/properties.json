@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TelnetSessionBasic",
+	"category" : "MUDClient-Model-Telnet",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"host",
+		"port"
+	],
+	"name" : "MUDTelnetSession2",
+	"type" : "normal"
+}

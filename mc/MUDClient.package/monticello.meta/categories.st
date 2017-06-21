@@ -4,6 +4,7 @@ SystemOrganization addCategory: 'MUDClient-Model'!
 SystemOrganization addCategory: 'MUDClient-Model-Plugin'!
 SystemOrganization addCategory: 'MUDClient-Model-ServerCommand'!
 SystemOrganization addCategory: 'MUDClient-Model-Telnet'!
+SystemOrganization addCategory: 'MUDClient-Protocols'!
 SystemOrganization addCategory: 'MUDClient-Utils'!
 SystemOrganization addCategory: 'MUDClient-View'!
 SystemOrganization addCategory: 'MUDClient-View-Glamour'!

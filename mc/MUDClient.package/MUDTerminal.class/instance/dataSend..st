@@ -5,8 +5,8 @@ dataSend: ann
 	
 	data := self filterInput: inputMorph text asString.
 	data 
-		ifNotEmpty: [ data linesDo: [ :each | self session writeln: each ] ]
-		ifEmpty: [ self session writeln: '' ].
+		ifNotEmpty: [ data linesDo: [ :each | self session nextPutAll: each, String crlf ] ]
+		ifEmpty: [ self session nextPutAll: String crlf ].
 
 	"Echo"
 	self isEchoOn ifFalse: [ ^ self ].

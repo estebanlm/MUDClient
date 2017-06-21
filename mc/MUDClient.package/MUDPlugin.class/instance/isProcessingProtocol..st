@@ -1,3 +1,3 @@
 testing
-isProcessingProtocol: aProtocol
+isProcessingProtocol: protocolId
 	^ false

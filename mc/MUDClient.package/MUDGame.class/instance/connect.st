@@ -1,6 +1,11 @@
 actions
 connect 
-	^ (self class sessionClass 
+	^ (TelnetSession new
+		handler: (TelnetStreamHandler new 
+			alwaysFlush;
+			addDecoration: TelnetLfDecoration new;
+			addDecoration: TelnetANSIDecoration new;
+			yourself);
+	 	in: [ :session | self protocolHandlers do: [ :each | session addProtocolHandler: each ] ];
 		connectTo: self host port: self port)
-		in: [ :session | self protocols do: [ :each | session registerProtocol: each ] ];
 		yourself

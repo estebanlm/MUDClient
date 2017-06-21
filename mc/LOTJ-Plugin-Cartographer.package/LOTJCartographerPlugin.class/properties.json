@@ -4,7 +4,8 @@
 	"category" : "LOTJ-Plugin-Cartographer-Model",
 	"classinstvars" : [ ],
 	"pools" : [
-		"LOTJMSDPVariables"
+		"LOTJMSDPVariables",
+		"MUDTelnetConstantsMSDP"
 	],
 	"classvars" : [
 		"TaskRunner"

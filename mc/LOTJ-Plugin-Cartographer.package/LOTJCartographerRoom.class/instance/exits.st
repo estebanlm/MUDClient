@@ -1,3 +1,7 @@
 accessing
 exits
-	^ self ROOMEXITS collect: [ :each | LOTJCartographerDirection findByName: each variableName ]
+	^ self ROOMEXITS 
+		ifNotNil: [ :exits | 
+			exits collect: [ :each | 
+				LOTJCartographerDirection findByName: each variableName ] ]
+		ifNil: [ #() ]

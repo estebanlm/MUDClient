@@ -1,4 +1,6 @@
 external projects
 telnet: spec
-	spec package: 'TelnetSessionBasic' with: [
-		spec repository: 'http://ss3.gemtalksystems.com/ss/TelnetSessionBasic' ]
+	spec 
+		baseline: 'TelnetClient' with: [
+			spec repository: 'github://estebanlm/telnet-client:master' ];
+		import: 'TelnetClient'

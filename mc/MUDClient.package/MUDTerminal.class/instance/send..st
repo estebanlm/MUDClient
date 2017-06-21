@@ -3,4 +3,4 @@ send: aString
 	self isRunning ifFalse: [ ^ self ].
 	outputScheduler schedule: [ 
 		self isRunning ifTrue: [ 
-			self session writeln: aString ] ]
+			self session nextPutAll: aString, String crlf ] ]

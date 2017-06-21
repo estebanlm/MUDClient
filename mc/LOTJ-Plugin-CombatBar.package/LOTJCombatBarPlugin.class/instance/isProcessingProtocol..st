@@ -1,3 +1,3 @@
 testing
-isProcessingProtocol: aProtocol
-	^ aProtocol == MUDMSDPTelnetProtocol uniqueInstance 
+isProcessingProtocol: protocolId
+	^ protocolId == MSDP
