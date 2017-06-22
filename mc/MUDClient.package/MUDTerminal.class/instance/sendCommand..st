@@ -1,4 +1,4 @@
-accessing
+accessing send
 sendCommand: bytes 
 	self isRunning ifFalse: [ ^ self ].
 	outputScheduler schedule: [ 

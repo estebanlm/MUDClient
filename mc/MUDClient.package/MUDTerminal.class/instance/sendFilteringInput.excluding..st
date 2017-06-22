@@ -1,4 +1,4 @@
-accessing
+accessing send
 sendFilteringInput: aString excluding: aPlugin
 	"Apply any filters transformations (excluding aPlugin), so we can use, for example, 
 	 aliases and variables"

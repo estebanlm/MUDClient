@@ -11,7 +11,7 @@ processNext: command
 	self log debug: [ 'Received command: {1}' format: { data } ].
 	self deactivate. 
 	self session announce: (MUDMSDPCommandReceived new
-		protocol: self;
+		protocol: MSDP;
 		data: data;
 		variable: (self parser parse: data asString);
 		yourself)

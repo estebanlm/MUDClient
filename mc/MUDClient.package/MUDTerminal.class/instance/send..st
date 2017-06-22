@@ -1,4 +1,4 @@
-accessing
+accessing send
 send: aString
 	self isRunning ifFalse: [ ^ self ].
 	outputScheduler schedule: [ 
