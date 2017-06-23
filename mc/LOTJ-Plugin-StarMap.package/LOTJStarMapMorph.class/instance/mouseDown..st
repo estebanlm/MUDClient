@@ -7,6 +7,4 @@ mouseDown: event
 		pointAtSector: sector 
 		ifAbsent: [ LOTJStarMapSpacePoint sector: sector ].
 	point ifNotNil: [
-		self selected: point.
-		self update.
-		selectionBlock ifNotNil: [ selectionBlock value: point ]. ]
+		self internalSelect: point ]

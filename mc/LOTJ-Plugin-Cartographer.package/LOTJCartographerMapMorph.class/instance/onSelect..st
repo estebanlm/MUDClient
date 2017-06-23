@@ -1,3 +1,3 @@
-as yet unclassified
+enumerating
 onSelect: aBlock
-	self flag: #todo.
+	selectionBlock := aBlock

@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"selectedRoom",
-		"levelRooms"
+		"levelRooms",
+		"selectionBlock"
 	],
 	"name" : "LOTJCartographerMapMorph",
 	"type" : "normal"
