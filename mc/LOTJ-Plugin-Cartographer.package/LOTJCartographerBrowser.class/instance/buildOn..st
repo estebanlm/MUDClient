@@ -24,7 +24,10 @@ buildOn: browser
 			a tkMagritte  
 				title: 'Detail';
 				presenter: #view;
-				beReadOnly ].
+				beReadOnly;
+				act: [ :each | each entity inspect ] 
+					icon: #glamorousInspect asIcon 
+					entitled: 'Inspect' ].
 			
 	browser transmit 
 		from: #map;
