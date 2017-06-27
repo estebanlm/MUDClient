@@ -1,5 +1,6 @@
 private
 connectTo: aGame
+	self reset.
 	self game: aGame.
 	[ 
 		session := aGame connect.
