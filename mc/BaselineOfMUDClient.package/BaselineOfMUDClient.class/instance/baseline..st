@@ -25,7 +25,7 @@ baseline: spec
 					'TaskIt'
 					'Voyage'
 					'PetitParser' 
-					'TelnetSessionBasic' 
+					'TelnetClient' 
 					'Magritte3' 
 					'Glamour'
 					'Toolkit') ];
