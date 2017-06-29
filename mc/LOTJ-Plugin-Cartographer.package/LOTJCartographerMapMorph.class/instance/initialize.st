@@ -6,3 +6,4 @@ initialize
 		hResizing: #spaceFill; 
 		vResizing: #spaceFill;
 		color: self backgroundColor.
+	self setNeedsDisplay

@@ -1,9 +1,9 @@
 private
-addRoom: aRoom position: aPoint
+addRoom: aRoom position: aPoint into: aCollection
 	| roomMorph |
-	
+	 
 	"Exit if is already there"
-	(self submorphs anySatisfy: [ :each | 
+	(aCollection anySatisfy: [ :each | 
 		"If room is already added or possition is occupied, we do not show 
 		this room, and we end adding rooms here."
 		(each room = aRoom) or: [ each position = aPoint ] ]) 
@@ -12,8 +12,9 @@ addRoom: aRoom position: aPoint
 	roomMorph := aRoom asMorph.
 	aRoom = selectedRoom ifTrue: [ roomMorph beSelected ].
 	roomMorph position: aPoint.
-	self addMorph: roomMorph.
+	aCollection add: roomMorph.
 	aRoom withLevelConnectionsDo: [ :each | 
 		self 
 			addRoom: each room 
-			position: (aPoint + (each direction coordinateModifier * self roomSeparation)) ]
+			position: (aPoint + (each direction coordinateModifier * self roomSeparation))
+			into: aCollection ]

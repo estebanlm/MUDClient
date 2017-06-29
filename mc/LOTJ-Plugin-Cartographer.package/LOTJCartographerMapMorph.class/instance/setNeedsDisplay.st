@@ -1,0 +1,3 @@
+private
+setNeedsDisplay
+	needsDisplay := true
