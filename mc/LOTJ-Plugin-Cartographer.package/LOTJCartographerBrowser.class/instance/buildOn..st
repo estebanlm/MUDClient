@@ -13,7 +13,7 @@ buildOn: browser
 			a tkMorph
 				title: 'Map';
 				act: [ self removeLevel ] entitled: 'Remove level';
-				act: [ :p | self removeAllConnections: p selection ] entitled: 'Remove level';
+				act: [ :p | self removeAllConnections: p selection ] entitled: 'Remove connections';
 				morph: [ self mapMorph ];
 				morphTransmissions: [ :presentation |
 					self mapMorph 
