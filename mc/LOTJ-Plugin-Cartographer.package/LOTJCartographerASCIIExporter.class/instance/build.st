@@ -23,4 +23,4 @@ build
 		(matrix rows 
 			reject: [ :each | each allSatisfy: #isNil ])
 			do: [ :eachRow | eachRow do: [ :each | stream << (each ifNil: [ Character space ]) ] ]
-			separatedBy: [ stream cr ] ].
+			separatedBy: [ stream crlf ] ].

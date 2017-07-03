@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	case := LOTJCartographerMapCase new
+	rooms := Dictionary new

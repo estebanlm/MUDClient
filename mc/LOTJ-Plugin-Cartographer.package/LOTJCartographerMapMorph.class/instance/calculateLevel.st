@@ -1,7 +1,10 @@
 private
 calculateLevel
 	| roomMorphs |
+
 	needsDisplay := false.
+
+	selectedRoom ifNil: [ ^ self ].
 	roomMorphs := OrderedCollection new.
 	self 
 		addRoom: selectedRoom 

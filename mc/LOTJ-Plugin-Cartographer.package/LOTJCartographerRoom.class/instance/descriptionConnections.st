@@ -1,6 +1,7 @@
 descriptions
 descriptionConnections
 	<magritteDescription>
+	<view>
 	
 	^ MAToManyRelationDescription new 
 		priority: 30;

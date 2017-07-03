@@ -8,12 +8,10 @@ processOn: aTerminal command: aCommand
 	varName = SERVER_ID ifTrue: [ ^ self activateOn: aTerminal ].
 	varName = ROOM_VNUM ifFalse: [ ^ self ].
 	(MUDMSDPSendCommand on: aTerminal)
+		value: { 
+			#lastRecordedDirection -> self lastRecordedDirection. 
+			#originRoom -> self actualRoom. 
+			ROOM_VNUM -> varValue asNumber } asDictionary;
 		variables: { ROOM_NAME. ROOM_EXITS };
-		executeThen: [ :values |
-			self isActualRoomAvailable ifTrue: [ 
-				self recordOriginRoom: self actualRoom ].
-			self moveActualRoomTo: varValue asInteger.
-			self recordArrivalRoom: self actualRoom.
-			self actualRoom addValues: values.
-			self registerRecordedMovement.
-			self updateActualRoomIn: aTerminal ]
+		executeThen: [ :values | self recordWith: values in: aTerminal ].
+	self reset

@@ -1,6 +1,7 @@
 descriptions
 descriptionName
 	<magritteDescription>
+	<view>
 	
 	^ MAStringDescription new 
 		priority: 10;

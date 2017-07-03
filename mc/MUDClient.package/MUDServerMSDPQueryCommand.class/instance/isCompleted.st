@@ -1,3 +1,3 @@
 testing
 isCompleted
-	^ self value size = self variables size
+	^ self value keys includesAll: self variables

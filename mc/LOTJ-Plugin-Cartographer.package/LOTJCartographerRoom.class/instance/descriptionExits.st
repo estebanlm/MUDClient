@@ -1,13 +1,11 @@
 descriptions
 descriptionExits
 	<magritteDescription>
+	<view>
 	
-	^ MAToManyRelationDescription new 
+	^ MAStringDescription new 
 		priority: 20;
 		label: 'Exits';
-		accessor: #exits;
-		reference: LOTJCartographerDirection basicNew descriptionLabel asContainer;
-		morphClass: TkOneToManyFastListMorph;
-		tkRowsToShow: 4;
+		accessor: #exitsAsString;
 		beReadonly;
 		yourself

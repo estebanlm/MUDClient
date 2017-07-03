@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "LOTJ-Plugin-Cartographer-Model",
 	"classinstvars" : [ ],
@@ -8,13 +8,8 @@
 	],
 	"classvars" : [ ],
 	"instvars" : [
-		"map",
-		"ROOMVNUM",
-		"ROOMNAME",
-		"ROOMEXITS",
-		"connections",
-		"notes"
+		"maps"
 	],
-	"name" : "LOTJCartographerRoom",
+	"name" : "LOTJCartographerMapCase",
 	"type" : "normal"
 }
