@@ -11,9 +11,9 @@
 		"TaskRunner"
 	],
 	"instvars" : [
-		"case",
 		"actualRoom",
-		"lastRecordedDirection"
+		"lastRecordedDirection",
+		"map"
 	],
 	"name" : "LOTJCartographerPlugin",
 	"type" : "normal"

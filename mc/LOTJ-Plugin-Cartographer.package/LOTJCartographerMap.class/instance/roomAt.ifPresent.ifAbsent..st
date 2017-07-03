@@ -1,5 +1,5 @@
 accessing
-roomWithNumber: aNumber ifFound: foundBlock ifNone: noneBlock
+roomAt: aNumber ifPresent: foundBlock ifAbsent: noneBlock
 	^ self rooms
 		at: aNumber
 		ifPresent: foundBlock

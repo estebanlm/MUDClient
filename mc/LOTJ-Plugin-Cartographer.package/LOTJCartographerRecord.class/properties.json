@@ -8,6 +8,7 @@
 	"instvars" : [
 		"direction",
 		"originRoom",
+		"arrivalRoomNumber",
 		"arrivalRoom"
 	],
 	"name" : "LOTJCartographerRecord",

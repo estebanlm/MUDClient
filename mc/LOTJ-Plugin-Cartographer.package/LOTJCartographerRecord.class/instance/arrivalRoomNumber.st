@@ -1,0 +1,3 @@
+accessing
+arrivalRoomNumber
+	^ arrivalRoomNumber

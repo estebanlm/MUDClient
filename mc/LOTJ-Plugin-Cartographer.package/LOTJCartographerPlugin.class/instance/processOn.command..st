@@ -9,9 +9,13 @@ processOn: aTerminal command: aCommand
 	varName = ROOM_VNUM ifFalse: [ ^ self ].
 	(MUDMSDPSendCommand on: aTerminal)
 		value: { 
-			#lastRecordedDirection -> self lastRecordedDirection. 
-			#originRoom -> self actualRoom. 
-			ROOM_VNUM -> varValue asNumber } asDictionary;
+			#record -> (LOTJCartographerRecord new 
+				direction: self lastRecordedDirection;
+				originRoom: self actualRoom;
+				arrivalRoomNumber: varValue asNumber;
+				yourself) 
+			} asDictionary;
 		variables: { ROOM_NAME. ROOM_EXITS };
-		executeThen: [ :values | self recordWith: values in: aTerminal ].
+		executeThen: [ :values | 
+			self recordWith: values in: aTerminal ].
 	self reset

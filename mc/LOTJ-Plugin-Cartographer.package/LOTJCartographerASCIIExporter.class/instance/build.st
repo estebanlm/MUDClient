@@ -3,7 +3,7 @@ build
 	| size center matrix |
 	
 	"2 to have the full area (I will strip it later) and 2 to give space for connectors"
-	size := self calculateLevelSize * 5. 
+	size := self calculateLevelSize * 8. 
 	center := (size / 2) asIntegerPoint. 
 	matrix := Matrix rows: size x columns: size y.
 	self traverseRoom: self room position: 0@0 do: [ :eachRoom :position | | roomPos |
