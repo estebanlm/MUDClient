@@ -7,5 +7,6 @@ descriptionExits
 		priority: 20;
 		label: 'Exits';
 		accessor: #exitsAsString;
+		morphClass: TkTextMorph;
 		beReadonly;
 		yourself

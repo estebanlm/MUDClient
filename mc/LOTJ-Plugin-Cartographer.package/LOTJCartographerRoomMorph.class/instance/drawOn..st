@@ -2,6 +2,7 @@ drawing
 drawOn: canvas 
 	| directions |
 	super drawOn: canvas.
+	self isCurrent ifTrue: [ self drawCurrentOn: canvas ].
 	directions := Set new.
 	"Draw connections"
 	self room withLevelConnectionsDo: [ :each | | fromPoint toPoint mod |

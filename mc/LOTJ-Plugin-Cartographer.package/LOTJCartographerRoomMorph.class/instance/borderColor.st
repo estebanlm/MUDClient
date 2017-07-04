@@ -1,3 +1,3 @@
 accessing
 borderColor
-	^ Smalltalk ui theme borderColor
+	^ Color black

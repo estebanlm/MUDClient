@@ -4,10 +4,10 @@ calculateLevel
 
 	needsDisplay := false.
 
-	selectedRoom ifNil: [ ^ self ].
+	currentRoom ifNil: [ ^ self ].
 	roomMorphs := OrderedCollection new.
 	self 
-		addRoom: selectedRoom 
+		addRoom: currentRoom 
 		position: self bounds center
 		into: roomMorphs.
 	roomMorphs do: [ :each | each privateOwner: self ].

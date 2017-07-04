@@ -1,5 +1,6 @@
 private
 internalSelect: aRoom
 	"self selected: aRoom."
-	self update.
+	"self update."
+	selectedRoom := aRoom.
 	selectionBlock ifNotNil: [ selectionBlock value: aRoom ]

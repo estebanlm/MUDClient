@@ -1,3 +1,3 @@
 accessing
-selectedColor
+currentColor
 	^ Color cyan

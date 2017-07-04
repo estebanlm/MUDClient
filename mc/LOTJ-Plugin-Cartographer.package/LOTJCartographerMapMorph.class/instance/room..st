@@ -1,4 +1,5 @@
 accessing
 room: aRoom 
-	selectedRoom := aRoom.
+	currentRoom := aRoom.
+	self internalSelect: aRoom.
 	self refresh

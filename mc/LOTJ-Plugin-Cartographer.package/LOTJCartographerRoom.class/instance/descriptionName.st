@@ -7,5 +7,6 @@ descriptionName
 		priority: 10;
 		label: 'Name';
 		accessor: #cleanName;
+		morphClass: TkTextMorph;
 		beReadonly;
 		yourself

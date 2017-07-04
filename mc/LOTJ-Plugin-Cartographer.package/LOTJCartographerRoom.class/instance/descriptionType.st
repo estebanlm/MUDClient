@@ -7,7 +7,7 @@ descriptionType
 		priority: 40;
 		label: 'Type';
 		accessor: #type;
-		options: LOTJCartographerRoomType allTypes;
+		options: (LOTJCartographerRoomType allTypes sorted: [ :a :b | a label < b label ]);
 		reference: LOTJCartographerRoomType default descriptionLabel asContainer; 
 		morphClass: MADropListMorph;
 		beRequired;

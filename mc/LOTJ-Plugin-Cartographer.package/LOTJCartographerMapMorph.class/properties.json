@@ -9,7 +9,8 @@
 		"selectedRoom",
 		"levelRooms",
 		"selectionBlock",
-		"needsDisplay"
+		"needsDisplay",
+		"currentRoom"
 	],
 	"name" : "LOTJCartographerMapMorph",
 	"type" : "normal"

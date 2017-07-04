@@ -1,3 +1,3 @@
 accessing
 beSelected
-	self color: self selectedColor
+	self borderWidth: 0

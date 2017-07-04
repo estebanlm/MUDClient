@@ -11,6 +11,7 @@ addRoom: aRoom position: aPoint into: aCollection
 	
 	roomMorph := aRoom asMorph.
 	aRoom = selectedRoom ifTrue: [ roomMorph beSelected ].
+	aRoom = currentRoom ifTrue: [ roomMorph beCurrent ]. 
 	roomMorph position: aPoint.
 	aCollection add: roomMorph.
 	aRoom withLevelConnectionsDo: [ :each | 

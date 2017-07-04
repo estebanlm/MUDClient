@@ -1,0 +1,3 @@
+accessing
+beCurrent
+	current := true
