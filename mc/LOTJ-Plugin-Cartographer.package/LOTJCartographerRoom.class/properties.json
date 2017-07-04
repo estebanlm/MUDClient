@@ -13,6 +13,7 @@
 		"ROOMNAME",
 		"ROOMEXITS",
 		"connections",
+		"type",
 		"notes"
 	],
 	"name" : "LOTJCartographerRoom",

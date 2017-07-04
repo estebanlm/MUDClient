@@ -1,7 +1,7 @@
 descriptions
 descriptionExits
 	<magritteDescription>
-	<view>
+	<presenters: #(inspect view)>
 	
 	^ MAStringDescription new 
 		priority: 20;

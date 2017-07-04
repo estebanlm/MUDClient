@@ -31,10 +31,10 @@ buildOn: browser
 			a tkMagritte  
 				title: 'Detail';
 				presenter: #view;
-				beReadOnly;
 				act: [ :each | each entity inspect ] 
 					icon: #glamorousInspect asIcon 
-					entitled: 'Inspect' ].
+					entitled: 'Inspect';
+				onAnswer: [ :v | v ifNotNil: [ self mapMorph update ] ] ].
 			
 	browser transmit 
 		from: #map;
