@@ -1,3 +1,3 @@
 accessing
 color
-	^ Color cyan
+	^ Color yellow
