@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LOTJCartographerRoomType",
+	"category" : "LOTJ-Plugin-Cartographer-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LOTJCartographerTypeHospital",
+	"type" : "normal"
+}

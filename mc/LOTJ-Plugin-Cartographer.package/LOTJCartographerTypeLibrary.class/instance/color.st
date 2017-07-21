@@ -1,3 +1,3 @@
 accessing
 color
-	^ Color green muchDarker
+	^ Color cyan muchDarker
