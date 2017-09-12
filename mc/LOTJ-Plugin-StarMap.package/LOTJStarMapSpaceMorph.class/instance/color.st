@@ -1,3 +1,4 @@
 accessing
 color 
-	^ Color cyan muchDarker
+	^ self point color
+		ifNil: [ Color white ]
