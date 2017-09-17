@@ -11,7 +11,7 @@ buildOn: browser
 		to: #map;
 		andShow: [ :a |
 			a tkMorph
-				title: 'Map';
+				"title: 'Map';"
 				act: [ :p | 
 					self exportLevelMap: (p selection ifNil: [ self plugin actualRoom ]) ] 
 					entitled: 'Export map';
@@ -29,7 +29,7 @@ buildOn: browser
 		to: #roomDetail;
 		andShow: [ :a |
 			a tkMagritte  
-				title: 'Detail';
+				"title: 'Detail';"
 				presenter: #view;
 				act: [ :each | each entity inspect ] 
 					icon: #glamorousInspect asIcon 
@@ -41,7 +41,7 @@ buildOn: browser
 		to: #roomNotes;
 		andShow: [ :a |
 			a text
-				title: 'Notes';
+				"title: 'Notes';"
 				display: [ :room | room notes ifNil: [ '' ] ];
 				onChangeOfPort: #text act: [ :presentation :room | 
 					self 

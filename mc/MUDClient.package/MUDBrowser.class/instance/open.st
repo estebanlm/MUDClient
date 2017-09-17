@@ -2,11 +2,4 @@ showing
 open
 	"Creates and open window"
 	self startOn: self startValue.
-	self window: (TkPlatform current renderBrowser: self).
-	self window extent: self preferredExtent.
-	self window announcer
-		when: WindowOpened send: #windowOpened: to: self;
-		when: WindowWillClose send: #windowWillClose: to: self;
-		when: WindowClosed send: #windowClosed: to: self.
-	self window tkOpen.
-	self postOpen
+	self basicOpen: (TkPlatform current renderBrowser: self)

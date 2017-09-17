@@ -2,4 +2,6 @@ showing
 openOn: aTerminal
 	self owner: aTerminal.
 	aTerminal addDependentWindow: self.
-	super open
+	self isMiniWindow 
+		ifTrue: [ super openMiniWindow ]
+		ifFalse: [ super open ]
