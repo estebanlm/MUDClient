@@ -1,3 +1,3 @@
 testing
-isMiniWindow
+isNone
 	^ true

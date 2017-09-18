@@ -37,5 +37,6 @@ buildOn: browser
 				display: [ :point | point notes ifNil: [ '' ] ];
 				onChangeOfPort: #text act: [ :presentation :point | 
 					self 
-						storeNote: presentation text asString 
-						on: point ] ]
+						addNote: presentation text asString 
+						toPoint: point
+						then: [ self starMapMorph changed ] ] ]

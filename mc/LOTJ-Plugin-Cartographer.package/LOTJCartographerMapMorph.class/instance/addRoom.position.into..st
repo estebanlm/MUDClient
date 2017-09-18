@@ -17,5 +17,5 @@ addRoom: aRoom position: aPoint into: aCollection
 	aRoom withLevelConnectionsDo: [ :each | 
 		self 
 			addRoom: each room 
-			position: (aPoint + (each direction coordinateModifier * self roomSeparation))
+			position: (aPoint + (each direction coordinateModifier * (self roomSeparation * each distance)))
 			into: aCollection ]

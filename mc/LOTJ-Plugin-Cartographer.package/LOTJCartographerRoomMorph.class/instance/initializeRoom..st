@@ -2,4 +2,4 @@ initialization
 initializeRoom: aRoom
 	room := aRoom.
 	self initialize.	
-	self setBalloonText: room name
+	self setBalloonText: room helpText

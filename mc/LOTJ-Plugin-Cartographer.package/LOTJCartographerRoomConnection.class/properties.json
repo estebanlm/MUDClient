@@ -9,7 +9,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"direction",
-		"room"
+		"room",
+		"distance"
 	],
 	"name" : "LOTJCartographerRoomConnection",
 	"type" : "normal"
