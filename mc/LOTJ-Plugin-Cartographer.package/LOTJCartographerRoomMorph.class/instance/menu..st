@@ -5,5 +5,6 @@ menu: aMorph
 		actions: (
 			self createTypeActions,
 			{ self createNotesAction }, 
-			self createEditActions);
+			self createEditActions, 
+			{ self createInspectAction });
 		build
