@@ -1,0 +1,3 @@
+converting
+asDirection
+	^ self

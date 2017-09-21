@@ -1,5 +1,7 @@
 accessing
-connectionAt: aDirection ifAbsent: aBlock
+connectionAt: aDirectionOrSymbol ifAbsent: aBlock
+	| direction |
+	direction := aDirectionOrSymbol asDirection.
 	^ self connections 
-		detect: [ :each | each direction = aDirection ] 
+		detect: [ :each | each direction = direction ] 
 		ifNone: aBlock
