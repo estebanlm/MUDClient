@@ -1,3 +1,3 @@
 accessing
 color
-	^ color
+	^ color ifNil: [  self class defaultColor ]
