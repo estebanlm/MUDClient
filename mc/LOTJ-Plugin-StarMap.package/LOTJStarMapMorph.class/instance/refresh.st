@@ -1,3 +1,3 @@
-accessing
+refreshing
 refresh
-	
+	self addPoints

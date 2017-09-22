@@ -39,4 +39,4 @@ buildOn: browser
 					self 
 						addNote: presentation text asString 
 						toPoint: point
-						then: [ self starMapMorph changed ] ] ]
+						then: [ self starMapMorph refresh ] ] ]
