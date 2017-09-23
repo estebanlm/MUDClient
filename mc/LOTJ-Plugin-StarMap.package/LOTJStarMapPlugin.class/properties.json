@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"points",
-		"region"
+		"region",
+		"lines"
 	],
 	"name" : "LOTJStarMapPlugin",
 	"type" : "normal"

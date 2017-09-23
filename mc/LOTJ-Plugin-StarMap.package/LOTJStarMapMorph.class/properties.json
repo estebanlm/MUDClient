@@ -12,8 +12,7 @@
 		"selectionBlock",
 		"selected",
 		"showNames",
-		"showMarkers",
-		"lines"
+		"showMarkers"
 	],
 	"name" : "LOTJStarMapMorph",
 	"type" : "normal"
