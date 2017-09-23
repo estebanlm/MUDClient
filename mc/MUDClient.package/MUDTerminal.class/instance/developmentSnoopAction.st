@@ -4,5 +4,5 @@ developmentSnoopAction
 		action: [ self doDevelopmentSnoop ];
 		title: 'Snoop this session';
 		category: 'Development';
-		enabledCondition: [ session notNil and: [ session isRunning ] ];
+		enabledCondition: [ session notNil and: [ session isConnected ] ];
 		yourself

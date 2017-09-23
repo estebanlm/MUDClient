@@ -26,5 +26,4 @@ buildToolbarOn: aPresentation
 				entitled: toolbarSpec title
 				when: [ each isVisibleFor: self ] ] ].
 	
-	aPresentation 
-		addAction: self developmentSnoopAction
+	aPresentation dynamicActions: [ self developmentActions ].	
