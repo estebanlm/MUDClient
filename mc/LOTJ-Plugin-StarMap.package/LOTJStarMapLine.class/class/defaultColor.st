@@ -1,3 +1,3 @@
 initialization
 defaultColor
-	^ Color darkGray muchDarker
+	^ Color darkGray muchDarker darker
