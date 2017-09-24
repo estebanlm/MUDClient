@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfMUDClient,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfMUDClient'
+	#category : #BaselineOfMUDClient
 }
 
 { #category : #accessing }
@@ -153,7 +153,7 @@ BaselineOfMUDClient >> themes: spec [
 BaselineOfMUDClient >> toolkit: spec [
 	spec
 		baseline: 'Toolkit' with: [ 
-			spec repository: 'github://estebanlm/toolkit:0.1/mc' ];
+			spec repository: 'github://estebanlm/toolkit:0.2/src' ];
 		import: 'Toolkit'
 ]
 
