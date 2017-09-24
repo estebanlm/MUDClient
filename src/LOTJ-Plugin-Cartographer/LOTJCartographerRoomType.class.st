@@ -18,6 +18,13 @@ LOTJCartographerRoomType class >> default [
 ]
 
 { #category : #'instance creation' }
+LOTJCartographerRoomType class >> fromSton: stonReader [
+	^ self uniqueInstance
+		fromSton: stonReader;
+		yourself	
+]
+
+{ #category : #'instance creation' }
 LOTJCartographerRoomType class >> new [
 	self error: 'Use #uniqueInstance'
 ]

@@ -11,6 +11,13 @@ Class {
 }
 
 { #category : #'instance creation' }
+MUDMSDPVariable class >> fromSton: stonReader [
+	^ self basicNew
+		fromSton: stonReader;
+		yourself
+]
+
+{ #category : #'instance creation' }
 MUDMSDPVariable class >> named: aString [ 
 	^ self basicNew 
 		initializeName: aString;

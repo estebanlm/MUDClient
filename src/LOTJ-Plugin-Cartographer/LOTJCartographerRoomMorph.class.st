@@ -163,7 +163,7 @@ LOTJCartographerRoomMorph >> decrementDistance: aDirection [
 ]
 
 { #category : #drawing }
-LOTJCartographerRoomMorph >> dracConnection: aConnection [ on: canvas
+LOTJCartographerRoomMorph >> drawConnection: aConnection [ on: canvas
 	| mod fromPoint toPoint |
 
 	 mod := aConnection direction coordinateModifier.
@@ -198,7 +198,7 @@ LOTJCartographerRoomMorph >> drawOn: canvas [
 	"Draw connections"
 	self room withLevelConnectionsDo: [ :each | 
 		directions add: each direction.
-		self dracConnection: each on: canvas ].
+		self drawConnection: each on: canvas ].
 	"Draw unexplored exits"
 	(self room levelExits \ directions)
 		reject: #isUnknown

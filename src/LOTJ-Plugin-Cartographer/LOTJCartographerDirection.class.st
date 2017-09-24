@@ -45,6 +45,13 @@ LOTJCartographerDirection class >> findByName: aString ifAbsent: aBlock [
 ]
 
 { #category : #'instance creation' }
+LOTJCartographerDirection class >> fromSton: stonReader [
+	^ self uniqueInstance
+		fromSton: stonReader;
+		yourself	
+]
+
+{ #category : #'instance creation' }
 LOTJCartographerDirection class >> new [
 	self error: 'Use #uniqueInstance'
 ]
