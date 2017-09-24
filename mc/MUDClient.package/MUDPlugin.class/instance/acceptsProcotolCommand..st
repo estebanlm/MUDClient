@@ -1,3 +1,0 @@
-testing
-acceptsProcotolCommand: aCommand 
-	^ false

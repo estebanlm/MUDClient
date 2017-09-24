@@ -1,3 +1,0 @@
-*MUDClient
-renderEnhancedTabbedCompositePresentation: aCompositePresentation
-	^ MUDMorphicEnhancedTabbedRenderer render: aCompositePresentation from: self

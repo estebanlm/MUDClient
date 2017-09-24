@@ -1,3 +1,0 @@
-accessing
-echoed
-	echoed := true.

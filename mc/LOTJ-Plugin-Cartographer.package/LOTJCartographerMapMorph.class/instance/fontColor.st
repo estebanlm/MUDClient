@@ -1,3 +1,0 @@
-accessing
-fontColor
-	^ Color white

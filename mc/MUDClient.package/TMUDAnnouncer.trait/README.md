@@ -1,1 +1,0 @@
-I define announcement common traits for objects who need it.

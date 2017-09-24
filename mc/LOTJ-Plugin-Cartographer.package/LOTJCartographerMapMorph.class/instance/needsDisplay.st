@@ -1,3 +1,0 @@
-private testing
-needsDisplay
-	^ needsDisplay

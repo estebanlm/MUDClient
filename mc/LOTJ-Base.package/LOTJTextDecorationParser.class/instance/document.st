@@ -1,3 +1,0 @@
-grammar
-document 
-	^ sequence plus

@@ -1,3 +1,0 @@
-accessing
-findAll
-	^ self selectAll

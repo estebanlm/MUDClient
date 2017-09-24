@@ -1,1 +1,0 @@
-I'm a "clear" escape. I clear the screen (or other stuff... but I just have implemented clear screen). 

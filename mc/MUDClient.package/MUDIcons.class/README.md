@@ -1,1 +1,0 @@
-I'm an icon library to be used for the client.

@@ -1,3 +1,0 @@
-actions
-accepted: anObject
-	

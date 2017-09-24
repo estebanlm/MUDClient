@@ -1,3 +1,0 @@
-accessing
-south
-	^ LOTJCartographerSouth uniqueInstance

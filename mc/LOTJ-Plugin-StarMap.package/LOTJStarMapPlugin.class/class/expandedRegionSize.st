@@ -1,3 +1,0 @@
-accessing
-expandedRegionSize
-	^ 10

@@ -1,1 +1,0 @@
-I announce when a telnet session has been closed.

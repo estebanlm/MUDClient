@@ -1,3 +1,0 @@
-visitor
-acceptCollector: aCollector
-	self subclassResponsibility

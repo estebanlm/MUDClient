@@ -1,3 +1,0 @@
-accessing
-valueAsCollection
-	self subclassResponsibility

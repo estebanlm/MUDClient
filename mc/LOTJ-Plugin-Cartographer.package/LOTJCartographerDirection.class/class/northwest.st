@@ -1,3 +1,0 @@
-accessing
-northwest
-	^ LOTJCartographerNorthwest uniqueInstance

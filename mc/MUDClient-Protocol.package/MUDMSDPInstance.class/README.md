@@ -1,1 +1,0 @@
-I'm a base variable instance node for RpgMSDPParser.

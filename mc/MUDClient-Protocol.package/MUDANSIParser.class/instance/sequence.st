@@ -1,3 +1,0 @@
-grammar
-sequence 
-	^ escape / text

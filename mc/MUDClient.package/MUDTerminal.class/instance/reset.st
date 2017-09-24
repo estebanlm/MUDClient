@@ -1,3 +1,0 @@
-private
-reset
-	serverCommandReceivers := nil

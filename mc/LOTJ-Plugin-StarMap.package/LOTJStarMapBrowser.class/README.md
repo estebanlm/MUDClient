@@ -1,1 +1,0 @@
-I'm a browser to work with the startmap.

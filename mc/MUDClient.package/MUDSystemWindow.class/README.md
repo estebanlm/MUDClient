@@ -1,1 +1,0 @@
-I'm a specific kind of window (prepared to work with the client)

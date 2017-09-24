@@ -1,5 +1,0 @@
-initialization
-initialize 
-	super initialize.
-	aliases := Set new.
-	variables := Set new.

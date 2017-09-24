@@ -1,3 +1,0 @@
-accessing
-notepad
-	^ self plugin

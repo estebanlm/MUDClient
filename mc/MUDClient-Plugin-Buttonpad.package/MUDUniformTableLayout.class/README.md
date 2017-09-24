@@ -1,1 +1,0 @@
-I'm a table layout who forces all cell elements to have same size (and to be proportional to owner size)

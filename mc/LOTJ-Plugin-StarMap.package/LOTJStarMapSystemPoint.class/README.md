@@ -1,1 +1,0 @@
-I represent a known point on space (a system/moon)

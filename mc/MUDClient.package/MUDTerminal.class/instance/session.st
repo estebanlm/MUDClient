@@ -1,3 +1,0 @@
-private session
-session 
-	^ session

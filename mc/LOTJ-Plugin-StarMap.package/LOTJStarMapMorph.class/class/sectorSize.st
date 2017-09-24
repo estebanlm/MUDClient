@@ -1,3 +1,0 @@
-accessing
-sectorSize
-	^ 6

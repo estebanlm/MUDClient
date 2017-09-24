@@ -1,3 +1,0 @@
-private
-resetCompiledPattern
-	compiledPattern := nil

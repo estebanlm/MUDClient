@@ -1,1 +1,0 @@
-I'm a morph for empty (or not charted) galaxy locations. 

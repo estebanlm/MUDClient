@@ -1,3 +1,0 @@
-*MUDClient
-isRawModeOn
-	^ rawMode

@@ -1,3 +1,0 @@
-accessing
-forget
-	remember := false

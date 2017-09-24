@@ -1,3 +1,0 @@
-accessing
-MSDP
-	^ MUDMSDPTelnetProtocol uniqueInstance

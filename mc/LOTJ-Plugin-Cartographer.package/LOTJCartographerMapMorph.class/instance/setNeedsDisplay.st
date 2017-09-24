@@ -1,3 +1,0 @@
-private
-setNeedsDisplay
-	needsDisplay := true

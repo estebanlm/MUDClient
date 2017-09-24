@@ -1,3 +1,0 @@
-accessing
-rooms
-	^ rooms

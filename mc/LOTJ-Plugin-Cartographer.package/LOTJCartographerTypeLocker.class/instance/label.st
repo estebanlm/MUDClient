@@ -1,3 +1,0 @@
-accessing
-label
-	^ 'Locker'

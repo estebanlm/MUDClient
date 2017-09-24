@@ -1,3 +1,0 @@
-actions
-removeAllConnections: aRoom
-	aRoom removeAllConnections

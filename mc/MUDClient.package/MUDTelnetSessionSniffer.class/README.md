@@ -1,1 +1,0 @@
-I'm a tool for snoop session data.

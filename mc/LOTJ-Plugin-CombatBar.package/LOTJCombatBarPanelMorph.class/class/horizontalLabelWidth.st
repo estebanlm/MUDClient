@@ -1,3 +1,0 @@
-accessing
-horizontalLabelWidth
-	^ 50

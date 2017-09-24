@@ -1,3 +1,0 @@
-accessing
-directions
-	^ #('se' 'southeast')

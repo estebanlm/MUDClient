@@ -1,3 +1,0 @@
-grammar
-command 
-	^ negotiation / subcommand

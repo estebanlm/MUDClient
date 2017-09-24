@@ -1,3 +1,0 @@
-testing
-isRunning 
-	^ dataProcess notNil

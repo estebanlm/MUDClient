@@ -1,3 +1,0 @@
-accessing variables
-ROOMVNUM
-	^ ROOMVNUM

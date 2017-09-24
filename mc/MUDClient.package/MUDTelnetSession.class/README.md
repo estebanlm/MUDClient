@@ -1,1 +1,0 @@
-I'm a telnet session who also can stay alive to receive data from server and redirect it to suscribers.

@@ -1,1 +1,0 @@
-I define a pad presentation (a specific kind of action list)

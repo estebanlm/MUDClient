@@ -1,3 +1,0 @@
-accessing
-currentColor
-	^ Color cyan

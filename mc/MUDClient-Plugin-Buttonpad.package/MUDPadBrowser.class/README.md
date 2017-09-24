@@ -1,1 +1,0 @@
-I define a pad browser (a visualization of a pad).

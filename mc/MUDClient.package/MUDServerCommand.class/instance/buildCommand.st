@@ -1,3 +1,0 @@
-private
-buildCommand
-	self subclassResponsibility

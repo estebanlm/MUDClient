@@ -1,1 +1,0 @@
-I'm a special key binding category that keeps the bindings for MUD commands.

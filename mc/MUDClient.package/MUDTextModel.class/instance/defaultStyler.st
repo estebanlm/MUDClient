@@ -1,3 +1,0 @@
-accessing
-defaultStyler
-	^ MUDTextNullStyler new

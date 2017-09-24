@@ -1,3 +1,0 @@
-accessing
-pluginClass
-	^ self subclassResponsibility

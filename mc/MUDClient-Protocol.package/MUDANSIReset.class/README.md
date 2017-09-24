@@ -1,1 +1,0 @@
-I'm a particular case of color: I reset everything to default values.

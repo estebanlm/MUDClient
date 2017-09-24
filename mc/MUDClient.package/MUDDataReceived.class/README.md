@@ -1,1 +1,0 @@
-I announce when data is received from server.

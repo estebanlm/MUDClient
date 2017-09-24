@@ -1,1 +1,0 @@
-I'm the spec for the LOTJ starmap plugin.

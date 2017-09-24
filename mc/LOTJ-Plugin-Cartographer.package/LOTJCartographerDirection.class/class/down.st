@@ -1,3 +1,0 @@
-accessing
-down
-	^ LOTJCartographerDown uniqueInstance

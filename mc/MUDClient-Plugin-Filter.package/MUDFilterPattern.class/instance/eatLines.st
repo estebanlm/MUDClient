@@ -1,3 +1,0 @@
-accessing
-eatLines
-	^ eatLines

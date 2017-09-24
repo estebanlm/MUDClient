@@ -1,3 +1,0 @@
-accessing
-connectionColor
-	^ Color gray

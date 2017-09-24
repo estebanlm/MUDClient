@@ -1,3 +1,0 @@
-accessing
-removeAllConnections
-	connections removeAll

@@ -1,3 +1,0 @@
-private
-resetWindow
-	window := nil

@@ -1,1 +1,0 @@
-I'm a configuration dialog for filters. 

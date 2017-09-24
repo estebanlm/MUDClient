@@ -1,1 +1,0 @@
-I'm a glamour presentation to define icon action lists (toolbars)

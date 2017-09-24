@@ -1,3 +1,0 @@
-accessing
-initialShowNames
-	^ true
