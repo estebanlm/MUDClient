@@ -19,20 +19,18 @@ It implements several features:
 
 #### Legends of the Jedi (http://www.legendsofthejedi.com)
 - **LOTJ Status bar**: visualise data (health, movement, enemy health, etc.) using a graphic view.
+- **LOTJ Cartographer**: Draw your maps.
+- **LOTJ StarMap**: See the galaxy and mark interesting points.
 
 *Next:*
 - **Timers**: define triggers on time based events.
 - **Log viewer**: review all your game sessions.
 - **Bot**: Automate tedious tasks.
-- **Cartographer**: Draw your maps.
-
-##License
-For now, license is [GPL3](LICENSE.txt) (but I'm just starting to play with is so there is no much to see)
 
 # Install
 MUDClient is early development, but you can install and play with it: 
 
-    $ wget -O- get.pharo.org/50+vm | bash
+    $ wget -O- get.pharo.org/64/70+vm | bash
     $ ./pharo Pharo.image eval --save "
         Metacello new 
             repository: 'github://estebanlm/MUDClient/mc';
