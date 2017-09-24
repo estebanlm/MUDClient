@@ -129,7 +129,7 @@ BaselineOfMUDClient >> sound: spec [
 BaselineOfMUDClient >> taskIt: spec [
 	spec
 		baseline: 'TaskIt' with: [ 
-			spec repository: 'github://sbragagnolo/TaskIt:master' ];
+			spec repository: 'github://sbragagnolo/taskit:master' ];
 		import: 'TaskIt'
 ]
 
