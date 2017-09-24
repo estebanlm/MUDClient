@@ -10,7 +10,7 @@ Class {
 { #category : #decorating }
 MUDFilterTimestampDecoration >> decorate: aString [
 	| stream |
-	stream := VTermOutputDriver on: String new writeStream.
+	stream := VTermOutputDriver rawOn: String new writeStream.
 	stream 
 		light; 
 		white; 
