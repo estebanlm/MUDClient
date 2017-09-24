@@ -59,7 +59,10 @@ BaselineOfMUDClient >> baseline: spec [
 				'MUDClient-Plugin-Buttonpad' 
 				'MUDClient-Plugin-LogViewer'
 				'MUDClient-Plugin-Filter');
-			group: 'LOTJ' with: #('LOTJ-Plugin-CombatBar' 'LOTJ-Plugin-StarMap');	
+			group: 'LOTJ' with: #(
+				'LOTJ-Plugin-CombatBar' 
+				'LOTJ-Plugin-StarMap' 
+				'LOTJ-Plugin-Cartographer');	
 			group: 'tests' with: #('core' 'MUDClient-Tests' 'MUDClient-Protocol-Tests') ] 
 ]
 
