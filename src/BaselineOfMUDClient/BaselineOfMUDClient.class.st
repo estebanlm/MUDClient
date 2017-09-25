@@ -156,7 +156,7 @@ BaselineOfMUDClient >> themes: spec [
 BaselineOfMUDClient >> toolkit: spec [
 	spec
 		baseline: 'Toolkit' with: [ 
-			spec repository: 'github://estebanlm/toolkit:0.2/src' ];
+			spec repository: 'github://estebanlm/toolkit/src' ];
 		import: 'Toolkit'
 ]
 
