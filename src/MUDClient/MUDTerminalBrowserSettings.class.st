@@ -25,3 +25,8 @@ MUDTerminalBrowserSettings >> lastActiveGame [
 MUDTerminalBrowserSettings >> lastActiveGame: anObject [
 	lastActiveGame := anObject
 ]
+
+{ #category : #printing }
+MUDTerminalBrowserSettings >> printOn: stream [ 
+	stream << 'a ' << self className
+]
