@@ -15,6 +15,16 @@ LOTJCartographerTypeTurbolift >> color [
 ]
 
 { #category : #testing }
+LOTJCartographerTypeTurbolift >> isAreaTransition [
+	^ true
+]
+
+{ #category : #testing }
+LOTJCartographerTypeTurbolift >> isMultiple [
+	^ true
+]
+
+{ #category : #testing }
 LOTJCartographerTypeTurbolift >> isTerminal [
 	^ true
 ]

@@ -36,6 +36,13 @@ LOTJStarMapPlugin >> addLineFrom: fromPoint to: toPoint [
 ]
 
 { #category : #accessing }
+LOTJStarMapPlugin >> addLineFromPlaceNamed: place1 to: place2 [ 
+	self 
+		addLineFrom: (self pointNamed: place1) 
+		to: (self pointNamed: place2)
+]
+
+{ #category : #accessing }
 LOTJStarMapPlugin >> addPoint: aPoint [
 	(self hasPoint: aPoint) ifTrue: [ ^ self ]. 
 	^ points add: aPoint
@@ -124,4 +131,12 @@ LOTJStarMapPlugin >> region [
 { #category : #private }
 LOTJStarMapPlugin >> removeAllOrigin: aSymbol [
 	self points removeAll: (self points select: [ :each | each origin = aSymbol ])
+]
+
+{ #category : #accessing }
+LOTJStarMapPlugin >> removePointAtSector: aPoint [
+	| point |
+	
+	point := self pointAtSector: aPoint ifAbsent: [ ^ self ].
+	points remove: point.
 ]

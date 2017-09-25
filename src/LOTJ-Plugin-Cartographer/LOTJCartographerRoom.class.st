@@ -58,6 +58,18 @@ LOTJCartographerRoom >> ROOMVNUM: aNumber [
 
 { #category : #accessing }
 LOTJCartographerRoom >> addConnection: direction to: aRoom [
+	"I can just add a direction if 
+		- there is no connection registered 
+		- or direction allows multiple collections
+		- or room type is transition (like lifts)
+	AND if I have the exit in my exit list.
+	 "
+	((aRoom hasConnectionTo: direction) not
+		or: [ direction isMultiple 
+		or: [ self type isAreaTransition ] ])
+		ifFalse: [ ^ self ].
+	(self exits includes: direction) ifFalse: [ ^ self ].
+	
 	self basicConnection: direction to: aRoom.
 	aRoom basicConnection: direction inverse to: self
 ]

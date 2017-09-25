@@ -64,6 +64,16 @@ LOTJCartographerRoomType >> fuelAccept: aGeneralMapper [
 ]
 
 { #category : #testing }
+LOTJCartographerRoomType >> isAreaTransition [
+	^ false
+]
+
+{ #category : #testing }
+LOTJCartographerRoomType >> isMultiple [
+	^ false
+]
+
+{ #category : #testing }
 LOTJCartographerRoomType >> isNone [
 	^ false
 ]
