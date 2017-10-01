@@ -163,7 +163,7 @@ LOTJCartographerRoomMorph >> decrementDistance: aDirection [
 ]
 
 { #category : #drawing }
-LOTJCartographerRoomMorph >> drawConnection: aConnection [ on: canvas
+LOTJCartographerRoomMorph >> drawConnection: aConnection on: canvas [
 	| mod fromPoint toPoint |
 
 	 mod := aConnection direction coordinateModifier.
@@ -207,7 +207,7 @@ LOTJCartographerRoomMorph >> drawOn: canvas [
 ]
 
 { #category : #drawing }
-LOTJCartographerRoomMorph >> drawUnexploredConnectionDirection: aDirection [ on: canvas
+LOTJCartographerRoomMorph >> drawUnexploredConnectionDirection: aDirection on: canvas [
 	| fromPoint toPoint mod |
 
 	mod := aDirection coordinateModifier.
