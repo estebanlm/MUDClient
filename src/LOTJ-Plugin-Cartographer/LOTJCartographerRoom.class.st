@@ -64,7 +64,7 @@ LOTJCartographerRoom >> addConnection: direction to: aRoom [
 		- or room type is transition (like lifts)
 	AND if I have the exit in my exit list.
 	 "
-	((aRoom hasConnectionTo: direction) not
+	((self hasConnectionTo: direction) not
 		or: [ direction isMultiple 
 		or: [ self type isAreaTransition ] ])
 		ifFalse: [ ^ self ].
