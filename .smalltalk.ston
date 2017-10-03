@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #specName : 'MUDClient',
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'MUDClient',
+      #onWarningLog : true,
+      #directory : 'src'
+    }
+  ]
+}

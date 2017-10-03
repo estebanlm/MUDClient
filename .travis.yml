@@ -1,22 +1,14 @@
-language: c
+language: smalltalk
+sudo: false
 os:
   - linux
   - osx
-addons:
-  apt:
-    packages:
-      - lib32asound2
-      - lib32z1
-      - lib32bz2-1.0
-      - libssl1.0.0:i386
-      - libfreetype6:i386
-before_script: 
-  - git clone --depth=1 https://github.com/estebanlm/pharo-travis-ci.git
-script:
-  - pharo-travis-ci/run-tests.sh
-env:
-  global: 
-    - baseline="MUDClient"
-  matrix:
-    - pharo_version=60
-    - pharo_version=50
+install:
+  - pip install --user benchupload
+smalltalk:
+  - Pharo-7.0
+# bob-bench xUnit file analysis
+after_success:
+  - benchupload --dir=$SMALLTALK_CI_BUILD
+after_failure:
+  - benchupload --dir=$SMALLTALK_CI_BUILD
