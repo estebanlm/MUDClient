@@ -126,7 +126,7 @@ LOTJCartographerRoomMorph >> createNotesAction [
 { #category : #'private factory' }
 LOTJCartographerRoomMorph >> createRemoveAllConnectionsAction [
 	^ MUDAction new 
-		action: [  ];
+		action: [ self room removeAllConnections ];
 		title: 'Remove all connections';
 		category: 'Edition';
 		yourself

@@ -326,14 +326,21 @@ LOTJCartographerRoom >> printOn: stream [
 
 { #category : #accessing }
 LOTJCartographerRoom >> removeAllConnections [
-	connections removeAll
+	connections 
+		collect: #direction
+		thenDo: [ :each | self removeConnectionAt: each ]
+	
 ]
 
 { #category : #accessing }
 LOTJCartographerRoom >> removeConnectionAt: aDirection [ 
 	self connections copy 
 		detect: [ :each | each direction = aDirection ]
-		ifFound: [ :each | self connections remove: each ]
+		ifFound: [ :each |
+			self connections remove: each.
+			each room connections 
+				remove: aDirection inverse 
+				ifAbsent: [] ]
 ]
 
 { #category : #accessing }
