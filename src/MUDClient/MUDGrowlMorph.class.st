@@ -11,7 +11,7 @@ Class {
 }
 
 { #category : #'instance creation' }
-MUDGrowlMorph class >> openWithLabel: aString contents: contentString backgroundColor: aColor labelColor: aLabelColor [ in: aMorph
+MUDGrowlMorph class >> openWithLabel: aString contents: contentString backgroundColor: aColor labelColor: aLabelColor in: aMorph [
 	^ (self label: aString contents: contentString)
 			backgroundColor: aColor;
 			labelColor: aLabelColor;
@@ -20,7 +20,7 @@ MUDGrowlMorph class >> openWithLabel: aString contents: contentString background
 ]
 
 { #category : #'instance creation' }
-MUDGrowlMorph class >> openWithLabel: aString contents: contentString position: aPosition backgroundColor: aColor labelColor: aLabelColor [ in: aMorph
+MUDGrowlMorph class >> openWithLabel: aString contents: contentString position: aPosition backgroundColor: aColor labelColor: aLabelColor in: aMorph [
 	^ (self label: aString contents: contentString)
 			backgroundColor: aColor;
 			labelColor: aLabelColor;

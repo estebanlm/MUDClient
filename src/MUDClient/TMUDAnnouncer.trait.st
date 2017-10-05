@@ -17,7 +17,7 @@ TMUDAnnouncer >> announcer [
 ]
 
 { #category : #announcing }
-TMUDAnnouncer >> weakWhen: anAnnoucement send: aSelector [ to: anObject
+TMUDAnnouncer >> weakWhen: anAnnoucement send: aSelector to: anObject [
 	self announcer weak 	
 		when: anAnnoucement 
 		send: aSelector 
@@ -32,7 +32,7 @@ TMUDAnnouncer >> when: anAnnoucement do: anObject [
 ]
 
 { #category : #announcing }
-TMUDAnnouncer >> when: anAnnoucement send: aSelector [ to: anObject 
+TMUDAnnouncer >> when: anAnnoucement send: aSelector to: anObject [ 
 	self announcer 	
 		when: anAnnoucement 
 		send: aSelector 

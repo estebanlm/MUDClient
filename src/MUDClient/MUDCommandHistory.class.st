@@ -19,6 +19,8 @@ MUDCommandHistory class >> defaultMaxSize [
 
 { #category : #accessing }
 MUDCommandHistory >> add: aString [ 
+	(elements notEmpty and: [ elements last = aString ]) ifTrue: [ ^ self ].
+	
 	elements addLast: aString.
 	[ elements size > self maxSize ]
 		whileTrue: [ elements removeFirst ].
