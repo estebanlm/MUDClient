@@ -13,7 +13,7 @@ MUDTriggerFilter class >> label [
 ]
 
 { #category : #private }
-MUDTriggerFilter >> applyFilterOn: aPlugin pattern: aPattern to: aStream line: aLine [ in: aTerminal 
+MUDTriggerFilter >> applyFilterOn: aPlugin pattern: aPattern to: aStream line: aLine in: aTerminal [ 
 	^ aPlugin applyTriggerFilter: self to: aStream line: aLine in: aTerminal
 	
 ]

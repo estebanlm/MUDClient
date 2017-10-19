@@ -20,7 +20,7 @@ MUDRedirectFilter class >> label [
 ]
 
 { #category : #private }
-MUDRedirectFilter >> applyFilterOn: aPlugin pattern: aPattern to: aStream line: aLine [ in: aTerminal  
+MUDRedirectFilter >> applyFilterOn: aPlugin pattern: aPattern to: aStream line: aLine in: aTerminal [  
 	^ aPlugin applyRedirectFilter: self pattern: aPattern to: aStream line: aLine in: aTerminal
 	
 ]

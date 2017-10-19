@@ -43,7 +43,7 @@ MUDFilterPlugin >> allPatternMatchingForLine: aString [
 ]
 
 { #category : #private }
-MUDFilterPlugin >> applyAlertFilter: aFilter to: aStream line: aLine [ in: aTerminal 
+MUDFilterPlugin >> applyAlertFilter: aFilter to: aStream line: aLine in: aTerminal [ 
 	"Filter is sending messages to desktop"
 	
 	aFilter isEchoDesktop ifTrue: [ self informFilter: aFilter line: aLine ].
@@ -58,7 +58,7 @@ MUDFilterPlugin >> applyAlertFilter: aFilter to: aStream line: aLine [ in: aTerm
 ]
 
 { #category : #private }
-MUDFilterPlugin >> applyNullFilterTo: aStream line: aLine [ in: aTerminal 
+MUDFilterPlugin >> applyNullFilterTo: aStream line: aLine in: aTerminal [ 
 	aLine isEchoed ifTrue: [ ^ 0 ].
 	aLine echoed.
 	aStream << aLine line.
@@ -66,7 +66,7 @@ MUDFilterPlugin >> applyNullFilterTo: aStream line: aLine [ in: aTerminal
 ]
 
 { #category : #private }
-MUDFilterPlugin >> applyRedirectFilter: aFilter pattern: aPattern to: aStream line: aLine [ in: aTerminal 
+MUDFilterPlugin >> applyRedirectFilter: aFilter pattern: aPattern to: aStream line: aLine in: aTerminal [ 
 	| windows |
 	
 	"Filter is echoing. I need to send to screen anyway"
@@ -85,7 +85,7 @@ MUDFilterPlugin >> applyRedirectFilter: aFilter pattern: aPattern to: aStream li
 ]
 
 { #category : #private }
-MUDFilterPlugin >> applyTriggerFilter: aFilter to: aStream line: aLine [ in: aTerminal
+MUDFilterPlugin >> applyTriggerFilter: aFilter to: aStream line: aLine in: aTerminal [
 	aTerminal 
 		sendFilteringInput: aFilter output  
 		excluding: self.
@@ -114,7 +114,7 @@ MUDFilterPlugin >> filterOn: aTerminal output: aString [
 ]
 
 { #category : #private }
-MUDFilterPlugin >> filterTo: stream output: aString [ in: aTerminal  
+MUDFilterPlugin >> filterTo: stream output: aString in: aTerminal [  
 	| lines nextLinesToFilter eatingFilter |
 	
 	nextLinesToFilter := 0.
@@ -147,7 +147,7 @@ MUDFilterPlugin >> filters [
 ]
 
 { #category : #private }
-MUDFilterPlugin >> forwardLine: line forFilter: aFilter [ in: aTerminal
+MUDFilterPlugin >> forwardLine: line forFilter: aFilter in: aTerminal [
 	(aTerminal dependentWindowsOf: self)
 		select: [ :each | each filter = aFilter ] 
 		thenDo: [ :each | each send: line ]	
@@ -168,11 +168,11 @@ MUDFilterPlugin >> informFilter: aFilter line: aLine [
 
 	title := aFilter name asNSString autorelease.
 	message := aLine cleanLine asNSString autorelease.
-	notification := #NSUserNotification inObjectiveC alloc init autorelease.
+	notification := #NSUserNotification inObjC alloc init autorelease.
 	notification 
 		setTitle: title;
 		setInformativeText: message.
-	#NSUserNotificationCenter inObjectiveC defaultUserNotificationCenter
+	#NSUserNotificationCenter inObjC defaultUserNotificationCenter
  		deliverNotification: notification.
 ]
 

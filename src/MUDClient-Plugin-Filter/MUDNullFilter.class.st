@@ -10,7 +10,7 @@ Class {
 }
 
 { #category : #private }
-MUDNullFilter >> applyFilterOn: aPlugin pattern: aPattern to: aStream line: aLine [ in: aTerminal
+MUDNullFilter >> applyFilterOn: aPlugin pattern: aPattern to: aStream line: aLine in: aTerminal [
 	^ aPlugin applyNullFilterTo: aStream line: aLine in: aTerminal
 	
 ]

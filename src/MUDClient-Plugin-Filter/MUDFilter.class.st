@@ -106,23 +106,8 @@ MUDFilter >> addPattern: aFilterPattern [
 ]
 
 { #category : #private }
-MUDFilter >> alert: anObject [
-	alert := anObject
-]
-
-{ #category : #private }
-MUDFilter >> applyFilterOn: aPlugin pattern: aPattern to: aStream line: aLine [ in: aTerminal  
+MUDFilter >> applyFilterOn: aPlugin pattern: aPattern to: aStream line: aLine in: aTerminal [  
 	^ self subclassResponsibility
-]
-
-{ #category : #accessing }
-MUDFilter >> beAlert [ 
-	self alert: true
-]
-
-{ #category : #accessing }
-MUDFilter >> beNotAlert [ 
-	self alert: false
 ]
 
 { #category : #accessing }
