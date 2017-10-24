@@ -33,7 +33,7 @@ MUDClient is early development, but you can install and play with it:
     $ wget -O- get.pharo.org/64/70+vm | bash
     $ ./pharo Pharo.image eval --save "
         Metacello new 
-            repository: 'github://estebanlm/MUDClient/mc';
+            repository: 'github://estebanlm/MUDClient/src';
             baseline: 'MUDClient';
             load. 
 		MUDApplication install.
