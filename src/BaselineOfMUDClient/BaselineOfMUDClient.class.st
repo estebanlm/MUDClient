@@ -98,7 +98,7 @@ BaselineOfMUDClient >> magritte3: spec [
 BaselineOfMUDClient >> objCBridge: spec [
 	spec
 		baseline: 'ObjCBridge'
-		with: [ spec repository: 'github://estebanlm/objbridge/src' ]
+		with: [ spec repository: 'github://estebanlm/objcbridge/src' ]
 ]
 
 { #category : #'external projects' }
