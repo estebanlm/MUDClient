@@ -42,6 +42,11 @@ MUDTerminal >> activePlugins [
 		select: [ :each | each isActiveOn: self ]
 ]
 
+{ #category : #private }
+MUDTerminal >> activeScriptTriggers [
+	^ MUDScriptTrigger activeTriggers
+]
+
 { #category : #accessing }
 MUDTerminal >> addDependentWindow: aWindow [
 	self dependentWindows add: aWindow
