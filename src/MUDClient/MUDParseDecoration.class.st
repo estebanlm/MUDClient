@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'next'
 	],
-	#category : 'MUDClient-View-Morph'
+	#category : #'MUDClient-View-Morph'
 }
 
 { #category : #accessing }

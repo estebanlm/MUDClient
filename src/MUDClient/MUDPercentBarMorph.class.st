@@ -18,7 +18,7 @@ Class {
 		'getMaxSelector',
 		'model'
 	],
-	#category : 'MUDClient-View-Morph-Util'
+	#category : #'MUDClient-View-Morph-Util'
 }
 
 { #category : #defaults }

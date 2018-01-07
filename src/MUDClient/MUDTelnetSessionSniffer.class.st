@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'buffer'
 	],
-	#category : 'MUDClient-Model-Telnet'
+	#category : #'MUDClient-Model-Telnet'
 }
 
 { #category : #editing }

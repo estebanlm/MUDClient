@@ -4,7 +4,7 @@ Class {
 	#pools : [
 		'MUDTelnetConstantsMSDP'
 	],
-	#category : 'MUDClient-Model-ServerCommand'
+	#category : #'MUDClient-Model-ServerCommand'
 }
 
 { #category : #testing }

@@ -4,7 +4,7 @@ I'm a glamour presentation to define icon action lists (toolbars)
 Class {
 	#name : #MUDIconActionListPresentation,
 	#superclass : #GLMActionListPresentation,
-	#category : 'MUDClient-View-Glamour'
+	#category : #'MUDClient-View-Glamour'
 }
 
 { #category : #rendering }

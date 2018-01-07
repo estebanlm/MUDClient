@@ -5,7 +5,7 @@ I keep all related/necesary data.
 Class {
 	#name : #MUDApplication,
 	#superclass : #VOMemoryRepository,
-	#category : 'MUDClient-Model'
+	#category : #'MUDClient-Model'
 }
 
 { #category : #'class initialization' }
@@ -21,7 +21,7 @@ MUDApplication class >> install [
 
 { #category : #private }
 MUDApplication class >> repositoryFileName [
-	^ 'games.dat' asFileReference
+	^ (FileLocator imageDirectory / 'games.dat') asFileReference
 ]
 
 { #category : #accessing }

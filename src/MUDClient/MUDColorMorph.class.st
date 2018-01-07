@@ -4,10 +4,10 @@ I'm a pick color morph (to be used with MAColorDescription)
 Class {
 	#name : #MUDColorMorph,
 	#superclass : #MAElementMorph,
-	#category : 'MUDClient-View-Magritte'
+	#category : #'MUDClient-View-Magritte'
 }
 
-{ #category : #private-building }
+{ #category : #'private-building' }
 MUDColorMorph >> buildMorphView [
 	| panel colorMorph |
 
@@ -47,12 +47,12 @@ MUDColorMorph >> buildMorphView [
 	^ panel
 ]
 
-{ #category : #private-building }
+{ #category : #'private-building' }
 MUDColorMorph >> defaultColor [
 	^ Color transparent
 ]
 
-{ #category : #private-building }
+{ #category : #'private-building' }
 MUDColorMorph >> valueOrDefault [
 	^ self value ifNil: [ self defaultColor ]
 ]

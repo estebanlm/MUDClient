@@ -8,7 +8,7 @@ Class {
 		'owner',
 		'ansiParser'
 	],
-	#category : #MUDClient-View-Alert
+	#category : #'MUDClient-View-Alert'
 }
 
 { #category : #'instance creation' }

@@ -10,7 +10,7 @@ Class {
 	#classInstVars : [
 		'uniqueInstance'
 	],
-	#category : 'MUDClient-View'
+	#category : #'MUDClient-View'
 }
 
 { #category : #'instance creation' }

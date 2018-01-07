@@ -12,7 +12,7 @@ Class {
 		'mutex',
 		'parseDecoration'
 	],
-	#category : 'MUDClient-View-Morph'
+	#category : #'MUDClient-View-Morph'
 }
 
 { #category : #'as yet unclassified' }

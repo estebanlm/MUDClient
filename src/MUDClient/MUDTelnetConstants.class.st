@@ -7,7 +7,7 @@ Class {
 	#classVars : [
 		'ESC'
 	],
-	#category : 'MUDClient-Model-Telnet'
+	#category : #'MUDClient-Model-Telnet'
 }
 
 { #category : #'class initialization' }

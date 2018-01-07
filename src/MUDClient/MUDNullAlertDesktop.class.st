@@ -6,7 +6,7 @@ I just send a message to the world inform mechanism.
 Class {
 	#name : #MUDNullAlertDesktop,
 	#superclass : #MUDAlertDesktop,
-	#category : #MUDClient-View-Alert
+	#category : #'MUDClient-View-Alert'
 }
 
 { #category : #actions }

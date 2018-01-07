@@ -11,7 +11,7 @@ Class {
 	#instVars : [
 		'variables'
 	],
-	#category : 'MUDClient-Model-ServerCommand'
+	#category : #'MUDClient-Model-ServerCommand'
 }
 
 { #category : #testing }

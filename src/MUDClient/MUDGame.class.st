@@ -11,7 +11,7 @@ Class {
 		'plugins',
 		'loginSequence'
 	],
-	#category : 'MUDClient-Model'
+	#category : #'MUDClient-Model'
 }
 
 { #category : #accessing }

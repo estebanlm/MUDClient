@@ -8,7 +8,7 @@ Class {
 	#instVars : [
 		'plugin'
 	],
-	#category : 'MUDClient-View'
+	#category : #'MUDClient-View'
 }
 
 { #category : #testing }

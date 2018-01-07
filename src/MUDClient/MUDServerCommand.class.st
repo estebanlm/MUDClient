@@ -20,7 +20,7 @@ Class {
 		'value',
 		'answerBlock'
 	],
-	#category : 'MUDClient-Model-ServerCommand'
+	#category : #'MUDClient-Model-ServerCommand'
 }
 
 { #category : #'instance creation' }

@@ -1,6 +1,6 @@
 Trait {
 	#name : #TMUDValueContainer,
-	#category : 'MUDClient-Model'
+	#category : #'MUDClient-Model'
 }
 
 { #category : #accessing }

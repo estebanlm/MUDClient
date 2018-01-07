@@ -5,7 +5,7 @@ I can be used to choose existing games or to create new ones.
 Class {
 	#name : #MUDGameEditor,
 	#superclass : #TkGlamourSelectingEditor,
-	#category : 'MUDClient-View'
+	#category : #'MUDClient-View'
 }
 
 { #category : #accessing }

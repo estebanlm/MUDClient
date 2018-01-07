@@ -6,7 +6,7 @@ Unknown
 Class {
 	#name : #Consolas,
 	#superclass : #EmbeddedFreeTypeFontFontDescription,
-	#category : 'MUDClient-Fonts'
+	#category : #'MUDClient-Fonts'
 }
 
 { #category : #accessing }

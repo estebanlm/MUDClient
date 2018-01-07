@@ -3,7 +3,7 @@ I define announcement common traits for objects who need it.
 "
 Trait {
 	#name : #TMUDAnnouncer,
-	#category : 'MUDClient-Model'
+	#category : #'MUDClient-Model'
 }
 
 { #category : #announcing }

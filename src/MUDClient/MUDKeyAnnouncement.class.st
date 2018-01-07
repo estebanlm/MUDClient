@@ -5,5 +5,5 @@ I'm used in RpcCommandFieldMorph to navigate the history.
 Class {
 	#name : #MUDKeyAnnouncement,
 	#superclass : #Announcement,
-	#category : 'MUDClient-View-Morph'
+	#category : #'MUDClient-View-Morph'
 }

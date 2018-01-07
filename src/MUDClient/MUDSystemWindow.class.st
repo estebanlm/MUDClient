@@ -8,7 +8,7 @@ Class {
 		'toolbarMorph',
 		'contentMorph'
 	],
-	#category : 'MUDClient-View-Glamour'
+	#category : #'MUDClient-View-Glamour'
 }
 
 { #category : #accessing }
@@ -21,7 +21,7 @@ MUDSystemWindow >> contentMorph: anObject [
 	contentMorph := anObject
 ]
 
-{ #category : #open/close }
+{ #category : #'open/close' }
 MUDSystemWindow >> delete [
 	self isDisplayed ifFalse: [ ^ self ].
 	super delete
@@ -51,7 +51,7 @@ MUDSystemWindow >> enable [
 
 ]
 
-{ #category : #open/close }
+{ #category : #'open/close' }
 MUDSystemWindow >> ensureShown [
 	| currentPosition |
 	self isDisplayed ifTrue: [ ^ self ].
@@ -73,7 +73,7 @@ MUDSystemWindow >> isEnabled [
 		or: [ ((self contentMorph submorphs first valueOfProperty: #disabledArea) = true) not ]
 ]
 
-{ #category : #open/close }
+{ #category : #'open/close' }
 MUDSystemWindow >> open [
 	super open.
 	self announce: (WindowOpened new window: self)	
@@ -85,7 +85,7 @@ MUDSystemWindow >> removeBoxes [
 	collapseBox ifNotNil: [collapseBox delete. collapseBox := nil]
 ]
 
-{ #category : #open/close }
+{ #category : #'open/close' }
 MUDSystemWindow >> silentlyShown [
 	| currentPosition |
 	self isDisplayed ifTrue: [ ^ self ].
@@ -94,18 +94,18 @@ MUDSystemWindow >> silentlyShown [
 	self position: currentPosition. "Restore position to ensure is displayed correctly"
 ]
 
-{ #category : #open/close }
+{ #category : #'open/close' }
 MUDSystemWindow >> sleep [
 	self disable
 ]
 
-{ #category : #open/close }
+{ #category : #'open/close' }
 MUDSystemWindow >> tkOpenSDL2 [
 	super tkOpenSDL2.
 	self announce: (WindowOpened new window: self)	
 ]
 
-{ #category : #open/close }
+{ #category : #'open/close' }
 MUDSystemWindow >> tkOpenWorld [
 	super tkOpenWorld.
 	self announce: (WindowOpened new window: self)	
@@ -121,7 +121,7 @@ MUDSystemWindow >> toolbarMorph: anObject [
 	toolbarMorph := anObject
 ]
 
-{ #category : #open/close }
+{ #category : #'open/close' }
 MUDSystemWindow >> wakeUp [
 	self silentlyShown.
 	self enable

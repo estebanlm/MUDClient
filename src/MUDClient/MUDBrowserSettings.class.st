@@ -12,7 +12,7 @@ Class {
 		'bounds',
 		'opened'
 	],
-	#category : 'MUDClient-View'
+	#category : #'MUDClient-View'
 }
 
 { #category : #'instance creation' }

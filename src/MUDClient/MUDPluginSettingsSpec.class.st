@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'remember'
 	],
-	#category : 'MUDClient-Model-Plugin'
+	#category : #'MUDClient-Model-Plugin'
 }
 
 { #category : #accessing }

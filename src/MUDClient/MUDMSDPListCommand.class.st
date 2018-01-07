@@ -14,7 +14,7 @@ See class-side methods for implementation of this.
 Class {
 	#name : #MUDMSDPListCommand,
 	#superclass : #MUDServerMSDPQueryCommand,
-	#category : 'MUDClient-Model-ServerCommand'
+	#category : #'MUDClient-Model-ServerCommand'
 }
 
 { #category : #private }

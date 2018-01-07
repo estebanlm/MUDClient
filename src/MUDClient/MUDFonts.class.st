@@ -1,7 +1,7 @@
 Class {
 	#name : #MUDFonts,
 	#superclass : #Object,
-	#category : 'MUDClient-Fonts'
+	#category : #'MUDClient-Fonts'
 }
 
 { #category : #accessing }

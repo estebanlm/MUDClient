@@ -8,7 +8,7 @@ Class {
 	#instVars : [
 		'lastActiveGame'
 	],
-	#category : 'MUDClient-View'
+	#category : #'MUDClient-View'
 }
 
 { #category : #'instance creation' }

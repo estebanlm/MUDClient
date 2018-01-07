@@ -14,7 +14,7 @@ Class {
 		'writeIndex',
 		'overlapp'
 	],
-	#category : 'MUDClient-Utils'
+	#category : #'MUDClient-Utils'
 }
 
 { #category : #initialization }

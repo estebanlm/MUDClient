@@ -4,7 +4,7 @@ I'm a glamour renderer that renders icon action lists (toolbars)
 Class {
 	#name : #MUDMorphicIconActionListRenderer,
 	#superclass : #GLMMorphicActionListRenderer,
-	#category : 'MUDClient-View-Glamour'
+	#category : #'MUDClient-View-Glamour'
 }
 
 { #category : #private }

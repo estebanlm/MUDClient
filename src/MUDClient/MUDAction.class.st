@@ -4,5 +4,5 @@ I'm an action who accepts an ""enabled"" condition (it will enable/disable the b
 Class {
 	#name : #MUDAction,
 	#superclass : #TkAction,
-	#category : 'MUDClient-View-Glamour'
+	#category : #'MUDClient-View-Glamour'
 }

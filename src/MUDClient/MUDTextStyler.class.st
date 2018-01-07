@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'text'
 	],
-	#category : 'MUDClient-View-Text'
+	#category : #'MUDClient-View-Text'
 }
 
 { #category : #accessing }

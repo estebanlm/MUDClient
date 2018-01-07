@@ -9,7 +9,7 @@ Class {
 		'icon',
 		'title'
 	],
-	#category : 'MUDClient-Model-Plugin'
+	#category : #'MUDClient-Model-Plugin'
 }
 
 { #category : #'as yet unclassified' }

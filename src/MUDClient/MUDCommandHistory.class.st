@@ -9,7 +9,7 @@ Class {
 		'currentIndex',
 		'maxSize'
 	],
-	#category : 'MUDClient-View-Morph'
+	#category : #'MUDClient-View-Morph'
 }
 
 { #category : #defaults }

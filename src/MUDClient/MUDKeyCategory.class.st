@@ -7,8 +7,13 @@ Class {
 	#instVars : [
 		'owner'
 	],
-	#category : 'MUDClient-View'
+	#category : #'MUDClient-View'
 }
+
+{ #category : #testing }
+MUDKeyCategory class >> isGlobalCategory [
+	^ false
+]
 
 { #category : #accessing }
 MUDKeyCategory >> owner [

@@ -11,7 +11,7 @@ Class {
 	#pools : [
 		'MUDTelnetConstantsMSDP'
 	],
-	#category : 'MUDClient-Protocols'
+	#category : #'MUDClient-Protocols'
 }
 
 { #category : #testing }

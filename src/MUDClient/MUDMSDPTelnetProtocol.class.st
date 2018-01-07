@@ -13,7 +13,7 @@ Class {
 	#pools : [
 		'MUDTelnetConstantsMSDP'
 	],
-	#category : 'MUDClient-Model-Telnet'
+	#category : #'MUDClient-Model-Telnet'
 }
 
 { #category : #'accessing commands' }

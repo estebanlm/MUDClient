@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'runner'
 	],
-	#category : 'MUDClient-Model-Telnet'
+	#category : #'MUDClient-Model-Telnet'
 }
 
 { #category : #announce }

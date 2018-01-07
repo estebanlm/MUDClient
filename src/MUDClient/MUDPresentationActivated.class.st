@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'presentation'
 	],
-	#category : 'MUDClient-View-Glamour'
+	#category : #'MUDClient-View-Glamour'
 }
 
 { #category : #accessing }

@@ -8,7 +8,7 @@ Class {
 	#instVars : [
 		'game'
 	],
-	#category : 'MUDClient-Model-Plugin'
+	#category : #'MUDClient-Model-Plugin'
 }
 
 { #category : #'instance creation' }

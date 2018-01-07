@@ -1,7 +1,7 @@
 Class {
 	#name : #MUDEnhancedTabbedArrangement,
 	#superclass : #GLMTabbedArrangement,
-	#category : 'MUDClient-View-Glamour'
+	#category : #'MUDClient-View-Glamour'
 }
 
 { #category : #rendering }

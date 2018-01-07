@@ -8,7 +8,7 @@ Class {
 		'formatter',
 		'parser'
 	],
-	#category : 'MUDClient-View-Morph'
+	#category : #'MUDClient-View-Morph'
 }
 
 { #category : #accessing }

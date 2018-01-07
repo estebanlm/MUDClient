@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'data'
 	],
-	#category : 'MUDClient-Model-Telnet'
+	#category : #'MUDClient-Model-Telnet'
 }
 
 { #category : #'instance creation' }

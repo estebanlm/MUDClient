@@ -9,7 +9,7 @@ Class {
 	#instVars : [
 		'mutex'
 	],
-	#category : 'MUDClient-View-Morph'
+	#category : #'MUDClient-View-Morph'
 }
 
 { #category : #accessing }

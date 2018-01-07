@@ -9,7 +9,7 @@ Class {
 		'game',
 		'logReference'
 	],
-	#category : 'MUDClient-Utils'
+	#category : #'MUDClient-Utils'
 }
 
 { #category : #accessing }

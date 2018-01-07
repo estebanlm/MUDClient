@@ -7,7 +7,7 @@ see #alertTitle:message:
 Class {
 	#name : #MUDAlertDesktop,
 	#superclass : #Object,
-	#category : #MUDClient-View-Alert
+	#category : #'MUDClient-View-Alert'
 }
 
 { #category : #accessing }

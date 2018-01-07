@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'notifyPosition'
 	],
-	#category : 'MUDClient-View-Morph'
+	#category : #'MUDClient-View-Morph'
 }
 
 { #category : #'instance creation' }

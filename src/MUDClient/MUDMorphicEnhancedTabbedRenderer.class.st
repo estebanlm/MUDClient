@@ -1,7 +1,7 @@
 Class {
 	#name : #MUDMorphicEnhancedTabbedRenderer,
 	#superclass : #GLMMorphicTabbedRenderer,
-	#category : 'MUDClient-View-Glamour'
+	#category : #'MUDClient-View-Glamour'
 }
 
 { #category : #rendering }

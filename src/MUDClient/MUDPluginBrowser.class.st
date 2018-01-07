@@ -8,7 +8,7 @@ Class {
 		'plugin',
 		'owner'
 	],
-	#category : 'MUDClient-View'
+	#category : #'MUDClient-View'
 }
 
 { #category : #'instance creation' }

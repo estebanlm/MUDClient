@@ -4,7 +4,7 @@ I show alerts (notifications) using the macOS notification center.
 Class {
 	#name : #MUDMacOSAlertDesktop,
 	#superclass : #MUDAlertDesktop,
-	#category : #MUDClient-View-Alert
+	#category : #'MUDClient-View-Alert'
 }
 
 { #category : #testing }

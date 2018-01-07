@@ -9,7 +9,7 @@ Class {
 	#classInstVars : [
 		'uniqueInstance'
 	],
-	#category : 'MUDClient-Model-Plugin'
+	#category : #'MUDClient-Model-Plugin'
 }
 
 { #category : #accessing }
