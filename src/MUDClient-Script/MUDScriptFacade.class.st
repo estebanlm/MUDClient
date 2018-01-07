@@ -12,7 +12,7 @@ MUDScriptFacade class >> for: aTerminal [
 	^ self new terminal: aTerminal
 ]
 
-{ #category : #api }
+{ #category : #actions }
 MUDScriptFacade >> send: aString [
 	^ self terminal send: aString
 ]
@@ -27,12 +27,12 @@ MUDScriptFacade >> terminal: anObject [
 	terminal := anObject
 ]
 
-{ #category : #api }
+{ #category : #actions }
 MUDScriptFacade >> waitUntil: aString [
 	self waitUntilAnyOf: { aString }
 ]
 
-{ #category : #api }
+{ #category : #actions }
 MUDScriptFacade >> waitUntilAnyOf: aCollection [
 	MUDScriptTrigger new 
 		patterns: aCollection;

@@ -37,7 +37,7 @@ MUDTileFilterBrowser >> addFilter [
 
 { #category : #private }
 MUDTileFilterBrowser >> alert [
-	^ alert ifNil: [ alert := MUDAlertManager new ] 
+	^ alert ifNil: [ alert := MUDAlertTerminal new ] 
 ]
 
 { #category : #private }

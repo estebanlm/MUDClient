@@ -11,7 +11,7 @@ Class {
 { #category : #'as yet unclassified' }
 MUDScript class >> terminal: aTerminal action: aBlock [
 	^ self new 
-		terminal: (MUDScriptFacade for: aTerminal);
+		terminal: aTerminal;
 		action: aBlock;
 		yourself
 ]
@@ -29,7 +29,9 @@ MUDScript >> action: aBlock [
 { #category : #execution }
 MUDScript >> execute [ 
 	"Scripts needs to be executed inside a process to allow 'waits', etc."
-	[ self action value: self terminal ] fork
+	[ self action 
+		cull: (MUDScriptFacade for: self terminal)
+		cull: (MUDScriptUIFacade for: self terminal) ] fork
 ]
 
 { #category : #accessing }

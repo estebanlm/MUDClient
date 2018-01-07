@@ -161,19 +161,9 @@ MUDFilterPlugin >> hasFilters [
 { #category : #private }
 MUDFilterPlugin >> informFilter: aFilter line: aLine [
 	"show to desktop"
-	| notification title message |
-	
-	self flag: #todo. "Make it work on linux/windows"
-	Smalltalk os isMacOS ifFalse: [ ^ self ].
-
-	title := aFilter name asNSString autorelease.
-	message := aLine cleanLine asNSString autorelease.
-	notification := #NSUserNotification inObjC alloc init autorelease.
-	notification 
-		setTitle: title;
-		setInformativeText: message.
-	#NSUserNotificationCenter inObjC defaultUserNotificationCenter
- 		deliverNotification: notification.
+	MUDAlertDesktop current
+		alertTitle: aFilter name
+		message: aLine cleanLine
 ]
 
 { #category : #initialization }

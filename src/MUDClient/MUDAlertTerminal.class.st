@@ -2,22 +2,22 @@
 I'm an alert manager to show growl messages in terminal.
 "
 Class {
-	#name : #MUDAlertManager,
+	#name : #MUDAlertTerminal,
 	#superclass : #Object,
 	#instVars : [
 		'owner',
 		'ansiParser'
 	],
-	#category : 'MUDClient-View'
+	#category : #MUDClient-View-Alert
 }
 
 { #category : #'instance creation' }
-MUDAlertManager class >> for: aMorph [
+MUDAlertTerminal class >> for: aMorph [
 	^ self new owner: aMorph
 ]
 
 { #category : #alerting }
-MUDAlertManager >> alertTitle: titleString contents: aString color: aColor [
+MUDAlertTerminal >> alertTitle: titleString contents: aString color: aColor [
 	^ self 
 		alertTitle: titleString 
 		contents: aString 
@@ -26,7 +26,7 @@ MUDAlertManager >> alertTitle: titleString contents: aString color: aColor [
 ]
 
 { #category : #alerting }
-MUDAlertManager >> alertTitle: titleString contents: aString position: aPosition color: aColor [
+MUDAlertTerminal >> alertTitle: titleString contents: aString position: aPosition color: aColor [
 	| parsed cleanString color bgColor |
 	parsed := (self ansiParser parse: aString onError: [ {MUDANSIText new text: aString} ]).
 	color := parsed detect: [ :each | each class = MUDANSIColor ] ifNone: [ nil ]. 
@@ -43,16 +43,16 @@ MUDAlertManager >> alertTitle: titleString contents: aString position: aPosition
 ]
 
 { #category : #private }
-MUDAlertManager >> ansiParser [
+MUDAlertTerminal >> ansiParser [
 	^ ansiParser ifNil: [ ansiParser := MUDANSIParser new ]
 ]
 
 { #category : #accessing }
-MUDAlertManager >> owner [
+MUDAlertTerminal >> owner [
 	^ owner
 ]
 
 { #category : #accessing }
-MUDAlertManager >> owner: anObject [
+MUDAlertTerminal >> owner: anObject [
 	owner := anObject
 ]

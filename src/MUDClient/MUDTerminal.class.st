@@ -63,7 +63,7 @@ MUDTerminal >> addServerCommandReceiver: aServerCommand [
 
 { #category : #accessing }
 MUDTerminal >> alert [ 
-	^ alert ifNil: [ alert := MUDAlertManager for: self areaMorph ]
+	^ alert ifNil: [ alert := MUDAlertTerminal for: self areaMorph ]
 ]
 
 { #category : #'accessing morph' }
