@@ -16,6 +16,12 @@ MUDScriptTrigger class >> activeTriggers [
 	^ ActiveTriggers ifNil: [ ActiveTriggers := OrderedCollection new ]
 ]
 
+{ #category : #initialization }
+MUDScriptTrigger class >> reset [
+	self activeTriggers do: #destroy.
+	ActiveTriggers := nil
+]
+
 { #category : #accessing }
 MUDScriptTrigger >> activate [
 	self class activeTriggers add: self
@@ -28,11 +34,27 @@ MUDScriptTrigger >> deactivate [
 ]
 
 { #category : #accessing }
+MUDScriptTrigger >> destroy [
+]
+
+{ #category : #accessing }
 MUDScriptTrigger >> evaluateWith: aString [
+	self evaluateWith: aString ifMatches: [ ]
+]
+
+{ #category : #accessing }
+MUDScriptTrigger >> evaluateWith: aString ifMatches: aBlock [
 	(self matches: aString) 
 		ifTrue: [ 
 			self execute.
-			self deactivate ]
+			self deactivate.
+			aBlock value ]
+]
+
+{ #category : #accessing }
+MUDScriptTrigger >> evaluateWithAll: aCollection [
+	aCollection do: [ :each | 
+		self evaluateWith: each ifMatches: [ ^ self ] ]
 ]
 
 { #category : #execute }

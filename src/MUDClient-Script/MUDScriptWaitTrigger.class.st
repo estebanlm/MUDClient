@@ -21,6 +21,11 @@ MUDScriptWaitTrigger >> deactivate [
 
 ]
 
+{ #category : #accessing }
+MUDScriptWaitTrigger >> destroy [
+	process terminate
+]
+
 { #category : #execute }
 MUDScriptWaitTrigger >> execute [ 
 	"Do nothing, proecess will be resumed when deactivating"

@@ -36,8 +36,7 @@ MUDScriptTerminalFacade >> waitUntil: aString [
 MUDScriptTerminalFacade >> waitUntilAnyOf: aCollection [
 	MUDScriptWaitTrigger new 
 		patterns: aCollection;
-		activate.
-	Processor activeProcess suspend
+		activate
 ]
 
 { #category : #'actions input' }
@@ -47,5 +46,8 @@ MUDScriptTerminalFacade >> when: aString do: aBlock [
 
 { #category : #'actions input' }
 MUDScriptTerminalFacade >> whenAnyOf: aCollection do: aBlock [
-	
+	MUDScriptWaitTrigger new
+		patterns: aCollection;
+		action: aBlock;
+		activate
 ]

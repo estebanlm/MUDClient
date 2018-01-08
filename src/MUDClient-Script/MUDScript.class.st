@@ -3,7 +3,8 @@ Class {
 	#superclass : #Object,
 	#instVars : [
 		'actionBlock',
-		'terminal'
+		'terminal',
+		'id'
 	],
 	#category : #'MUDClient-Script'
 }
@@ -31,7 +32,13 @@ MUDScript >> execute [
 	"Scripts needs to be executed inside a process to allow 'waits', etc."
 	[ self action 
 		cull: (MUDScriptTerminalFacade for: self terminal)
-		cull: (MUDScriptUIFacade for: self terminal) ] fork
+		cull: (MUDScriptUIFacade for: self terminal) ] 
+	forkNamed: ('MUDScript: ', self id asString)
+]
+
+{ #category : #accessing }
+MUDScript >> id [
+	^ id ifNil: [ id := UUID new ]
 ]
 
 { #category : #accessing }
