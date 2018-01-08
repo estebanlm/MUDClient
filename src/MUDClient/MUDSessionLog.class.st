@@ -14,7 +14,7 @@ Class {
 
 { #category : #accessing }
 MUDSessionLog class >> baseDirectory [
-	^ 'log' asFileReference
+	^ (FileLocator imageDirectory / 'log') asFileReference
 ]
 
 { #category : #'instance creation' }
