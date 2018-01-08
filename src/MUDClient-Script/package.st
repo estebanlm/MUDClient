@@ -1,1 +1,1 @@
-Package { #name : #MUDClient-Script }
+Package { #name : #'MUDClient-Script' }

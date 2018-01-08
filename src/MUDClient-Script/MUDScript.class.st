@@ -5,7 +5,7 @@ Class {
 		'actionBlock',
 		'terminal'
 	],
-	#category : #MUDClient-Script
+	#category : #'MUDClient-Script'
 }
 
 { #category : #'as yet unclassified' }
@@ -30,7 +30,7 @@ MUDScript >> action: aBlock [
 MUDScript >> execute [ 
 	"Scripts needs to be executed inside a process to allow 'waits', etc."
 	[ self action 
-		cull: (MUDScriptFacade for: self terminal)
+		cull: (MUDScriptTerminalFacade for: self terminal)
 		cull: (MUDScriptUIFacade for: self terminal) ] fork
 ]
 

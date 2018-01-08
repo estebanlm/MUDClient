@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'terminal'
 	],
-	#category : #MUDClient-Script
+	#category : #'MUDClient-Script'
 }
 
 { #category : #'instance creation' }

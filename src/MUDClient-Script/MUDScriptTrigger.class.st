@@ -2,14 +2,13 @@ Class {
 	#name : #MUDScriptTrigger,
 	#superclass : #Object,
 	#instVars : [
-		'process',
 		'regexpPatterns',
 		'patterns'
 	],
 	#classVars : [
 		'ActiveTriggers'
 	],
-	#category : #MUDClient-Script
+	#category : #'MUDClient-Script'
 }
 
 { #category : #'as yet unclassified' }
@@ -19,22 +18,26 @@ MUDScriptTrigger class >> activeTriggers [
 
 { #category : #accessing }
 MUDScriptTrigger >> activate [
-	self class activeTriggers add: self.
-	process := Processor activeProcess.
-	process suspend.
+	self class activeTriggers add: self
 ]
 
 { #category : #accessing }
 MUDScriptTrigger >> deactivate [
-	self class activeTriggers remove: self.
-	process resume
+	self class activeTriggers remove: self
 
 ]
 
-{ #category : #testing }
+{ #category : #accessing }
 MUDScriptTrigger >> evaluateWith: aString [
-	(self matches: aString) ifTrue: [ 
-		self deactivate ]
+	(self matches: aString) 
+		ifTrue: [ 
+			self execute.
+			self deactivate ]
+]
+
+{ #category : #execute }
+MUDScriptTrigger >> execute [
+	self subclassResponsibility
 ]
 
 { #category : #testing }
