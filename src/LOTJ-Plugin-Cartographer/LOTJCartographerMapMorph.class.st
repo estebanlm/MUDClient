@@ -11,7 +11,7 @@ Class {
 		'needsDisplay',
 		'currentRoom'
 	],
-	#category : 'LOTJ-Plugin-Cartographer-View'
+	#category : #'LOTJ-Plugin-Cartographer-View'
 }
 
 { #category : #accessing }

@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'room'
 	],
-	#category : 'LOTJ-Plugin-Cartographer-View'
+	#category : #'LOTJ-Plugin-Cartographer-View'
 }
 
 { #category : #accessing }

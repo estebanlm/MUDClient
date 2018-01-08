@@ -28,11 +28,6 @@ MUDPadPlugin class >> availableModifiers [
 	}
 ]
 
-{ #category : #persistence }
-MUDPadPlugin class >> isVoyageRoot [
-	^ true
-]
-
 { #category : #accessing }
 MUDPadPlugin >> add: aPad [ 
 	^ self pads add: aPad

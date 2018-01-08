@@ -14,11 +14,6 @@ Class {
 	#category : 'MUDClient-Plugin-Notepad-Model'
 }
 
-{ #category : #persistence }
-MUDNotepadPlugin class >> isVoyageRoot [
-	^ true
-]
-
 { #category : #accessing }
 MUDNotepadPlugin >> root [
 	^ root ifNil: [ root := MUDNoteGroup title: 'Root' ]

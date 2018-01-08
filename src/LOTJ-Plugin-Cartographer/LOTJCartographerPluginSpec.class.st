@@ -4,7 +4,7 @@ I'm the spec for the cartographer plugin.
 Class {
 	#name : #LOTJCartographerPluginSpec,
 	#superclass : #MUDPluginSpec,
-	#category : 'LOTJ-Plugin-Cartographer-Model'
+	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
 
 { #category : #accessing }

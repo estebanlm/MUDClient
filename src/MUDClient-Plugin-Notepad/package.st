@@ -1,1 +1,1 @@
-Package { #name : #MUDClient-Plugin-Notepad }
+Package { #name : #'MUDClient-Plugin-Notepad' }

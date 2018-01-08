@@ -1,1 +1,1 @@
-Package { #name : #MUDClient-Plugin-Buttonpad }
+Package { #name : #'MUDClient-Plugin-Buttonpad' }

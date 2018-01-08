@@ -4,7 +4,7 @@ I indicate direction southwest.
 Class {
 	#name : #LOTJCartographerSouthwest,
 	#superclass : #LOTJCartographerDirection,
-	#category : 'LOTJ-Plugin-Cartographer-Model'
+	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
 
 { #category : #accessing }

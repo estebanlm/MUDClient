@@ -1,20 +1,20 @@
 Class {
-	#name : #LOTJCartographerTypeHatch,
+	#name : #LOTJCartographerTypeMark,
 	#superclass : #LOTJCartographerRoomType,
 	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
 
 { #category : #accessing }
-LOTJCartographerTypeHatch >> asciiId [
-	^ $e
+LOTJCartographerTypeMark >> asciiId [
+	^ $%
 ]
 
 { #category : #accessing }
-LOTJCartographerTypeHatch >> color [
-	^ Color orange
+LOTJCartographerTypeMark >> color [
+	^ Color lightGray
 ]
 
 { #category : #accessing }
-LOTJCartographerTypeHatch >> label [
-	^ 'Hatch'
+LOTJCartographerTypeMark >> label [
+	^ 'Mark'
 ]

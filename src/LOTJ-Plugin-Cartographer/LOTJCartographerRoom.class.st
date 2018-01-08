@@ -16,7 +16,7 @@ Class {
 	#pools : [
 		'LOTJMSDPVariables'
 	],
-	#category : 'LOTJ-Plugin-Cartographer-Model'
+	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
 
 { #category : #'instance creation' }
@@ -65,7 +65,7 @@ LOTJCartographerRoom >> addConnection: direction to: aRoom [
 	AND if I have the exit in my exit list.
 	 "
 	((self hasConnectionTo: direction) not
-		or: [ direction isMultiple 
+		or: [ self type isMultiple 
 		or: [ self type isAreaTransition ] ])
 		ifFalse: [ ^ self ].
 	(self exits includes: direction) ifFalse: [ ^ self ].

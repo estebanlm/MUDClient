@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'mapMorph'
 	],
-	#category : 'LOTJ-Plugin-Cartographer-View'
+	#category : #'LOTJ-Plugin-Cartographer-View'
 }
 
 { #category : #building }

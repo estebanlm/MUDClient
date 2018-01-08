@@ -1,7 +1,7 @@
 Class {
 	#name : #LOTJCartographerTypeTurbolift,
 	#superclass : #LOTJCartographerRoomType,
-	#category : 'LOTJ-Plugin-Cartographer-Model'
+	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
 
 { #category : #accessing }

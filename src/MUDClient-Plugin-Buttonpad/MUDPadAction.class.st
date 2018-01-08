@@ -32,7 +32,7 @@ MUDPadAction >> help: aString [
 	help := aString
 ]
 
-{ #category : #initialize-release }
+{ #category : #'initialize-release' }
 MUDPadAction >> initialize [
 	super initialize.
 	actions := OrderedCollection new

@@ -19,7 +19,7 @@ Class {
 		'LOTJMSDPVariables',
 		'MUDTelnetConstantsMSDP'
 	],
-	#category : 'LOTJ-Plugin-Cartographer-Model'
+	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
 
 { #category : #private }

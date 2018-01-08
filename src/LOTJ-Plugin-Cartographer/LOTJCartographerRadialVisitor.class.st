@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'room'
 	],
-	#category : 'LOTJ-Plugin-Cartographer-Model'
+	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
 
 { #category : #'instance creation' }

@@ -1,7 +1,7 @@
 Class {
 	#name : #LOTJCartographerTypeSpaceport,
 	#superclass : #LOTJCartographerRoomType,
-	#category : 'LOTJ-Plugin-Cartographer-Model'
+	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
 
 { #category : #accessing }

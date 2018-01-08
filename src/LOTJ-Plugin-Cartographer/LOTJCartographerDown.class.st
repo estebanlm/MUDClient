@@ -4,7 +4,7 @@ I indicate direction down.
 Class {
 	#name : #LOTJCartographerDown,
 	#superclass : #LOTJCartographerDirection,
-	#category : 'LOTJ-Plugin-Cartographer-Model'
+	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
 
 { #category : #accessing }

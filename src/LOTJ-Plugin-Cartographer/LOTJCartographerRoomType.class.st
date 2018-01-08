@@ -1,10 +1,13 @@
+"
+I'm a room type.
+"
 Class {
 	#name : #LOTJCartographerRoomType,
 	#superclass : #Object,
 	#classInstVars : [
 		'uniqueInstance'
 	],
-	#category : 'LOTJ-Plugin-Cartographer-Model'
+	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
 
 { #category : #accessing }
