@@ -1,1 +1,1 @@
-Package { #name : #MUDClient-Plugin-Filter }
+Package { #name : #'MUDClient-Plugin-Filter' }

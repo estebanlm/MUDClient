@@ -14,7 +14,7 @@ Class {
 	#classVars : [
 		'Sounds'
 	],
-	#category : 'MUDClient-Plugin-Filter-Model'
+	#category : #'MUDClient-Plugin-Filter-Model'
 }
 
 { #category : #private }

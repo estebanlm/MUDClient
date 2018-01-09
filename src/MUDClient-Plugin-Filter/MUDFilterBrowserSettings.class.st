@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'filter'
 	],
-	#category : 'MUDClient-Plugin-Filter-View'
+	#category : #'MUDClient-Plugin-Filter-View'
 }
 
 { #category : #accessing }

@@ -4,7 +4,7 @@ I add a time (HM) to the filtered line.
 Class {
 	#name : #MUDFilterTimeDecoration,
 	#superclass : #MUDFilterDecoration,
-	#category : 'MUDClient-Plugin-Filter-Model'
+	#category : #'MUDClient-Plugin-Filter-Model'
 }
 
 { #category : #decorating }

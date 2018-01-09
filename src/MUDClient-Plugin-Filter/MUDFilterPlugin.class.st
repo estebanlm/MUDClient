@@ -12,7 +12,7 @@ Class {
 	#instVars : [
 		'filters'
 	],
-	#category : 'MUDClient-Plugin-Filter-Model'
+	#category : #'MUDClient-Plugin-Filter-Model'
 }
 
 { #category : #accessing }

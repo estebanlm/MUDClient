@@ -6,7 +6,7 @@ Check for my users to have an example.
 Class {
 	#name : #MUDNullFilter,
 	#superclass : #MUDFilter,
-	#category : 'MUDClient-Plugin-Filter-Model'
+	#category : #'MUDClient-Plugin-Filter-Model'
 }
 
 { #category : #private }

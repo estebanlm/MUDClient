@@ -1,7 +1,7 @@
 Class {
 	#name : #MUDFilterTest,
 	#superclass : #TestCase,
-	#category : 'MUDClient-Plugin-Filter-Tests'
+	#category : #'MUDClient-Plugin-Filter-Tests'
 }
 
 { #category : #tests }

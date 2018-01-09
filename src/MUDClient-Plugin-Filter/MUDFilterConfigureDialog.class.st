@@ -9,7 +9,7 @@ Class {
 		'launchAction',
 		'filterClass'
 	],
-	#category : 'MUDClient-Plugin-Filter-View'
+	#category : #'MUDClient-Plugin-Filter-View'
 }
 
 { #category : #'instance creation' }

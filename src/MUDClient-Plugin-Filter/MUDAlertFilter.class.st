@@ -7,7 +7,7 @@ Class {
 		'echoTerminal',
 		'echoDesktop'
 	],
-	#category : 'MUDClient-Plugin-Filter-Model'
+	#category : #'MUDClient-Plugin-Filter-Model'
 }
 
 { #category : #accessing }

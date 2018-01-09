@@ -12,7 +12,7 @@ Class {
 		'lineWithoutLineEnding',
 		'cleanLine'
 	],
-	#category : 'MUDClient-Plugin-Filter-Model'
+	#category : #'MUDClient-Plugin-Filter-Model'
 }
 
 { #category : #'instance creation' }

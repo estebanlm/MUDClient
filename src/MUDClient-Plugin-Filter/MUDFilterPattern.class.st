@@ -13,7 +13,7 @@ Class {
 		'ignoreCase',
 		'compiledPattern'
 	],
-	#category : 'MUDClient-Plugin-Filter-Model'
+	#category : #'MUDClient-Plugin-Filter-Model'
 }
 
 { #category : #accessing }

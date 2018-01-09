@@ -4,7 +4,7 @@ I add a timestamp (DMYHM) to the filtered line.
 Class {
 	#name : #MUDFilterTimestampDecoration,
 	#superclass : #MUDFilterDecoration,
-	#category : 'MUDClient-Plugin-Filter-Model'
+	#category : #'MUDClient-Plugin-Filter-Model'
 }
 
 { #category : #decorating }
