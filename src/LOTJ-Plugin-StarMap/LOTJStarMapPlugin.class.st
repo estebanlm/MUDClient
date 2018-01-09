@@ -13,7 +13,7 @@ Class {
 		'region',
 		'lines'
 	],
-	#category : 'LOTJ-Plugin-StarMap-Model'
+	#category : #'LOTJ-Plugin-StarMap-Model'
 }
 
 { #category : #accessing }
@@ -62,6 +62,13 @@ LOTJStarMapPlugin >> calculateRegion [
 		bottom < each sector y ifTrue: [ bottom := each sector y ] ].
 	
 	^ (left@top corner: right@bottom) expandBy: self class expandedRegionSize
+]
+
+{ #category : #accessing }
+LOTJStarMapPlugin >> ensurePointAtSector: aPoint [
+	^ self 
+		pointAtSector: aPoint
+		ifAbsentPut: [ LOTJStarMapSpacePoint sector: aPoint ]
 ]
 
 { #category : #testing }

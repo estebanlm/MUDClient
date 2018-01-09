@@ -4,7 +4,7 @@ I'm a morph for empty (or not charted) galaxy locations.
 Class {
 	#name : #LOTJStarMapSpaceMorph,
 	#superclass : #LOTJStarMapPointMorph,
-	#category : 'LOTJ-Plugin-StarMap-View'
+	#category : #'LOTJ-Plugin-StarMap-View'
 }
 
 { #category : #accessing }

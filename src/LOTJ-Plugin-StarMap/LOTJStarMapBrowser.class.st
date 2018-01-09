@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'starMapMorph'
 	],
-	#category : 'LOTJ-Plugin-StarMap-View'
+	#category : #'LOTJ-Plugin-StarMap-View'
 }
 
 { #category : #actions }

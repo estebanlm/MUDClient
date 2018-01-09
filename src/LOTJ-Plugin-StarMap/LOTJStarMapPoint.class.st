@@ -11,7 +11,7 @@ Class {
 		'origin',
 		'sector'
 	],
-	#category : 'LOTJ-Plugin-StarMap-Model'
+	#category : #'LOTJ-Plugin-StarMap-Model'
 }
 
 { #category : #accessing }

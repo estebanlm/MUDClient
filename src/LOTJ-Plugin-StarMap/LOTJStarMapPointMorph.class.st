@@ -8,7 +8,7 @@ Class {
 	#instVars : [
 		'point'
 	],
-	#category : 'LOTJ-Plugin-StarMap-View'
+	#category : #'LOTJ-Plugin-StarMap-View'
 }
 
 { #category : #accessing }

@@ -16,7 +16,7 @@ Class {
 		'moonsSource',
 		'systemsSource'
 	],
-	#category : 'LOTJ-Plugin-StarMap-Model'
+	#category : #'LOTJ-Plugin-StarMap-Model'
 }
 
 { #category : #building }

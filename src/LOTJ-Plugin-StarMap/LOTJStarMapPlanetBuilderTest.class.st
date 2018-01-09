@@ -1,7 +1,7 @@
 Class {
 	#name : #LOTJStarMapPlanetBuilderTest,
 	#superclass : #TestCase,
-	#category : 'LOTJ-Plugin-StarMap-Tests'
+	#category : #'LOTJ-Plugin-StarMap-Tests'
 }
 
 { #category : #'as yet unclassified' }

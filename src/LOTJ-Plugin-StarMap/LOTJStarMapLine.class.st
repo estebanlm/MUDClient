@@ -5,7 +5,7 @@ Class {
 		'fromPoint',
 		'toPoint'
 	],
-	#category : 'LOTJ-Plugin-StarMap-Model'
+	#category : #'LOTJ-Plugin-StarMap-Model'
 }
 
 { #category : #initialization }

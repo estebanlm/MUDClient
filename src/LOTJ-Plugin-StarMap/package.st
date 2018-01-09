@@ -1,1 +1,1 @@
-Package { #name : #LOTJ-Plugin-StarMap }
+Package { #name : #'LOTJ-Plugin-StarMap' }

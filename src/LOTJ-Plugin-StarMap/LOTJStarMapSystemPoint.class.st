@@ -8,7 +8,7 @@ Class {
 		'system',
 		'name'
 	],
-	#category : 'LOTJ-Plugin-StarMap-Model'
+	#category : #'LOTJ-Plugin-StarMap-Model'
 }
 
 { #category : #converting }

@@ -4,7 +4,7 @@ I'm the spec for the LOTJ starmap plugin.
 Class {
 	#name : #LOTJStarMapPluginSpec,
 	#superclass : #MUDPluginSpec,
-	#category : 'LOTJ-Plugin-StarMap-Model'
+	#category : #'LOTJ-Plugin-StarMap-Model'
 }
 
 { #category : #accessing }

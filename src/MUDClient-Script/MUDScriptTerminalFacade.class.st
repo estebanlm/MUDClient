@@ -51,3 +51,10 @@ MUDScriptTerminalFacade >> whenAnyOf: aCollection do: aBlock [
 		action: aBlock;
 		activate
 ]
+
+{ #category : #'actions plugins' }
+MUDScriptTerminalFacade >> withPlugin: aClass do: aBlock [
+	self terminal game 
+		pluginByClass: aClass 
+		ifAbsent: [ nil ]
+]

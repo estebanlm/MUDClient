@@ -1,7 +1,7 @@
 Class {
 	#name : #LOTJStarMapPluginTest,
 	#superclass : #TestCase,
-	#category : 'LOTJ-Plugin-StarMap-Tests'
+	#category : #'LOTJ-Plugin-StarMap-Tests'
 }
 
 { #category : #tests }

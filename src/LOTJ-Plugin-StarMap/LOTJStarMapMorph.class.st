@@ -15,7 +15,7 @@ Class {
 		'showNames',
 		'showMarkers'
 	],
-	#category : 'LOTJ-Plugin-StarMap-View'
+	#category : #'LOTJ-Plugin-StarMap-View'
 }
 
 { #category : #accessing }
