@@ -45,10 +45,7 @@ MUDScriptTrigger >> evaluateWith: aString [
 { #category : #accessing }
 MUDScriptTrigger >> evaluateWith: aString ifMatches: aBlock [
 	(self matches: aString) 
-		ifTrue: [ 
-			self execute.
-			self deactivate.
-			aBlock value ]
+		ifTrue: [ self triggerMatchedThen: aBlock ]
 ]
 
 { #category : #accessing }
@@ -82,4 +79,11 @@ MUDScriptTrigger >> regexpPatterns [
 	^ regexpPatterns ifNil: [ 
 		regexpPatterns := self patterns collect: [ :each | each asRegexIgnoringCase ] ]
 
+]
+
+{ #category : #accessing }
+MUDScriptTrigger >> triggerMatchedThen: aBlock [
+	self execute.
+	self deactivate.
+	aBlock value 
 ]

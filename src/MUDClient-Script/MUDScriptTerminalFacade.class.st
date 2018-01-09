@@ -12,6 +12,31 @@ MUDScriptTerminalFacade class >> for: aTerminal [
 	^ self new terminal: aTerminal
 ]
 
+{ #category : #'actions piping' }
+MUDScriptTerminalFacade >> pipe: aBlock until: aString do: actionBlock [
+	^ self 
+		pipe: aBlock 
+		untilAnyOf: { aString } 
+		do: actionBlock
+]
+
+{ #category : #'actions piping' }
+MUDScriptTerminalFacade >> pipe: aBlock untilAnyOf: aCollection do: actionBlock [
+	aBlock value.
+	MUDScriptPipeTrigger new
+		patterns: aCollection;
+		action: actionBlock;
+		activate.
+]
+
+{ #category : #'actions piping' }
+MUDScriptTerminalFacade >> pipeSend: aString until: untilString do: actionBlock [
+	^ self 
+		pipe: [ self send: aString ] 
+		untilAnyOf: { untilString } 
+		do: actionBlock
+]
+
 { #category : #'actions transmit' }
 MUDScriptTerminalFacade >> send: aString [
 	^ self terminal send: aString
@@ -54,7 +79,7 @@ MUDScriptTerminalFacade >> whenAnyOf: aCollection do: aBlock [
 
 { #category : #'actions plugins' }
 MUDScriptTerminalFacade >> withPlugin: aClass do: aBlock [
-	self terminal game 
+	aBlock value: (self terminal game 
 		pluginByClass: aClass 
-		ifAbsent: [ nil ]
+		ifAbsent: [ nil ])
 ]

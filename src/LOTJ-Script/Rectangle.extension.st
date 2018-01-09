@@ -9,11 +9,11 @@ Rectangle >> regionMap: aBlock [
 			ifTrue: [ 
 				self origin y 
 					to: self corner y 
-					do: [ :y | aBlock value: x value: y ] ]
+					do: [ :y | aBlock value: x@y ] ]
 			ifFalse: [ 
 				self corner y 
 					to: self origin y 
 					by: -1 
-					do: [ :y | aBlock value: x value: y ] ].
+					do: [ :y | aBlock value: x@y ] ].
 		forward := forward not ]
 ]
