@@ -49,6 +49,23 @@ MUDGame class >> name: aString host: urlString port: portNumber [
 		yourself
 ]
 
+{ #category : #persistence }
+MUDGame class >> voyageCollectionName [
+	^ 'games'
+]
+
+{ #category : #persistence }
+MUDGame class >> voyagePlugins [
+	<voyageDescription>
+	
+	^ VOToOneDescription new 
+		attributeName: 'plugins';
+		accessor: (MAPluggableAccessor 
+			read: [ :game | game plugins ]
+			write: [ :game :plugins | game setPlugins: plugins ]);
+		yourself
+]
+
 { #category : #accessing }
 MUDGame >> addPlugin: aPlugin [
 	aPlugin game: self.
@@ -159,7 +176,7 @@ MUDGame >> descriptionPort [
 
 { #category : #actions }
 MUDGame >> export [
-	(self name asFileReference withExtension: 'ston') 
+	((FileLocator imageDirectory / self name) withExtension: 'ston') 
 		writeStreamDo: [ :stream | STON put: self onStreamPretty: stream ]
 		
 ]
@@ -261,4 +278,10 @@ MUDGame >> protocolHandlers [
 { #category : #accessing }
 MUDGame >> removePlugin: aPlugin [
 	plugins := plugins copyWithout: aPlugin
+]
+
+{ #category : #private }
+MUDGame >> setPlugins: aCollection [ 
+	aCollection do: [ :each | each game: self ].
+	plugins := aCollection
 ]

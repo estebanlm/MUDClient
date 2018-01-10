@@ -16,11 +16,30 @@ MUDNoteNode class >> defaultTitle [
 	^ 'Untitled'
 ]
 
+{ #category : #testing }
+MUDNoteNode class >> isVoyageRoot [
+	^ true
+]
+
 { #category : #'instance creation' }
 MUDNoteNode class >> title: aString [
 	^ self new 
 		title: aString;
 		yourself
+]
+
+{ #category : #persistence }
+MUDNoteNode class >> voyageCollectionName [
+	^ 'plugin-notes'
+]
+
+{ #category : #persistence }
+MUDNoteNode class >> voyageParent [
+	<voyageDescription>
+	
+	^ VOTransientDescription new
+		attributeName: 'parent';
+		yourself 
 ]
 
 { #category : #accessing }

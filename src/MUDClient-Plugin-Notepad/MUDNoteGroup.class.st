@@ -10,6 +10,19 @@ Class {
 	#category : 'MUDClient-Plugin-Notepad-Model'
 }
 
+{ #category : #persistence }
+MUDNoteGroup class >> voyageChildren [
+	<voyageDescription>
+	
+	^ VOToOneDescription new
+		attributeName: 'children';
+		accessor: (MAPluggableAccessor 
+			read: [ :group | group children ]
+			write: [ :group :children | group setChildren: children ]);
+		yourself 
+	
+]
+
 { #category : #accessing }
 MUDNoteGroup >> add: aNoteOrGroup [
 	aNoteOrGroup parent: self.
@@ -45,4 +58,10 @@ MUDNoteGroup >> isGroup [
 { #category : #accessing }
 MUDNoteGroup >> remove: aNoteOrGroup [ 
 	children := children copyWithout: aNoteOrGroup
+]
+
+{ #category : #private }
+MUDNoteGroup >> setChildren: aCollection [
+	aCollection do: [ :each | each parent: self ].
+	children := aCollection
 ]

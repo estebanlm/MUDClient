@@ -27,6 +27,33 @@ LOTJCartographerPlugin class >> runner [
 	^ TaskRunner ifNil: [ TaskRunner := TKTNewProcessTaskRunner new ]
 ]
 
+{ #category : #persistence }
+LOTJCartographerPlugin class >> voyageActualRoom [
+	<voyageDescription>
+	
+	^ VOTransientDescription new 
+		attributeName: 'actualRoom';
+		yourself
+]
+
+{ #category : #persistence }
+LOTJCartographerPlugin class >> voyageLastRecordedDirection [
+	<voyageDescription>
+	
+	^ VOTransientDescription new 
+		attributeName: 'lastRecordedDirection';
+		yourself
+]
+
+{ #category : #persistence }
+LOTJCartographerPlugin class >> voyageMap [
+	<voyageDescription>
+	
+	^ VOTransientDescription new 
+		attributeName: 'map';
+		yourself
+]
+
 { #category : #testing }
 LOTJCartographerPlugin >> acceptsProcotolCommand: aCommand [
 	^ (self reportVariables includes: aCommand variable variableName)

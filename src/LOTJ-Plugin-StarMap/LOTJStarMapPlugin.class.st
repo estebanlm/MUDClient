@@ -21,6 +21,15 @@ LOTJStarMapPlugin class >> expandedRegionSize [
 	^ 10
 ]
 
+{ #category : #persistence }
+LOTJStarMapPlugin class >> voyagePoints [
+	<voyageDescription>
+	
+	^ VOTransientDescription new 
+		attributeName: 'points';
+		yourself
+]
+
 { #category : #accessing }
 LOTJStarMapPlugin >> addLine: aLine [
 	lines ifNil: [ lines := Set new ].

@@ -55,6 +55,11 @@ MUDBrowserSettings class >> new [
 	^ self error: 'Use #browserClass:game:'
 ]
 
+{ #category : #persistence }
+MUDBrowserSettings class >> voyageCollectionName [
+	^ 'browser-settings'
+]
+
 { #category : #accessing }
 MUDBrowserSettings >> bounds [
 	^ bounds

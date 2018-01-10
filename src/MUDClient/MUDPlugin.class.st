@@ -16,12 +16,31 @@ MUDPlugin class >> game: aGame [
 	^ self new game: aGame
 ]
 
+{ #category : #testing }
+MUDPlugin class >> isVoyageRoot [
+	^ true
+]
+
 { #category : #accessing }
 MUDPlugin class >> spec [ 
 	self = MUDPlugin ifTrue: [ ^ self subclassResponsibility ].
 	^ (MUDPluginSpec allSubclasses collect: #uniqueInstance)
 		detect: [ :each | each pluginClass = self ]
 		ifNone: [ nil ]
+]
+
+{ #category : #persistence }
+MUDPlugin class >> voyageCollectionName [
+	^ 'plugins'
+]
+
+{ #category : #persistence }
+MUDPlugin class >> voyageGame [
+	<voyageDescription>
+	
+	^ VOTransientDescription new
+		attributeName: 'game';
+		yourself
 ]
 
 { #category : #testing }
