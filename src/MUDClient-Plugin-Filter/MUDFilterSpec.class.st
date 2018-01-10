@@ -43,11 +43,8 @@ MUDFilterSpec >> openBrowserFor: aGame plugin: aPlugin filter: aFilter in: aTerm
 		detect: [ :each | each filter == aFilter ]
 		ifNone: [ MUDFilterBrowser game: aGame plugin: aPlugin filter: aFilter ]. 
 	
-	browser window
-		ifNotNil: [ :w | w isActive ifFalse: [ w open ] ]
-		ifNil: [ browser openOn: aTerminal ]
-		
-	
+	(browser window notNil or: [ browser window isVisible not ])
+		ifTrue: [ browser openOn: aTerminal ]
 ]
 
 { #category : #accessing }
