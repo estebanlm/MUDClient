@@ -1,5 +1,5 @@
 SmalltalkCISpec {
-  #specName : 'MUDClient',
+  #name : 'MUDClient',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'MUDClient',
