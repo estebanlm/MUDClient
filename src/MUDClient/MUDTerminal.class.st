@@ -61,6 +61,12 @@ MUDTerminal >> alert [
 	^ alert ifNil: [ alert := MUDAlertTerminal for: self areaMorph ]
 ]
 
+{ #category : #'system startup' }
+MUDTerminal >> applicationWillShutdown: app [
+	super applicationWillShutdown: app.
+	self areaMorph setText: '' asText
+]
+
 { #category : #'accessing morph' }
 MUDTerminal >> areaMorph [ 
 	^ areaMorph ifNil: [ areaMorph := self buildAreaMorph ]

@@ -42,6 +42,16 @@ LOTJStarMapPoint >> descriptionSector [
 
 ]
 
+{ #category : #testing }
+LOTJStarMapPoint >> isEmptySpace [
+	^ false
+]
+
+{ #category : #testing }
+LOTJStarMapPoint >> isSystem [
+	^ false
+]
+
 { #category : #accessing }
 LOTJStarMapPoint >> notes [
 	^ notes

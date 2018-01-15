@@ -6,7 +6,7 @@ Class {
 		'terminal',
 		'id'
 	],
-	#category : #'MUDClient-Script'
+	#category : #'MUDClient-Script-Model'
 }
 
 { #category : #'as yet unclassified' }

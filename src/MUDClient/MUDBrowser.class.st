@@ -28,6 +28,15 @@ MUDBrowser class >> title [
 	^ self subclassResponsibility
 ]
 
+{ #category : #'system startup' }
+MUDBrowser >> applicationDidStart: app [
+]
+
+{ #category : #'system startup' }
+MUDBrowser >> applicationWillShutdown: app [
+	game := nil
+]
+
 { #category : #showing }
 MUDBrowser >> basicOpen: aWindow [
 	self window: aWindow.

@@ -10,8 +10,7 @@ Class {
 
 { #category : #'class initialization' }
 MUDApplication class >> initialize [ 
-	Smalltalk addToStartUpList: self.
-	Smalltalk addToShutDownList: self	
+	SessionManager default registerUserClassNamed: self name
 ]
 
 { #category : #actions }
@@ -56,10 +55,13 @@ MUDApplication class >> shutDown: quitting [
 	quitting ifFalse: [ ^ self ].
 	self saveToDisk.
 	self reset.
+	MUDBrowser allSubInstancesDo: [ :each | each applicationWillShutdown: self current ].
+	
 ]
 
 { #category : #'system startup' }
 MUDApplication class >> startUp: resuming [
 	resuming ifFalse: [ ^ self ].
 	self restoreFromDisk.
+	MUDBrowser allSubInstancesDo: [ :each | each applicationDidStart: self current ]
 ]

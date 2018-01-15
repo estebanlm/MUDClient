@@ -11,7 +11,7 @@ LOTJCartographerTypeMark >> asciiId [
 
 { #category : #accessing }
 LOTJCartographerTypeMark >> color [
-	^ Color lightGray
+	^ Color named: #greyishBlue
 ]
 
 { #category : #accessing }

@@ -18,6 +18,7 @@ BaselineOfMUDClient >> baseline: spec [
 		self magritte3: spec.
 		self glamour: spec.
 		self toolkit: spec.
+		self moreColors: spec.
 		self sound: spec.
 		self objCBridge: spec.
 		
@@ -34,7 +35,8 @@ BaselineOfMUDClient >> baseline: spec [
 					'TelnetClient' 
 					'Magritte3' 
 					'Glamour'
-					'Toolkit') ];
+					'Toolkit'
+					'MoreColors') ];
 			package: 'MUDClient-Plugin-Alias' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-Notepad' with: [ spec requires: #('MUDClient') ];
 			package: 'MUDClient-Plugin-Buttonpad' with: [ spec requires: #('MUDClient') ];
@@ -92,6 +94,12 @@ BaselineOfMUDClient >> magritte3: spec [
 			loads: #('Core' 'Magritte-Morph');
 			repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ]
 
+]
+
+{ #category : #'external projects' }
+BaselineOfMUDClient >> moreColors: spec [
+	spec package: 'MoreColors' with: [ 
+		spec repository: 'http://smalltalkhub.com/mc/StephaneDucasse/Colors/main' ]
 ]
 
 { #category : #'external projects' }

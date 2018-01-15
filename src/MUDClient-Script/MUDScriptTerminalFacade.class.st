@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'terminal'
 	],
-	#category : #'MUDClient-Script'
+	#category : #'MUDClient-Script-Model'
 }
 
 { #category : #'instance creation' }
@@ -39,7 +39,7 @@ MUDScriptTerminalFacade >> pipeSend: aString until: untilString do: actionBlock 
 
 { #category : #'actions transmit' }
 MUDScriptTerminalFacade >> send: aString [
-	^ self terminal send: aString
+	^ self terminal sendFilteringInput: aString
 ]
 
 { #category : #accessing }

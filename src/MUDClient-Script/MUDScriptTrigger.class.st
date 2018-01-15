@@ -8,7 +8,7 @@ Class {
 	#classVars : [
 		'ActiveTriggers'
 	],
-	#category : #'MUDClient-Script'
+	#category : #'MUDClient-Script-Model'
 }
 
 { #category : #'as yet unclassified' }
@@ -18,6 +18,7 @@ MUDScriptTrigger class >> activeTriggers [
 
 { #category : #initialization }
 MUDScriptTrigger class >> reset [
+	<script>
 	self activeTriggers do: #destroy.
 	ActiveTriggers := nil
 ]

@@ -102,7 +102,8 @@ MUDAliasBrowser >> createAliasBrowser [
 				title: 'Commands';
 				in: [ :this | self addAliasMenuOn: this ];
 				display: [ self aliases ];
-				format: [ :alias | alias name ]].
+				format: [ :alias | alias name ];
+				enableFilter: [ :alias :pattern | alias input beginsWith: pattern ] ].
 
 	browser transmit 
 		from: #aliases;

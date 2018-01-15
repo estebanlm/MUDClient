@@ -150,6 +150,11 @@ LOTJStarMapPlugin >> removeAllOrigin: aSymbol [
 ]
 
 { #category : #accessing }
+LOTJStarMapPlugin >> removePoint: aPoint [
+	
+]
+
+{ #category : #accessing }
 LOTJStarMapPlugin >> removePointAtSector: aPoint [
 	| point |
 	

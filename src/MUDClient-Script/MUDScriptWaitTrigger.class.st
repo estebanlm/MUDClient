@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'process'
 	],
-	#category : #'MUDClient-Script'
+	#category : #'MUDClient-Script-Model'
 }
 
 { #category : #accessing }

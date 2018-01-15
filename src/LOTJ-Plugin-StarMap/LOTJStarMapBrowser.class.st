@@ -121,7 +121,7 @@ LOTJStarMapBrowser >> initialShowNames [
 
 { #category : #testing }
 LOTJStarMapBrowser >> isMiniWindow [
-	^ true
+	^ false
 ]
 
 { #category : #'private accessing' }

@@ -42,6 +42,11 @@ LOTJStarMapSystemPoint >> descriptionSystem [
 
 ]
 
+{ #category : #'as yet unclassified' }
+LOTJStarMapSystemPoint >> isSystem [
+	^ true
+]
+
 { #category : #accessing }
 LOTJStarMapSystemPoint >> name [
 	^ name

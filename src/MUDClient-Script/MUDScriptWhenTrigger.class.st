@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'actionBlock'
 	],
-	#category : #'MUDClient-Script'
+	#category : #'MUDClient-Script-Model'
 }
 
 { #category : #accessing }

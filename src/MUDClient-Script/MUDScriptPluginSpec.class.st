@@ -1,7 +1,7 @@
 Class {
 	#name : #MUDScriptPluginSpec,
 	#superclass : #MUDPluginSpec,
-	#category : #'MUDClient-Script'
+	#category : #'MUDClient-Script-Model'
 }
 
 { #category : #accessing }

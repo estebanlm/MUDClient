@@ -1,1 +1,1 @@
-Package { #name : #MUDClient-Plugin-Alias }
+Package { #name : #'MUDClient-Plugin-Alias' }
