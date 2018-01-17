@@ -38,6 +38,12 @@ MUDScriptTrigger >> deactivate [
 MUDScriptTrigger >> destroy [
 ]
 
+{ #category : #api }
+MUDScriptTrigger >> do [
+	"I'm an synonym for activate"
+	self activate
+]
+
 { #category : #accessing }
 MUDScriptTrigger >> evaluateWith: aString [
 	self evaluateWith: aString ifMatches: [ ]
@@ -58,6 +64,12 @@ MUDScriptTrigger >> evaluateWithAll: aCollection [
 { #category : #execute }
 MUDScriptTrigger >> execute [
 	self subclassResponsibility
+]
+
+{ #category : #initialization }
+MUDScriptTrigger >> initialize [
+	super initialize.
+	patterns := Set new
 ]
 
 { #category : #testing }

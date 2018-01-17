@@ -10,6 +10,11 @@ Class {
 	#category : #'MUDClient-Script-Model'
 }
 
+{ #category : #initialization }
+MUDScript class >> reset [
+	MUDScriptTrigger reset.
+]
+
 { #category : #'as yet unclassified' }
 MUDScript class >> terminal: aTerminal action: aBlock [
 	^ self new 
@@ -53,6 +58,29 @@ MUDScript >> id: anObject [
 	id := anObject
 ]
 
+{ #category : #'api input' }
+MUDScript >> newCondition [
+	^ MUDScriptWaitTrigger new
+]
+
+{ #category : #'api piping' }
+MUDScript >> newPipe [
+	^ MUDScriptPipeTrigger new
+]
+
+{ #category : #'api input' }
+MUDScript >> newWait [
+	^ MUDScriptWaitTrigger new 
+
+]
+
+{ #category : #'api input' }
+MUDScript >> newWait: aString [
+	^ MUDScriptWaitTrigger new 
+		until: aString;
+		yourself
+]
+
 { #category : #'api piping' }
 MUDScript >> pipe: aBlock to: pipeBlock [
 	aBlock value.
@@ -89,7 +117,6 @@ MUDScript >> pipeWhen: aString lines: aNumber to: pripeBlock [
 
 { #category : #'api piping' }
 MUDScript >> pipeWhenAnyOf: aCollection lines: aNumber to: pipeBlock [
-	pipeBlock value.
 	MUDScriptPipeWhenTrigger new
 		patterns: aCollection;
 		lines: aNumber;
@@ -133,18 +160,6 @@ MUDScript >> terminal [
 { #category : #accessing }
 MUDScript >> terminal: aTerminal [
 	terminal := aTerminal
-]
-
-{ #category : #'api input' }
-MUDScript >> waitUntil: aString [
-	^ self waitUntilAnyOf: { aString }
-]
-
-{ #category : #'api input' }
-MUDScript >> waitUntilAnyOf: aCollection [
-	MUDScriptWaitTrigger new 
-		patterns: aCollection;
-		activate
 ]
 
 { #category : #'api input' }

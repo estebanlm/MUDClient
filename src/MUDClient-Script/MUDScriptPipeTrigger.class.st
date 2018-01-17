@@ -9,16 +9,6 @@ Class {
 }
 
 { #category : #accessing }
-MUDScriptPipeTrigger >> action [
-	^ actionBlock
-]
-
-{ #category : #accessing }
-MUDScriptPipeTrigger >> action: aBlock [
-	actionBlock := aBlock
-]
-
-{ #category : #accessing }
 MUDScriptPipeTrigger >> activate [
 	outStream := String new writeStream.
 	super activate
@@ -33,5 +23,10 @@ MUDScriptPipeTrigger >> evaluateWith: aString ifMatches: aBlock [
 
 { #category : #execute }
 MUDScriptPipeTrigger >> execute [ 
-	self action value: outStream contents
+	actionBlock value: outStream contents
+]
+
+{ #category : #api }
+MUDScriptPipeTrigger >> to: aBlock [
+	actionBlock := aBlock
 ]

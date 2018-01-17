@@ -30,3 +30,8 @@ MUDScriptWaitTrigger >> destroy [
 MUDScriptWaitTrigger >> execute [ 
 	"Do nothing, proecess will be resumed when deactivating"
 ]
+
+{ #category : #api }
+MUDScriptWaitTrigger >> until: aString [
+	patterns add: aString
+]
