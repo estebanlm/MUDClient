@@ -3,7 +3,7 @@ Class {
 	#superclass : #MUDScriptWaitTrigger,
 	#instVars : [
 		'actionBlock',
-		'stream'
+		'outStream'
 	],
 	#category : #'MUDClient-Script-Model'
 }
@@ -20,7 +20,7 @@ MUDScriptPipeTrigger >> action: aBlock [
 
 { #category : #accessing }
 MUDScriptPipeTrigger >> activate [
-	stream := String new writeStream.
+	outStream := String new writeStream.
 	super activate
 ]
 
@@ -28,10 +28,10 @@ MUDScriptPipeTrigger >> activate [
 MUDScriptPipeTrigger >> evaluateWith: aString ifMatches: aBlock [
 	(self matches: aString) 
 		ifTrue: [ self triggerMatchedThen: aBlock]
-		ifFalse: [ stream << aString << String cr ]
+		ifFalse: [ outStream << aString << String cr ]
 ]
 
 { #category : #execute }
 MUDScriptPipeTrigger >> execute [ 
-	self action value: stream contents
+	self action value: outStream contents
 ]

@@ -12,7 +12,7 @@ MUDScriptUIFacade class >> for: aTerminal [
 	^ self new terminal: aTerminal
 ]
 
-{ #category : #'ui requests' }
+{ #category : #api }
 MUDScriptUIFacade >> choose: titleString from: anArray [
 	^ UIManager default 
 		chooseFrom: anArray 
@@ -48,9 +48,17 @@ MUDScriptUIFacade >> echoTitle: titleString message: aString color: aColor [
 	self terminal alert alertTitle: titleString contents: aString color: aColor
 ]
 
-{ #category : #'ui requests' }
+{ #category : #api }
 MUDScriptUIFacade >> request: title [
 	^ UIManager default request: title
+]
+
+{ #category : #api }
+MUDScriptUIFacade >> requestText: aString [
+	^ UIManager default
+		multiLineRequest: aString
+		initialAnswer: ''
+		answerHeight: 350
 ]
 
 { #category : #accessing }

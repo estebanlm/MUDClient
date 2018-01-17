@@ -7,3 +7,11 @@ String >> toLOTJInventoryItemList [
 			stream << (LOTJInventoryItem fromString: each trimBoth) ] ]
 	
 ]
+
+{ #category : #'*LOTJ-Script' }
+String >> toLOTJShipList [
+	^ Array streamContents: [ :stream |
+		(self substrings: '''') pairsDo: [ :shipClass :name |
+			stream << (LOTJShip shipClass: shipClass trimBoth name: name) ] ]
+	
+]
