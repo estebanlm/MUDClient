@@ -10,8 +10,7 @@ Class {
 { #category : #accessing }
 MUDScriptWaitTrigger >> activate [
 	super activate.
-	process := Processor activeProcess.
-	process suspend.
+	self suspendProcess
 ]
 
 { #category : #accessing }
@@ -29,6 +28,12 @@ MUDScriptWaitTrigger >> destroy [
 { #category : #execute }
 MUDScriptWaitTrigger >> execute [ 
 	"Do nothing, proecess will be resumed when deactivating"
+]
+
+{ #category : #accessing }
+MUDScriptWaitTrigger >> suspendProcess [
+	process := Processor activeProcess.
+	process suspend.
 ]
 
 { #category : #api }

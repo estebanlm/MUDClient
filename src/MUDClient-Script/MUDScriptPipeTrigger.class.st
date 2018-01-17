@@ -14,7 +14,7 @@ Class {
 { #category : #accessing }
 MUDScriptPipeTrigger >> activate [
 	outStream := String new writeStream.
-	async ifFalse: [ super activate ]
+	super activate
 	
 ]
 
@@ -61,6 +61,11 @@ MUDScriptPipeTrigger >> postEvaluateThen: aBlock [
 MUDScriptPipeTrigger >> postEvaluateWithLineCountThen: aBlock [
 	outStream contents lines size >= self lines 
 		ifTrue: [ super triggerMatchedThen: aBlock ]
+]
+
+{ #category : #accessing }
+MUDScriptPipeTrigger >> suspendProcess [
+	async ifFalse: [ super suspendProcess ]
 ]
 
 { #category : #api }
