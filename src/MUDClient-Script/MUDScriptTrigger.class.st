@@ -94,7 +94,7 @@ MUDScriptTrigger >> regexpPatterns [
 
 ]
 
-{ #category : #accessing }
+{ #category : #private }
 MUDScriptTrigger >> triggerMatchedThen: aBlock [
 	self execute.
 	self deactivate.

@@ -7,15 +7,34 @@ Class {
 		'terminal',
 		'pipeTermination'
 	],
+	#classVars : [
+		'ActiveScripts'
+	],
 	#category : #'MUDClient-Script-Model'
 }
+
+{ #category : #'as yet unclassified' }
+MUDScript class >> activeScripts [
+	^ ActiveScripts ifNil: [ ActiveScripts := Set new ]
+]
+
+{ #category : #accessing }
+MUDScript class >> addScript: aScript [
+	self activeScripts add: aScript
+]
+
+{ #category : #accessing }
+MUDScript class >> removeScript: aScript [
+	self activeScripts remove: aScript
+]
 
 { #category : #initialization }
 MUDScript class >> reset [
 	MUDScriptTrigger reset.
+	MUDScript reset.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'instance creation' }
 MUDScript class >> terminal: aTerminal action: aBlock [
 	^ self new 
 		terminal: aTerminal;
@@ -42,9 +61,11 @@ MUDScript >> do: aBlock [
 { #category : #execution }
 MUDScript >> execute [ 
 	"Scripts needs to be executed inside a process to allow 'waits', etc."
-	[ self action 
-		cull: self
-		cull: (MUDScriptUIFacade for: self terminal) ] 
+	self class addScript: self.
+	[ [ self action 
+			cull: self
+			cull: (MUDScriptUIFacade for: self terminal) ]
+			ensure: [ self class removeScript: self ] ] 
 	forkNamed: ('MUDScript: ', self id asString)
 ]
 
@@ -60,7 +81,7 @@ MUDScript >> id: anObject [
 
 { #category : #'api input' }
 MUDScript >> newCondition [
-	^ MUDScriptWaitTrigger new
+	^ MUDScriptConditionTrigger new
 ]
 
 { #category : #'api piping' }
