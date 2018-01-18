@@ -6,7 +6,6 @@ Class {
 		'outStream',
 		'async',
 		'lines',
-		'matchedButNoExitYet',
 		'pipeStrategy'
 	],
 	#category : #'MUDClient-Script-Model'
@@ -44,7 +43,7 @@ MUDScriptPipeTrigger >> execute [
 { #category : #initialization }
 MUDScriptPipeTrigger >> initialize [
 	super initialize.
-	matchedButNoExitYet := false
+	async := false
 ]
 
 { #category : #testing }
@@ -72,7 +71,12 @@ MUDScriptPipeTrigger >> pipeStrategy [
 	^ pipeStrategy ifNil: [ pipeStrategy := self createPipeStrategy ]
 ]
 
-{ #category : #accessing }
+{ #category : #execute }
+MUDScriptPipeTrigger >> resumeProcess [
+	async ifFalse: [ super resumeProcess ]
+]
+
+{ #category : #execute }
 MUDScriptPipeTrigger >> suspendProcess [
 	async ifFalse: [ super suspendProcess ]
 ]

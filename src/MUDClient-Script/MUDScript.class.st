@@ -69,6 +69,11 @@ MUDScript >> basicExecute [
 		self class removeScript: self ]
 ]
 
+{ #category : #execution }
+MUDScript >> continue [
+	process continue
+]
+
 { #category : #accessing }
 MUDScript >> destroy [
 	process ifNotNil: #terminate
@@ -84,17 +89,15 @@ MUDScript >> do: aBlock [
 MUDScript >> execute [ 
 	"Scripts needs to be executed inside a process to allow 'waits', etc."
 	self class addScript: self.
-	process := [ self basicExecute ] forkNamed: ('MUDScript: ', self id asString)
+	[ 
+		process := MUDScriptProcess new.
+		self basicExecute ] 
+	forkNamed: ('MUDScript: ', self id asString)
 ]
 
 { #category : #accessing }
 MUDScript >> id [
 	^ id ifNil: [ id := UUID new ]
-]
-
-{ #category : #accessing }
-MUDScript >> id: anObject [
-	id := anObject
 ]
 
 { #category : #'api input' }
@@ -137,6 +140,11 @@ MUDScript >> process [
 { #category : #'api transmit' }
 MUDScript >> send: aString [
 	^ self terminal sendFilteringInput: aString
+]
+
+{ #category : #execution }
+MUDScript >> stop [
+	process stop
 ]
 
 { #category : #accessing }

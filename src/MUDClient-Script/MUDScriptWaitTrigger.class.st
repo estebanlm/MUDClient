@@ -13,8 +13,7 @@ MUDScriptWaitTrigger >> activate [
 { #category : #accessing }
 MUDScriptWaitTrigger >> deactivate [
 	super deactivate.
-	process ifNotNil: #resume
-
+	self continue
 ]
 
 { #category : #execute }
@@ -27,9 +26,14 @@ MUDScriptWaitTrigger >> process [
 	^ self script process
 ]
 
-{ #category : #accessing }
+{ #category : #execute }
+MUDScriptWaitTrigger >> resumeProcess [
+	self script continue
+]
+
+{ #category : #execute }
 MUDScriptWaitTrigger >> suspendProcess [
-	self process suspend
+	self script stop
 ]
 
 { #category : #api }
