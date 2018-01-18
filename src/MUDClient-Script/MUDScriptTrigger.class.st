@@ -2,6 +2,7 @@ Class {
 	#name : #MUDScriptTrigger,
 	#superclass : #Object,
 	#instVars : [
+		'script',
 		'regexpPatterns',
 		'patterns'
 	],
@@ -11,31 +12,55 @@ Class {
 	#category : #'MUDClient-Script-Model'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 MUDScriptTrigger class >> activeTriggers [
 	^ ActiveTriggers ifNil: [ ActiveTriggers := OrderedCollection new ]
+]
+
+{ #category : #accessing }
+MUDScriptTrigger class >> addTrigger: aTrigger [
+	self activeTriggers add: aTrigger
+]
+
+{ #category : #'instance creation' }
+MUDScriptTrigger class >> new [
+	self error: 'Use #on:'
+]
+
+{ #category : #'instance creation' }
+MUDScriptTrigger class >> on: aScript [
+	^ self basicNew 
+		initializeScript: aScript;
+		yourself
+]
+
+{ #category : #accessing }
+MUDScriptTrigger class >> removeTrigger: aTrigger [
+	self activeTriggers remove: aTrigger
+]
+
+{ #category : #accessing }
+MUDScriptTrigger class >> removeTriggersForScript: aScript [
+	(self activeTriggers 
+		select: [ :each | each script = aScript ])
+		do: [ :each | self removeTrigger: each ]
+	
 ]
 
 { #category : #initialization }
 MUDScriptTrigger class >> reset [
 	<script>
-	self activeTriggers do: #destroy.
 	ActiveTriggers := nil
 ]
 
 { #category : #accessing }
 MUDScriptTrigger >> activate [
-	self class activeTriggers add: self
+	self class addTrigger: self
 ]
 
 { #category : #accessing }
 MUDScriptTrigger >> deactivate [
-	self class activeTriggers remove: self
-
-]
-
-{ #category : #accessing }
-MUDScriptTrigger >> destroy [
+	self class removeTrigger: self
 ]
 
 { #category : #api }
@@ -72,26 +97,37 @@ MUDScriptTrigger >> initialize [
 	patterns := Set new
 ]
 
+{ #category : #initialization }
+MUDScriptTrigger >> initializeScript: aScript [
+	script := aScript.
+	self initialize
+]
+
 { #category : #testing }
 MUDScriptTrigger >> matches: aString [
 	^ self regexpPatterns anySatisfy: [ :each | each matches: aString ]
 ]
 
-{ #category : #accessing }
+{ #category : #'private accessing' }
 MUDScriptTrigger >> patterns [
 	^ patterns
 ]
 
-{ #category : #accessing }
-MUDScriptTrigger >> patterns: aString [
-	patterns := aString
-]
-
-{ #category : #accessing }
+{ #category : #'private accessing' }
 MUDScriptTrigger >> regexpPatterns [
 	^ regexpPatterns ifNil: [ 
 		regexpPatterns := self patterns collect: [ :each | each asRegexIgnoringCase ] ]
 
+]
+
+{ #category : #accessing }
+MUDScriptTrigger >> script [
+	^ script
+]
+
+{ #category : #accessing }
+MUDScriptTrigger >> script: anObject [
+	script := anObject
 ]
 
 { #category : #private }

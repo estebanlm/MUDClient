@@ -6,7 +6,8 @@ Class {
 		'outStream',
 		'async',
 		'lines',
-		'matchedButNoExitYet'
+		'matchedButNoExitYet',
+		'pipeStrategy'
 	],
 	#category : #'MUDClient-Script-Model'
 }
@@ -23,12 +24,16 @@ MUDScriptPipeTrigger >> async [
 	async := true
 ]
 
+{ #category : #'private factory' }
+MUDScriptPipeTrigger >> createPipeStrategy [
+	^ MUDScriptPipeStrategy for: self
+]
+
 { #category : #accessing }
 MUDScriptPipeTrigger >> evaluateWith: aString ifMatches: aBlock [
-	(self matches: aString) 
-		ifTrue: [ self triggerMatched: aString then: aBlock]
-		ifFalse: [ self triggerNotMatched: aString ].
-	self postEvaluateThen: aBlock
+	self pipeStrategy
+		evaluateWith: aString 
+		ifMatches: aBlock
 ]
 
 { #category : #execute }
@@ -42,6 +47,11 @@ MUDScriptPipeTrigger >> initialize [
 	matchedButNoExitYet := false
 ]
 
+{ #category : #testing }
+MUDScriptPipeTrigger >> isLineCounting [
+	^ self lines notNil
+]
+
 { #category : #accessing }
 MUDScriptPipeTrigger >> lines [
 	^ lines
@@ -52,15 +62,14 @@ MUDScriptPipeTrigger >> lines: aNumber [
 	lines := aNumber
 ]
 
-{ #category : #private }
-MUDScriptPipeTrigger >> postEvaluateThen: aBlock [
-	self lines ifNotNil: [ self postEvaluateWithLineCountThen: aBlock ]
+{ #category : #accessing }
+MUDScriptPipeTrigger >> outStream [
+	^ outStream
 ]
 
 { #category : #private }
-MUDScriptPipeTrigger >> postEvaluateWithLineCountThen: aBlock [
-	outStream contents lines size >= self lines 
-		ifTrue: [ super triggerMatchedThen: aBlock ]
+MUDScriptPipeTrigger >> pipeStrategy [
+	^ pipeStrategy ifNil: [ pipeStrategy := self createPipeStrategy ]
 ]
 
 { #category : #accessing }
@@ -71,27 +80,4 @@ MUDScriptPipeTrigger >> suspendProcess [
 { #category : #api }
 MUDScriptPipeTrigger >> to: aBlock [
 	pipeBlock := aBlock
-]
-
-{ #category : #private }
-MUDScriptPipeTrigger >> triggerMatched: aString then: aBlock [
-	self triggerMatchedThen: aBlock
-]
-
-{ #category : #private }
-MUDScriptPipeTrigger >> triggerMatchedThen: aBlock [
-	self lines ifNotNil: [ ^ self triggerMatchedWithLineCount ].
-	super triggerMatchedThen: aBlock
-]
-
-{ #category : #private }
-MUDScriptPipeTrigger >> triggerMatchedWithLineCount [
-	"enter this is I want to exit on lines (not until)"
-	matchedButNoExitYet := true
-	
-]
-
-{ #category : #private }
-MUDScriptPipeTrigger >> triggerNotMatched: aString [
-	outStream << aString << String cr
 ]

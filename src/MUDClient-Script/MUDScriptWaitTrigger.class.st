@@ -1,9 +1,6 @@
 Class {
 	#name : #MUDScriptWaitTrigger,
 	#superclass : #MUDScriptTrigger,
-	#instVars : [
-		'process'
-	],
 	#category : #'MUDClient-Script-Model'
 }
 
@@ -16,13 +13,8 @@ MUDScriptWaitTrigger >> activate [
 { #category : #accessing }
 MUDScriptWaitTrigger >> deactivate [
 	super deactivate.
-	process resume
+	process ifNotNil: #resume
 
-]
-
-{ #category : #accessing }
-MUDScriptWaitTrigger >> destroy [
-	process terminate
 ]
 
 { #category : #execute }
@@ -30,10 +22,14 @@ MUDScriptWaitTrigger >> execute [
 	"Do nothing, proecess will be resumed when deactivating"
 ]
 
+{ #category : #private }
+MUDScriptWaitTrigger >> process [
+	^ self script process
+]
+
 { #category : #accessing }
 MUDScriptWaitTrigger >> suspendProcess [
-	process := Processor activeProcess.
-	process suspend.
+	self process suspend
 ]
 
 { #category : #api }
