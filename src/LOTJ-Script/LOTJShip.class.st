@@ -19,6 +19,66 @@ LOTJShip class >> shipClass: aShipClass name: aName [
 		yourself
 ]
 
+{ #category : #descriptions }
+LOTJShip >> descriptionDock [
+	<magritteDescription>
+	
+	^ MAStringDescription new
+		priority: 50;
+		label: 'Dock';
+		accessor: #dock;
+		beReadonly;
+		yourself
+]
+
+{ #category : #descriptions }
+LOTJShip >> descriptionName [
+	<magritteDescription>
+	
+	^ MAStringDescription new
+		priority: 20;
+		label: 'Name';
+		accessor: #name;
+		beReadonly;
+		yourself
+]
+
+{ #category : #descriptions }
+LOTJShip >> descriptionOwner [
+	<magritteDescription>
+	
+	^ MAStringDescription new
+		priority: 30;
+		label: 'Owner';
+		accessor: #owner;
+		beReadonly;
+		yourself
+]
+
+{ #category : #descriptions }
+LOTJShip >> descriptionPlanet [
+	<magritteDescription>
+	
+	^ MAStringDescription new
+		priority: 40;
+		label: 'Planet';
+		accessor: #planet;
+		beReadonly;
+		yourself
+]
+
+{ #category : #descriptions }
+LOTJShip >> descriptionShipClass [
+	<magritteDescription>
+	
+	^ MAStringDescription new
+		priority: 10;
+		label: 'Class';
+		accessor: #shipClass;
+		beReadonly;
+		yourself
+]
+
 { #category : #accessing }
 LOTJShip >> dock [
 	^ dock
