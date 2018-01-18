@@ -12,7 +12,7 @@ MUDScriptFlowTrigger >> continue [
 	self deactivate
 ]
 
-{ #category : #api }
+{ #category : #evaluating }
 MUDScriptFlowTrigger >> evaluateWith: aString ifMatches: aBlock [
 	flowConditions keysAndValuesDo: [ :regexp :block |
 		(regexp matches: aString) 
@@ -27,5 +27,5 @@ MUDScriptFlowTrigger >> initialize [
 
 { #category : #api }
 MUDScriptFlowTrigger >> when: aString do: aBlock [
-	
+	flowConditions at: aString asRegexIgnoringCase put: aBlock
 ]

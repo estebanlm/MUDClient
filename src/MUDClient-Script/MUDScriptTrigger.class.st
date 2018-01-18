@@ -69,18 +69,18 @@ MUDScriptTrigger >> do [
 	self activate
 ]
 
-{ #category : #accessing }
+{ #category : #evaluating }
 MUDScriptTrigger >> evaluateWith: aString [
 	self evaluateWith: aString ifMatches: [ ]
 ]
 
-{ #category : #accessing }
+{ #category : #evaluating }
 MUDScriptTrigger >> evaluateWith: aString ifMatches: aBlock [
 	(self matches: aString) 
 		ifTrue: [ self triggerMatchedThen: aBlock ]
 ]
 
-{ #category : #accessing }
+{ #category : #evaluating }
 MUDScriptTrigger >> evaluateWithAll: aCollection [
 	aCollection do: [ :each | 
 		self evaluateWith: each ifMatches: [ ^ self ] ]

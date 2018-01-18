@@ -24,11 +24,17 @@ MUDScriptPipeTrigger >> async [
 	async := true
 ]
 
-{ #category : #accessing }
+{ #category : #evaluating }
 MUDScriptPipeTrigger >> evaluateWith: aString ifMatches: aBlock [
 	self pipeStrategy
 		evaluateWith: aString 
 		ifMatches: aBlock
+]
+
+{ #category : #evaluating }
+MUDScriptPipeTrigger >> evaluateWithAll: aCollection [
+	aCollection do: [ :each | 
+		self evaluateWith: each ifMatches: []]
 ]
 
 { #category : #execute }

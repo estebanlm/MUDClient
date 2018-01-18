@@ -17,15 +17,18 @@ MUDScriptPlugin >> cleanLine: aString [
 MUDScriptPlugin >> evaluateTriggersWith: aString [
 	| activeTriggers lines |
 	
-	activeTriggers := MUDScriptTrigger activeTriggers select: #notNil.
-	activeTriggers isEmptyOrNil ifTrue: [ ^ self ].
-	
+	activeTriggers := MUDScriptTrigger activeTriggers.
+	activeTriggers ifEmpty: [ ^ self ].
+
 	lines := aString withSqueakLineEndings lines 
 		select: #notEmpty
 		thenCollect: [ :each | self cleanLine: each ].
-	activeTriggers do: [ :each | 
-		each evaluateWithAll: lines ]
 	
+	"iterate because new triggers can be added"
+	[ activeTriggers isEmpty ]
+	whileFalse: [ 
+		activeTriggers do: [ :each | each evaluateWithAll: lines  ].
+		activeTriggers := MUDScriptTrigger activeTriggers \ activeTriggers ].
 ]
 
 { #category : #filtering }
