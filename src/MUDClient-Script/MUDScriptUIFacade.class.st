@@ -23,7 +23,7 @@ MUDScriptUIFacade >> choose: titleString from: anArray [
 
 { #category : #actions }
 MUDScriptUIFacade >> echo: aString [
-	self echoTitle: 'Script' message: aString.
+	self echoTitle: 'Script' message: aString
 ]
 
 { #category : #actions }
