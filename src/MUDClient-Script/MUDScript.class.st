@@ -105,6 +105,11 @@ MUDScript >> newCondition [
 	^ MUDScriptConditionTrigger on: self
 ]
 
+{ #category : #'api input' }
+MUDScript >> newFlow [
+	^ MUDScriptFlowTrigger on: self
+]
+
 { #category : #'api piping' }
 MUDScript >> newPipe [
 	^ MUDScriptPipeTrigger on: self

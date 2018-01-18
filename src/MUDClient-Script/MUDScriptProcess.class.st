@@ -11,7 +11,10 @@ Class {
 { #category : #accessing }
 MUDScriptProcess >> continue [
 	count := count - 1.
-	count = 0 ifTrue: [ process resume ]
+	count crLog.
+	count = 0 ifTrue: [ 
+		'resume' crLog.
+		process resume ]
 	
 ]
 
@@ -24,6 +27,14 @@ MUDScriptProcess >> initialize [
 
 { #category : #accessing }
 MUDScriptProcess >> stop [ 
-	process isSuspended ifFalse: [ process suspend ].
-	count := count + 1
+	count := count + 1.
+	count crLog.
+	'suspend' crLog.
+	process suspend
+	
+]
+
+{ #category : #'as yet unclassified' }
+MUDScriptProcess >> terminate [
+	process terminate
 ]

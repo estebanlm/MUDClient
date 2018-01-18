@@ -1,12 +1,13 @@
 Class {
 	#name : #MUDScriptPipeTrigger,
-	#superclass : #MUDScriptWaitTrigger,
+	#superclass : #MUDScriptStopTrigger,
 	#instVars : [
 		'pipeBlock',
 		'outStream',
 		'async',
 		'lines',
-		'pipeStrategy'
+		'pipeStrategy',
+		'finished'
 	],
 	#category : #'MUDClient-Script-Model'
 }
@@ -18,14 +19,9 @@ MUDScriptPipeTrigger >> activate [
 	
 ]
 
-{ #category : #accessing }
+{ #category : #api }
 MUDScriptPipeTrigger >> async [
 	async := true
-]
-
-{ #category : #'private factory' }
-MUDScriptPipeTrigger >> createPipeStrategy [
-	^ MUDScriptPipeStrategy for: self
 ]
 
 { #category : #accessing }
@@ -37,13 +33,20 @@ MUDScriptPipeTrigger >> evaluateWith: aString ifMatches: aBlock [
 
 { #category : #execute }
 MUDScriptPipeTrigger >> execute [ 
-	pipeBlock value: outStream contents
+	pipeBlock value: outStream contents.
+	finished := true
 ]
 
 { #category : #initialization }
 MUDScriptPipeTrigger >> initialize [
 	super initialize.
-	async := false
+	async := false.
+	finished := false
+]
+
+{ #category : #testing }
+MUDScriptPipeTrigger >> isFinished [
+	^ finished
 ]
 
 { #category : #testing }
@@ -68,7 +71,7 @@ MUDScriptPipeTrigger >> outStream [
 
 { #category : #private }
 MUDScriptPipeTrigger >> pipeStrategy [
-	^ pipeStrategy ifNil: [ pipeStrategy := self createPipeStrategy ]
+	^ pipeStrategy ifNil: [ pipeStrategy := MUDScriptPipeStrategy for: self ]
 ]
 
 { #category : #execute }
@@ -84,4 +87,14 @@ MUDScriptPipeTrigger >> suspendProcess [
 { #category : #api }
 MUDScriptPipeTrigger >> to: aBlock [
 	pipeBlock := aBlock
+]
+
+{ #category : #api }
+MUDScriptPipeTrigger >> waitUntilFinish [
+	"I will transform me into a synchronic pipe if is not finish"
+	finished ifTrue: [ ^ self ].
+	async ifFalse: [ ^ self ].
+	
+	async := true.
+	self suspendProcess
 ]
