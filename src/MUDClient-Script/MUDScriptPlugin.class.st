@@ -17,7 +17,7 @@ MUDScriptPlugin >> cleanLine: aString [
 MUDScriptPlugin >> evaluateTriggersWith: aString [
 	| activeTriggers lines |
 	
-	activeTriggers := MUDScriptTrigger activeTriggers.
+	activeTriggers := MUDScriptTrigger activeTriggers copy.
 	activeTriggers ifEmpty: [ ^ self ].
 
 	lines := aString withSqueakLineEndings lines 
@@ -25,10 +25,12 @@ MUDScriptPlugin >> evaluateTriggersWith: aString [
 		thenCollect: [ :each | self cleanLine: each ].
 	
 	"iterate because new triggers can be added"
-	[ activeTriggers isEmpty ]
-	whileFalse: [ 
+	[ activeTriggers notEmpty and: [ lines notEmpty ] ]
+	whileTrue: [
 		activeTriggers do: [ :each | each evaluateWithAll: lines  ].
-		activeTriggers := MUDScriptTrigger activeTriggers \ activeTriggers ].
+		"obtain new triggers and eat first line to allow new triggers to be run"
+		activeTriggers := MUDScriptTrigger activeTriggers \ activeTriggers.
+		lines := lines allButFirst ].
 ]
 
 { #category : #filtering }

@@ -23,7 +23,7 @@ MUDScriptPipeStrategy class >> for: aTrigger [
 
 { #category : #testing }
 MUDScriptPipeStrategy class >> isAvailableFor: aTrigger [
-	^ aTrigger isLineCounting
+	^ false
 ]
 
 { #category : #accessing }

@@ -11,10 +11,7 @@ Class {
 { #category : #accessing }
 MUDScriptProcess >> continue [
 	count := count - 1.
-	count crLog.
-	count = 0 ifTrue: [ 
-		'resume' crLog.
-		process resume ]
+	count = 0 ifTrue: [ process resume ]
 	
 ]
 
@@ -28,8 +25,6 @@ MUDScriptProcess >> initialize [
 { #category : #accessing }
 MUDScriptProcess >> stop [ 
 	count := count + 1.
-	count crLog.
-	'suspend' crLog.
 	process suspend
 	
 ]

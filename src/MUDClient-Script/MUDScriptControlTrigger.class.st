@@ -1,32 +1,32 @@
 Class {
-	#name : #MUDScriptStopTrigger,
+	#name : #MUDScriptControlTrigger,
 	#superclass : #MUDScriptTrigger,
 	#category : #'MUDClient-Script-Model'
 }
 
 { #category : #accessing }
-MUDScriptStopTrigger >> activate [
+MUDScriptControlTrigger >> activate [
 	super activate.
 	self suspendProcess
 ]
 
 { #category : #accessing }
-MUDScriptStopTrigger >> deactivate [
+MUDScriptControlTrigger >> deactivate [
 	super deactivate.
 	self resumeProcess
 ]
 
 { #category : #execute }
-MUDScriptStopTrigger >> execute [ 
+MUDScriptControlTrigger >> execute [ 
 	"Do nothing, proecess will be resumed when deactivating"
 ]
 
 { #category : #execute }
-MUDScriptStopTrigger >> resumeProcess [
+MUDScriptControlTrigger >> resumeProcess [
 	self script continue
 ]
 
 { #category : #execute }
-MUDScriptStopTrigger >> suspendProcess [
+MUDScriptControlTrigger >> suspendProcess [
 	self script stop
 ]

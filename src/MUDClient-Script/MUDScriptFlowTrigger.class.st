@@ -1,6 +1,6 @@
 Class {
 	#name : #MUDScriptFlowTrigger,
-	#superclass : #MUDScriptStopTrigger,
+	#superclass : #MUDScriptControlTrigger,
 	#instVars : [
 		'flowConditions'
 	],

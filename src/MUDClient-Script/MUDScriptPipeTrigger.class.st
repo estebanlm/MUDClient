@@ -1,6 +1,6 @@
 Class {
 	#name : #MUDScriptPipeTrigger,
-	#superclass : #MUDScriptStopTrigger,
+	#superclass : #MUDScriptControlTrigger,
 	#instVars : [
 		'pipeBlock',
 		'outStream',
@@ -34,7 +34,7 @@ MUDScriptPipeTrigger >> evaluateWith: aString ifMatches: aBlock [
 { #category : #evaluating }
 MUDScriptPipeTrigger >> evaluateWithAll: aCollection [
 	aCollection do: [ :each | 
-		self evaluateWith: each ifMatches: []]
+		self evaluateWith: each ifMatches: [] ]
 ]
 
 { #category : #execute }
