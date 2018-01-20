@@ -161,12 +161,6 @@ MUDBrowser >> openMiniWindow [
 ]
 
 { #category : #showing }
-MUDBrowser >> openTiny [
-	"Creates and open window"
-	self basicOpenWindow: nil
-]
-
-{ #category : #showing }
 MUDBrowser >> postOpen [
 ]
 

@@ -1,3 +1,6 @@
+"
+I'm the spec for the script plugin.
+"
 Class {
 	#name : #MUDScriptPluginSpec,
 	#superclass : #MUDPluginSpec,
@@ -11,7 +14,9 @@ MUDScriptPluginSpec >> name [
 
 { #category : #accessing }
 MUDScriptPluginSpec >> openScriptpadFor: aGame in: aTerminal [
-	
+	| plugin |
+	plugin := self pluginAt: aGame.
+	(MUDScriptBrowser game: aGame plugin: plugin) openOn: aTerminal
 ]
 
 { #category : #accessing }

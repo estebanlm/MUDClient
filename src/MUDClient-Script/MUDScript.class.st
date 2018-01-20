@@ -100,12 +100,12 @@ MUDScript >> id [
 	^ id ifNil: [ id := UUID new ]
 ]
 
-{ #category : #'api input' }
+{ #category : #'api control' }
 MUDScript >> newCondition [
 	^ MUDScriptConditionTrigger on: self
 ]
 
-{ #category : #'api input' }
+{ #category : #'api control' }
 MUDScript >> newFlow [
 	^ MUDScriptFlowTrigger on: self
 ]
@@ -115,12 +115,12 @@ MUDScript >> newPipe [
 	^ MUDScriptPipeTrigger on: self
 ]
 
-{ #category : #'api input' }
+{ #category : #'api control' }
 MUDScript >> newWait [
 	^ MUDScriptWaitTrigger on: self
 ]
 
-{ #category : #'api input' }
+{ #category : #'api control' }
 MUDScript >> newWait: aString [
 	^ self newWait
 		until: aString;
@@ -160,6 +160,13 @@ MUDScript >> terminal [
 { #category : #accessing }
 MUDScript >> terminal: aTerminal [
 	terminal := aTerminal
+]
+
+{ #category : #'api control' }
+MUDScript >> waitUntil: aString [
+	^ self newWait 
+		until: aString;
+		do
 ]
 
 { #category : #'api plugins' }

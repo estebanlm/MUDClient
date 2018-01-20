@@ -6,7 +6,8 @@ Class {
 		'name',
 		'owner',
 		'planet',
-		'dock'
+		'dock',
+		'dateLocated'
 	],
 	#category : #'LOTJ-Script'
 }
@@ -16,6 +17,40 @@ LOTJShip class >> shipClass: aShipClass name: aName [
 	^ self new 
 		shipClass: aShipClass; 
 		name: aName;
+		yourself
+]
+
+{ #category : #comparing }
+LOTJShip >> = other [
+	^ self species = other species 
+		and: [ self shipClass = other shipClass 
+		and: [ self name = other name ] ]
+]
+
+{ #category : #accessing }
+LOTJShip >> dateLocated [
+	^ dateLocated
+]
+
+{ #category : #accessing }
+LOTJShip >> dateLocated: anObject [
+	dateLocated := anObject
+]
+
+{ #category : #accessing }
+LOTJShip >> days [
+	^ (DateAndTime now - self dateLocated) asDays rounded
+]
+
+{ #category : #descriptions }
+LOTJShip >> descriptionDays [
+	<magritteDescription>
+	
+	^ MANumberDescription new
+		priority: 100;
+		label: 'Located (days)';
+		accessor: #days;
+		beReadonly;
 		yourself
 ]
 
@@ -95,9 +130,31 @@ LOTJShip >> fullName [
 		stream << shipClass << ' ''' << self name << '''' ]
 ]
 
+{ #category : #comparing }
+LOTJShip >> hash [
+	^ (self className hash 
+		bitXor: self shipClass hash)
+		bitXor: self name hash
+]
+
 { #category : #testing }
 LOTJShip >> isHopper [ 
 	^ self shipClass = 'XT-3 Public Transport'
+]
+
+{ #category : #testing }
+LOTJShip >> matches: aString [
+	| regex |
+	regex := aString asRegexIgnoringCase.
+	^ { 
+		self name. 
+		self shipClass. 
+		self owner.
+		self planet. 
+		self dock } 
+		anySatisfy: [ :each | 
+			[ regex matches: each ] 
+			on: Error do: [ false ] ]
 ]
 
 { #category : #accessing }
@@ -125,6 +182,7 @@ LOTJShip >> parseLocate: aString [
 	| lines |
 	
 	lines := aString lines.
+	self dateLocated: DateAndTime now.
 	self owner: (lines second copyAfter: $:) trimBoth.
 	self planet: (lines fifth copyAfter: $:) trimBoth.
 	self dock: (lines fourth copyAfter: $:) trimBoth

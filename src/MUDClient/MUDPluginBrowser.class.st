@@ -71,13 +71,6 @@ MUDPluginBrowser >> openOn: aTerminal [
 MUDPluginBrowser >> openTiny [
 ]
 
-{ #category : #showing }
-MUDPluginBrowser >> openTinyOn: aTerminal [
-	self owner: aTerminal.
-	aTerminal addDependentWindow: self.
-	super openTiny
-]
-
 { #category : #accessing }
 MUDPluginBrowser >> owner [
 	^ owner

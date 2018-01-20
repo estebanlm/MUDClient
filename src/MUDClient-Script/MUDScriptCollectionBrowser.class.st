@@ -28,12 +28,22 @@ MUDScriptCollectionBrowser >> collection [
 MUDScriptCollectionBrowser >> compose [
 	self tabulator with: [ :browser |
 		browser row: #items.
+		
 		browser transmit 
 			to: #items;
 			andShow: [ :a | | table |
-				table := a fastTable. 
+				(table := a fastTable)
+					title: 'Items';
+					act: [ :p :list | list inspect ] 
+						icon: #glamorousInspect asIcon 
+						entitled: 'Inspect';
+					selectionAct: [ :p | Clipboard clipboardText: p selection asString ] 
+						on: $c 
+						entitled: 'Copy'.
 				self description do: [ :each |
-					table column: each label evaluated: [ :item | item readUsing: each ] ] ] ]
+					table column: each label evaluated: [ :item | item readUsing: each ] ].
+				self hasFilter ifTrue: [ 
+					table enableFilter: [ :each :pattern | each matches: pattern ] ] ] ]
 ]
 
 { #category : #accessing }
@@ -41,9 +51,20 @@ MUDScriptCollectionBrowser >> description [
 	^ self collection anyOne magritteDescription
 ]
 
+{ #category : #testing }
+MUDScriptCollectionBrowser >> hasFilter [
+	^ self collection anyOne respondsTo: #matches:
+]
+
+{ #category : #initialization }
+MUDScriptCollectionBrowser >> initialize [
+	super initialize.
+	self title: self description label
+]
+
 { #category : #initialization }
 MUDScriptCollectionBrowser >> initializeCollection: aCollection [
-	collection := aCollection.
+	collection := aCollection asOrderedCollection.
 	self initialize
 ]
 

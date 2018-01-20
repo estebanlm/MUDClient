@@ -14,6 +14,30 @@ LOTJInventoryItem class >> fromString: aString [
 	^ self new fromString: aString
 ]
 
+{ #category : #descriptions }
+LOTJInventoryItem >> descriptionName [
+	<magritteDescription>
+	
+	^ MAStringDescription new
+		priority: 10;
+		label: 'Name';
+		accessor: #name;
+		beReadonly;
+		yourself
+]
+
+{ #category : #descriptions }
+LOTJInventoryItem >> descriptionQuantity [
+	<magritteDescription>
+	
+	^ MAStringDescription new
+		priority: 20;
+		label: 'Quantity';
+		accessor: #quantity;
+		beReadonly;
+		yourself
+]
+
 { #category : #'instance creation' }
 LOTJInventoryItem >> fromString: aString [
 	| tuple |

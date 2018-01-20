@@ -1,8 +1,20 @@
+"
+I define a scriptpad (a place where user can place scripts to the current game)
+
+"
 Class {
 	#name : #MUDScriptPlugin,
 	#superclass : #MUDPlugin,
+	#instVars : [
+		'scripts'
+	],
 	#category : #'MUDClient-Script-Model'
 }
+
+{ #category : #accessing }
+MUDScriptPlugin >> addScript: aScript [
+	self scripts add: aScript
+]
 
 { #category : #private }
 MUDScriptPlugin >> cleanLine: aString [
@@ -37,4 +49,14 @@ MUDScriptPlugin >> evaluateTriggersWith: aString [
 MUDScriptPlugin >> filterOn: aTerminal output: aString [
 	self evaluateTriggersWith: aString.
 	^ aString
+]
+
+{ #category : #accessing }
+MUDScriptPlugin >> removeScript: aScript [
+	self scripts remove: aScript
+]
+
+{ #category : #accessing }
+MUDScriptPlugin >> scripts [
+	^ scripts
 ]
