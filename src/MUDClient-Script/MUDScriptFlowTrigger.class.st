@@ -1,6 +1,17 @@
+"
+I execute a task each time a condition is satisfied. 
+The task can decide to continue (exit the flow) or not.
+
+terminal newFlow
+	when: '^You manage to locate.*' do: [ :flow |
+		found := true.
+		flow continue ];
+	when: '^You were unable.*' do: #continue;
+	do
+"
 Class {
 	#name : #MUDScriptFlowTrigger,
-	#superclass : #MUDScriptControlTrigger,
+	#superclass : #MUDScriptSuspendTrigger,
 	#instVars : [
 		'flowConditions'
 	],

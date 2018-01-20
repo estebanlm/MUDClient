@@ -715,6 +715,24 @@ SUVORK5CYII='
 ]
 
 { #category : #'accessing icons' }
+MUDIcons >> runIcon [
+	"Method generated"
+	^ icons 
+		at: #runIcon
+		ifAbsentPut: [ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self runIconContents readStream) ]
+]
+
+{ #category : #'private - contents' }
+MUDIcons >> runIconContents [
+	"Private - Method generated"
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlw
+SFlzAAAEnQAABJ0BfDRroQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoA
+AACFSURBVDiNY2AYBRhAZs5HIeOZ/1mJVc+ELsD6i8n53b8v9xSmfslXmP+fg2QDGBgYGBj+
+M8gwMv6fwPjjy21CBmE3gASD8BuAMIiJgZGB8dcvTPUsBLTeYvjP2CrEwr38bDrjb2wKsBvw
+n+EGAyND3f1XPGsZGhj/3SfKmVBAajSOAgYGAJG8MjGsAJhqAAAAAElFTkSuQmCC'
+]
+
+{ #category : #'accessing icons' }
 MUDIcons >> smallConfigureIcon [
 	"Method generated"
 	^ icons 

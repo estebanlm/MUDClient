@@ -67,10 +67,6 @@ MUDPluginBrowser >> openOn: aTerminal [
 		ifFalse: [ super open ]
 ]
 
-{ #category : #showing }
-MUDPluginBrowser >> openTiny [
-]
-
 { #category : #accessing }
 MUDPluginBrowser >> owner [
 	^ owner

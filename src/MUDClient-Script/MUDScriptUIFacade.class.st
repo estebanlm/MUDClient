@@ -1,16 +1,11 @@
+"
+I'm a façade to provide access to UI elements.
+"
 Class {
 	#name : #MUDScriptUIFacade,
-	#superclass : #Object,
-	#instVars : [
-		'terminal'
-	],
+	#superclass : #MUDScriptFacade,
 	#category : #'MUDClient-Script-Model'
 }
-
-{ #category : #'instance creation' }
-MUDScriptUIFacade class >> for: aTerminal [
-	^ self new terminal: aTerminal
-]
 
 { #category : #api }
 MUDScriptUIFacade >> choose: titleString from: anArray [
@@ -59,14 +54,4 @@ MUDScriptUIFacade >> requestText: aString [
 		multiLineRequest: aString
 		initialAnswer: ''
 		answerHeight: 350
-]
-
-{ #category : #accessing }
-MUDScriptUIFacade >> terminal [
-	^ terminal
-]
-
-{ #category : #accessing }
-MUDScriptUIFacade >> terminal: anObject [
-	terminal := anObject
 ]

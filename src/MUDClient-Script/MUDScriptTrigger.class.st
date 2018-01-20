@@ -1,8 +1,14 @@
+"
+I'm a generic ""trigger"" control for the scripting DSL.
+
+a trigger is a control that manages the flow of that that comes from server and does something (""triggers"" something). There are many possible kinds of it and my children will implement them. 
+"
 Class {
 	#name : #MUDScriptTrigger,
 	#superclass : #Object,
 	#instVars : [
 		'script',
+		'evaluator',
 		'regexpPatterns',
 		'patterns'
 	],
@@ -24,14 +30,7 @@ MUDScriptTrigger class >> addTrigger: aTrigger [
 
 { #category : #'instance creation' }
 MUDScriptTrigger class >> new [
-	self error: 'Use #on:'
-]
-
-{ #category : #'instance creation' }
-MUDScriptTrigger class >> on: aScript [
-	^ self basicNew 
-		initializeScript: aScript;
-		yourself
+	self error: 'Use #script:evaluator:'
 ]
 
 { #category : #accessing }
@@ -51,6 +50,13 @@ MUDScriptTrigger class >> removeTriggersForScript: aScript [
 MUDScriptTrigger class >> reset [
 	<script>
 	ActiveTriggers := nil
+]
+
+{ #category : #'instance creation' }
+MUDScriptTrigger class >> script: aScript evaluator: anEvaluator [
+	^ self basicNew 
+		initializeScript: aScript evaluator: anEvaluator;
+		yourself
 ]
 
 { #category : #accessing }
@@ -86,6 +92,11 @@ MUDScriptTrigger >> evaluateWithAll: aCollection [
 		self evaluateWith: each ifMatches: [ ^ self ] ]
 ]
 
+{ #category : #accessing }
+MUDScriptTrigger >> evaluator [
+	^ evaluator
+]
+
 { #category : #execute }
 MUDScriptTrigger >> execute [
 	self subclassResponsibility
@@ -100,6 +111,13 @@ MUDScriptTrigger >> initialize [
 { #category : #initialization }
 MUDScriptTrigger >> initializeScript: aScript [
 	script := aScript.
+	self initialize
+]
+
+{ #category : #initialization }
+MUDScriptTrigger >> initializeScript: aScript evaluator: anEvaluator [
+	script := aScript.
+	evaluator := anEvaluator.
 	self initialize
 ]
 
@@ -123,11 +141,6 @@ MUDScriptTrigger >> regexpPatterns [
 { #category : #accessing }
 MUDScriptTrigger >> script [
 	^ script
-]
-
-{ #category : #accessing }
-MUDScriptTrigger >> script: anObject [
-	script := anObject
 ]
 
 { #category : #private }

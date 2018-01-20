@@ -1,0 +1,112 @@
+Class {
+	#name : #MUDScriptEvaluator,
+	#superclass : #Object,
+	#instVars : [
+		'id',
+		'process',
+		'terminal',
+		'script'
+	],
+	#classVars : [
+		'ActiveScripts'
+	],
+	#category : #'MUDClient-Script-Model'
+}
+
+{ #category : #accessing }
+MUDScriptEvaluator class >> activeScripts [
+	^ ActiveScripts ifNil: [ ActiveScripts := Set new ]
+]
+
+{ #category : #accessing }
+MUDScriptEvaluator class >> addScript: aScript [
+	self activeScripts add: aScript
+]
+
+{ #category : #'instance creation' }
+MUDScriptEvaluator class >> new [
+	self error: 'Use #for:'
+]
+
+{ #category : #accessing }
+MUDScriptEvaluator class >> removeScript: aScript [
+	MUDScriptTrigger removeTriggersForScript: aScript.
+	self activeScripts remove: aScript ifAbsent: []
+]
+
+{ #category : #'instance creation' }
+MUDScriptEvaluator class >> script: aScript terminal: aTerminal [
+	^ self basicNew 
+		initializeScript: aScript terminal: aTerminal;
+		yourself
+]
+
+{ #category : #private }
+MUDScriptEvaluator >> actionWithArguments: anArray [
+	self subclassResponsibility
+]
+
+{ #category : #execution }
+MUDScriptEvaluator >> basicExecute [
+	| bindings |
+	self class addScript: self.
+	[ 
+		bindings := self bindingsForExecution.
+		(self actionWithArguments: (bindings collect: #key)) valueWithEnoughArguments: (bindings collect: #value) ]
+	ensure: [ 
+		self class removeScript: self ]
+]
+
+{ #category : #accessing }
+MUDScriptEvaluator >> bindingsForExecution [
+	^ { 
+	#terminal -> (MUDScriptTerminalFacade script: self terminal evaluator: self).
+	#ui -> (MUDScriptUIFacade script: self terminal evaluator: self).
+	#vars -> self script variables }
+]
+
+{ #category : #'process operations' }
+MUDScriptEvaluator >> continue [
+	process continue
+]
+
+{ #category : #accessing }
+MUDScriptEvaluator >> destroy [
+	process ifNotNil: #terminate
+]
+
+{ #category : #execution }
+MUDScriptEvaluator >> execute [
+	"Scripts needs to be executed inside a process to allow 'waits', etc."
+	[ 
+		process := MUDScriptProcess new.
+		self basicExecute ] 
+	forkNamed: ('MUDScript: ', self id asString)
+]
+
+{ #category : #accessing }
+MUDScriptEvaluator >> id [
+	^ id ifNil: [ id := UUID new ]
+]
+
+{ #category : #initialization }
+MUDScriptEvaluator >> initializeScript: aScript terminal: aTerminal [
+	script := aScript.
+	terminal := aTerminal.
+	self initialize
+]
+
+{ #category : #accessing }
+MUDScriptEvaluator >> script [
+	^ script
+]
+
+{ #category : #'process operations' }
+MUDScriptEvaluator >> stop [
+	process stop
+]
+
+{ #category : #accessing }
+MUDScriptEvaluator >> terminal [
+	^ terminal
+]

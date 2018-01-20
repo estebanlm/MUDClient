@@ -1,32 +1,35 @@
+"
+I'm a trigger that can stop/continue the flow.
+"
 Class {
-	#name : #MUDScriptControlTrigger,
+	#name : #MUDScriptSuspendTrigger,
 	#superclass : #MUDScriptTrigger,
 	#category : #'MUDClient-Script-Model'
 }
 
 { #category : #accessing }
-MUDScriptControlTrigger >> activate [
+MUDScriptSuspendTrigger >> activate [
 	super activate.
 	self suspendProcess
 ]
 
 { #category : #accessing }
-MUDScriptControlTrigger >> deactivate [
+MUDScriptSuspendTrigger >> deactivate [
 	super deactivate.
 	self resumeProcess
 ]
 
 { #category : #execute }
-MUDScriptControlTrigger >> execute [ 
+MUDScriptSuspendTrigger >> execute [ 
 	"Do nothing, proecess will be resumed when deactivating"
 ]
 
 { #category : #execute }
-MUDScriptControlTrigger >> resumeProcess [
-	self script continue
+MUDScriptSuspendTrigger >> resumeProcess [
+	self evaluator continue
 ]
 
 { #category : #execute }
-MUDScriptControlTrigger >> suspendProcess [
-	self script stop
+MUDScriptSuspendTrigger >> suspendProcess [
+	self evaluator stop
 ]

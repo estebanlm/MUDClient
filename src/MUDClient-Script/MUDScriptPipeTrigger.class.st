@@ -1,6 +1,6 @@
 Class {
 	#name : #MUDScriptPipeTrigger,
-	#superclass : #MUDScriptControlTrigger,
+	#superclass : #MUDScriptSuspendTrigger,
 	#instVars : [
 		'pipeBlock',
 		'outStream',

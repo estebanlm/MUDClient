@@ -1,3 +1,10 @@
+"
+I execute a task when a condition (or any condition of a list) is satisfied. 
+
+terminal newCondition 	
+	when: 'You are.*';
+	do: [ ... ]
+"
 Class {
 	#name : #MUDScriptConditionTrigger,
 	#superclass : #MUDScriptTrigger,

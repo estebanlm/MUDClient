@@ -1,6 +1,6 @@
 Class {
 	#name : #MUDScriptWaitTrigger,
-	#superclass : #MUDScriptControlTrigger,
+	#superclass : #MUDScriptSuspendTrigger,
 	#category : #'MUDClient-Script-Model'
 }
 
