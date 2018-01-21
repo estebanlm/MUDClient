@@ -47,7 +47,13 @@ MUDScriptTerminalFacade >> newWait: aString [
 
 { #category : #'api transmit' }
 MUDScriptTerminalFacade >> send: aString [
-	^ self terminal sendFilteringInput: aString
+	self terminal sendFilteringInput: aString
+]
+
+{ #category : #'api transmit' }
+MUDScriptTerminalFacade >> send: aString andWait: aDuration [
+	self terminal sendFilteringInput: aString.
+	aDuration wait
 ]
 
 { #category : #'api control' }

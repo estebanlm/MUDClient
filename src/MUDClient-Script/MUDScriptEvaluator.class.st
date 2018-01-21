@@ -34,6 +34,14 @@ MUDScriptEvaluator class >> removeScript: aScript [
 	self activeScripts remove: aScript ifAbsent: []
 ]
 
+{ #category : #accessing }
+MUDScriptEvaluator class >> reset [
+	self activeScripts copy 
+		do: [ :each | 
+			each destroy.
+			self removeScript: each ]
+]
+
 { #category : #'instance creation' }
 MUDScriptEvaluator class >> script: aScript terminal: aTerminal [
 	^ self basicNew 
@@ -99,6 +107,11 @@ MUDScriptEvaluator >> initializeScript: aScript terminal: aTerminal [
 { #category : #accessing }
 MUDScriptEvaluator >> script [
 	^ script
+]
+
+{ #category : #accessing }
+MUDScriptEvaluator >> scriptName [
+	^ self script name
 ]
 
 { #category : #'process operations' }

@@ -17,10 +17,7 @@ MUDScript class >> named: aString [
 { #category : #initialization }
 MUDScript class >> reset [
 	<script>
-	MUDScriptEvaluator activeScripts copy 
-		do: [ :each | 
-			each destroy.
-			self removeScript: each ]
+	MUDScriptEvaluator reset
 ]
 
 { #category : #accessing }

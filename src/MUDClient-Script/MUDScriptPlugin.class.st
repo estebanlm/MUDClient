@@ -57,6 +57,13 @@ MUDScriptPlugin >> removeScript: aScript [
 ]
 
 { #category : #accessing }
+MUDScriptPlugin >> scriptNamed: aString [
+	^ self scripts
+		detect: [ :each | each name = aString ]
+		ifNone: [ nil ]
+]
+
+{ #category : #accessing }
 MUDScriptPlugin >> scripts [
 	^ scripts
 ]

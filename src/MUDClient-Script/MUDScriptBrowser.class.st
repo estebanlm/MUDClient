@@ -8,6 +8,11 @@ Class {
 	#category : #'MUDClient-Script-View'
 }
 
+{ #category : #accessing }
+MUDScriptBrowser >> activeScripts [
+	^ MUDScriptEvaluator activeScripts sorted: [ :a :b | a scriptName < b scriptName ]
+]
+
 { #category : #building }
 MUDScriptBrowser >> addScriptMenuOn: aPresenter [
 	aPresenter 
@@ -101,7 +106,17 @@ MUDScriptBrowser >> buildOn: browser [
 				in: [ :this | self addScriptMenuOn: this ];
 				variableBindings: [ :script | self bindingsForExecutionOf: script ];
 				onChangeOfPort: #text act: [ :presentation :script | 
-					 script contents: presentation text asString ] ]
+					 script contents: presentation text asString ] ].
+			
+		browser transmit 
+			to: #monitor;
+			andShow: [ :a |
+				a fastList 	
+					title: 'Running scripts';
+					display: [ self activeScripts ];
+					act: [ :p | 
+						self killAllScripts.
+						p update ] icon: #delete asMUDIcon entitled: 'Kill all' ]
 ]
 
 { #category : #building }
@@ -160,6 +175,11 @@ MUDScriptBrowser >> executionSelectionActions [
 				withSeparatorAfter;
 				yourself.
 		 }
+]
+
+{ #category : #actions }
+MUDScriptBrowser >> killAllScripts [
+	MUDScript reset.
 ]
 
 { #category : #actions }

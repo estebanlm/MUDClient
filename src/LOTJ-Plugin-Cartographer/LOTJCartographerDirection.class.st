@@ -16,6 +16,11 @@ LOTJCartographerDirection class >> all [
 ]
 
 { #category : #accessing }
+LOTJCartographerDirection class >> allKnown [
+	^ self all reject: #isUnknown
+]
+
+{ #category : #accessing }
 LOTJCartographerDirection class >> directions [
 	^ self subclassResponsibility
 ]
@@ -139,6 +144,11 @@ LOTJCartographerDirection >> descriptionLabel [
 		accessor: #printString;
 		beReadonly;
 		yourself
+]
+
+{ #category : #accessing }
+LOTJCartographerDirection >> directionShortString [
+	^ self class directions first
 ]
 
 { #category : #hooks }
