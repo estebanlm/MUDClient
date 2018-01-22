@@ -7,6 +7,6 @@ Class {
 { #category : #accessing }
 MUDScriptPipeDefaultStrategy >> evaluateWith: aString ifMatches: aBlock [
 	(self matches: aString) 
-		ifTrue: [ self triggerMatchedThen: aBlock]
+		ifTrue: [ self trigger triggerMatchedThen: aBlock]
 		ifFalse: [ self outStream << aString << String cr ]
 ]

@@ -96,6 +96,11 @@ MUDScriptPipeTrigger >> to: aBlock [
 ]
 
 { #category : #api }
+MUDScriptPipeTrigger >> until: aString [
+	patterns add: aString
+]
+
+{ #category : #api }
 MUDScriptPipeTrigger >> waitUntilFinish [
 	"I will transform me into a synchronic pipe if is not finish"
 	finished ifTrue: [ ^ self ].
