@@ -40,12 +40,10 @@ LOTJInventoryItem >> descriptionQuantity [
 
 { #category : #'instance creation' }
 LOTJInventoryItem >> fromString: aString [
-	| tuple |
-	tuple := aString substrings: '()'.
-	self quantity: (tuple size > 1 
-		ifTrue: [ tuple second asNumber ] 
-		ifFalse: [ 1 ]).
-	self name: tuple first trimBoth.
+	self name: (aString copyUpToLast: $() trimBoth.	
+	self quantity: (((aString copyAfterLast: $() select: #isDigit) 
+		ifNotEmpty: #asNumber
+		ifEmpty: [ 1 ])
 ]
 
 { #category : #accessing }
