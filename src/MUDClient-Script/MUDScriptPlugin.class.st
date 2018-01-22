@@ -46,6 +46,14 @@ MUDScriptPlugin >> evaluateTriggersWith: aString [
 ]
 
 { #category : #filtering }
+MUDScriptPlugin >> filterOn: aTerminal input: aString [
+	(aString notEmpty and: [ aString first = $. ]) ifTrue: [ 
+		self runScript: aString allButFirst trimBoth on:aTerminal.
+		^ "ignore" '' ].
+	^ aString
+]
+
+{ #category : #filtering }
 MUDScriptPlugin >> filterOn: aTerminal output: aString [
 	self evaluateTriggersWith: aString.
 	^ aString
@@ -54,6 +62,16 @@ MUDScriptPlugin >> filterOn: aTerminal output: aString [
 { #category : #accessing }
 MUDScriptPlugin >> removeScript: aScript [
 	self scripts remove: aScript
+]
+
+{ #category : #private }
+MUDScriptPlugin >> runScript: aString on: aTerminal [
+	(self scriptNamed: aString)
+		ifNotNil: [ :script | script executeOn: aTerminal ]
+		ifNil: [ 
+			MUDAlertDesktop current 
+				alertTitle: 'Error!' 
+				message: ('Script "{1}" not found.' format: {aString}) ]
 ]
 
 { #category : #accessing }

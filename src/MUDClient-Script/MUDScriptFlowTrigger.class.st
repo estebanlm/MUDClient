@@ -27,7 +27,7 @@ MUDScriptFlowTrigger >> continue [
 MUDScriptFlowTrigger >> evaluateWith: aString ifMatches: aBlock [
 	flowConditions keysAndValuesDo: [ :regexp :block |
 		(regexp matches: aString) 
-			ifTrue: [ [ block cull: self ] forkNamed: 'Flow event' ]  ]
+			ifTrue: [ block cull: self ] ]
 ]
 
 { #category : #initialization }
