@@ -1,3 +1,9 @@
+"
+I'm a script.
+
+I can be executed. 
+I can also be used to execute chunks of source.
+"
 Class {
 	#name : #MUDScript,
 	#superclass : #Object,

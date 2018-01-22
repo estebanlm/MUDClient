@@ -7,7 +7,8 @@ Class {
 		'owner',
 		'planet',
 		'dock',
-		'dateLocated'
+		'dateLocated',
+		'notes'
 	],
 	#category : #'LOTJ-Script'
 }
@@ -25,6 +26,17 @@ LOTJShip >> = other [
 	^ self species = other species 
 		and: [ self shipClass = other shipClass 
 		and: [ self name = other name ] ]
+]
+
+{ #category : #actions }
+LOTJShip >> actionNote [
+	<selectionAction: 'Notes'>
+	
+	(TkMagritteEditor 
+		object: self 
+		description: self noteDescription asContainer
+		title: 'Note')
+		go
 ]
 
 { #category : #accessing }
@@ -165,6 +177,27 @@ LOTJShip >> name [
 { #category : #accessing }
 LOTJShip >> name: anObject [
 	name := anObject
+]
+
+{ #category : #descriptions }
+LOTJShip >> noteDescription [
+	"<magritteDescription>"
+	
+	^ MAMemoDescription new
+		label: 'Notes';
+		accessor: #notes;
+		lineCount: 8;
+		yourself
+]
+
+{ #category : #accessing }
+LOTJShip >> notes [
+	^ notes
+]
+
+{ #category : #accessing }
+LOTJShip >> notes: anObject [
+	notes := anObject
 ]
 
 { #category : #accessing }

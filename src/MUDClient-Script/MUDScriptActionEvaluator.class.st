@@ -1,3 +1,6 @@
+"
+I evaluate a block.
+"
 Class {
 	#name : #MUDScriptActionEvaluator,
 	#superclass : #MUDScriptEvaluator,

@@ -42,6 +42,8 @@ MUDScriptCollectionBrowser >> compose [
 						entitled: 'Copy'.
 				self description do: [ :each |
 					table column: each label evaluated: [ :item | item readUsing: each ] ].
+				table dynamicActionsOnSelection: [ :presentation | 
+					self dynamicActionsOf: presentation selection ].
 				self hasFilter ifTrue: [ 
 					table enableFilter: [ :each :pattern | each matches: pattern ] ] ] ]
 ]
@@ -49,6 +51,20 @@ MUDScriptCollectionBrowser >> compose [
 { #category : #accessing }
 MUDScriptCollectionBrowser >> description [
 	^ self collection anyOne magritteDescription
+]
+
+{ #category : #private }
+MUDScriptCollectionBrowser >> dynamicActionsOf: item [
+	| pragmas |
+	
+	pragmas := Pragma allNamed: #selectionAction: from: item class to: Object.
+	^ pragmas collect: [ :each | 
+		TkAction new
+			title: (each argumentAt: 1);
+			action: [ each method valueWithReceiver: item arguments: #() ];
+			yourself ]
+	
+	 
 ]
 
 { #category : #testing }

@@ -1,3 +1,10 @@
+"
+I'm a generic evaluator for scripts. 
+
+I will start a process to handle an evaluation. 
+
+Since a script can be source code or a chunk of code, my children will manage specific accessing ways. 
+"
 Class {
 	#name : #MUDScriptEvaluator,
 	#superclass : #Object,
@@ -5,10 +12,14 @@ Class {
 		'id',
 		'process',
 		'terminal',
-		'script'
+		'script',
+		'bindingsForExecution'
 	],
 	#classVars : [
 		'ActiveScripts'
+	],
+	#classInstVars : [
+		'announcer'
 	],
 	#category : #'MUDClient-Script-Model'
 }
@@ -20,7 +31,13 @@ MUDScriptEvaluator class >> activeScripts [
 
 { #category : #accessing }
 MUDScriptEvaluator class >> addScript: aScript [
-	self activeScripts add: aScript
+	self activeScripts add: aScript.
+	MUDScriptEvaluator announcer announce: MUDScriptAdded
+]
+
+{ #category : #accessing }
+MUDScriptEvaluator class >> announcer [
+	 ^ announcer ifNil: [ announcer := Announcer new ]
 ]
 
 { #category : #'instance creation' }
@@ -31,7 +48,8 @@ MUDScriptEvaluator class >> new [
 { #category : #accessing }
 MUDScriptEvaluator class >> removeScript: aScript [
 	MUDScriptTrigger removeTriggersForScript: aScript.
-	self activeScripts remove: aScript ifAbsent: []
+	self activeScripts remove: aScript ifAbsent: [].
+	MUDScriptEvaluator announcer announce: MUDScriptRemoved
 ]
 
 { #category : #accessing }
@@ -67,15 +85,21 @@ MUDScriptEvaluator >> basicExecute [
 
 { #category : #accessing }
 MUDScriptEvaluator >> bindingsForExecution [
-	^ { 
-	#terminal -> (MUDScriptTerminalFacade script: self terminal evaluator: self).
-	#ui -> (MUDScriptUIFacade script: self terminal evaluator: self).
-	#vars -> self script variables }
+	^ bindingsForExecution ifNil: [ 
+		bindingsForExecution := self createBindingsForExecution ]
 ]
 
 { #category : #'process operations' }
 MUDScriptEvaluator >> continue [
 	process continue
+]
+
+{ #category : #private }
+MUDScriptEvaluator >> createBindingsForExecution [
+	^ { 
+	#terminal -> (MUDScriptTerminalFacade script: self terminal evaluator: self).
+	#ui -> (MUDScriptUIFacade script: self terminal evaluator: self).
+	#vars -> self script variables }
 ]
 
 { #category : #accessing }

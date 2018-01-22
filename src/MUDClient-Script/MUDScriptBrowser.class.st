@@ -14,6 +14,16 @@ MUDScriptBrowser >> activeScripts [
 ]
 
 { #category : #building }
+MUDScriptBrowser >> addMonitorMenuOn: aPresenter [
+	aPresenter
+		act: [ :p | 
+			self killAllScripts.
+			p update ] 
+		icon: #delete asMUDIcon 
+		entitled: 'Kill all'
+]
+
+{ #category : #building }
 MUDScriptBrowser >> addScriptMenuOn: aPresenter [
 	aPresenter 
 		act: [ :presenter :script | self runScript: script ] 
@@ -111,12 +121,13 @@ MUDScriptBrowser >> buildOn: browser [
 		browser transmit 
 			to: #monitor;
 			andShow: [ :a |
-				a fastList 	
+				a fastTable
 					title: 'Running scripts';
 					display: [ self activeScripts ];
-					act: [ :p | 
-						self killAllScripts.
-						p update ] icon: #delete asMUDIcon entitled: 'Kill all' ]
+					in: [ :this | self addMonitorMenuOn: this ];
+					column: 'Status' evaluated: [ :evaluator | self scriptStatus: evaluator ];
+					column: 'Name' evaluated: #scriptName;
+					updateOn: MUDScriptAnnouncement from: MUDScriptEvaluator announcer ]
 ]
 
 { #category : #building }
@@ -207,6 +218,11 @@ MUDScriptBrowser >> renameScript: aScript then: aBlock [
 { #category : #actions }
 MUDScriptBrowser >> runScript: aScript [
 	^ aScript executeOn: self terminal
+]
+
+{ #category : #private }
+MUDScriptBrowser >> scriptStatus: script [
+	^ ''
 ]
 
 { #category : #accessing }

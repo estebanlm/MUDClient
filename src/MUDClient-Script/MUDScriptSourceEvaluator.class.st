@@ -1,3 +1,6 @@
+"
+I create a block from a source code string and evaluate it.
+"
 Class {
 	#name : #MUDScriptSourceEvaluator,
 	#superclass : #MUDScriptEvaluator,
