@@ -3,6 +3,9 @@ sudo: false
 os:
   - linux
   - osx
+smalltalk_edge:
+  source: estebanlm/smalltalkCI
+  branch: master
 install:
   - pip install --user benchupload
 smalltalk:
