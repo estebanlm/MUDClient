@@ -24,6 +24,15 @@ MUDScriptCollectionBrowser >> collection [
 	^ collection
 ]
 
+{ #category : #private }
+MUDScriptCollectionBrowser >> columnFor: aDescription [
+	^ MUDScriptCollectionColumnVisitor new
+		visit: aDescription;
+		column
+
+	
+]
+
 { #category : #building }
 MUDScriptCollectionBrowser >> compose [
 	self tabulator with: [ :browser |
@@ -41,7 +50,7 @@ MUDScriptCollectionBrowser >> compose [
 						on: $c 
 						entitled: 'Copy'.
 				self description do: [ :each |
-					table column: each label evaluated: [ :item | item readUsing: each ] ].
+					table addColumn: (self columnFor: each) ].
 				table dynamicActionsOnSelection: [ :presentation | 
 					self dynamicActionsOf: presentation selection ].
 				self hasFilter ifTrue: [ 

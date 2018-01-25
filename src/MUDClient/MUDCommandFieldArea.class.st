@@ -31,12 +31,26 @@ MUDCommandFieldArea >> initialize [
 
 { #category : #initialize }
 MUDCommandFieldArea >> initializeKeyBindings [
+	"arrows to history"
 	self 
 		bindKeyCombination: Character arrowUp asKeyCombination 
 		toAction: [ self announce: MUDKeyUpEntered new ].
 	self
 		bindKeyCombination: Character arrowDown asKeyCombination 
-		toAction: [ self announce: MUDKeyDownEntered new ]
+		toAction: [ self announce: MUDKeyDownEntered new ].
+	"arrows to movent"
+	self 
+		bindKeyCombination: Character arrowUp shift 
+		toAction: [ :a :b :key | self announce: MUDCommandKeyNorthEntered new ].
+	self
+		bindKeyCombination: Character arrowDown shift 
+		toAction: [ self announce: MUDCommandKeySouthEntered new ].
+	self
+		bindKeyCombination: Character arrowLeft shift 
+		toAction: [ self announce: MUDCommandKeyWestEntered new ].
+	self
+		bindKeyCombination: Character arrowRight shift 
+		toAction: [ self announce: MUDCommandKeyEastEntered new ]
 ]
 
 { #category : #accessing }

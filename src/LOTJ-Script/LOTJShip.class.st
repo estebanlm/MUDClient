@@ -8,7 +8,8 @@ Class {
 		'planet',
 		'dock',
 		'dateLocated',
-		'notes'
+		'notes',
+		'records'
 	],
 	#category : #'LOTJ-Script'
 }
@@ -39,19 +40,21 @@ LOTJShip >> actionNote [
 		go
 ]
 
-{ #category : #accessing }
-LOTJShip >> dateLocated [
-	^ dateLocated
+{ #category : #actions }
+LOTJShip >> actionRecordHistory [
+	<selectionAction: 'Records'>
+	
+	self records reversed showTitle: self fullName
 ]
 
 { #category : #accessing }
-LOTJShip >> dateLocated: anObject [
-	dateLocated := anObject
+LOTJShip >> date [
+	^ self lastRecord date
 ]
 
 { #category : #accessing }
 LOTJShip >> days [
-	^ (DateAndTime now - self dateLocated) asDays rounded
+	^ self lastRecord days
 ]
 
 { #category : #descriptions }
@@ -86,6 +89,18 @@ LOTJShip >> descriptionName [
 		priority: 20;
 		label: 'Name';
 		accessor: #name;
+		beReadonly;
+		yourself
+]
+
+{ #category : #descriptions }
+LOTJShip >> descriptionNumRecords [
+	<magritteDescription>
+	
+	^ MANumberDescription new
+		priority: 110;
+		label: 'Records';
+		accessor: #numRecords;
 		beReadonly;
 		yourself
 ]
@@ -128,18 +143,18 @@ LOTJShip >> descriptionShipClass [
 
 { #category : #accessing }
 LOTJShip >> dock [
-	^ dock
-]
-
-{ #category : #accessing }
-LOTJShip >> dock: anObject [
-	dock := anObject
+	^ self lastRecord dock
 ]
 
 { #category : #accessing }
 LOTJShip >> fullName [
 	^ String streamContents: [ :stream |
 		stream << shipClass << ' ''' << self name << '''' ]
+]
+
+{ #category : #testing }
+LOTJShip >> hasRecords [
+	^ self records notEmpty
 ]
 
 { #category : #comparing }
@@ -152,6 +167,11 @@ LOTJShip >> hash [
 { #category : #testing }
 LOTJShip >> isHopper [ 
 	^ self shipClass = 'XT-3 Public Transport'
+]
+
+{ #category : #accessing }
+LOTJShip >> lastRecord [
+	^ self records last
 ]
 
 { #category : #testing }
@@ -201,39 +221,43 @@ LOTJShip >> notes: anObject [
 ]
 
 { #category : #accessing }
-LOTJShip >> owner [
-	^ owner
+LOTJShip >> numRecords [
+	^ self records size
 ]
 
 { #category : #accessing }
-LOTJShip >> owner: anObject [
-	owner := anObject
+LOTJShip >> owner [
+	^ self lastRecord owner
 ]
 
 { #category : #parsing }
 LOTJShip >> parseLocate: aString [
-	| lines |
+	| lines record |
 	
 	lines := aString lines.
-	self dateLocated: DateAndTime now.
-	self owner: (lines second copyAfter: $:) trimBoth.
-	self planet: (lines fifth copyAfter: $:) trimBoth.
-	self dock: (lines fourth copyAfter: $:) trimBoth
+	record := LOTJShipRecord new
+		date: DateAndTime now;
+		owner: (lines second copyAfter: $:) trimBoth;
+		planet: (lines fifth copyAfter: $:) trimBoth;
+		dock: (lines fourth copyAfter: $:) trimBoth;
+		yourself.
+	(self hasRecords and: [ self lastRecord isSameAs: record ]) 
+		ifFalse: [ self records add: record ]
 ]
 
 { #category : #accessing }
 LOTJShip >> planet [
-	^ planet
-]
-
-{ #category : #accessing }
-LOTJShip >> planet: anObject [
-	planet := anObject
+	^ self lastRecord planet
 ]
 
 { #category : #printing }
 LOTJShip >> printOn: stream [ 
 	stream << self fullName
+]
+
+{ #category : #accessing }
+LOTJShip >> records [
+	^ records ifNil: [ records := OrderedCollection new ]
 ]
 
 { #category : #accessing }

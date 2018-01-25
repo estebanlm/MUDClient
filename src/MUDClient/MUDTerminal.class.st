@@ -92,6 +92,14 @@ MUDTerminal >> buildAreaMorph [
 MUDTerminal >> buildInputMorph [ 
 	^ MUDCommandFieldMorph new
 		when: RubReturnEntered send: #dataSend: to: self;
+		when: MUDCommandKeyNorthEntered send: #goNorth to: self;
+		when: MUDCommandKeyNortheastEntered send: #goNortheast to: self;
+		when: MUDCommandKeyNorthwestEntered send: #goNorthwest to: self;
+		when: MUDCommandKeySouthEntered send: #goSouth to: self;
+		when: MUDCommandKeySoutheastEntered send: #goSoutheast to: self;
+		when: MUDCommandKeySouthwestEntered send: #goSouthwest to: self;
+		when: MUDCommandKeyEastEntered send: #goEast to: self;
+		when: MUDCommandKeyWestEntered send: #goWest to: self;
 		yourself
 ]
 

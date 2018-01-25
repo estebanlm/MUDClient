@@ -71,8 +71,21 @@ MUDCommandFieldMorph >> initialize [
 	self textArea 
 		when: RubReturnEntered send: #historyUpdate: to: self;
 		when: MUDKeyUpEntered send: #historyBackward to: self;
-		when: MUDKeyDownEntered send: #historyForward to: self.
+		when: MUDKeyDownEntered send: #historyForward to: self;
+		when: MUDCommandKeyNorthEntered send: #pumpUp: to: self;
+		when: MUDCommandKeyNortheastEntered send: #pumpUp: to: self;
+		when: MUDCommandKeyNorthwestEntered send: #pumpUp: to: self;
+		when: MUDCommandKeySouthEntered send: #pumpUp: to: self;
+		when: MUDCommandKeySoutheastEntered send: #pumpUp: to: self;
+		when: MUDCommandKeySouthwestEntered send: #pumpUp: to: self;
+		when: MUDCommandKeyEastEntered send: #pumpUp: to: self;
+		when: MUDCommandKeyWestEntered send: #pumpUp: to: self.
 
+]
+
+{ #category : #private }
+MUDCommandFieldMorph >> pumpUp: ann [
+	self announcer announce: ann
 ]
 
 { #category : #'accessing selection' }

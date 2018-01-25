@@ -65,6 +65,12 @@ MUDScriptBrowser >> addScriptsMenuOn: aPresenter [
 				presenter update.
 				presenter selection: newNote ] ] 
 			entitled: 'Add script...';
+		selectionAct: [ :presenter | 
+			self cloneScript: presenter selection then: [ :newNote |
+				presenter update.
+				presenter selection: newNote ] ] 
+			entitled: 'Clone script...'
+			enabledWhen: [ :presenter | presenter selection notNil ];
 		selectionAct: [ :presenter |
 				self 
 					renameScript: presenter selection 
@@ -130,6 +136,23 @@ MUDScriptBrowser >> buildOn: browser [
 					updateOn: MUDScriptAnnouncement from: MUDScriptEvaluator announcer ]
 ]
 
+{ #category : #actions }
+MUDScriptBrowser >> cloneScript: aScript then: aBlock [
+	| proposedName name newScript |
+
+	proposedName := self nextNameFor: aScript.
+	proposedName ifNil: [ ^ self ].
+	name := UIManager default 
+		request: 'New script name'
+		initialAnswer: proposedName.
+	name ifNil: [ ^ nil ].
+	
+	newScript := aScript copy name: name.
+	self plugin addScript: newScript.
+	aBlock cull: newScript.
+	^ newScript
+]
+
 { #category : #building }
 MUDScriptBrowser >> executionSelectionActions [
 	^ { 
@@ -191,6 +214,21 @@ MUDScriptBrowser >> executionSelectionActions [
 { #category : #actions }
 MUDScriptBrowser >> killAllScripts [
 	MUDScript reset.
+]
+
+{ #category : #private }
+MUDScriptBrowser >> nextNameFor: aScript [
+	| name index scriptsWithSimilarName |
+	
+	scriptsWithSimilarName := (self plugin scripts 
+		select: [ :each | each name beginsWith: aScript name ])
+		sorted: [ :a :b | a name < b name ].	
+	index := 1.
+	[	name := aScript name, '-', index asString. 
+		scriptsWithSimilarName anySatisfy: [ :each | each name = name ] ]
+	whileTrue: [ index := index + 1 ].
+	
+	^ name
 ]
 
 { #category : #actions }
