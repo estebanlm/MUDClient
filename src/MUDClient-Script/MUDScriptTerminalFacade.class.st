@@ -45,6 +45,13 @@ MUDScriptTerminalFacade >> newWait: aString [
 		yourself
 ]
 
+{ #category : #'api accessing' }
+MUDScriptTerminalFacade >> scriptAt: aString [ 
+	^ self 
+		withPlugin: MUDScriptPlugin 
+		do: [ :plugin | plugin scriptNamed: aString ]
+]
+
 { #category : #'api transmit' }
 MUDScriptTerminalFacade >> send: aString [
 	self terminal sendFilteringInput: aString
@@ -65,7 +72,7 @@ MUDScriptTerminalFacade >> waitUntil: aString [
 
 { #category : #'api plugins' }
 MUDScriptTerminalFacade >> withPlugin: aClass do: aBlock [
-	aBlock value: (self terminal game 
+	^ aBlock value: (self terminal game 
 		pluginByClass: aClass 
 		ifAbsent: [ nil ])
 ]

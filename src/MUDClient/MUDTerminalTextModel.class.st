@@ -7,6 +7,8 @@ I process diferent text decorations (like ANSI decoration).
 Class {
 	#name : #MUDTerminalTextModel,
 	#superclass : #RubScrolledTextModel,
+	#traits : 'TLogueable',
+	#classTraits : 'TLogueable classTrait',
 	#instVars : [
 		'maxLines',
 		'mutex',
@@ -35,7 +37,7 @@ MUDTerminalTextModel >> appendParsedText: aString [
 	self basicAppendText: (self parseText: aString).
 	[ self announcer announce: RubTextUpdatedInModel ]
 	on: Error 
-	do: [ :e | self log debug: e messageText ]
+	do: [ :e | self logDebug: e messageText ]
 ]
 
 { #category : #accessing }

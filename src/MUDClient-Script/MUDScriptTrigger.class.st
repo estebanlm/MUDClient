@@ -35,7 +35,7 @@ MUDScriptTrigger class >> new [
 
 { #category : #accessing }
 MUDScriptTrigger class >> removeTrigger: aTrigger [
-	self activeTriggers remove: aTrigger
+	self activeTriggers remove: aTrigger ifAbsent: []
 ]
 
 { #category : #accessing }

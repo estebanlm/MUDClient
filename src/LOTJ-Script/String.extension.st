@@ -1,6 +1,14 @@
 Extension { #name : #String }
 
 { #category : #'*LOTJ-Script' }
+String >> toANSI [
+	"transforms a decorated string (style: '&rRED&w string') into an ANSI colored string. 
+	This is useful to be echoed"
+	^ LOTJTextDecorationParser ansiText: self
+	
+]
+
+{ #category : #'*LOTJ-Script' }
 String >> toLOTJFaceList [
 	self ifEmpty: [ ^ #() ].
 	^ Array streamContents: [ :stream |

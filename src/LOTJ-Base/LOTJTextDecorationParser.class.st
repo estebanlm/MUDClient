@@ -24,8 +24,17 @@ Class {
 }
 
 { #category : #accessing }
+LOTJTextDecorationParser class >> ansiText: aString [
+	^ (self  
+			parse: aString 
+			onError: [ ^ aString ])
+		inject: ''
+		into: [ :s :each | s, each toANSI ]
+]
+
+{ #category : #accessing }
 LOTJTextDecorationParser class >> cleanText: aString [
-	^ (self default 
+	^ (self  
 			parse: aString 
 			onError: [ ^ aString ])
 		inject: ''
@@ -36,6 +45,20 @@ LOTJTextDecorationParser class >> cleanText: aString [
 LOTJTextDecorationParser class >> default [ 
 	^ Default ifNil: [ Default := self new ]
 			
+]
+
+{ #category : #accessing }
+LOTJTextDecorationParser class >> parse: aString [
+	^ self  
+		parse: aString 
+		onError: [ aString ]
+]
+
+{ #category : #accessing }
+LOTJTextDecorationParser class >> parse: aString onError: aBlock [
+	^ self default 
+		parse: aString 
+		onError: aBlock
 ]
 
 { #category : #primitives }

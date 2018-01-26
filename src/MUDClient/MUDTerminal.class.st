@@ -61,6 +61,13 @@ MUDTerminal >> alert [
 	^ alert ifNil: [ alert := MUDAlertTerminal for: self areaMorph ]
 ]
 
+{ #category : #'private session' }
+MUDTerminal >> appendData: aText [
+	aText ifEmpty: [ ^ self  ]. 
+	areaMorph model appendParsedText: aText.	
+	self isPinned ifFalse: [ areaMorph adjustScrollbars ]
+]
+
 { #category : #'system startup' }
 MUDTerminal >> applicationWillShutdown: app [
 	super applicationWillShutdown: app.
@@ -92,14 +99,7 @@ MUDTerminal >> buildAreaMorph [
 MUDTerminal >> buildInputMorph [ 
 	^ MUDCommandFieldMorph new
 		when: RubReturnEntered send: #dataSend: to: self;
-		when: MUDCommandKeyNorthEntered send: #goNorth to: self;
-		when: MUDCommandKeyNortheastEntered send: #goNortheast to: self;
-		when: MUDCommandKeyNorthwestEntered send: #goNorthwest to: self;
-		when: MUDCommandKeySouthEntered send: #goSouth to: self;
-		when: MUDCommandKeySoutheastEntered send: #goSoutheast to: self;
-		when: MUDCommandKeySouthwestEntered send: #goSouthwest to: self;
-		when: MUDCommandKeyEastEntered send: #goEast to: self;
-		when: MUDCommandKeyWestEntered send: #goWest to: self;
+		when: MUDKeyCommandEntered send: #doKeyCommand: to: self;
 		yourself
 ]
 
@@ -230,9 +230,7 @@ MUDTerminal >> dataReceived: ann [
 	[  
 		self hasGame ifTrue: [ 
 			data := self filterOutput: rawData.
-			data ifNotEmpty: [ 
-				areaMorph model appendParsedText: data.	
-				self isPinned ifFalse: [ areaMorph adjustScrollbars ] ] ]
+			self appendData: data ]
 	] executeOnUIThread.
 	self registerSessionData: rawData
 ]
@@ -311,6 +309,11 @@ MUDTerminal >> doDevelopmentSnoop [
 { #category : #actions }
 MUDTerminal >> doDisconnect [
 	self disconnect
+]
+
+{ #category : #actions }
+MUDTerminal >> doKeyCommand: ann [
+	(MUDKeyCommandVisitor on: self) visit: ann
 ]
 
 { #category : #actions }

@@ -1,1 +1,1 @@
-Package { #name : #LOTJ-Base }
+Package { #name : #'LOTJ-Base' }

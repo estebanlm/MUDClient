@@ -13,7 +13,8 @@ Class {
 		'process',
 		'terminal',
 		'script',
-		'bindingsForExecution'
+		'bindingsForExecution',
+		'arguments'
 	],
 	#classVars : [
 		'ActiveScripts'
@@ -72,6 +73,16 @@ MUDScriptEvaluator >> actionWithArguments: anArray [
 	self subclassResponsibility
 ]
 
+{ #category : #accessing }
+MUDScriptEvaluator >> arguments [
+	^ arguments ifNil: [ #() ]
+]
+
+{ #category : #execution }
+MUDScriptEvaluator >> arguments: anArray [
+	arguments := anArray
+]
+
 { #category : #execution }
 MUDScriptEvaluator >> basicExecute [
 	| bindings |
@@ -99,7 +110,8 @@ MUDScriptEvaluator >> createBindingsForExecution [
 	^ { 
 	#terminal -> (MUDScriptTerminalFacade script: self terminal evaluator: self).
 	#ui -> (MUDScriptUIFacade script: self terminal evaluator: self).
-	#vars -> self script variables }
+	#vars -> self script variables.
+	#args -> self arguments }
 ]
 
 { #category : #accessing }

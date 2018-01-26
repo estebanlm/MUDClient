@@ -48,6 +48,13 @@ MUDScript >> executeOn: aTerminal [
 	^ (self newEvaluatorOn: aTerminal) execute
 ]
 
+{ #category : #execution }
+MUDScript >> executeOn: aTerminal arguments: anArray [
+	(self newEvaluatorOn: aTerminal) 
+		arguments: anArray;
+		execute
+]
+
 { #category : #initialization }
 MUDScript >> initialize [
 	super initialize
@@ -71,6 +78,23 @@ MUDScript >> newActionEvaluatorOn: aTerminal [
 { #category : #accessing }
 MUDScript >> newEvaluatorOn: aTerminal [
 	^ MUDScriptSourceEvaluator script: self terminal: aTerminal
+]
+
+{ #category : #printing }
+MUDScript >> printOn: stream [
+	stream << self name ifNil: [ 'noname' ]
+]
+
+{ #category : #'api accessing' }
+MUDScript >> varAt: aString [ 
+	^ self varAt: aString ifAbsent: [ nil ]
+]
+
+{ #category : #'api accessing' }
+MUDScript >> varAt: aString ifAbsent: aBlock [ 
+	^ self variables 
+		at: aString
+		ifAbsent: aBlock
 ]
 
 { #category : #accessing }

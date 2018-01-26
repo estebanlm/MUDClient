@@ -66,8 +66,11 @@ MUDScriptPlugin >> removeScript: aScript [
 
 { #category : #private }
 MUDScriptPlugin >> runScript: aString on: aTerminal [
-	(self scriptNamed: aString)
-		ifNotNil: [ :script | script executeOn: aTerminal ]
+	| scriptName arguments |
+	scriptName := aString copyUpTo: Character space.
+	arguments := (aString copyAfter: Character space) substrings: ','.
+	(self scriptNamed: scriptName)
+		ifNotNil: [ :script | script executeOn: aTerminal arguments: arguments ]
 		ifNil: [ 
 			MUDAlertDesktop current 
 				alertTitle: 'Error!' 
