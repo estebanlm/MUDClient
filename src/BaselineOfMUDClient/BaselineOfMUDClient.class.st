@@ -9,6 +9,8 @@ BaselineOfMUDClient >> baseline: spec [
 	<baseline>
 	
 	spec for: #pharo do: [
+		spec postLoadDoIt: #postLoadMoreColors. 
+
 		self logger: spec.
 		self themes: spec.
 		self taskIt: spec.
@@ -116,6 +118,11 @@ BaselineOfMUDClient >> petitParser: spec [
 			repository: 'http://smalltalkhub.com/mc/Moose/PetitParser/main';
 			className: 'ConfigurationOfPetitParser';
 			loads: #('Core' 'Tests' 'PetitXml' 'PetitJson' 'PetitXPath') ].
+]
+
+{ #category : #'external projects' }
+BaselineOfMUDClient >> postLoadMoreColors [
+	Color initializeNames
 ]
 
 { #category : #'external projects' }
