@@ -61,7 +61,9 @@ MUDScriptPlugin >> filterOn: aTerminal output: aString [
 
 { #category : #accessing }
 MUDScriptPlugin >> removeScript: aScript [
-	self scripts remove: aScript
+	self scripts 
+		remove: aScript
+		ifAbsent: [ "no nothing" ]
 ]
 
 { #category : #private }
