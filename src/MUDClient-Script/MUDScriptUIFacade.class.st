@@ -31,7 +31,10 @@ MUDScriptUIFacade >> alertTitle: titleString message: aString [
 
 { #category : #'api displaying' }
 MUDScriptUIFacade >> alertTitle: titleString message: aString color: aColor [
-	self terminal alert alertTitle: titleString contents: aString color: aColor
+	self terminal alert 
+		alertTitle: titleString 
+		contents: aString 
+		color: aColor
 ]
 
 { #category : #'api requesting' }
@@ -46,7 +49,8 @@ MUDScriptUIFacade >> choose: titleString from: anArray [
 { #category : #'api displaying' }
 MUDScriptUIFacade >> echo: aString [
 	"Shows a message in the terminal"
-	self terminal appendData: (aString withLineEndings: String lf), String lf
+	World defer: [ 
+		self terminal appendData: (aString withLineEndings: String lf), String lf ]
 ]
 
 { #category : #'api requesting' }

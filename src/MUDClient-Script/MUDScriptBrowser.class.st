@@ -17,10 +17,15 @@ MUDScriptBrowser >> activeScripts [
 MUDScriptBrowser >> addMonitorMenuOn: aPresenter [
 	aPresenter
 		act: [ :p | 
-			self killAllScripts.
-			p update ] 
-		icon: #delete asMUDIcon 
-		entitled: 'Kill all'
+				self killAllScripts.
+				p update ] 
+			icon: #delete asMUDIcon 
+			entitled: 'Kill all';
+		selectionAct: [ :p |
+			 	self killScript: p selection. 
+				p update ]
+			icon: #delete asMUDIcon
+			entitled: 'Kill this script'
 ]
 
 { #category : #building }
@@ -214,6 +219,11 @@ MUDScriptBrowser >> executionSelectionActions [
 { #category : #actions }
 MUDScriptBrowser >> killAllScripts [
 	MUDScript reset.
+]
+
+{ #category : #actions }
+MUDScriptBrowser >> killScript: anEvaluator [
+	MUDScriptEvaluator removeScript: anEvaluator
 ]
 
 { #category : #private }

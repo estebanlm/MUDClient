@@ -33,13 +33,14 @@ MUDAlertTerminal >> alertTitle: titleString contents: aString position: aPositio
 	cleanString := MUDANSITextCleaner visitAll: parsed.
 	bgColor := aColor ifNil: [ Color veryDarkGray ].
 	
-	MUDGrowlMorph 
-		openWithLabel: titleString
-		contents: cleanString 
-		position: aPosition
-		backgroundColor: bgColor
-		labelColor: (color ifNotNil: [ color foregroundColor ] ifNil: [ bgColor contrastingColor ])
-		in: self owner
+	World defer: [ 
+		MUDGrowlMorph 
+			openWithLabel: titleString
+			contents: cleanString 
+			position: aPosition
+			backgroundColor: bgColor
+			labelColor: (color ifNotNil: [ color foregroundColor ] ifNil: [ bgColor contrastingColor ])
+			in: self owner ]
 ]
 
 { #category : #private }

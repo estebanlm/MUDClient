@@ -8,8 +8,16 @@ Class {
 	#instVars : [
 		'scripts'
 	],
+	#classVars : [
+		'TaskRunner'
+	],
 	#category : #'MUDClient-Script-Model'
 }
+
+{ #category : #private }
+MUDScriptPlugin class >> runner [
+	^ TaskRunner ifNil: [ TaskRunner := TKTNewProcessTaskRunner new ]
+]
 
 { #category : #accessing }
 MUDScriptPlugin >> addScript: aScript [
@@ -55,8 +63,9 @@ MUDScriptPlugin >> filterOn: aTerminal input: aString [
 
 { #category : #filtering }
 MUDScriptPlugin >> filterOn: aTerminal output: aString [
-	self evaluateTriggersWith: aString.
-	^ aString
+	self class runner 
+		schedule: [ self evaluateTriggersWith: aString ].
+	^ super filterOn: aTerminal input: aString
 ]
 
 { #category : #accessing }
