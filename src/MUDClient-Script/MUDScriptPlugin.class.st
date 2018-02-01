@@ -55,9 +55,11 @@ MUDScriptPlugin >> evaluateTriggersWith: aString [
 
 { #category : #filtering }
 MUDScriptPlugin >> filterOn: aTerminal input: aString [
+	self flag: #todo. "Find a better way of ignore input (an exception, maybe?). Answer nil is 
+	not a solid mechanism."
 	(aString notEmpty and: [ aString first = $. ]) ifTrue: [ 
 		self runScript: aString allButFirst trimBoth on:aTerminal.
-		^ "ignore" '' ].
+		^ "this will be ignored" nil ].
 	^ aString
 ]
 

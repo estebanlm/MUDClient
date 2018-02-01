@@ -241,6 +241,7 @@ MUDTerminal >> dataSend: ann [
 	self isRunning ifFalse: [ ^ self ].
 	
 	data := self filterInput: inputMorph text asString.
+	data ifNil: [ ^ self ].
 	data 
 		ifNotEmpty: [ data linesDo: [ :each | self session nextPutAll: each, String crlf ] ]
 		ifEmpty: [ self session nextPutAll: String crlf ].
