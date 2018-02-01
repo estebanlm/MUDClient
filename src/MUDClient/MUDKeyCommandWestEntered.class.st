@@ -6,7 +6,7 @@ Class {
 
 { #category : #accessing }
 MUDKeyCommandWestEntered class >> shortcut [
-	^ $j command
+	^ Character arrowLeft shift
 ]
 
 { #category : #visiting }

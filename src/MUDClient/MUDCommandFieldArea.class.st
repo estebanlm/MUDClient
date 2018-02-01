@@ -39,10 +39,10 @@ MUDCommandFieldArea >> initializeKeyBindings [
 		bindKeyCombination: Character arrowDown asKeyCombination 
 		toAction: [ self announce: MUDKeyDownEntered new ].
 	"arrows to movent"
-	"MUDKeyCommandEntered allSubclassesDo: [ :each |
+	MUDKeyCommandEntered allSubclassesDo: [ :each |
 		self 
 			bindKeyCombination: each shortcut 
-			toAction: [ self announce: each ] ]"
+			toAction: [ self announce: each ] ]
 ]
 
 { #category : #accessing }

@@ -72,14 +72,7 @@ MUDCommandFieldMorph >> initialize [
 		when: RubReturnEntered send: #historyUpdate: to: self;
 		when: MUDKeyUpEntered send: #historyBackward to: self;
 		when: MUDKeyDownEntered send: #historyForward to: self;
-		when: MUDKeyCommandNorthEntered send: #pumpUp: to: self;
-		when: MUDKeyCommandNortheastEntered send: #pumpUp: to: self;
-		when: MUDKeyCommandNorthwestEntered send: #pumpUp: to: self;
-		when: MUDKeyCommandSouthEntered send: #pumpUp: to: self;
-		when: MUDKeyCommandSoutheastEntered send: #pumpUp: to: self;
-		when: MUDKeyCommandSouthwestEntered send: #pumpUp: to: self;
-		when: MUDKeyCommandEastEntered send: #pumpUp: to: self;
-		when: MUDKeyCommandWestEntered send: #pumpUp: to: self.
+		when: MUDKeyCommandEntered send: #pumpUp: to: self.
 
 ]
 
