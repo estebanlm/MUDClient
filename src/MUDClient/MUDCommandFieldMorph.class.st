@@ -40,14 +40,16 @@ MUDCommandFieldMorph >> history: anOrderedCollection [
 
 { #category : #'accessing history' }
 MUDCommandFieldMorph >> historyBackward [
-	self setText: self history backward.
-	self selectAll
+	self history backward ifNotNil: [ :text |
+		self setText: text.
+		self selectAll ]
 ]
 
 { #category : #'accessing history' }
 MUDCommandFieldMorph >> historyForward [
-	self setText: self history forward.
-	self selectAll
+	self history forward ifNotNil: [ :text |
+		self setText: text.
+		self selectAll ]
 ]
 
 { #category : #'accessing history' }

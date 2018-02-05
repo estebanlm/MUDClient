@@ -6,7 +6,7 @@ Class {
 
 { #category : #accessing }
 MUDKeyCommandNorthwestEntered class >> shortcut [
-	^ Character arrowLeft alt shift
+	^ Character arrowLeft alt ctrl
 ]
 
 { #category : #visiting }

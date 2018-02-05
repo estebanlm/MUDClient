@@ -6,7 +6,7 @@ Class {
 
 { #category : #accessing }
 MUDKeyCommandDownEntered class >> shortcut [
-	^ Character arrowDown alt
+	^ Character arrowDown alt shift
 ]
 
 { #category : #visiting }

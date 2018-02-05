@@ -1,3 +1,8 @@
+"
+I'm a visitor to send movement commands to terminal. 
+
+by default, I just send n, s, etc. commands, but other muds could use ""go n"", etc.
+"
 Class {
 	#name : #MUDKeyCommandVisitor,
 	#superclass : #Object,
