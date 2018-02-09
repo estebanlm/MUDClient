@@ -26,13 +26,13 @@ Class {
 }
 
 { #category : #accessing }
-MUDScriptEvaluator class >> activeScripts [
+MUDScriptEvaluator class >> activeEvaluators [
 	^ ActiveScripts ifNil: [ ActiveScripts := Set new ]
 ]
 
 { #category : #accessing }
-MUDScriptEvaluator class >> addScript: aScript [
-	self activeScripts add: aScript.
+MUDScriptEvaluator class >> addEvaluator: anEvaluator [
+	self activeEvaluators add: anEvaluator.
 	MUDScriptEvaluator announcer announce: MUDScriptAdded
 ]
 
@@ -47,18 +47,18 @@ MUDScriptEvaluator class >> new [
 ]
 
 { #category : #accessing }
-MUDScriptEvaluator class >> removeScript: aScript [
-	MUDScriptTrigger removeTriggersForScript: aScript.
-	self activeScripts remove: aScript ifAbsent: [].
+MUDScriptEvaluator class >> removeEvaluator: anEvaluator [
+	MUDScriptTrigger removeTriggersForScript: anEvaluator.
+	self activeEvaluators remove: anEvaluator ifAbsent: [].
 	MUDScriptEvaluator announcer announce: MUDScriptRemoved
 ]
 
 { #category : #accessing }
 MUDScriptEvaluator class >> reset [
-	self activeScripts copy 
+	self activeEvaluators copy 
 		do: [ :each | 
 			each destroy.
-			self removeScript: each ]
+			self removeEvaluator: each ]
 ]
 
 { #category : #'instance creation' }
@@ -86,12 +86,12 @@ MUDScriptEvaluator >> arguments: anArray [
 { #category : #execution }
 MUDScriptEvaluator >> basicExecute [
 	| bindings |
-	self class addScript: self.
+	self class addEvaluator: self.
 	[ 
 		bindings := self bindingsForExecution.
 		(self actionWithArguments: (bindings collect: #key)) valueWithEnoughArguments: (bindings collect: #value) ]
 	ensure: [ 
-		self class removeScript: self ]
+		self class removeEvaluator: self ]
 ]
 
 { #category : #accessing }
@@ -138,6 +138,11 @@ MUDScriptEvaluator >> initializeScript: aScript terminal: aTerminal [
 	script := aScript.
 	terminal := aTerminal.
 	self initialize
+]
+
+{ #category : #accessing }
+MUDScriptEvaluator >> removeFromActiveList [
+	self class removeEvaluator: self
 ]
 
 { #category : #accessing }

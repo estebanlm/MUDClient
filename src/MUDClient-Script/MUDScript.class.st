@@ -15,6 +15,16 @@ Class {
 	#category : #'MUDClient-Script-Model'
 }
 
+{ #category : #accessing }
+MUDScript class >> activeEvaluators [
+	^ MUDScriptEvaluator activeEvaluators
+]
+
+{ #category : #accessing }
+MUDScript class >> activeScripts [
+	^ self activeEvaluators collect: #script
+]
+
 { #category : #'instance creation' }
 MUDScript class >> named: aString [
 	^ self new name: aString
@@ -34,6 +44,15 @@ MUDScript >> contents [
 { #category : #accessing }
 MUDScript >> contents: anObject [
 	contents := anObject
+]
+
+{ #category : #accessing }
+MUDScript >> destroyAllRunning [
+	self class activeEvaluators copy 
+		select: [ :each | each script = self ]
+		thenDo: [ :each | 
+			each destroy.
+			each removeFromActiveList ]
 ]
 
 { #category : #execution }

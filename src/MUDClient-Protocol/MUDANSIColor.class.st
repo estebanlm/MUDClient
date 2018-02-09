@@ -36,7 +36,7 @@ MUDANSIColor class >> brightColorMapAt: aNumber [
 { #category : #private }
 MUDANSIColor class >> createBrightColorMap [
 	^ Dictionary newFromPairs: {
-		0. Color lightGray.
+		0. Color darkGray.
 		1. Color red. 
 		2. Color green.
 		3. Color yellow.
@@ -57,7 +57,7 @@ MUDANSIColor class >> createNormalColorMap [
 		4. Color blue darker darker darker.
 		5. Color magenta darker darker darker.
 		6. Color cyan darker darker darker.
-		7. Color lightGray lighter lighter lighter lighter. 
+		7. Color lightGray lighter lighter lighter.
 	} 
 ]
 

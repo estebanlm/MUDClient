@@ -8,6 +8,9 @@ Class {
 	#classVars : [
 		'DecorationANSIMap'
 	],
+	#classInstVars : [
+		'decorationANSIMap'
+	],
 	#category : #'LOTJ-Base-TextDecoration'
 }
 
@@ -45,7 +48,7 @@ LOTJTextDecorationNode class >> decoration: aCharacter text: aString [
 
 { #category : #accessing }
 LOTJTextDecorationNode class >> decorationANSIMap [ 
-	^ self createDecorationANSIMap
+	^ decorationANSIMap ifNil: [ decorationANSIMap := self createDecorationANSIMap ]
 ]
 
 { #category : #accessing }

@@ -10,7 +10,7 @@ Class {
 
 { #category : #accessing }
 MUDScriptBrowser >> activeScripts [
-	^ MUDScriptEvaluator activeScripts sorted: [ :a :b | a scriptName < b scriptName ]
+	^ MUDScript activeScripts sorted: [ :a :b | a name < b name ]
 ]
 
 { #category : #building }
@@ -137,7 +137,7 @@ MUDScriptBrowser >> buildOn: browser [
 					display: [ self activeScripts ];
 					in: [ :this | self addMonitorMenuOn: this ];
 					column: 'Status' evaluated: [ :evaluator | self scriptStatus: evaluator ];
-					column: 'Name' evaluated: #scriptName;
+					column: 'Name' evaluated: #name;
 					updateOn: MUDScriptAnnouncement from: MUDScriptEvaluator announcer ]
 ]
 
