@@ -23,14 +23,23 @@ LOTJStarMapMorph class >> sectorSize [
 	^ 6
 ]
 
-{ #category : #accessing }
+{ #category : #private }
+LOTJStarMapMorph >> addPointMorph: each [
+	self addMorphBack: (each asMorph
+		position: (self sectorToPosition: each sector);
+		extent: self sectorSize asPoint;
+		yourself)
+]
+
+{ #category : #private }
 LOTJStarMapMorph >> addPoints [
 	self removeAllMorphs.
-	self starMap points do: [ :each | 
-		self addMorphBack: (each asMorph
-			position: (self sectorToPosition: each sector);
-			extent: self sectorSize asPoint;
-			yourself) ]
+	self starMap points 
+		select: #isSystem
+		thenDo: [ :each | self addPointMorph: each ].
+	self starMap points 
+		reject: #isSystem
+		thenDo: [ :each | self addPointMorph: each ]
 ]
 
 { #category : #accessing }
@@ -248,13 +257,6 @@ LOTJStarMapMorph >> starMap: anObject [
 	regionRectangle := nil.
 	self calculateBounds.
 	self addPoints
-]
-
-{ #category : #accessing }
-LOTJStarMapMorph >> startLine [
-	lines ifNil: [ lines := Set new ].
-	lines add: LOTJStarMapLine new.
-	self refresh
 ]
 
 { #category : #'events testing' }
