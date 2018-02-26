@@ -1,6 +1,33 @@
 Extension { #name : #String }
 
 { #category : #'*LOTJ-Script' }
+String >> removeFirstLine [
+	^ self removeFirstLines: 1
+]
+
+{ #category : #'*LOTJ-Script' }
+String >> removeFirstLines: aNumber [
+	^ self species streamContents: [ :stream | 
+		(self lines allButFirst: aNumber)
+			do: [ :each | stream << each ]
+			separatedBy: [ stream cr ] ] 
+]
+
+{ #category : #'*LOTJ-Script' }
+String >> removeLastLine [
+	^ self removeLastLines: 1
+	
+]
+
+{ #category : #'*LOTJ-Script' }
+String >> removeLastLines: aNumber [
+	^ self species streamContents: [ :stream | 
+		(self lines allButLast: aNumber)
+			do: [ :each | stream << each ]
+			separatedBy: [ stream cr ] ] 
+]
+
+{ #category : #'*LOTJ-Script' }
 String >> toANSI [
 	"transforms a decorated string (style: '&rRED&w string') into an ANSI colored string. 
 	This is useful to be echoed"
