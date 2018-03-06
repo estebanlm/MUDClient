@@ -56,6 +56,13 @@ LOTJStarMapSpacePoint >> descriptionSectorForCalc [
 
 ]
 
+{ #category : #testing }
+LOTJStarMapSpacePoint >> isUnexplored [
+	self flag: #todo. "This is a hack. I need to find a better way to know if the system 
+	is unexplored"
+	^ self color = self class defaultColor
+]
+
 { #category : #accessing }
 LOTJStarMapSpacePoint >> sectorForCalc [
 	^ String streamContents: [ :stream | 

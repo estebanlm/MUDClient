@@ -11,6 +11,13 @@ Class {
 }
 
 { #category : #accessing }
+LOTJShipRecord class >> empty [
+	^ self new
+		date: DateAndTime now;
+		yourself
+]
+
+{ #category : #accessing }
 LOTJShipRecord >> date [
 	^ date
 ]

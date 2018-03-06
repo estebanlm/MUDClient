@@ -171,7 +171,9 @@ LOTJShip >> isHopper [
 
 { #category : #accessing }
 LOTJShip >> lastRecord [
-	^ self records last
+	^ self records 
+		ifNotEmpty: #last
+		ifEmpty: [ LOTJShipRecord empty ]
 ]
 
 { #category : #testing }
@@ -247,7 +249,7 @@ LOTJShip >> parseLocate: aString [
 
 { #category : #accessing }
 LOTJShip >> planet [
-	^ self lastRecord planet
+	^ self lastRecord ifNotNil: #planet
 ]
 
 { #category : #printing }

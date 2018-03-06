@@ -52,6 +52,11 @@ LOTJStarMapPoint >> isSystem [
 	^ false
 ]
 
+{ #category : #testing }
+LOTJStarMapPoint >> isUnexplored [
+	^ false
+]
+
 { #category : #accessing }
 LOTJStarMapPoint >> notes [
 	^ notes
