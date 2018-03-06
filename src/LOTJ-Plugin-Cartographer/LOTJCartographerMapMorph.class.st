@@ -9,7 +9,9 @@ Class {
 		'levelRooms',
 		'selectionBlock',
 		'needsDisplay',
-		'currentRoom'
+		'currentRoom',
+		'addMarkBlock',
+		'addNoteBlock'
 	],
 	#category : #'LOTJ-Plugin-Cartographer-View'
 }
@@ -17,6 +19,16 @@ Class {
 { #category : #accessing }
 LOTJCartographerMapMorph class >> font [
 	^ LogicalFont familyName: 'Consolas' pointSize: 7
+]
+
+{ #category : #actions }
+LOTJCartographerMapMorph >> addMarkTo: aRoom [
+	addMarkBlock ifNotNil: [ addMarkBlock cull: aRoom ] 
+]
+
+{ #category : #actions }
+LOTJCartographerMapMorph >> addNoteTo: aRoom [
+	addNoteBlock ifNotNil: [ addNoteBlock cull: aRoom ] 
 ]
 
 { #category : #private }
@@ -62,7 +74,7 @@ LOTJCartographerMapMorph >> calculateLevel [
 	roomMorphs do: [ :each | each privateOwner: self ].
 	submorphs := (roomMorphs 
 		select: [ :each | self isVisible: each ])
-		asArray
+		asArray.
 ]
 
 { #category : #drawing }
@@ -127,6 +139,16 @@ LOTJCartographerMapMorph >> layoutChanged [
 { #category : #'private testing' }
 LOTJCartographerMapMorph >> needsDisplay [
 	^ needsDisplay
+]
+
+{ #category : #enumerating }
+LOTJCartographerMapMorph >> onAddMark: aBlock [
+	addMarkBlock := aBlock
+]
+
+{ #category : #enumerating }
+LOTJCartographerMapMorph >> onAddNote: aBlock [
+	addNoteBlock := aBlock
 ]
 
 { #category : #enumerating }

@@ -7,6 +7,56 @@ Class {
 	#category : #'LOTJ-Plugin-Cartographer-View'
 }
 
+{ #category : #accessing }
+LOTJCartographerBrowser class >> title [ 
+	^ 'Cartographer'
+]
+
+{ #category : #building }
+LOTJCartographerBrowser >> addActionsTo: aPresenter [
+	aPresenter 
+		act: [ :p | self browseAreas ] entitled: 'Browse areas';
+		act: [ :p | 
+				self exportLevelMap: (p selection ifNil: [ self plugin actualRoom ]) ] 
+			entitled: 'Export map';
+		act: [ self removeLevel ] entitled: 'Remove level';
+		act: [ :p | 
+				self removeAllConnections: (p selection ifNil: [ self plugin actualRoom ]) ] 
+			entitled: 'Remove connections'
+]
+
+{ #category : #actions }
+LOTJCartographerBrowser >> addMarkTo: aRoom then: aBlock [
+	| mark |
+	mark := (TkMagritteEditor 
+		object:  LOTJCartographerRoomMark new 
+		title: 'Mark')
+		go.
+	mark ifNil: [ ^ self ].
+	aRoom addMark: mark.
+	aBlock cull: mark
+]
+
+{ #category : #actions }
+LOTJCartographerBrowser >> addNoteTo: aRoom then: aBlock [
+	| acceptedRoom |
+	acceptedRoom := (TkMagritteEditor 
+		object: aRoom 
+		presenter: #update
+		title: 'Room')
+		go.
+	acceptedRoom ifNil: [ ^ self ].
+	aBlock cull: acceptedRoom
+]
+
+{ #category : #actions }
+LOTJCartographerBrowser >> browseAreas [
+	(LOTJCartographerMapAreaBrowser 
+		game: self game 
+		plugin: self plugin)
+		openOn: self owner
+]
+
 { #category : #building }
 LOTJCartographerBrowser >> buildOn: browser [
 	browser column: #map.
@@ -15,16 +65,12 @@ LOTJCartographerBrowser >> buildOn: browser [
 		andShow: [ :a |
 			a tkMorph
 				"title: 'Map';"
-				act: [ :p | 
-					self exportLevelMap: (p selection ifNil: [ self plugin actualRoom ]) ] 
-					entitled: 'Export map';
-				act: [ self removeLevel ] entitled: 'Remove level';
-				act: [ :p | 
-					self removeAllConnections: (p selection ifNil: [ self plugin actualRoom ]) ] 
-					entitled: 'Remove connections';
+				in: [ :this | self addActionsTo: this ];
 				morph: [ self mapMorph ];
 				morphTransmissions: [ :presentation |
 					self mapMorph 
+						onAddMark: [ :aRoom | self addMarkTo: aRoom then: [ presentation update] ];
+						onAddNote: [ :aRoom | self addNoteTo: aRoom then: [ presentation update] ];
 						onSelect: [ :aRoom | presentation selection: aRoom ] ] ]
 ]
 

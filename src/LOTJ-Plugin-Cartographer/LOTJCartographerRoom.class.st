@@ -11,6 +11,7 @@ Class {
 		'ROOMEXITS',
 		'connections',
 		'type',
+		'markers',
 		'notes'
 	],
 	#pools : [
@@ -72,6 +73,13 @@ LOTJCartographerRoom >> addConnection: direction to: aRoom [
 	
 	self basicConnection: direction to: aRoom.
 	aRoom basicConnection: direction inverse to: self
+]
+
+{ #category : #accessing }
+LOTJCartographerRoom >> addMark: aMark [
+	markers ifNil: [ markers := #() ].
+	markers := markers copyWith: aMark.
+	^ aMark
 ]
 
 { #category : #converting }
@@ -177,7 +185,7 @@ LOTJCartographerRoom >> descriptionName [
 { #category : #descriptions }
 LOTJCartographerRoom >> descriptionNotes [
 	<magritteDescription>
-	<presenters: #(inspect)>
+	<presenters: #(inspect update)>
 	
 	^ MAMemoDescription new 
 		priority: 100;
@@ -300,6 +308,11 @@ LOTJCartographerRoom >> map: aMap [
 ]
 
 { #category : #accessing }
+LOTJCartographerRoom >> markers [
+	^ markers
+]
+
+{ #category : #accessing }
 LOTJCartographerRoom >> name [
 	^ self cleanName
 ]
@@ -358,11 +371,6 @@ LOTJCartographerRoom >> type [
 { #category : #accessing }
 LOTJCartographerRoom >> type: aType [
 	type := aType
-]
-
-{ #category : #accessing }
-LOTJCartographerRoom >> values [
-	^ values
 ]
 
 { #category : #accessing }

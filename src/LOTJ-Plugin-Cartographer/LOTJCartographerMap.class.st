@@ -2,14 +2,20 @@ Class {
 	#name : #LOTJCartographerMap,
 	#superclass : #Object,
 	#instVars : [
-		'name',
-		'rooms'
+		'rooms',
+		'areas'
 	],
 	#pools : [
 		'LOTJMSDPVariables'
 	],
 	#category : #'LOTJ-Plugin-Cartographer-Model'
 }
+
+{ #category : #accessing }
+LOTJCartographerMap >> addArea: anArea [
+	areas ifNil: [ areas := OrderedCollection new ].
+	areas add: anArea
+]
 
 { #category : #accessing }
 LOTJCartographerMap >> addRoom: aRoom [
@@ -22,6 +28,11 @@ LOTJCartographerMap >> addRoom: aRoom [
 { #category : #accessing }
 LOTJCartographerMap >> addRoomWithNumber: aNumber [
 	^ self addRoom: (LOTJCartographerRoom number: aNumber)
+]
+
+{ #category : #accessing }
+LOTJCartographerMap >> areas [
+	^ areas
 ]
 
 { #category : #testing }
@@ -47,16 +58,6 @@ LOTJCartographerMap >> createRoomWithNumber: aNumber [
 LOTJCartographerMap >> initialize [
 	super initialize.
 	rooms := Dictionary new
-]
-
-{ #category : #accessing }
-LOTJCartographerMap >> name [
-	^ name
-]
-
-{ #category : #accessing }
-LOTJCartographerMap >> name: anObject [
-	name := anObject
 ]
 
 { #category : #accessing }

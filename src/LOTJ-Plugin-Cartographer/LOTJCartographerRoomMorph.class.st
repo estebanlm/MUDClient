@@ -34,6 +34,16 @@ LOTJCartographerRoomMorph class >> room: aRoom [
 		yourself
 ]
 
+{ #category : #actions }
+LOTJCartographerRoomMorph >> addMark [
+	^ self owner addMarkTo: self room
+]
+
+{ #category : #actions }
+LOTJCartographerRoomMorph >> addNote [
+	^ self owner addNoteTo: self room
+]
+
 { #category : #accessing }
 LOTJCartographerRoomMorph >> backgroundColor [
 	^ self roomType color
@@ -60,7 +70,7 @@ LOTJCartographerRoomMorph >> changeType: aType [
 	self owner refresh 
 ]
 
-{ #category : #'private factory' }
+{ #category : #accessing }
 LOTJCartographerRoomMorph >> colorIcon: aColor [
 	^ Morph new 
 		color: aColor;
@@ -116,9 +126,23 @@ LOTJCartographerRoomMorph >> createInspectAction [
 ]
 
 { #category : #'private factory' }
+LOTJCartographerRoomMorph >> createMarkActions [
+	^ { self createMarkAddAction }
+]
+
+{ #category : #'private factory' }
+LOTJCartographerRoomMorph >> createMarkAddAction [
+	^ MUDAction new 
+		action: [ self addMark ];
+		title: 'Add mark';
+		category: 'Marks';
+		yourself
+]
+
+{ #category : #'private factory' }
 LOTJCartographerRoomMorph >> createNotesAction [
 	^ MUDAction new 
-		action: [  ];
+		action: [ self addNote ];
 		title: 'Notes';
 		yourself
 ]
@@ -264,6 +288,7 @@ LOTJCartographerRoomMorph >> menu: aMorph [
 		actions: (
 			self createTypeActions,
 			{ self createNotesAction }, 
+			self createMarkActions, 
 			self createEditActions, 
 			{ self createInspectAction });
 		build
