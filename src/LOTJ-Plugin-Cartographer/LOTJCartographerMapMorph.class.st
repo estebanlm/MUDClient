@@ -11,7 +11,8 @@ Class {
 		'needsDisplay',
 		'currentRoom',
 		'addMarkBlock',
-		'addNoteBlock'
+		'addNoteBlock',
+		'adjustToMapSize'
 	],
 	#category : #'LOTJ-Plugin-Cartographer-View'
 }
@@ -22,13 +23,8 @@ LOTJCartographerMapMorph class >> font [
 ]
 
 { #category : #actions }
-LOTJCartographerMapMorph >> addMarkTo: aRoom [
+LOTJCartographerMapMorph >> addMarkerTo: aRoom [
 	addMarkBlock ifNotNil: [ addMarkBlock cull: aRoom ] 
-]
-
-{ #category : #actions }
-LOTJCartographerMapMorph >> addNoteTo: aRoom [
-	addNoteBlock ifNotNil: [ addNoteBlock cull: aRoom ] 
 ]
 
 { #category : #private }
@@ -55,26 +51,47 @@ LOTJCartographerMapMorph >> addRoom: aRoom position: aPoint into: aCollection [
 ]
 
 { #category : #accessing }
+LOTJCartographerMapMorph >> adjustToMapSize [
+	adjustToMapSize := true
+]
+
+{ #category : #accessing }
 LOTJCartographerMapMorph >> backgroundColor [
 	^ Color black
 ]
 
 { #category : #private }
 LOTJCartographerMapMorph >> calculateLevel [
-	| roomMorphs |
+	| roomMorphs startPoint |
 
 	needsDisplay := false.
-
+	startPoint := self isAdjustToMapSize 
+		ifTrue: [ 10000@10000 ]
+		ifFalse: [ self bounds center ].
 	currentRoom ifNil: [ ^ self ].
 	roomMorphs := OrderedCollection new.
 	self 
 		addRoom: currentRoom 
-		position: self bounds center
+		position: startPoint
 		into: roomMorphs.
 	roomMorphs do: [ :each | each privateOwner: self ].
-	submorphs := (roomMorphs 
-		select: [ :each | self isVisible: each ])
-		asArray.
+		
+	self isAdjustToMapSize 
+		ifTrue: [ | x1 y1 x2 y2 |
+			x1 := y1 := 20000. 
+			x2 := y2 := 0. 
+			submorphs := roomMorphs asArray.
+			submorphs do: [ :each |
+				x1 := x1 min: each left.
+				y1 := y1 min: each top.
+				x2 := x2 max: each right.
+				y2 := y2 max: each bottom.
+				each position: (each position - startPoint) + self bounds center ].
+			bounds := (bounds topLeft extent: (x1@y1 corner: x2@y2) extent). ]
+		ifFalse: [ 
+			submorphs := (roomMorphs 
+				select: [ :each | self isVisible: each ])
+				asArray ].
 ]
 
 { #category : #drawing }
@@ -114,6 +131,7 @@ LOTJCartographerMapMorph >> initialize [
 		hResizing: #spaceFill; 
 		vResizing: #spaceFill;
 		color: self backgroundColor.
+	adjustToMapSize := false.
 	self setNeedsDisplay
 ]
 
@@ -123,6 +141,11 @@ LOTJCartographerMapMorph >> internalSelect: aRoom [
 	"self update."
 	selectedRoom := aRoom.
 	selectionBlock ifNotNil: [ selectionBlock value: aRoom ]
+]
+
+{ #category : #testing }
+LOTJCartographerMapMorph >> isAdjustToMapSize [
+	^ adjustToMapSize
 ]
 
 { #category : #'private testing' }

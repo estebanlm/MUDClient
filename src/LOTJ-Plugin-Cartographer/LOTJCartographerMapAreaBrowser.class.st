@@ -40,18 +40,6 @@ LOTJCartographerMapAreaBrowser >> addAreaThen: aBlock [
 ]
 
 { #category : #actions }
-LOTJCartographerMapAreaBrowser >> addMarkTo: aRoom then: aBlock [
-	| mark |
-	mark := (TkMagritteEditor 
-		object:  LOTJCartographerRoomMark new 
-		title: 'Mark')
-		go.
-	mark ifNil: [ ^ self ].
-	aRoom addMark: mark.
-	aBlock cull: mark
-]
-
-{ #category : #actions }
 LOTJCartographerMapAreaBrowser >> addNoteTo: aRoom then: aBlock [
 	| acceptedRoom |
 	acceptedRoom := (TkMagritteEditor 
@@ -89,8 +77,6 @@ LOTJCartographerMapAreaBrowser >> buildOn: browser [
 					self createMapPaneMorphFor: self mapMorph ];
 				morphTransmissions: [ :presentation |
 					self mapMorph 
-						onAddMark: [ :aRoom | self addMarkTo: aRoom then: [ presentation update] ];
-						onAddNote: [ :aRoom | self addNoteTo: aRoom then: [ presentation update] ];
 						onSelect: [ :aRoom | presentation selection: aRoom ] ] ]
 ]
 
@@ -105,11 +91,10 @@ LOTJCartographerMapAreaBrowser >> createMapPaneMorphFor: aMapMorph [
 
 	(mapPane := GeneralScrollPane new)
 		scrollTarget: (aMapMorph
-			extent: 2000@2000;
+			adjustToMapSize;
 			hResizing: #spaceFill;
 			vResizing: #spaceFill;
-			yourself);
-		scrollToShow: (1000@1000 extent: 100@100).
+			yourself).
 	
 	^ mapPane
 ]
@@ -122,4 +107,9 @@ LOTJCartographerMapAreaBrowser >> map [
 { #category : #accessing }
 LOTJCartographerMapAreaBrowser >> mapMorph [
 	^ mapMorph ifNil: [ mapMorph := self createMapMorph ]
+]
+
+{ #category : #'as yet unclassified' }
+LOTJCartographerMapAreaBrowser >> selectRoom: aRoom [
+	"ignore this"
 ]

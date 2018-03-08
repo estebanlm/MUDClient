@@ -76,10 +76,10 @@ LOTJCartographerRoom >> addConnection: direction to: aRoom [
 ]
 
 { #category : #accessing }
-LOTJCartographerRoom >> addMark: aMark [
+LOTJCartographerRoom >> addMarker: aMarker [
 	markers ifNil: [ markers := #() ].
-	markers := markers copyWith: aMark.
-	^ aMark
+	markers := markers copyWith: aMarker.
+	^ aMarker
 ]
 
 { #category : #converting }
@@ -259,6 +259,11 @@ LOTJCartographerRoom >> hasConnectionTo: aDirection [
 	^ true
 ]
 
+{ #category : #testing }
+LOTJCartographerRoom >> hasMarkers [
+	^ self markers isEmptyOrNil not
+]
+
 { #category : #accessing }
 LOTJCartographerRoom >> helpText [
 	^ String streamContents: [ :stream | 
@@ -309,7 +314,7 @@ LOTJCartographerRoom >> map: aMap [
 
 { #category : #accessing }
 LOTJCartographerRoom >> markers [
-	^ markers
+	^ markers ifNil: [ #() ]
 ]
 
 { #category : #accessing }
@@ -361,6 +366,12 @@ LOTJCartographerRoom >> removeConnectionTo: aDirectionOrSymbol [
 	| connection |
 	connection := self connectionAt: aDirectionOrSymbol ifAbsent: [ ^ self ]. 
 	connections remove: connection
+]
+
+{ #category : #accessing }
+LOTJCartographerRoom >> removeMarker: aMarker [
+	markers := markers copyWithout: aMarker.
+	^ aMarker
 ]
 
 { #category : #accessing }

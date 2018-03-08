@@ -35,13 +35,27 @@ LOTJCartographerRoomMorph class >> room: aRoom [
 ]
 
 { #category : #actions }
-LOTJCartographerRoomMorph >> addMark [
-	^ self owner addMarkTo: self room
+LOTJCartographerRoomMorph >> addMarker [
+	| marker |
+	marker := (TkMagritteEditor 
+		object:  LOTJCartographerRoomMarker new 
+		title: 'Mark')
+		go.
+	marker ifNil: [ ^ self ].
+	self room addMarker: marker.
+	self changed
 ]
 
 { #category : #actions }
 LOTJCartographerRoomMorph >> addNote [
-	^ self owner addNoteTo: self room
+	| modifiedRoom |
+	modifiedRoom := (TkMagritteEditor 
+		object: self room 
+		presenter: #update
+		title: 'Room')
+		go.
+	modifiedRoom ifNil: [ ^ self ].
+	self changed
 ]
 
 { #category : #accessing }
@@ -126,16 +140,26 @@ LOTJCartographerRoomMorph >> createInspectAction [
 ]
 
 { #category : #'private factory' }
-LOTJCartographerRoomMorph >> createMarkActions [
-	^ { self createMarkAddAction }
+LOTJCartographerRoomMorph >> createMarkerActions [
+	| colors |
+	colors := LOTJCartographerRoomMarker availableColors readStream.
+	^ Array streamContents: [ :stream | 
+		stream << self createMarkerAddAction.
+		self room markers do: [ :each | 
+			stream << (MUDAction new 
+					action: [ self removeMarker: each ];
+					title: 'Remove ', (each name ifNil: [ 'NONAME' ]);
+					icon: (self newCircleFormColor: colors next);
+					category: 'Markers';
+					yourself) ] ]
 ]
 
 { #category : #'private factory' }
-LOTJCartographerRoomMorph >> createMarkAddAction [
+LOTJCartographerRoomMorph >> createMarkerAddAction [
 	^ MUDAction new 
-		action: [ self addMark ];
-		title: 'Add mark';
-		category: 'Marks';
+		action: [ self addMarker ];
+		title: 'Add marker';
+		category: 'Markers';
 		yourself
 ]
 
@@ -214,6 +238,18 @@ LOTJCartographerRoomMorph >> drawCurrentOn: canvas [
 ]
 
 { #category : #drawing }
+LOTJCartographerRoomMorph >> drawMarkersOn: canvas [
+	| x y colors |
+	colors := LOTJCartographerRoomMarker availableColors readStream.  
+	x := self bounds left.
+	y := self bounds top.
+	self room markers do: [ :each |
+		canvas 
+			fillRectangle: (x@y extent: 4@4) 
+			color: colors next ]
+]
+
+{ #category : #drawing }
 LOTJCartographerRoomMorph >> drawOn: canvas [
 	| directions |
 	super drawOn: canvas.
@@ -227,7 +263,10 @@ LOTJCartographerRoomMorph >> drawOn: canvas [
 	(self room levelExits \ directions)
 		reject: #isUnknown
 		thenDo: [ :each |  
-			self drawUnexploredConnectionDirection: each on: canvas  ]
+			self drawUnexploredConnectionDirection: each on: canvas ].
+	"Draw markers"
+	(self room hasMarkers) ifTrue: [ 
+		self drawMarkersOn: canvas ]
 ]
 
 { #category : #drawing }
@@ -287,8 +326,8 @@ LOTJCartographerRoomMorph >> menu: aMorph [
 		model: self;
 		actions: (
 			self createTypeActions,
+			self createMarkerActions,
 			{ self createNotesAction }, 
-			self createMarkActions, 
 			self createEditActions, 
 			{ self createInspectAction });
 		build
@@ -302,6 +341,20 @@ LOTJCartographerRoomMorph >> mouseDown: evt [
 		internalSelect: self room;
 		update
 
+]
+
+{ #category : #'private factory' }
+LOTJCartographerRoomMorph >> newCircleFormColor: aColor [
+	^ CircleMorph new 
+		extent: 12@12;
+		color: aColor;
+		imageForm
+]
+
+{ #category : #actions }
+LOTJCartographerRoomMorph >> removeMarker: aMarker [
+	self room removeMarker: aMarker.
+	self changed
 ]
 
 { #category : #accessing }

@@ -26,18 +26,6 @@ LOTJCartographerBrowser >> addActionsTo: aPresenter [
 ]
 
 { #category : #actions }
-LOTJCartographerBrowser >> addMarkTo: aRoom then: aBlock [
-	| mark |
-	mark := (TkMagritteEditor 
-		object:  LOTJCartographerRoomMark new 
-		title: 'Mark')
-		go.
-	mark ifNil: [ ^ self ].
-	aRoom addMark: mark.
-	aBlock cull: mark
-]
-
-{ #category : #actions }
 LOTJCartographerBrowser >> addNoteTo: aRoom then: aBlock [
 	| acceptedRoom |
 	acceptedRoom := (TkMagritteEditor 
@@ -69,8 +57,6 @@ LOTJCartographerBrowser >> buildOn: browser [
 				morph: [ self mapMorph ];
 				morphTransmissions: [ :presentation |
 					self mapMorph 
-						onAddMark: [ :aRoom | self addMarkTo: aRoom then: [ presentation update] ];
-						onAddNote: [ :aRoom | self addNoteTo: aRoom then: [ presentation update] ];
 						onSelect: [ :aRoom | presentation selection: aRoom ] ] ]
 ]
 
