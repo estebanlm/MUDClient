@@ -156,6 +156,10 @@ MUDTerminal >> buildToolbarOn: aPresentation [
 			icon: #disconnect asMUDIcon
 			entitled: 'Disconnect'
 			when: [ self isConnectedAndRunning ];		
+		act: [ :presenter | self doSave ] 
+			icon: #save asMUDIcon
+			entitled: 'Save'
+			when: [ self isConnectedAndRunning ];		
 		act: [ self doConfigure ]
 			icon: #configure asMUDIcon
 			entitled: 'Configure'.
@@ -321,6 +325,13 @@ MUDTerminal >> doKeyCommand: ann [
 MUDTerminal >> doReconnect [
 	self game ifNotNil: [ self disconnect ].
 	self connectTo: self previousGame
+]
+
+{ #category : #actions }
+MUDTerminal >> doSave [
+	UIManager default 
+		informUser: 'Saving...' 
+		during: [ MUDApplication saveToDisk ] 
 ]
 
 { #category : #private }

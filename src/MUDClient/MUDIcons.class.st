@@ -733,6 +733,26 @@ n+EGAyND3f1XPGsZGhj/3SfKmVBAajSOAgYGAJG8MjGsAJhqAAAAAElFTkSuQmCC'
 ]
 
 { #category : #'accessing icons' }
+MUDIcons >> saveIcon [
+	"Method generated"
+	^ icons 
+		at: #saveIcon
+		ifAbsentPut: [ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self saveIconContents readStream) ]
+]
+
+{ #category : #'private - contents' }
+MUDIcons >> saveIconContents [
+	"Private - Method generated"
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlw
+SFlzAAAEnQAABJ0BfDRroQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoA
+AADiSURBVDiNY2AYaMAIY3xxNvt/6eknBgYGBoZX0+bCFXz88IHh4aOHDHp6+gx66xYyiF27
+cJCb5Yc3465LXxkYGBiYCNnw8NFDhiWLFiFbaf/1D8dWGJegATjcbY/VAFZmiI+Y37+Hi8nL
+yTPExMUxMP7/z8D2+SMWs6Dgi7PZf1IcwbP3FCOGC8gBLMgc7q2HGBjY2fHr+PmT4au3HXYD
+GNjZGV6//8Dw9ftPrHq5OdkZRAUFUMSo6wUGBgYGLg4OBlYWDGEGBgYGrOLUdcGPkiwGZiZm
+BmY8Gn78/UOpnVQGAPioODTzzntWAAAAAElFTkSuQmCC'
+]
+
+{ #category : #'accessing icons' }
 MUDIcons >> smallConfigureIcon [
 	"Method generated"
 	^ icons 

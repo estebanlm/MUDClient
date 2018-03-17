@@ -85,8 +85,9 @@ LOTJCartographerMapMorph >> calculateLevel [
 				x1 := x1 min: each left.
 				y1 := y1 min: each top.
 				x2 := x2 max: each right.
-				y2 := y2 max: each bottom.
-				each position: (each position - startPoint) + self bounds center ].
+				y2 := y2 max: each bottom ].
+			submorphs do: [ :each |
+				each position: each position - (x1@y1) ].
 			bounds := (bounds topLeft extent: (x1@y1 corner: x2@y2) extent). ]
 		ifFalse: [ 
 			submorphs := (roomMorphs 
