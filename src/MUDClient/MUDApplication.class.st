@@ -41,13 +41,16 @@ MUDApplication class >> restoreFromDisk [
 
 { #category : #private }
 MUDApplication class >> saveToDisk [
-	| fileReference |
+	| fileReference newFileReference |
 	
 	fileReference := self repositoryFileName.
-	fileReference ensureDelete.
+	newFileReference := fileReference withExtension: 'SAVING'.
 	FLSerializer 
 		serialize: self current
-		toFileNamed: fileReference fullName
+		toFileNamed: newFileReference fullName.
+		
+	fileReference ensureDelete.
+	newFileReference renameTo: fileReference basename
 ]
 
 { #category : #'system startup' }
